@@ -56,29 +56,41 @@ def save_posted_urls(urls):
     with open("posted_urls.json", "w") as f:
         json.dump(urls[-200:], f, indent=2)
 
+def get_valid_chat_models():
+    ignored_keywords = ["guard", "whisper", "embed", "tts", "safeguard"]
+    valid_models = []
+    try:
+        models = groq_client.models.list()
+        for m in models.data:
+            model_id = m.id.lower()
+            if not any(k in model_id for k in ignored_keywords):
+                valid_models.append(m.id)
+        print(f"Available chat models: {valid_models}")
+    except Exception as e:
+        print(f"Error fetching model list: {e}")
+    return valid_models
+
 def generate_summary(text):
-    candidate_models = [
-        "llama-3.1-8b-instant",
-        "llama3-70b-8192",
-        "llama3-8b-8192",
-        "llama-3.3-70b-versatile"
-    ]
-    
+    candidate_models = get_valid_chat_models()
     prompt = f"Summarize this news into a crisp, engaging 2-3 sentence post. Write in Bangla with appropriate emojis and relevant hashtags:\n\n{text}"
     
     for model_name in candidate_models:
         try:
+            print(f"Trying active model: {model_name}...")
             response = groq_client.chat.completions.create(
                 model=model_name,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=250
             )
-            return response.choices[0].message.content.strip()
+            content = response.choices[0].message.content.strip()
+            # Guard against unexpected float/score strings
+            if len(content) > 15 and not content.replace(".", "").isdigit():
+                return content
         except Exception as err:
-            print(f"Failed with {model_name}: {err}")
+            print(f"Skipping {model_name}: {err}")
             continue
             
-    raise Exception("All candidate Groq models failed. Check your API key or model limits.")
+    raise Exception("Could not generate summary with any available Groq model.")
 
 def post_to_facebook(image_url, message):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
