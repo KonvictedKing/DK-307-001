@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import time
 import urllib.parse
@@ -67,28 +68,54 @@ def get_valid_chat_models():
     except:
         return ["llama-3.1-8b-instant"]
 
+def pre_clean_raw_title(title):
+    patterns = [r"\[.*?\]", r"\(.*?\)", r"\|.*$", r"-.*$", r"^\s*[:\-\–\—]\s*"]
+    cleaned = title
+    for p in patterns:
+        cleaned = re.sub(p, "", cleaned)
+    return cleaned.strip()
+
 def clean_title_or_translate(title):
+    cleaned_input = pre_clean_raw_title(title)
     models = get_valid_chat_models()
-    prompt = f"Rewrite this news title into a sharp, journalistic headline (max 10-12 words). Do not use source names, quotes, or markdown formatting. Output headline ONLY:\n\n{title}"
+    
+    prompt = f"""You are a professional headline editor for a top digital news outlet.
+Transform this news title into a sharp, active headline strictly between 7 to 11 words.
+
+Rules:
+1. Retain the exact language of the original title (if Bengali, write punchy Bengali; if English, write punchy English).
+2. Never include quotes, asterisks, brackets, or source attribution.
+3. Keep it factually accurate and impactful.
+4. Output the headline text ONLY with no preamble.
+
+Original Title:
+{cleaned_input}"""
+
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
-                max_tokens=60
+                max_tokens=60,
+                temperature=0.3
             )
-            headline = res.choices[0].message.content.strip().replace('"', '')
-            if len(headline) > 5 and not headline.replace(".", "").isdigit():
+            headline = res.choices[0].message.content.strip().replace('"', '').replace("'", "")
+            if 15 <= len(headline) <= 120 and not headline.replace(".", "").isdigit():
                 return headline
-        except:
+        except Exception:
             continue
-    return title[:80]
+            
+    return cleaned_input[:85]
 
 def extract_image_url(entry):
     if 'media_content' in entry and len(entry.media_content) > 0:
-        return entry.media_content[0].get('url')
+        url = entry.media_content[0].get('url')
+        if url:
+            return url
     if 'enclosures' in entry and len(entry.enclosures) > 0:
-        return entry.enclosures[0].get('href')
+        url = entry.enclosures[0].get('href')
+        if url:
+            return url
     safe_prompt = urllib.parse.quote(entry.title[:80])
     return f"https://image.pollinations.ai/prompt/{safe_prompt}?width=1080&height=720&nologo=true"
 
@@ -110,7 +137,6 @@ def wrap_text(text, font, max_width, draw):
     return lines
 
 def get_system_font(font_type="bold", size=32):
-    # Resolves Linux runner fonts installed via fonts-beng and fonts-dejavu
     font_paths = {
         "bengali_bold": [
             "/usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf",
@@ -147,7 +173,7 @@ def create_dacca_card(image_url, headline, source_name):
     font_headline = get_system_font("bold", 54)
     font_footer = get_system_font("bold", 28)
 
-    # 1. Top Left: Header Banner Graphic (header_logo.jpg)
+    # 1. Top Left: Header Banner Graphic
     header_path = get_asset_path("header_logo")
     if header_path:
         try:
@@ -161,19 +187,19 @@ def create_dacca_card(image_url, headline, source_name):
     else:
         draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
 
-    # 1.1 Top Right: Formatted Date
+    # 1.1 Top Right: Date
     today_str = datetime.utcnow().strftime("%d %b %Y").upper()
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
     draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 52), today_str, fill="#9ca3af", font=font_date)
 
-    # 2. Headline Wrapping & Line Layout
+    # 2. Headline
     wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
     text_y = 125
     for line in wrapped_lines[:3]:
         draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 74
 
-    # 3. Center News Feature Image
+    # 3. Middle News Image
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
@@ -193,13 +219,13 @@ def create_dacca_card(image_url, headline, source_name):
         resized = raw_img.resize((width - 100, image_height), Image.Resampling.LANCZOS)
         card.paste(resized, (50, image_top))
     except Exception as e:
-        print(f"News image processing failed: {e}")
+        print(f"News image process fallback: {e}")
 
-    # 4. Footer: Left Side Source Attribution (AI text removed)
+    # 4. Footer: Left Side VIA Source
     footer_y = image_top + image_height + 40
     draw.text((50, footer_y + 12), f"VIA - {source_name}", fill="#e5e7eb", font=font_footer)
 
-    # 5. Footer: Right Side Logo Watermark (logo.jpg)
+    # 5. Footer: Right Side Corner Logo
     logo_path = get_asset_path("logo")
     if logo_path:
         try:
@@ -208,34 +234,81 @@ def create_dacca_card(image_url, headline, source_name):
             d_logo = d_logo.resize((int(82 * aspect), 82), Image.Resampling.LANCZOS)
             card.paste(d_logo, (width - 50 - d_logo.width, footer_y - 12))
         except Exception as e:
-            print(f"Footer logo paste failed: {e}")
+            print(f"Footer logo error: {e}")
 
     output_path = "final_card.jpg"
     card.save(output_path, "JPEG", quality=95)
     return output_path
-
-def post_to_facebook_direct(image_path, caption):
-    url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
-    with open(image_path, "rb") as f:
-        res = requests.post(url, files={"source": f}, data={"caption": caption, "access_token": ACCESS_TOKEN}).json()
-        print("Facebook Direct Post Response:", res)
-        return res
 
 def upload_to_catbox(image_path):
     with open(image_path, "rb") as f:
         res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f})
         return res.text.strip()
 
-def post_to_instagram(image_url, caption):
+def post_facebook_feed(image_path, caption):
+    url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
+    with open(image_path, "rb") as f:
+        res = requests.post(url, files={"source": f}, data={"caption": caption, "access_token": ACCESS_TOKEN}).json()
+        print("Facebook Feed Response:", res)
+        return res
+
+def post_facebook_comment(post_id, link):
+    if not post_id:
+        return
+    comment_url = f"https://graph.facebook.com/v20.0/{post_id}/comments"
+    payload = {
+        "message": f"বিস্তারিত পড়তে ভিজিট করুন:\n{link}",
+        "access_token": ACCESS_TOKEN
+    }
+    res = requests.post(comment_url, data=payload).json()
+    print("Facebook Comment Response:", res)
+
+def post_facebook_story(image_path):
+    # FB Page Photo Story via Graph API
+    url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
+    with open(image_path, "rb") as f:
+        payload = {
+            "published": "true",
+            "temporary": "true",
+            "access_token": ACCESS_TOKEN
+        }
+        res = requests.post(url, files={"source": f}, data=payload).json()
+        photo_id = res.get("id")
+        if photo_id:
+            story_url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photo_stories"
+            story_res = requests.post(story_url, data={"photo_id": photo_id, "access_token": ACCESS_TOKEN}).json()
+            print("Facebook Story Response:", story_res)
+
+def post_instagram_feed(image_url, caption):
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
     res = requests.post(create_url, data={"image_url": image_url, "caption": caption, "access_token": ACCESS_TOKEN}).json()
     creation_id = res.get("id")
     if not creation_id:
+        print(f"IG Feed Media creation failed: {res}")
+        return None
+    time.sleep(10)
+    publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
+    pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
+    print("Instagram Feed Response:", pub_res)
+    return pub_res.get("id")
+
+def post_instagram_story(image_url):
+    # IG Stories Container API
+    create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
+    payload = {
+        "image_url": image_url,
+        "media_type": "STORIES",
+        "access_token": ACCESS_TOKEN
+    }
+    res = requests.post(create_url, data=payload).json()
+    creation_id = res.get("id")
+    if not creation_id:
+        print(f"IG Story Media creation failed: {res}")
         return
     time.sleep(10)
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
     pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
-    print("Instagram Direct Post Response:", pub_res)
+    print("Instagram Story Response:", pub_res)
 
 def main():
     posted = load_posted_urls()
@@ -250,14 +323,33 @@ def main():
                     
                     card_path = create_dacca_card(img_url, headline, feed["name"])
                     
-                    post_caption = f"Details in Comment...\n\nSource: {entry.link}"
-                    print("Dispatching direct image to Facebook...")
-                    post_to_facebook_direct(card_path, post_caption)
+                    # 1. Post Feed to Facebook & Auto-comment source link
+                    post_caption = "Details in Comment..."
+                    print("Dispatching to Facebook Feed...")
+                    fb_res = post_facebook_feed(card_path, post_caption)
+                    fb_post_id = fb_res.get("post_id") or fb_res.get("id")
+                    post_facebook_comment(fb_post_id, entry.link)
 
+                    # 2. Post Story to Facebook
+                    print("Dispatching to Facebook Story...")
+                    try:
+                        post_facebook_story(card_path)
+                    except Exception as err:
+                        print(f"FB Story bypass: {err}")
+
+                    # 3. Post Feed & Story to Instagram
                     if IG_USER_ID:
-                        print("Dispatching direct image to Instagram...")
+                        print("Hosting card asset for Instagram...")
                         catbox_url = upload_to_catbox(card_path)
-                        post_to_instagram(catbox_url, f"{headline}\n\nVia: {feed['name']}")
+                        
+                        print("Dispatching to Instagram Feed...")
+                        post_instagram_feed(cpatbox_url, f"{headline}\n\nVia: {feed['name']}\n\n#news #breakingnews #bangladesh #dacca")
+
+                        print("Dispatching to Instagram Story...")
+                        try:
+                            post_instagram_story(catbox_url)
+                        except Exception as err:
+                            print(f"IG Story bypass: {err}")
 
                     posted.append(entry.link)
                     save_posted_urls(posted)
@@ -268,4 +360,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+            
