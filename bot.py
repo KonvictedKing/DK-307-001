@@ -12,23 +12,35 @@ ACCESS_TOKEN = os.environ.get("FB_ACCESS_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 RSS_FEEDS = [
-    "http://feeds.bbci.co.uk/news/rss.xml",
-    "https://www.thedailystar.net/frontpage/rss.xml"
+    "http://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://feeds.bbci.co.uk/bengali/rss.xml",
+    "https://www.thedailystar.net/frontpage/rss.xml",
+    "https://www.dhakatribune.com/feed",
+    "https://bangla.bdnews24.com/rss.xml",
+    "https://www.prothomalo.com/feed",
+    "https://www.aljazeera.com/xml/rss/all.xml",
+    "http://rss.cnn.com/rss/edition.rss"
 ]
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 def get_active_groq_model():
+    preferred_models = [
+        "llama-3.3-70b-versatile",
+        "llama-3.1-8b-instant",
+        "llama3-8b-8192",
+        "llama3-70b-8192"
+    ]
     try:
-        models = groq_client.models.list()
-        for m in models.data:
-            if "llama" in m.id.lower() or "gemma" in m.id.lower() or "mixtral" in m.id.lower():
-                print(f"Using active model: {m.id}")
-                return m.id
-        return models.data[0].id
+        available = [m.id for m in groq_client.models.list().data if "guard" not in m.id.lower()]
+        for pref in preferred_models:
+            if pref in available:
+                print(f"Using preferred active model: {pref}")
+                return pref
+        return available[0]
     except Exception as e:
         print(f"Error listing models: {e}")
-        return "llama-3.1-8b-instant"
+        return "llama3-8b-8192"
 
 def load_posted_urls():
     if os.path.exists("posted_urls.json"):
