@@ -34,7 +34,7 @@ def save_posted_urls(urls):
 def generate_summary(text):
     prompt = f"Summarize this news into a crisp, engaging 2-3 sentence Facebook post. Write in Bangla with relevant emojis and hashtags:\n\n{text}"
     response = groq_client.chat.completions.create(
-        model="mixtral-8x7b-32768",
+        model="gemma2-9b-it",
         messages=[{"role": "user", "content": prompt}],
         max_tokens=250
     )
