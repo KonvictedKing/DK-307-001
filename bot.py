@@ -18,6 +18,18 @@ RSS_FEEDS = [
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
+def get_active_groq_model():
+    try:
+        models = groq_client.models.list()
+        for m in models.data:
+            if "llama" in m.id.lower() or "gemma" in m.id.lower() or "mixtral" in m.id.lower():
+                print(f"Using active model: {m.id}")
+                return m.id
+        return models.data[0].id
+    except Exception as e:
+        print(f"Error listing models: {e}")
+        return "llama-3.1-8b-instant"
+
 def load_posted_urls():
     if os.path.exists("posted_urls.json"):
         with open("posted_urls.json", "r") as f:
@@ -32,9 +44,10 @@ def save_posted_urls(urls):
         json.dump(urls[-100:], f, indent=2)
 
 def generate_summary(text):
+    active_model = get_active_groq_model()
     prompt = f"Summarize this news into a crisp, engaging 2-3 sentence Facebook post. Write in Bangla with relevant emojis and hashtags:\n\n{text}"
     response = groq_client.chat.completions.create(
-        model="llama-3.2-3b-preview",
+        model=active_model,
         messages=[{"role": "user", "content": prompt}],
         max_tokens=250
     )
@@ -86,4 +99,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
