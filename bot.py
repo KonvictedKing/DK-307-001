@@ -16,12 +16,15 @@ ACCESS_TOKEN = os.environ.get("FB_ACCESS_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 RSS_FEEDS = [
+    # --- Local & National News ---
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed"},
     {"name": "The Daily Star", "url": "https://www.thedailystar.net/frontpage/rss.xml"},
     {"name": "bdnews24.com", "url": "https://bangla.bdnews24.com/rss.xml"},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss/rss.xml"},
     {"name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/feed"},
     {"name": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml"},
+
+    # --- International News ---
     {"name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
     {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
     {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss"},
@@ -31,6 +34,8 @@ RSS_FEEDS = [
     {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/politics/news.rss"},
     {"name": "AP News", "url": "https://feedx.net/rss/apnews.xml"},
     {"name": "Reuters", "url": "https://feedx.net/rss/reuters.xml"},
+
+    # --- Sports News ---
     {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news"},
     {"name": "The Athletic", "url": "https://theathletic.com/rss-feed/"},
     {"name": "ESPNcricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml"},
@@ -56,21 +61,15 @@ def save_posted_urls(urls):
         json.dump(urls[-250:], f, indent=2)
 
 def get_valid_chat_models():
-    ignored_keywords = ["guard", "whisper", "embed", "tts", "safeguard"]
-    valid_models = []
+    ignored = ["guard", "whisper", "embed", "tts", "safeguard"]
     try:
-        models = groq_client.models.list()
-        for m in models.data:
-            model_id = m.id.lower()
-            if not any(k in model_id for k in ignored_keywords):
-                valid_models.append(m.id)
-    except Exception as e:
-        print(f"Model list error: {e}")
-    return valid_models
+        return [m.id for m in groq_client.models.list().data if not any(k in m.id.lower() for k in ignored)]
+    except:
+        return ["llama-3.1-8b-instant"]
 
 def clean_title_or_translate(title):
     models = get_valid_chat_models()
-    prompt = f"Extract a clean, powerful news headline (max 10-12 words). Return ONLY the headline text without quotes:\n\n{title}"
+    prompt = f"Rewrite this news title into a sharp, journalistic headline (max 10-12 words). Do not use source names, quotes, or markdown formatting. Output headline ONLY:\n\n{title}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
@@ -110,167 +109,73 @@ def wrap_text(text, font, max_width, draw):
         lines.append(" ".join(current_line))
     return lines
 
-def create_dacca_card(image_url, headline, source_name):
-    width, height = 1080, 1350
-    card = Image.new("RGB", (width, height), color="#000000")
-    draw = ImageDraw.Draw(card)
-
-    try:
-        font_brand = ImageFont.truetype("DejaVuSans-Bold.ttf", 36)
-        font_date = ImageFont.truetype("DejaVuSans.ttf", 28)
-        font_headline = ImageFont.truetype("DejaVuSans-Bold.ttf", 48)
-        font_footer = ImageFont.truetype("DejaVuSans.ttf", 26)
-    except:
-        font_brand = font_date = font_headline = font_footer = ImageFont.load_default()
-
-    # Top Header
-    draw.text((50, 45), "DACCAখবর।", fill="#ffffff", font=font_brand)
-    today_str = datetime.utcnow().strftime("%d %b %Y").upper()
-    date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
-    draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 50), today_str, fill="#d1d5db", font=font_date)
-
-    # Headline
-import os
-import json
-import time
-import urllib.parse
-from datetime import datetime
-from io import BytesIO
-
-import feedparser
-import requests
-from PIL import Image, ImageDraw, ImageFont
-from groq import Groq
-
-PAGE_ID = os.environ.get("FB_PAGE_ID")
-IG_USER_ID = os.environ.get("IG_USER_ID")
-ACCESS_TOKEN = os.environ.get("FB_ACCESS_TOKEN")
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-
-RSS_FEEDS = [
-    {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed"},
-    {"name": "The Daily Star", "url": "https://www.thedailystar.net/frontpage/rss.xml"},
-    {"name": "bdnews24.com", "url": "https://bangla.bdnews24.com/rss.xml"},
-    {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss/rss.xml"},
-    {"name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/feed"},
-    {"name": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml"},
-    {"name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
-    {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
-    {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss"},
-    {"name": "The New York Times", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"},
-    {"name": "The Guardian", "url": "https://www.theguardian.com/world/rss"},
-    {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
-    {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/politics/news.rss"},
-    {"name": "AP News", "url": "https://feedx.net/rss/apnews.xml"},
-    {"name": "Reuters", "url": "https://feedx.net/rss/reuters.xml"},
-    {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news"},
-    {"name": "The Athletic", "url": "https://theathletic.com/rss-feed/"},
-    {"name": "ESPNcricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml"},
-    {"name": "Cricbuzz", "url": "https://www.cricbuzz.com/api/cricket-news/rss"},
-    {"name": "Yahoo! Sports", "url": "https://sports.yahoo.com/rss/"},
-    {"name": "Bleacher Report", "url": "https://bleacherreport.com/articles/feed"},
-    {"name": "Sky Sports", "url": "https://www.skysports.com/rss/12040"}
-]
-
-groq_client = Groq(api_key=GROQ_API_KEY)
-
-def load_posted_urls():
-    if os.path.exists("posted_urls.json"):
-        with open("posted_urls.json", "r") as f:
+def get_system_font(font_type="bold", size=32):
+    # Resolves Linux runner fonts installed via fonts-beng and fonts-dejavu
+    font_paths = {
+        "bengali_bold": [
+            "/usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf",
+            "/usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        ],
+        "bengali_regular": [
+            "/usr/share/fonts/truetype/noto/NotoSansBengali-Regular.ttf",
+            "/usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf",
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+        ]
+    }
+    target_key = "bengali_bold" if font_type == "bold" else "bengali_regular"
+    for path in font_paths[target_key]:
+        if os.path.exists(path):
             try:
-                return json.load(f)
+                return ImageFont.truetype(path, size)
             except:
-                return []
-    return []
+                continue
+    return ImageFont.load_default()
 
-def save_posted_urls(urls):
-    with open("posted_urls.json", "w") as f:
-        json.dump(urls[-250:], f, indent=2)
-
-def get_valid_chat_models():
-    ignored_keywords = ["guard", "whisper", "embed", "tts", "safeguard"]
-    valid_models = []
-    try:
-        models = groq_client.models.list()
-        for m in models.data:
-            model_id = m.id.lower()
-            if not any(k in model_id for k in ignored_keywords):
-                valid_models.append(m.id)
-    except Exception as e:
-        print(f"Model list error: {e}")
-    return valid_models
-
-def clean_title_or_translate(title):
-    models = get_valid_chat_models()
-    prompt = f"Extract a clean, powerful news headline (max 10-12 words). Return ONLY the headline text without quotes:\n\n{title}"
-    for model in models:
-        try:
-            res = groq_client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                max_tokens=60
-            )
-            headline = res.choices[0].message.content.strip().replace('"', '')
-            if len(headline) > 5 and not headline.replace(".", "").isdigit():
-                return headline
-        except:
-            continue
-    return title[:80]
-
-def extract_image_url(entry):
-    if 'media_content' in entry and len(entry.media_content) > 0:
-        return entry.media_content[0].get('url')
-    if 'enclosures' in entry and len(entry.enclosures) > 0:
-        return entry.enclosures[0].get('href')
-    safe_prompt = urllib.parse.quote(entry.title[:80])
-    return f"https://image.pollinations.ai/prompt/{safe_prompt}?width=1080&height=720&nologo=true"
-
-def wrap_text(text, font, max_width, draw):
-    lines = []
-    words = text.split()
-    current_line = []
-    for word in words:
-        test_line = " ".join(current_line + [word])
-        bbox = draw.textbbox((0, 0), test_line, font=font)
-        if (bbox[2] - bbox[0]) <= max_width:
-            current_line.append(word)
-        else:
-            if current_line:
-                lines.append(" ".join(current_line))
-            current_line = [word]
-    if current_line:
-        lines.append(" ".join(current_line))
-    return lines
+def get_asset_path(base_name):
+    for ext in [".jpg", ".jpeg", ".png"]:
+        if os.path.exists(f"{base_name}{ext}"):
+            return f"{base_name}{ext}"
+    return None
 
 def create_dacca_card(image_url, headline, source_name):
     width, height = 1080, 1350
     card = Image.new("RGB", (width, height), color="#000000")
     draw = ImageDraw.Draw(card)
 
-    try:
-        font_brand = ImageFont.truetype("DejaVuSans-Bold.ttf", 36)
-        font_date = ImageFont.truetype("DejaVuSans.ttf", 28)
-        font_headline = ImageFont.truetype("DejaVuSans-Bold.ttf", 48)
-        font_footer = ImageFont.truetype("DejaVuSans.ttf", 26)
-    except:
-        font_brand = font_date = font_headline = font_footer = ImageFont.load_default()
+    font_date = get_system_font("bold", 28)
+    font_headline = get_system_font("bold", 54)
+    font_footer = get_system_font("bold", 28)
 
-    # Top Header
-    draw.text((50, 45), "DACCAখবর।", fill="#ffffff", font=font_brand)
+    # 1. Top Left: Header Banner Graphic (header_logo.jpg)
+    header_path = get_asset_path("header_logo")
+    if header_path:
+        try:
+            h_logo = Image.open(header_path).convert("RGB")
+            aspect = h_logo.width / h_logo.height
+            h_logo = h_logo.resize((int(52 * aspect), 52), Image.Resampling.LANCZOS)
+            card.paste(h_logo, (50, 42))
+        except Exception as e:
+            print(f"Header logo paste failed: {e}")
+            draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
+    else:
+        draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
+
+    # 1.1 Top Right: Formatted Date
     today_str = datetime.utcnow().strftime("%d %b %Y").upper()
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
-    draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 50), today_str, fill="#d1d5db", font=font_date)
+    draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 52), today_str, fill="#9ca3af", font=font_date)
 
-    # Headline
+    # 2. Headline Wrapping & Line Layout
     wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
     text_y = 125
     for line in wrapped_lines[:3]:
         draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
-        text_y += 65
+        text_y += 74
 
-    # Center Image
+    # 3. Center News Feature Image
     image_top = max(text_y + 30, 360)
-    image_height = 820
+    image_height = 840
     try:
         resp = requests.get(image_url, timeout=15)
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
@@ -285,52 +190,47 @@ def create_dacca_card(image_url, headline, source_name):
             top = (raw_img.height - new_height) // 2
             raw_img = raw_img.crop((0, top, raw_img.width, top + new_height))
         
-        resized = raw_img.resize((width - 100, image_height))
+        resized = raw_img.resize((width - 100, image_height), Image.Resampling.LANCZOS)
         card.paste(resized, (50, image_top))
     except Exception as e:
-        print(f"Failed to process image: {e}")
+        print(f"News image processing failed: {e}")
 
-    # Footer Info
-    footer_y = image_top + image_height + 25
-    draw.text((50, footer_y), f"VIA - {source_name}", fill="#e5e7eb", font=font_footer)
-    draw.text((50, footer_y + 35), "✨ AI-generated content", fill="#9ca3af", font=font_footer)
+    # 4. Footer: Left Side Source Attribution (AI text removed)
+    footer_y = image_top + image_height + 40
+    draw.text((50, footer_y + 12), f"VIA - {source_name}", fill="#e5e7eb", font=font_footer)
 
-    # Watermark Logo
-    if os.path.exists("logo.png"):
+    # 5. Footer: Right Side Logo Watermark (logo.jpg)
+    logo_path = get_asset_path("logo")
+    if logo_path:
         try:
-            logo = Image.open("logo.png").convert("RGBA")
-            logo.thumbnail((120, 80))
-            card.paste(logo, (width - 170, footer_y - 10), logo)
-        except:
-            pass
+            d_logo = Image.open(logo_path).convert("RGB")
+            aspect = d_logo.width / d_logo.height
+            d_logo = d_logo.resize((int(82 * aspect), 82), Image.Resampling.LANCZOS)
+            card.paste(d_logo, (width - 50 - d_logo.width, footer_y - 12))
+        except Exception as e:
+            print(f"Footer logo paste failed: {e}")
 
     output_path = "final_card.jpg"
     card.save(output_path, "JPEG", quality=95)
     return output_path
 
 def post_to_facebook_direct(image_path, caption):
-    # Direct multipart upload to Facebook
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
     with open(image_path, "rb") as f:
-        files = {"source": f}
-        data = {"caption": caption, "access_token": ACCESS_TOKEN}
-        res = requests.post(url, files=files, data=data).json()
+        res = requests.post(url, files={"source": f}, data={"caption": caption, "access_token": ACCESS_TOKEN}).json()
         print("Facebook Direct Post Response:", res)
         return res
 
 def upload_to_catbox(image_path):
-    # Free permanent public direct file hosting for Instagram API
     with open(image_path, "rb") as f:
         res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f})
         return res.text.strip()
 
 def post_to_instagram(image_url, caption):
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
-    payload = {"image_url": image_url, "caption": caption, "access_token": ACCESS_TOKEN}
-    res = requests.post(create_url, data=payload).json()
+    res = requests.post(create_url, data={"image_url": image_url, "caption": caption, "access_token": ACCESS_TOKEN}).json()
     creation_id = res.get("id")
     if not creation_id:
-        print(f"IG container creation failed: {res}")
         return
     time.sleep(10)
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
@@ -344,22 +244,19 @@ def main():
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
                 if entry.link not in posted:
-                    print(f"Found article to process: {entry.title}")
+                    print(f"Processing candidate: {entry.title}")
                     headline = clean_title_or_translate(entry.title)
                     img_url = extract_image_url(entry)
                     
                     card_path = create_dacca_card(img_url, headline, feed["name"])
                     
-                    # 1. Post directly to Facebook using raw image file
                     post_caption = f"Details in Comment...\n\nSource: {entry.link}"
-                    print("Uploading image directly to Facebook...")
+                    print("Dispatching direct image to Facebook...")
                     post_to_facebook_direct(card_path, post_caption)
 
-                    # 2. Instagram requires public direct url (catbox provides direct raw jpg)
                     if IG_USER_ID:
-                        print("Hosting image for Instagram...")
+                        print("Dispatching direct image to Instagram...")
                         catbox_url = upload_to_catbox(card_path)
-                        print(f"IG Image URL: {catbox_url}")
                         post_to_instagram(catbox_url, f"{headline}\n\nVia: {feed['name']}")
 
                     posted.append(entry.link)
@@ -371,3 +268,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
