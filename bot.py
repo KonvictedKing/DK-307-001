@@ -73,8 +73,7 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def get_valid_chat_models():
-    # Prefer standard instruction models over reasoning models that output <think>
-    preferred_models = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"]
+    preferred_models = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile"]
     try:
         live_models = [m.id for m in groq_client.models.list().data]
         valid = [m for m in preferred_models if m in live_models]
@@ -88,20 +87,14 @@ def is_bengali_script(text):
     return bool(re.search(r"[\u0980-\u09FF]", text))
 
 def clean_ai_output(text):
-    """Strip <think> blocks, markdown asterisks, quotes, and preambles."""
     if not text:
         return ""
-    # Strip <think>...</think>
     text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
     text = re.sub(r"<[^>]+>", "", text)
-    # Remove markdown headers and bolding
     text = re.sub(r"[*#_`]", "", text)
-    # Remove common AI setup lines
     text = re.sub(r"^(Headline:|Title:|Output:|Here is.*?:)", "", text, flags=re.IGNORECASE)
-    # Clean surrounding quotes and whitespace
     text = text.replace('"', '').replace("'", "").strip()
-    # Take first line only to avoid multi-line commentary
-    lines = [line.strip() for line in text.split("\n") if line.strip()]
+    lines = [l.strip() for l in text.split("\n") if l.strip()]
     return lines[0] if lines else ""
 
 def pre_clean_raw_title(title):
@@ -117,21 +110,20 @@ def get_box1_caption_title(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Translate this headline into clear Bengali. Provide the Bengali headline ONLY without explanation or thinking:\n{cleaned}"
+    prompt = f"Translate the meaning of this news into 1 short Bengali sentence/headline. Return ONLY pure Bengali text. No English words:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "You are a news translator. Respond ONLY with the final translation. Do not include thinking process or tags."},
+                    {"role": "system", "content": "You are a professional Bengali news translator. Respond ONLY in Bengali script."},
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=60,
                 temperature=0.2
             )
-            raw_out = res.choices[0].message.content
-            out = clean_ai_output(raw_out)
-            if len(out) > 3:
+            out = clean_ai_output(res.choices[0].message.content)
+            if is_bengali_script(out):
                 return out
         except Exception:
             continue
@@ -143,35 +135,35 @@ def get_box3_card_headline(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Rewrite this headline into a sharp, journalistic English headline (7 to 11 words). Output the English headline ONLY without explanation or thinking:\n{cleaned}"
+    prompt = f"Rewrite this news title into a sharp, journalistic English headline (7 to 11 words). Return English text ONLY:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "You are a news copy editor. Respond ONLY with the final headline. Do not include thinking process or tags."},
+                    {"role": "system", "content": "You are a headline copy editor. Return the final clean headline only."},
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=60,
                 temperature=0.2
             )
-            raw_out = res.choices[0].message.content
-            out = clean_ai_output(raw_out)
-            if len(out) > 3:
+            out = clean_ai_output(res.choices[0].message.content)
+            if len(out.split()) >= 4:
                 return out
         except Exception:
             continue
     return cleaned[:85]
 
 def extract_image_url(entry):
+    # 1. Check direct RSS media fields
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
-        if url:
+        if url and not url.endswith(('.svg', '.gif')):
             return url
 
     if 'enclosures' in entry and len(entry.enclosures) > 0:
         url = entry.enclosures[0].get('href')
-        if url:
+        if url and not url.endswith(('.svg', '.gif')):
             return url
 
     if 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
@@ -179,7 +171,25 @@ def extract_image_url(entry):
         if url:
             return url
 
-    return "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1080&q=80"
+    # 2. Extract image from HTML description/summary
+    html_corpus = (entry.get('summary', '') + ' ' + entry.get('description', ''))
+    img_match = re.search(r'<img[^>]+src=["\'](https?://[^"\']+\.(?:jpg|jpeg|png|webp)[^"\']*)["\']', html_corpus, re.IGNORECASE)
+    if img_match:
+        return img_match.group(1)
+
+    # 3. Fallback: Request actual article page for og:image
+    try:
+        page_resp = requests.get(entry.link, timeout=5, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        if page_resp.status_code == 200:
+            og_match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](https?://[^"\']+)["\']', page_resp.text, re.IGNORECASE)
+            if not og_match:
+                og_match = re.search(r'<meta[^>]+content=["\'](https?://[^"\']+)["\'][^>]+property=["\']og:image["\']', page_resp.text, re.IGNORECASE)
+            if og_match:
+                return og_match.group(1)
+    except Exception:
+        pass
+
+    return None
 
 def wrap_text(text, font, max_width, draw):
     lines = []
@@ -207,8 +217,8 @@ def ensure_font_downloaded():
             if r.status_code == 200:
                 with open(font_file, "wb") as f:
                     f.write(r.content)
-        except Exception as e:
-            print(f"Font download error: {e}")
+        except Exception:
+            pass
     return font_file if os.path.exists(font_file) else None
 
 def get_universal_font(size=32):
@@ -274,7 +284,7 @@ def create_dacca_card(image_url, headline, source_name):
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
-        resp = requests.get(image_url, timeout=12, headers={"User-Agent": "Mozilla/5.0"})
+        resp = requests.get(image_url, timeout=12, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
         target_ratio = (width - 100) / image_height
         raw_ratio = raw_img.width / raw_img.height
@@ -290,7 +300,7 @@ def create_dacca_card(image_url, headline, source_name):
         resized = raw_img.resize((width - 100, image_height), Image.Resampling.LANCZOS)
         card.paste(resized, (50, image_top))
     except Exception as e:
-        print(f"News image process fallback: {e}")
+        print(f"Card image render error: {e}")
         draw.rectangle([(50, image_top), (width - 50, image_top + image_height)], fill="#1f2937")
 
     # 4. Footer Source
@@ -305,8 +315,8 @@ def create_dacca_card(image_url, headline, source_name):
             aspect = d_logo.width / d_logo.height
             d_logo = d_logo.resize((int(82 * aspect), 82), Image.Resampling.LANCZOS)
             card.paste(d_logo, (width - 50 - d_logo.width, footer_y - 12))
-        except Exception as e:
-            print(f"Footer logo error: {e}")
+        except Exception:
+            pass
 
     output_path = "final_card.jpg"
     card.save(output_path, "JPEG", quality=95)
@@ -317,8 +327,7 @@ def upload_to_catbox(image_path):
         with open(image_path, "rb") as f:
             res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=20)
             return res.text.strip()
-    except Exception as e:
-        print(f"Catbox upload failed: {e}")
+    except Exception:
         return None
 
 def post_facebook_feed(image_path, caption):
@@ -340,8 +349,7 @@ def post_facebook_story(image_path):
         photo_id = res.get("id")
         if photo_id:
             story_url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photo_stories"
-            story_res = requests.post(story_url, data={"photo_id": photo_id, "access_token": ACCESS_TOKEN}).json()
-            print("Facebook Story Response:", story_res)
+            requests.post(story_url, data={"photo_id": photo_id, "access_token": ACCESS_TOKEN})
 
 def post_instagram_feed(image_url, caption):
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
@@ -352,7 +360,6 @@ def post_instagram_feed(image_url, caption):
     time.sleep(10)
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
     pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
-    print("Instagram Feed Response:", pub_res)
     return pub_res.get("id")
 
 def post_instagram_story(image_url):
@@ -368,28 +375,19 @@ def post_instagram_story(image_url):
         return
     time.sleep(10)
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
-    pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
-    print("Instagram Story Response:", pub_res)
+    requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN})
 
-def publish_article(entry, source_name):
+def publish_article(entry, source_name, img_url):
     print(f"Publishing from {source_name}: {entry.title}")
     
-    # 1. Box 1: Bengali caption headline (guaranteed no <think> traces)
+    # Box 1: Bengali caption title
     caption_headline_bn = get_box1_caption_title(entry.title)
-    if not caption_headline_bn or len(caption_headline_bn.strip()) == 0:
-        caption_headline_bn = pre_clean_raw_title(entry.title)
-
-    # 2. Box 3: Headline on the Card
+    # Box 3: Card headline
     card_headline = get_box3_card_headline(entry.title)
-    if not card_headline or len(card_headline.strip()) == 0:
-        card_headline = pre_clean_raw_title(entry.title)
     
-    # 3. Photo & Canvas Card
-    img_url = extract_image_url(entry)
     card_path = create_dacca_card(img_url, card_headline, source_name)
-    
-    # Caption Format: Box 1 + Box 2
     post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
+    
     print(f"Dispatching {source_name} to Facebook Feed...")
     post_facebook_feed(card_path, post_caption)
 
@@ -403,13 +401,12 @@ def publish_article(entry, source_name):
         if catbox_url and catbox_url.startswith("http"):
             try:
                 post_instagram_feed(catbox_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
-            except Exception as err:
-                print(f"IG Feed bypass: {err}")
-
+            except Exception:
+                pass
             try:
                 post_instagram_story(catbox_url)
-            except Exception as err:
-                print(f"IG Story bypass: {err}")
+            except Exception:
+                pass
 
 def find_candidate_in_category(category_name, feed_list, state):
     total_feeds = len(feed_list)
@@ -421,26 +418,41 @@ def find_candidate_in_category(category_name, feed_list, state):
         try:
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
+                # Filter out junk titles or one-word stubs
+                clean_title = pre_clean_raw_title(entry.title)
+                if len(clean_title.split()) < 3:
+                    continue
+
                 if entry.link not in state["posted_urls"]:
+                    img_url = extract_image_url(entry)
+                    if not img_url:
+                        continue  # Skip entries that have no real photo
+
                     state["indices"][category_name] = (current_idx + 1) % total_feeds
-                    return entry, feed["name"]
+                    return entry, feed["name"], img_url
         except Exception as err:
             print(f"Skipping {feed['name']}: {err}")
             continue
 
     state["indices"][category_name] = (start_idx + 1) % total_feeds
-    return None, None
+    return None, None, None
 
 def find_any_fresh_article(all_feeds, state):
     for feed in all_feeds:
         try:
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
+                clean_title = pre_clean_raw_title(entry.title)
+                if len(clean_title.split()) < 3:
+                    continue
+
                 if entry.link not in state["posted_urls"]:
-                    return entry, feed["name"]
+                    img_url = extract_image_url(entry)
+                    if img_url:
+                        return entry, feed["name"], img_url
         except Exception:
             continue
-    return None, None
+    return None, None, None
 
 def main():
     state = load_state()
@@ -454,14 +466,14 @@ def main():
     all_feeds = NATIONAL_FEEDS + INTERNATIONAL_FEEDS + SPORTS_FEEDS
 
     for cat_name, feed_list in categories:
-        entry, source_name = find_candidate_in_category(cat_name, feed_list, state)
+        entry, source_name, img_url = find_candidate_in_category(cat_name, feed_list, state)
         
         if not entry:
-            print(f"No fresh articles in {cat_name}. Falling back to any available fresh news.")
-            entry, source_name = find_any_fresh_article(all_feeds, state)
+            print(f"No fresh articles in {cat_name}. Falling back to any available fresh news with photos.")
+            entry, source_name, img_url = find_any_fresh_article(all_feeds, state)
 
-        if entry:
-            publish_article(entry, source_name)
+        if entry and img_url:
+            publish_article(entry, source_name, img_url)
             state["posted_urls"].append(entry.link)
             save_state(state)
             posts_done += 1
@@ -471,4 +483,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+        
