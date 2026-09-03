@@ -16,11 +16,14 @@
     "https://www.cricinfo.com/ci/content/story/1552708.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://sports.yahoo.com/articles/preview-st-mirren-vs-celtic-191000630.html"
+    "https://sports.yahoo.com/articles/preview-st-mirren-vs-celtic-191000630.html",
+    "https://www.prothomalo.com/bangladesh/ks9sgjbwxr",
+    "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
+    "https://www.skysports.com/tennis/news/12040/13580916/us-open-carlos-alcaraz-planning-more-breaks-in-impossible-tennis-schedule-after-more-than-four-months-out-with-a-wrist-injury"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
