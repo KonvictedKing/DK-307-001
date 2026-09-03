@@ -150,8 +150,7 @@ def get_box3_card_headline(raw_title):
         except Exception:
             continue
     return cleaned[:85]
-
-def extract_image_url(entry):
+    def extract_image_url(entry):
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url and not url.endswith(('.svg', '.gif')):
@@ -318,8 +317,7 @@ def create_instagram_story_card(feed_card_path):
     story_path = "final_story_card.jpg"
     story_bg.save(story_path, "JPEG", quality=95)
     return story_path
-
-def upload_image_to_web(image_path):
+            def upload_image_to_web(image_path):
     try:
         with open(image_path, "rb") as f:
             res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=15)
