@@ -64,7 +64,7 @@ def get_valid_chat_models():
         return ["llama-3.1-8b-instant"]
 
 def pre_clean_raw_title(title):
-    cleaned = re.sub(r"<[^>]+>", "", title)  # Strip HTML tags
+    cleaned = re.sub(r"<[^>]+>", "", title)
     patterns = [r"\[.*?\]", r"\(.*?\)", r"\|.*$", r"-.*$", r"^\s*[:\-\–\—]\s*"]
     for p in patterns:
         cleaned = re.sub(p, "", cleaned)
@@ -73,7 +73,6 @@ def pre_clean_raw_title(title):
 def clean_title_or_translate(title):
     cleaned_input = pre_clean_raw_title(title)
     models = get_valid_chat_models()
-    
     prompt = f"""You are a professional headline editor for a top digital news outlet.
 Transform this news title into a sharp, active headline strictly between 7 to 11 words.
 
@@ -99,7 +98,6 @@ Original Title:
                 return headline
         except Exception:
             continue
-            
     return cleaned_input[:85]
 
 def extract_image_url(entry):
@@ -131,24 +129,36 @@ def wrap_text(text, font, max_width, draw):
         lines.append(" ".join(current_line))
     return lines
 
-def get_system_font(font_type="bold", size=32):
-    font_paths = {
-        "bengali_bold": [
-            "/usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf",
-            "/usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-        ],
-        "bengali_regular": [
-            "/usr/share/fonts/truetype/noto/NotoSansBengali-Regular.ttf",
-            "/usr/share/fonts/truetype/lohit-bengali/Lohit-Bengali.ttf",
-            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
-        ]
-    }
-    target_key = "bengali_bold" if font_type == "bold" else "bengali_regular"
-    for path in font_paths[target_key]:
-        if os.path.exists(path):
+def ensure_font_downloaded():
+    """Downloads Google's Hind Siliguri Bold which natively supports BOTH Bengali and English Latin glyphs."""
+    font_file = "HindSiliguri-Bold.ttf"
+    if not os.path.exists(font_file):
+        url = "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Bold.ttf"
+        try:
+            r = requests.get(url, timeout=15)
+            if r.status_code == 200:
+                with open(font_file, "wb") as f:
+                    f.write(r.content)
+        except Exception as e:
+            print(f"Font download error: {e}")
+    return font_file if os.path.exists(font_file) else None
+
+def get_universal_font(size=32):
+    local_font = ensure_font_downloaded()
+    if local_font:
+        try:
+            return ImageFont.truetype(local_font, size)
+        except:
+            pass
+    # Fallback paths on Ubuntu
+    fallbacks = [
+        "/usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    ]
+    for fb in fallbacks:
+        if os.path.exists(fb):
             try:
-                return ImageFont.truetype(path, size)
+                return ImageFont.truetype(fb, size)
             except:
                 continue
     return ImageFont.load_default()
@@ -164,9 +174,9 @@ def create_dacca_card(image_url, headline, source_name):
     card = Image.new("RGB", (width, height), color="#000000")
     draw = ImageDraw.Draw(card)
 
-    font_date = get_system_font("bold", 28)
-    font_headline = get_system_font("bold", 54)
-    font_footer = get_system_font("bold", 28)
+    font_date = get_universal_font(28)
+    font_headline = get_universal_font(52)
+    font_footer = get_universal_font(28)
 
     # 1. Top Left: Header Banner Graphic
     header_path = get_asset_path("header_logo")
@@ -193,11 +203,11 @@ def create_dacca_card(image_url, headline, source_name):
         draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 74
 
-    # 3. Middle News Image
+    # 3. Center Photo
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
-        resp = requests.get(image_url, timeout=10)
+        resp = requests.get(image_url, timeout=12)
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
         target_ratio = (width - 100) / image_height
         raw_ratio = raw_img.width / raw_img.height
@@ -365,3 +375,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
