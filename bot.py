@@ -155,7 +155,6 @@ def get_box3_card_headline(raw_title):
     return cleaned[:85]
 
 def extract_image_url(entry):
-    # 1. Check direct RSS media fields
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url and not url.endswith(('.svg', '.gif')):
@@ -171,13 +170,11 @@ def extract_image_url(entry):
         if url:
             return url
 
-    # 2. Extract image from HTML description/summary
     html_corpus = (entry.get('summary', '') + ' ' + entry.get('description', ''))
     img_match = re.search(r'<img[^>]+src=["\'](https?://[^"\']+\.(?:jpg|jpeg|png|webp)[^"\']*)["\']', html_corpus, re.IGNORECASE)
     if img_match:
         return img_match.group(1)
 
-    # 3. Fallback: Request actual article page for og:image
     try:
         page_resp = requests.get(entry.link, timeout=5, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
         if page_resp.status_code == 200:
@@ -327,14 +324,21 @@ def upload_to_catbox(image_path):
         with open(image_path, "rb") as f:
             res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=20)
             return res.text.strip()
-    except Exception:
+    except Exception as e:
+        print(f"Catbox upload failed: {e}")
         return None
 
 def post_facebook_feed(image_path, caption):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
+    payload = {
+        "caption": caption,
+        "published": "true",
+        "feed": "true",
+        "access_token": ACCESS_TOKEN
+    }
     with open(image_path, "rb") as f:
-        res = requests.post(url, files={"source": f}, data={"caption": caption, "access_token": ACCESS_TOKEN}).json()
-        print("Facebook Feed Response:", res)
+        res = requests.post(url, files={"source": f}, data=payload).json()
+        print("Facebook Feed Public Response:", res)
         return res
 
 def post_facebook_story(image_path):
@@ -349,20 +353,35 @@ def post_facebook_story(image_path):
         photo_id = res.get("id")
         if photo_id:
             story_url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photo_stories"
-            requests.post(story_url, data={"photo_id": photo_id, "access_token": ACCESS_TOKEN})
+            story_res = requests.post(story_url, data={"photo_id": photo_id, "access_token": ACCESS_TOKEN}).json()
+            print("Facebook Story Response:", story_res)
 
 def post_instagram_feed(image_url, caption):
+    if not IG_USER_ID:
+        print("Instagram skipping: IG_USER_ID not provided.")
+        return None
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
-    res = requests.post(create_url, data={"image_url": image_url, "caption": caption, "access_token": ACCESS_TOKEN}).json()
+    payload = {
+        "image_url": image_url,
+        "caption": caption,
+        "access_token": ACCESS_TOKEN
+    }
+    res = requests.post(create_url, data=payload).json()
+    print("IG Media Container Response:", res)
     creation_id = res.get("id")
     if not creation_id:
         return None
-    time.sleep(10)
+
+    time.sleep(15)
+
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
     pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
+    print("Instagram Feed Publish Response:", pub_res)
     return pub_res.get("id")
 
 def post_instagram_story(image_url):
+    if not IG_USER_ID:
+        return
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
     payload = {
         "image_url": image_url,
@@ -370,19 +389,21 @@ def post_instagram_story(image_url):
         "access_token": ACCESS_TOKEN
     }
     res = requests.post(create_url, data=payload).json()
+    print("IG Story Container Response:", res)
     creation_id = res.get("id")
     if not creation_id:
         return
-    time.sleep(10)
+
+    time.sleep(15)
+
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
-    requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN})
+    pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
+    print("Instagram Story Publish Response:", pub_res)
 
 def publish_article(entry, source_name, img_url):
     print(f"Publishing from {source_name}: {entry.title}")
     
-    # Box 1: Bengali caption title
     caption_headline_bn = get_box1_caption_title(entry.title)
-    # Box 3: Card headline
     card_headline = get_box3_card_headline(entry.title)
     
     card_path = create_dacca_card(img_url, card_headline, source_name)
@@ -401,12 +422,12 @@ def publish_article(entry, source_name, img_url):
         if catbox_url and catbox_url.startswith("http"):
             try:
                 post_instagram_feed(catbox_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
-            except Exception:
-                pass
+            except Exception as err:
+                print(f"IG Feed error: {err}")
             try:
                 post_instagram_story(catbox_url)
-            except Exception:
-                pass
+            except Exception as err:
+                print(f"IG Story error: {err}")
 
 def find_candidate_in_category(category_name, feed_list, state):
     total_feeds = len(feed_list)
@@ -418,7 +439,6 @@ def find_candidate_in_category(category_name, feed_list, state):
         try:
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
-                # Filter out junk titles or one-word stubs
                 clean_title = pre_clean_raw_title(entry.title)
                 if len(clean_title.split()) < 3:
                     continue
@@ -426,7 +446,7 @@ def find_candidate_in_category(category_name, feed_list, state):
                 if entry.link not in state["posted_urls"]:
                     img_url = extract_image_url(entry)
                     if not img_url:
-                        continue  # Skip entries that have no real photo
+                        continue
 
                     state["indices"][category_name] = (current_idx + 1) % total_feeds
                     return entry, feed["name"], img_url
@@ -483,4 +503,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
+            
