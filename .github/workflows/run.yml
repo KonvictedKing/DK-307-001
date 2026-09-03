@@ -39,8 +39,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add posted_urls.json
           git commit -m "Update posted URLs" || exit 0
+          git pull --rebase origin main
           git push origin main
           
