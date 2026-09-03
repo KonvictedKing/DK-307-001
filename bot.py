@@ -60,8 +60,8 @@ def load_state():
                 elif isinstance(data, dict):
                     state["posted_urls"] = data.get("posted_urls", [])
                     state["indices"] = data.get("indices", state["indices"])
-        except Exception as e:
-            print(f"Error loading state: {e}")
+        except Exception:
+            pass
     return state
 
 def save_state(state):
@@ -249,7 +249,6 @@ def create_dacca_card(image_url, headline, source_name):
     font_headline = get_universal_font(52)
     font_footer = get_universal_font(28)
 
-    # 1. Top Left Header Logo
     header_path = get_asset_path("header_logo")
     if header_path:
         try:
@@ -262,19 +261,16 @@ def create_dacca_card(image_url, headline, source_name):
     else:
         draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
 
-    # 1.1 Top Right Date
     today_str = datetime.utcnow().strftime("%d %b %Y").upper()
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
     draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 52), today_str, fill="#9ca3af", font=font_date)
 
-    # 2. Headline Canvas Text
     wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
     text_y = 125
     for line in wrapped_lines[:3]:
         draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 74
 
-    # 3. Middle Photo
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
@@ -297,11 +293,9 @@ def create_dacca_card(image_url, headline, source_name):
         print(f"Card image render error: {e}")
         draw.rectangle([(50, image_top), (width - 50, image_top + image_height)], fill="#1f2937")
 
-    # 4. Footer Source
     footer_y = image_top + image_height + 40
     draw.text((50, footer_y + 12), f"VIA - {source_name}", fill="#e5e7eb", font=font_footer)
 
-    # 5. Footer Watermark
     logo_path = get_asset_path("logo")
     if logo_path:
         try:
@@ -332,8 +326,8 @@ def upload_image_to_web(image_path):
             url = res.text.strip()
             if url.startswith("http"):
                 return url
-    except Exception as e:
-        print(f"Catbox failed: {e}")
+    except Exception:
+        pass
 
     try:
         with open(image_path, "rb") as f:
@@ -341,8 +335,8 @@ def upload_image_to_web(image_path):
             url = res.text.strip()
             if url.startswith("http"):
                 return url
-    except Exception as e:
-        print(f"Litterbox failed: {e}")
+    except Exception:
+        pass
 
     return None
 
@@ -511,4 +505,27 @@ def main():
     categories = [
         ("national", NATIONAL_FEEDS),
         ("international", INTERNATIONAL_FEEDS),
-        ("sports", SPORT
+        ("sports", SPORTS_FEEDS)
+    ]
+    
+    posts_done = 0
+    all_feeds = NATIONAL_FEEDS + INTERNATIONAL_FEEDS + SPORTS_FEEDS
+
+    for cat_name, feed_list in categories:
+        entry, source_name, img_url = find_candidate_in_category(cat_name, feed_list, state)
+        
+        if not entry:
+            print(f"No fresh articles in {cat_name}. Falling back to any available fresh news with photos.")
+            entry, source_name, img_url = find_any_fresh_article(all_feeds, state)
+
+        if entry and img_url:
+            publish_article(entry, source_name, img_url)
+            state["posted_urls"].append(entry.link)
+            save_state(state)
+            posts_done += 1
+            time.sleep(20)
+
+    print(f"Cycle finished. Total published in this run: {posts_done}")
+
+if __name__ == "__main__":
+    main()
