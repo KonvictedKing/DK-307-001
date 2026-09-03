@@ -17,15 +17,12 @@ ACCESS_TOKEN = os.environ.get("FB_ACCESS_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 RSS_FEEDS = [
-    # --- Local & National News ---
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed"},
     {"name": "The Daily Star", "url": "https://www.thedailystar.net/frontpage/rss.xml"},
     {"name": "bdnews24.com", "url": "https://bangla.bdnews24.com/rss.xml"},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss/rss.xml"},
     {"name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/feed"},
     {"name": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml"},
-
-    # --- International News ---
     {"name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
     {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
     {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss"},
@@ -35,8 +32,6 @@ RSS_FEEDS = [
     {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/politics/news.rss"},
     {"name": "AP News", "url": "https://feedx.net/rss/apnews.xml"},
     {"name": "Reuters", "url": "https://feedx.net/rss/reuters.xml"},
-
-    # --- Sports News ---
     {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news"},
     {"name": "The Athletic", "url": "https://theathletic.com/rss-feed/"},
     {"name": "ESPNcricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml"},
@@ -69,8 +64,8 @@ def get_valid_chat_models():
         return ["llama-3.1-8b-instant"]
 
 def pre_clean_raw_title(title):
+    cleaned = re.sub(r"<[^>]+>", "", title)  # Strip HTML tags
     patterns = [r"\[.*?\]", r"\(.*?\)", r"\|.*$", r"-.*$", r"^\s*[:\-\–\—]\s*"]
-    cleaned = title
     for p in patterns:
         cleaned = re.sub(p, "", cleaned)
     return cleaned.strip()
@@ -182,7 +177,6 @@ def create_dacca_card(image_url, headline, source_name):
             h_logo = h_logo.resize((int(52 * aspect), 52), Image.Resampling.LANCZOS)
             card.paste(h_logo, (50, 42))
         except Exception as e:
-            print(f"Header logo paste failed: {e}")
             draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
     else:
         draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
@@ -203,7 +197,7 @@ def create_dacca_card(image_url, headline, source_name):
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
-        resp = requests.get(image_url, timeout=15)
+        resp = requests.get(image_url, timeout=10)
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
         target_ratio = (width - 100) / image_height
         raw_ratio = raw_img.width / raw_img.height
@@ -241,9 +235,13 @@ def create_dacca_card(image_url, headline, source_name):
     return output_path
 
 def upload_to_catbox(image_path):
-    with open(image_path, "rb") as f:
-        res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f})
-        return res.text.strip()
+    try:
+        with open(image_path, "rb") as f:
+            res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=20)
+            return res.text.strip()
+    except Exception as e:
+        print(f"Catbox upload failed: {e}")
+        return None
 
 def post_facebook_feed(image_path, caption):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
@@ -264,11 +262,10 @@ def post_facebook_comment(post_id, link):
     print("Facebook Comment Response:", res)
 
 def post_facebook_story(image_path):
-    # FB Page Photo Story via Graph API
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
     with open(image_path, "rb") as f:
         payload = {
-            "published": "true",
+            "published": "false",
             "temporary": "true",
             "access_token": ACCESS_TOKEN
         }
@@ -293,7 +290,6 @@ def post_instagram_feed(image_url, caption):
     return pub_res.get("id")
 
 def post_instagram_story(image_url):
-    # IG Stories Container API
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
     payload = {
         "image_url": image_url,
@@ -323,12 +319,16 @@ def main():
                     
                     card_path = create_dacca_card(img_url, headline, feed["name"])
                     
-                    # 1. Post Feed to Facebook & Auto-comment source link
-                    post_caption = "Details in Comment..."
+                    # 1. Post Feed to Facebook & Comment
+                    post_caption = f"{headline}\n\nবিস্তারিত লিংকে: {entry.link}"
                     print("Dispatching to Facebook Feed...")
                     fb_res = post_facebook_feed(card_path, post_caption)
                     fb_post_id = fb_res.get("post_id") or fb_res.get("id")
-                    post_facebook_comment(fb_post_id, entry.link)
+                    
+                    try:
+                        post_facebook_comment(fb_post_id, entry.link)
+                    except Exception as ce:
+                        print(f"Comment note: {ce}")
 
                     # 2. Post Story to Facebook
                     print("Dispatching to Facebook Story...")
@@ -342,15 +342,20 @@ def main():
                         print("Hosting card asset for Instagram...")
                         catbox_url = upload_to_catbox(card_path)
                         
-                        print("Dispatching to Instagram Feed...")
-                        post_instagram_feed(cpatbox_url, f"{headline}\n\nVia: {feed['name']}\n\n#news #breakingnews #bangladesh #dacca")
+                        if catbox_url and catbox_url.startswith("http"):
+                            print("Dispatching to Instagram Feed...")
+                            try:
+                                post_instagram_feed(catbox_url, f"{headline}\n\nVia: {feed['name']}\n\n#news #breakingnews #bangladesh #dacca")
+                            except Exception as err:
+                                print(f"IG Feed bypass: {err}")
 
-                        print("Dispatching to Instagram Story...")
-                        try:
-                            post_instagram_story(catbox_url)
-                        except Exception as err:
-                            print(f"IG Story bypass: {err}")
+                            print("Dispatching to Instagram Story...")
+                            try:
+                                post_instagram_story(catbox_url)
+                            except Exception as err:
+                                print(f"IG Story bypass: {err}")
 
+                    # Save state immediately after successful post
                     posted.append(entry.link)
                     save_posted_urls(posted)
                     return
@@ -360,4 +365,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-            
