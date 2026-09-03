@@ -1,10 +1,20 @@
-[
-  "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
-  "https://www.prothomalo.com/world/asia/m2y5m0brw5",
-  "https://www.prothomalo.com/religion/islam/ne87ha5dei",
-  "https://www.prothomalo.com/sports/football/lvo51v7q3u",
-  "https://www.prothomalo.com/world/usa/twmn5ac0pd",
-  "https://www.prothomalo.com/religion/islam/dxti2i0hhl",
-  "https://www.prothomalo.com/bangladesh/l8r8rknlbu",
-  "https://www.prothomalo.com/sports/cricket/hljkpl0fug"
-]
+{
+  "posted_urls": [
+    "https://www.bbc.co.uk/news/articles/cj06q4ynpmjo?at_medium=RSS&at_campaign=rss",
+    "https://www.prothomalo.com/world/asia/m2y5m0brw5",
+    "https://www.prothomalo.com/religion/islam/ne87ha5dei",
+    "https://www.prothomalo.com/sports/football/lvo51v7q3u",
+    "https://www.prothomalo.com/world/usa/twmn5ac0pd",
+    "https://www.prothomalo.com/religion/islam/dxti2i0hhl",
+    "https://www.prothomalo.com/bangladesh/l8r8rknlbu",
+    "https://www.prothomalo.com/sports/cricket/hljkpl0fug",
+    "https://www.prothomalo.com/opinion/xoi1yu5uo1",
+    "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-5-scores-results/uHDct0bOzofT/"
+  ],
+  "indices": {
+    "national": 1,
+    "international": 1,
+    "sports": 2
+  }
+}
