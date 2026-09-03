@@ -22,11 +22,14 @@
     "https://www.skysports.com/tennis/news/12040/13580916/us-open-carlos-alcaraz-planning-more-breaks-in-impossible-tennis-schedule-after-more-than-four-months-out-with-a-wrist-injury",
     "https://www.thedailystar.net/rohingya-influx/news/rohingya-genocide-case-proceed-3076971",
     "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach",
-    "https://www.nytimes.com/athletic/7562948/2026/09/03/new-york-giants-cam-skattebo-retirement-injury/"
+    "https://www.nytimes.com/athletic/7562948/2026/09/03/new-york-giants-cam-skattebo-retirement-injury/",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.aljazeera.com/news/2026/9/3/ten-injured-in-ukraine-as-kyiv-expects-talks-with-us-envoys-in-coming-days?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1552739.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 0,
+    "international": 6,
+    "sports": 3
   }
 }
