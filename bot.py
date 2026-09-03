@@ -8,7 +8,7 @@ from io import BytesIO
 
 import feedparser
 import requests
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from groq import Groq
 
 PAGE_ID = os.environ.get("FB_PAGE_ID")
@@ -310,12 +310,34 @@ def create_dacca_card(image_url, headline, source_name):
     return output_path
 
 def create_instagram_story_card(feed_card_path):
-    story_bg = Image.new("RGB", (1080, 1920), color="#000000")
+    story_w, story_h = 1080, 1920
     feed_card = Image.open(feed_card_path).convert("RGB")
-    y_offset = (1920 - 1350) // 2
-    story_bg.paste(feed_card, (0, y_offset))
+
+    bg = feed_card.resize((story_w, story_h), Image.Resampling.BILINEAR)
+    bg = bg.filter(ImageFilter.GaussianBlur(radius=45))
+    dark_overlay = Image.new("RGB", (story_w, story_h), color="#000000")
+    bg = Image.blend(bg, dark_overlay, alpha=0.35)
+
+    target_card_w = int(story_w * 0.82)
+    aspect = feed_card.height / feed_card.width
+    target_card_h = int(target_card_w * aspect)
+    scaled_card = feed_card.resize((target_card_w, target_card_h), Image.Resampling.LANCZOS)
+
+    radius = 36
+    mask = Image.new("L", (target_card_w, target_card_h), 0)
+    draw_mask = ImageDraw.Draw(mask)
+    draw_mask.rounded_rectangle([(0, 0), (target_card_w, target_card_h)], radius=radius, fill=255)
+
+    card_x = (story_w - target_card_w) // 2
+    card_y = (story_h - target_card_h) // 2 - 40
+    bg.paste(scaled_card, (card_x, card_y), mask)
+
+    draw = ImageDraw.Draw(bg)
+    handle_font = get_universal_font(34)
+    draw.text((card_x + 10, card_y + target_card_h + 24), "@dacca.news", fill="#ffffff", font=handle_font)
+
     story_path = "final_story_card.jpg"
-    story_bg.save(story_path, "JPEG", quality=95)
+    bg.save(story_path, "JPEG", quality=95)
     return story_path
     
 def upload_image_to_web(image_path):
@@ -451,7 +473,6 @@ def publish_article(entry, source_name, img_url):
     if IG_USER_ID and fb_photo_id:
         print("Fetching Meta CDN URL for Instagram...")
         cdn_url = get_fb_image_url(fb_photo_id)
-        print(f"Meta CDN Image URL: {cdn_url}")
 
         if cdn_url:
             print("Posting to Instagram Feed...")
@@ -460,13 +481,23 @@ def publish_article(entry, source_name, img_url):
             except Exception as err:
                 print(f"IG Feed error: {err}")
 
-            print("Posting to Instagram Story...")
-            try:
-                post_instagram_story(cdn_url)
-            except Exception as err:
-                print(f"IG Story error: {err}")
-        else:
-            print("Could not retrieve CDN URL from Facebook photo.")
+        try:
+            print("Generating styled Instagram Story card...")
+            styled_story_path = create_instagram_story_card(card_path)
+            
+            with open(styled_story_path, "rb") as f:
+                temp_res = requests.post(
+                    f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos",
+                    files={"source": f},
+                    data={"published": "false", "temporary": "true", "access_token": ACCESS_TOKEN}
+                ).json()
+            
+            story_cdn = get_fb_image_url(temp_res.get("id"))
+            if story_cdn:
+                print("Posting styled card to Instagram Story...")
+                post_instagram_story(story_cdn)
+        except Exception as err:
+            print(f"IG Story styling error: {err}")
     else:
         print(f"Skipping Instagram: IG_USER_ID={bool(IG_USER_ID)}, fb_photo_id={bool(fb_photo_id)}")
 
