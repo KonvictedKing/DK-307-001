@@ -317,7 +317,8 @@ def create_instagram_story_card(feed_card_path):
     story_path = "final_story_card.jpg"
     story_bg.save(story_path, "JPEG", quality=95)
     return story_path
-            def upload_image_to_web(image_path):
+    
+def upload_image_to_web(image_path):
     try:
         with open(image_path, "rb") as f:
             res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=15)
