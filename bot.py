@@ -17,12 +17,15 @@ ACCESS_TOKEN = os.environ.get("FB_ACCESS_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 RSS_FEEDS = [
+    # --- Local & National News ---
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed"},
     {"name": "The Daily Star", "url": "https://www.thedailystar.net/frontpage/rss.xml"},
     {"name": "bdnews24.com", "url": "https://bangla.bdnews24.com/rss.xml"},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss/rss.xml"},
     {"name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/feed"},
     {"name": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml"},
+
+    # --- International News ---
     {"name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
     {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
     {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss"},
@@ -32,6 +35,8 @@ RSS_FEEDS = [
     {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/politics/news.rss"},
     {"name": "AP News", "url": "https://feedx.net/rss/apnews.xml"},
     {"name": "Reuters", "url": "https://feedx.net/rss/reuters.xml"},
+
+    # --- Sports News ---
     {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news"},
     {"name": "The Athletic", "url": "https://theathletic.com/rss-feed/"},
     {"name": "ESPNcricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml"},
@@ -63,6 +68,10 @@ def get_valid_chat_models():
     except:
         return ["llama-3.1-8b-instant"]
 
+def is_bengali_script(text):
+    """Detect if text contains Bengali Unicode characters."""
+    return bool(re.search(r"[\u0980-\u09FF]", text))
+
 def pre_clean_raw_title(title):
     cleaned = re.sub(r"<[^>]+>", "", title)
     patterns = [r"\[.*?\]", r"\(.*?\)", r"\|.*$", r"-.*$", r"^\s*[:\-\–\—]\s*"]
@@ -70,35 +79,54 @@ def pre_clean_raw_title(title):
         cleaned = re.sub(p, "", cleaned)
     return cleaned.strip()
 
-def clean_title_or_translate(title):
-    cleaned_input = pre_clean_raw_title(title)
+def get_box1_caption_title(raw_title):
+    """Box 1: Must always be in Bengali (native if already Bangla, else translated)."""
+    cleaned = pre_clean_raw_title(raw_title)
+    if is_bengali_script(cleaned):
+        return cleaned
+    
     models = get_valid_chat_models()
-    prompt = f"""You are a professional headline editor for a top digital news outlet.
-Transform this news title into a sharp, active headline strictly between 7 to 11 words.
-
-Rules:
-1. Retain the exact language of the original title (if Bengali, write punchy Bengali; if English, write punchy English).
-2. Never include quotes, asterisks, brackets, or source attribution.
-3. Keep it factually accurate and impactful.
-4. Output the headline text ONLY with no preamble.
-
-Original Title:
-{cleaned_input}"""
-
+    prompt = f"Translate this news title into natural, professional Bengali headline (maximum 10-12 words). Output Bengali ONLY:\n\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=60,
-                temperature=0.3
+                temperature=0.2
             )
-            headline = res.choices[0].message.content.strip().replace('"', '').replace("'", "")
-            if 15 <= len(headline) <= 120 and not headline.replace(".", "").isdigit():
-                return headline
+            out = res.choices[0].message.content.strip().replace('"', '')
+            if len(out) > 3:
+                return out
         except Exception:
             continue
-    return cleaned_input[:85]
+    return cleaned
+
+def get_box3_card_headline(raw_title):
+    """
+    Box 3: If original is in Bengali, keep it Bengali.
+    If original is in any other language, keep it in clean, standard English.
+    """
+    cleaned = pre_clean_raw_title(raw_title)
+    if is_bengali_script(cleaned):
+        return cleaned
+    
+    models = get_valid_chat_models()
+    prompt = f"Rewrite or translate this news title into a sharp, journalistic English headline (strictly 7 to 11 words). Do not transliterate into Hindi/Urdu. Output English headline ONLY:\n\n{cleaned}"
+    for model in models:
+        try:
+            res = groq_client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                max_tokens=60,
+                temperature=0.2
+            )
+            out = res.choices[0].message.content.strip().replace('"', '')
+            if len(out) > 3:
+                return out
+        except Exception:
+            continue
+    return cleaned[:85]
 
 def extract_image_url(entry):
     if 'media_content' in entry and len(entry.media_content) > 0:
@@ -130,7 +158,6 @@ def wrap_text(text, font, max_width, draw):
     return lines
 
 def ensure_font_downloaded():
-    """Downloads Google's Hind Siliguri Bold which natively supports BOTH Bengali and English Latin glyphs."""
     font_file = "HindSiliguri-Bold.ttf"
     if not os.path.exists(font_file):
         url = "https://raw.githubusercontent.com/google/fonts/main/ofl/hindsiliguri/HindSiliguri-Bold.ttf"
@@ -150,7 +177,6 @@ def get_universal_font(size=32):
             return ImageFont.truetype(local_font, size)
         except:
             pass
-    # Fallback paths on Ubuntu
     fallbacks = [
         "/usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf",
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
@@ -186,7 +212,7 @@ def create_dacca_card(image_url, headline, source_name):
             aspect = h_logo.width / h_logo.height
             h_logo = h_logo.resize((int(52 * aspect), 52), Image.Resampling.LANCZOS)
             card.paste(h_logo, (50, 42))
-        except Exception as e:
+        except Exception:
             draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
     else:
         draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
@@ -196,14 +222,14 @@ def create_dacca_card(image_url, headline, source_name):
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
     draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 52), today_str, fill="#9ca3af", font=font_date)
 
-    # 2. Headline
+    # 2. Box 3: Headline on Canvas
     wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
     text_y = 125
     for line in wrapped_lines[:3]:
         draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 74
 
-    # 3. Center Photo
+    # 3. Middle News Image
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
@@ -225,11 +251,11 @@ def create_dacca_card(image_url, headline, source_name):
     except Exception as e:
         print(f"News image process fallback: {e}")
 
-    # 4. Footer: Left Side VIA Source
+    # 4. Footer: Source Attribution
     footer_y = image_top + image_height + 40
     draw.text((50, footer_y + 12), f"VIA - {source_name}", fill="#e5e7eb", font=font_footer)
 
-    # 5. Footer: Right Side Corner Logo
+    # 5. Footer: Watermark Logo
     logo_path = get_asset_path("logo")
     if logo_path:
         try:
@@ -260,17 +286,6 @@ def post_facebook_feed(image_path, caption):
         print("Facebook Feed Response:", res)
         return res
 
-def post_facebook_comment(post_id, link):
-    if not post_id:
-        return
-    comment_url = f"https://graph.facebook.com/v20.0/{post_id}/comments"
-    payload = {
-        "message": f"বিস্তারিত পড়তে ভিজিট করুন:\n{link}",
-        "access_token": ACCESS_TOKEN
-    }
-    res = requests.post(comment_url, data=payload).json()
-    print("Facebook Comment Response:", res)
-
 def post_facebook_story(image_path):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
     with open(image_path, "rb") as f:
@@ -291,7 +306,6 @@ def post_instagram_feed(image_url, caption):
     res = requests.post(create_url, data={"image_url": image_url, "caption": caption, "access_token": ACCESS_TOKEN}).json()
     creation_id = res.get("id")
     if not creation_id:
-        print(f"IG Feed Media creation failed: {res}")
         return None
     time.sleep(10)
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
@@ -309,7 +323,6 @@ def post_instagram_story(image_url):
     res = requests.post(create_url, data=payload).json()
     creation_id = res.get("id")
     if not creation_id:
-        print(f"IG Story Media creation failed: {res}")
         return
     time.sleep(10)
     publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
@@ -324,38 +337,36 @@ def main():
             for entry in parsed.entries:
                 if entry.link not in posted:
                     print(f"Processing candidate: {entry.title}")
-                    headline = clean_title_or_translate(entry.title)
+                    
+                    # Box 1: Always Bengali (native or translated)
+                    caption_headline_bn = get_box1_caption_title(entry.title)
+                    
+                    # Box 3: Bengali if native, else English
+                    card_headline = get_box3_card_headline(entry.title)
+                    
                     img_url = extract_image_url(entry)
+                    card_path = create_dacca_card(img_url, card_headline, feed["name"])
                     
-                    card_path = create_dacca_card(img_url, headline, feed["name"])
-                    
-                    # 1. Post Feed to Facebook & Comment
-                    post_caption = f"{headline}\n\nবিস্তারিত লিংকে: {entry.link}"
+                    # Box 1 & Box 2: Feed Caption Format
+                    post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
                     print("Dispatching to Facebook Feed...")
-                    fb_res = post_facebook_feed(card_path, post_caption)
-                    fb_post_id = fb_res.get("post_id") or fb_res.get("id")
-                    
-                    try:
-                        post_facebook_comment(fb_post_id, entry.link)
-                    except Exception as ce:
-                        print(f"Comment note: {ce}")
+                    post_facebook_feed(card_path, post_caption)
 
-                    # 2. Post Story to Facebook
+                    # Facebook Story
                     print("Dispatching to Facebook Story...")
                     try:
                         post_facebook_story(card_path)
                     except Exception as err:
                         print(f"FB Story bypass: {err}")
 
-                    # 3. Post Feed & Story to Instagram
+                    # Instagram Feed & Story
                     if IG_USER_ID:
                         print("Hosting card asset for Instagram...")
                         catbox_url = upload_to_catbox(card_path)
-                        
                         if catbox_url and catbox_url.startswith("http"):
                             print("Dispatching to Instagram Feed...")
                             try:
-                                post_instagram_feed(catbox_url, f"{headline}\n\nVia: {feed['name']}\n\n#news #breakingnews #bangladesh #dacca")
+                                post_instagram_feed(catbox_url, f"{card_headline}\n\nVia: {feed['name']}\n\n#news #breakingnews #bangladesh #dacca")
                             except Exception as err:
                                 print(f"IG Feed bypass: {err}")
 
@@ -365,7 +376,6 @@ def main():
                             except Exception as err:
                                 print(f"IG Story bypass: {err}")
 
-                    # Save state immediately after successful post
                     posted.append(entry.link)
                     save_posted_urls(posted)
                     return
