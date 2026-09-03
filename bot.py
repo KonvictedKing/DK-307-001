@@ -95,7 +95,7 @@ def get_box1_caption_title(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Translate this news title into natural, professional Bengali headline (maximum 10-12 words). Output Bengali ONLY:\n\n{cleaned}"
+    prompt = f"Translate this headline into clear, natural Bengali. Output Bengali text ONLY with no quotes:\n\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
@@ -104,7 +104,7 @@ def get_box1_caption_title(raw_title):
                 max_tokens=60,
                 temperature=0.2
             )
-            out = res.choices[0].message.content.strip().replace('"', '')
+            out = res.choices[0].message.content.strip().replace('"', '').replace("'", "")
             if len(out) > 3:
                 return out
         except Exception:
@@ -117,7 +117,7 @@ def get_box3_card_headline(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Rewrite or translate this news title into a sharp, journalistic English headline (strictly 7 to 11 words). Do not transliterate into Hindi/Urdu. Output English headline ONLY:\n\n{cleaned}"
+    prompt = f"Rewrite this headline into a sharp, journalistic English headline (7 to 11 words). Output English ONLY with no quotes or preamble:\n\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
@@ -126,7 +126,7 @@ def get_box3_card_headline(raw_title):
                 max_tokens=60,
                 temperature=0.2
             )
-            out = res.choices[0].message.content.strip().replace('"', '')
+            out = res.choices[0].message.content.strip().replace('"', '').replace("'", "")
             if len(out) > 3:
                 return out
         except Exception:
@@ -134,16 +134,26 @@ def get_box3_card_headline(raw_title):
     return cleaned[:85]
 
 def extract_image_url(entry):
+    # Check media:content
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url:
             return url
+
+    # Check enclosures
     if 'enclosures' in entry and len(entry.enclosures) > 0:
         url = entry.enclosures[0].get('href')
         if url:
             return url
-    safe_prompt = urllib.parse.quote(entry.title[:80])
-    return f"https://image.pollinations.ai/prompt/{safe_prompt}?width=1080&height=720&nologo=true"
+
+    # Check media_thumbnail
+    if 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
+        url = entry.media_thumbnail[0].get('url')
+        if url:
+            return url
+
+    # Safe placeholder image instead of unfiltered AI generation
+    return "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1080&q=80"
 
 def wrap_text(text, font, max_width, draw):
     lines = []
@@ -238,7 +248,7 @@ def create_dacca_card(image_url, headline, source_name):
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
-        resp = requests.get(image_url, timeout=12)
+        resp = requests.get(image_url, timeout=12, headers={"User-Agent": "Mozilla/5.0"})
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
         target_ratio = (width - 100) / image_height
         raw_ratio = raw_img.width / raw_img.height
@@ -255,6 +265,7 @@ def create_dacca_card(image_url, headline, source_name):
         card.paste(resized, (50, image_top))
     except Exception as e:
         print(f"News image process fallback: {e}")
+        draw.rectangle([(50, image_top), (width - 50, image_top + image_height)], fill="#1f2937")
 
     # 4. Footer Source
     footer_y = image_top + image_height + 40
@@ -336,12 +347,22 @@ def post_instagram_story(image_url):
 
 def publish_article(entry, source_name):
     print(f"Publishing from {source_name}: {entry.title}")
-    caption_headline_bn = get_box1_caption_title(entry.title)
-    card_headline = get_box3_card_headline(entry.title)
     
+    # 1. Box 1: Guarantee non-empty Bengali title
+    caption_headline_bn = get_box1_caption_title(entry.title)
+    if not caption_headline_bn or len(caption_headline_bn.strip()) == 0:
+        caption_headline_bn = pre_clean_raw_title(entry.title)
+
+    # 2. Box 3: Headline on the Card
+    card_headline = get_box3_card_headline(entry.title)
+    if not card_headline or len(card_headline.strip()) == 0:
+        card_headline = pre_clean_raw_title(entry.title)
+    
+    # 3. Download verified image or clean neutral fallback
     img_url = extract_image_url(entry)
     card_path = create_dacca_card(img_url, card_headline, source_name)
     
+    # Format Caption: Box 1 + Box 2
     post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
     print(f"Dispatching {source_name} to Facebook Feed...")
     post_facebook_feed(card_path, post_caption)
@@ -368,7 +389,6 @@ def find_candidate_in_category(category_name, feed_list, state):
     total_feeds = len(feed_list)
     start_idx = state["indices"].get(category_name, 0) % total_feeds
     
-    # 1. Round-Robin traversal starting from the last index
     for i in range(total_feeds):
         current_idx = (start_idx + i) % total_feeds
         feed = feed_list[current_idx]
@@ -376,14 +396,12 @@ def find_candidate_in_category(category_name, feed_list, state):
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
                 if entry.link not in state["posted_urls"]:
-                    # Point index to next media outlet for the next cycle
                     state["indices"][category_name] = (current_idx + 1) % total_feeds
                     return entry, feed["name"]
         except Exception as err:
             print(f"Skipping {feed['name']}: {err}")
             continue
 
-    # 2. Advance index if no candidate was found in this category
     state["indices"][category_name] = (start_idx + 1) % total_feeds
     return None, None
 
@@ -409,11 +427,9 @@ def main():
     posts_done = 0
     all_feeds = NATIONAL_FEEDS + INTERNATIONAL_FEEDS + SPORTS_FEEDS
 
-    # Sequential slot execution: Slot 1 (National), Slot 2 (International), Slot 3 (Sports)
     for cat_name, feed_list in categories:
         entry, source_name = find_candidate_in_category(cat_name, feed_list, state)
         
-        # Fallback: Pick any fresh article available if this slot's category has no updates
         if not entry:
             print(f"No fresh articles in {cat_name}. Falling back to any available fresh news.")
             entry, source_name = find_any_fresh_article(all_feeds, state)
@@ -423,7 +439,7 @@ def main():
             state["posted_urls"].append(entry.link)
             save_state(state)
             posts_done += 1
-            time.sleep(15)  # 15s breathing buffer between Meta API calls
+            time.sleep(15)
 
     print(f"Cycle finished. Total published in this run: {posts_done}")
 
