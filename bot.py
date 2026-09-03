@@ -16,16 +16,16 @@ IG_USER_ID = os.environ.get("IG_USER_ID")
 ACCESS_TOKEN = os.environ.get("FB_ACCESS_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
-RSS_FEEDS = [
-    # --- Local & National News ---
+NATIONAL_FEEDS = [
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed"},
     {"name": "The Daily Star", "url": "https://www.thedailystar.net/frontpage/rss.xml"},
     {"name": "bdnews24.com", "url": "https://bangla.bdnews24.com/rss.xml"},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss/rss.xml"},
     {"name": "Dhaka Tribune", "url": "https://www.dhakatribune.com/feed"},
-    {"name": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml"},
+    {"name": "The Business Standard", "url": "https://www.tbsnews.net/rss.xml"}
+]
 
-    # --- International News ---
+INTERNATIONAL_FEEDS = [
     {"name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
     {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
     {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss"},
@@ -34,9 +34,10 @@ RSS_FEEDS = [
     {"name": "Al Jazeera", "url": "https://www.aljazeera.com/xml/rss/all.xml"},
     {"name": "Bloomberg", "url": "https://feeds.bloomberg.com/politics/news.rss"},
     {"name": "AP News", "url": "https://feedx.net/rss/apnews.xml"},
-    {"name": "Reuters", "url": "https://feedx.net/rss/reuters.xml"},
+    {"name": "Reuters", "url": "https://feedx.net/rss/reuters.xml"}
+]
 
-    # --- Sports News ---
+SPORTS_FEEDS = [
     {"name": "ESPN", "url": "https://www.espn.com/espn/rss/news"},
     {"name": "The Athletic", "url": "https://theathletic.com/rss-feed/"},
     {"name": "ESPNcricinfo", "url": "https://www.espncricinfo.com/rss/content/story/feeds/0.xml"},
@@ -48,18 +49,28 @@ RSS_FEEDS = [
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
-def load_posted_urls():
+def load_state():
+    state = {
+        "posted_urls": [],
+        "indices": {"national": 0, "international": 0, "sports": 0}
+    }
     if os.path.exists("posted_urls.json"):
-        with open("posted_urls.json", "r") as f:
-            try:
-                return json.load(f)
-            except:
-                return []
-    return []
+        try:
+            with open("posted_urls.json", "r") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    state["posted_urls"] = data
+                elif isinstance(data, dict):
+                    state["posted_urls"] = data.get("posted_urls", [])
+                    state["indices"] = data.get("indices", state["indices"])
+        except Exception as e:
+            print(f"Error loading state: {e}")
+    return state
 
-def save_posted_urls(urls):
+def save_state(state):
+    state["posted_urls"] = state["posted_urls"][-350:]
     with open("posted_urls.json", "w") as f:
-        json.dump(urls[-250:], f, indent=2)
+        json.dump(state, f, indent=2)
 
 def get_valid_chat_models():
     ignored = ["guard", "whisper", "embed", "tts", "safeguard"]
@@ -69,7 +80,6 @@ def get_valid_chat_models():
         return ["llama-3.1-8b-instant"]
 
 def is_bengali_script(text):
-    """Detect if text contains Bengali Unicode characters."""
     return bool(re.search(r"[\u0980-\u09FF]", text))
 
 def pre_clean_raw_title(title):
@@ -80,7 +90,6 @@ def pre_clean_raw_title(title):
     return cleaned.strip()
 
 def get_box1_caption_title(raw_title):
-    """Box 1: Must always be in Bengali (native if already Bangla, else translated)."""
     cleaned = pre_clean_raw_title(raw_title)
     if is_bengali_script(cleaned):
         return cleaned
@@ -103,10 +112,6 @@ def get_box1_caption_title(raw_title):
     return cleaned
 
 def get_box3_card_headline(raw_title):
-    """
-    Box 3: If original is in Bengali, keep it Bengali.
-    If original is in any other language, keep it in clean, standard English.
-    """
     cleaned = pre_clean_raw_title(raw_title)
     if is_bengali_script(cleaned):
         return cleaned
@@ -204,7 +209,7 @@ def create_dacca_card(image_url, headline, source_name):
     font_headline = get_universal_font(52)
     font_footer = get_universal_font(28)
 
-    # 1. Top Left: Header Banner Graphic
+    # 1. Top Left Header Logo
     header_path = get_asset_path("header_logo")
     if header_path:
         try:
@@ -217,19 +222,19 @@ def create_dacca_card(image_url, headline, source_name):
     else:
         draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_headline)
 
-    # 1.1 Top Right: Date
+    # 1.1 Top Right Date
     today_str = datetime.utcnow().strftime("%d %b %Y").upper()
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
     draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 52), today_str, fill="#9ca3af", font=font_date)
 
-    # 2. Box 3: Headline on Canvas
+    # 2. Box 3: Headline Canvas Text
     wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
     text_y = 125
     for line in wrapped_lines[:3]:
         draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 74
 
-    # 3. Middle News Image
+    # 3. Middle Photo
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
@@ -251,11 +256,11 @@ def create_dacca_card(image_url, headline, source_name):
     except Exception as e:
         print(f"News image process fallback: {e}")
 
-    # 4. Footer: Source Attribution
+    # 4. Footer Source
     footer_y = image_top + image_height + 40
     draw.text((50, footer_y + 12), f"VIA - {source_name}", fill="#e5e7eb", font=font_footer)
 
-    # 5. Footer: Watermark Logo
+    # 5. Footer Watermark
     logo_path = get_asset_path("logo")
     if logo_path:
         try:
@@ -329,59 +334,98 @@ def post_instagram_story(image_url):
     pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
     print("Instagram Story Response:", pub_res)
 
-def main():
-    posted = load_posted_urls()
-    for feed in RSS_FEEDS:
+def publish_article(entry, source_name):
+    print(f"Publishing from {source_name}: {entry.title}")
+    caption_headline_bn = get_box1_caption_title(entry.title)
+    card_headline = get_box3_card_headline(entry.title)
+    
+    img_url = extract_image_url(entry)
+    card_path = create_dacca_card(img_url, card_headline, source_name)
+    
+    post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
+    print(f"Dispatching {source_name} to Facebook Feed...")
+    post_facebook_feed(card_path, post_caption)
+
+    try:
+        post_facebook_story(card_path)
+    except Exception as err:
+        print(f"FB Story bypass: {err}")
+
+    if IG_USER_ID:
+        catbox_url = upload_to_catbox(card_path)
+        if catbox_url and catbox_url.startswith("http"):
+            try:
+                post_instagram_feed(catbox_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
+            except Exception as err:
+                print(f"IG Feed bypass: {err}")
+
+            try:
+                post_instagram_story(catbox_url)
+            except Exception as err:
+                print(f"IG Story bypass: {err}")
+
+def find_candidate_in_category(category_name, feed_list, state):
+    total_feeds = len(feed_list)
+    start_idx = state["indices"].get(category_name, 0) % total_feeds
+    
+    # 1. Round-Robin traversal starting from the last index
+    for i in range(total_feeds):
+        current_idx = (start_idx + i) % total_feeds
+        feed = feed_list[current_idx]
         try:
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
-                if entry.link not in posted:
-                    print(f"Processing candidate: {entry.title}")
-                    
-                    # Box 1: Always Bengali (native or translated)
-                    caption_headline_bn = get_box1_caption_title(entry.title)
-                    
-                    # Box 3: Bengali if native, else English
-                    card_headline = get_box3_card_headline(entry.title)
-                    
-                    img_url = extract_image_url(entry)
-                    card_path = create_dacca_card(img_url, card_headline, feed["name"])
-                    
-                    # Box 1 & Box 2: Feed Caption Format
-                    post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
-                    print("Dispatching to Facebook Feed...")
-                    post_facebook_feed(card_path, post_caption)
-
-                    # Facebook Story
-                    print("Dispatching to Facebook Story...")
-                    try:
-                        post_facebook_story(card_path)
-                    except Exception as err:
-                        print(f"FB Story bypass: {err}")
-
-                    # Instagram Feed & Story
-                    if IG_USER_ID:
-                        print("Hosting card asset for Instagram...")
-                        catbox_url = upload_to_catbox(card_path)
-                        if catbox_url and catbox_url.startswith("http"):
-                            print("Dispatching to Instagram Feed...")
-                            try:
-                                post_instagram_feed(catbox_url, f"{card_headline}\n\nVia: {feed['name']}\n\n#news #breakingnews #bangladesh #dacca")
-                            except Exception as err:
-                                print(f"IG Feed bypass: {err}")
-
-                            print("Dispatching to Instagram Story...")
-                            try:
-                                post_instagram_story(catbox_url)
-                            except Exception as err:
-                                print(f"IG Story bypass: {err}")
-
-                    posted.append(entry.link)
-                    save_posted_urls(posted)
-                    return
+                if entry.link not in state["posted_urls"]:
+                    # Point index to next media outlet for the next cycle
+                    state["indices"][category_name] = (current_idx + 1) % total_feeds
+                    return entry, feed["name"]
         except Exception as err:
             print(f"Skipping {feed['name']}: {err}")
             continue
+
+    # 2. Advance index if no candidate was found in this category
+    state["indices"][category_name] = (start_idx + 1) % total_feeds
+    return None, None
+
+def find_any_fresh_article(all_feeds, state):
+    for feed in all_feeds:
+        try:
+            parsed = feedparser.parse(feed["url"])
+            for entry in parsed.entries:
+                if entry.link not in state["posted_urls"]:
+                    return entry, feed["name"]
+        except Exception:
+            continue
+    return None, None
+
+def main():
+    state = load_state()
+    categories = [
+        ("national", NATIONAL_FEEDS),
+        ("international", INTERNATIONAL_FEEDS),
+        ("sports", SPORTS_FEEDS)
+    ]
+    
+    posts_done = 0
+    all_feeds = NATIONAL_FEEDS + INTERNATIONAL_FEEDS + SPORTS_FEEDS
+
+    # Sequential slot execution: Slot 1 (National), Slot 2 (International), Slot 3 (Sports)
+    for cat_name, feed_list in categories:
+        entry, source_name = find_candidate_in_category(cat_name, feed_list, state)
+        
+        # Fallback: Pick any fresh article available if this slot's category has no updates
+        if not entry:
+            print(f"No fresh articles in {cat_name}. Falling back to any available fresh news.")
+            entry, source_name = find_any_fresh_article(all_feeds, state)
+
+        if entry:
+            publish_article(entry, source_name)
+            state["posted_urls"].append(entry.link)
+            save_state(state)
+            posts_done += 1
+            time.sleep(15)  # 15s breathing buffer between Meta API calls
+
+    print(f"Cycle finished. Total published in this run: {posts_done}")
 
 if __name__ == "__main__":
     main()
