@@ -25,11 +25,14 @@
     "https://www.nytimes.com/athletic/7562948/2026/09/03/new-york-giants-cam-skattebo-retirement-injury/",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.aljazeera.com/news/2026/9/3/ten-injured-in-ukraine-as-kyiv-expects-talks-with-us-envoys-in-coming-days?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1552739.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1552739.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/pya16duq3b",
+    "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/mlb/article/can-the-brewers-turn-their-regular-season-success-into-october-glory-205822679.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 6,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
