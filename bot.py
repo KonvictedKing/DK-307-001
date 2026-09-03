@@ -73,14 +73,36 @@ def save_state(state):
         json.dump(state, f, indent=2)
 
 def get_valid_chat_models():
-    ignored = ["guard", "whisper", "embed", "tts", "safeguard"]
+    # Prefer standard instruction models over reasoning models that output <think>
+    preferred_models = ["llama-3.1-8b-instant", "llama-3.3-70b-versatile", "mixtral-8x7b-32768"]
     try:
-        return [m.id for m in groq_client.models.list().data if not any(k in m.id.lower() for k in ignored)]
-    except:
-        return ["llama-3.1-8b-instant"]
+        live_models = [m.id for m in groq_client.models.list().data]
+        valid = [m for m in preferred_models if m in live_models]
+        if valid:
+            return valid
+    except Exception:
+        pass
+    return ["llama-3.1-8b-instant"]
 
 def is_bengali_script(text):
     return bool(re.search(r"[\u0980-\u09FF]", text))
+
+def clean_ai_output(text):
+    """Strip <think> blocks, markdown asterisks, quotes, and preambles."""
+    if not text:
+        return ""
+    # Strip <think>...</think>
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL)
+    text = re.sub(r"<[^>]+>", "", text)
+    # Remove markdown headers and bolding
+    text = re.sub(r"[*#_`]", "", text)
+    # Remove common AI setup lines
+    text = re.sub(r"^(Headline:|Title:|Output:|Here is.*?:)", "", text, flags=re.IGNORECASE)
+    # Clean surrounding quotes and whitespace
+    text = text.replace('"', '').replace("'", "").strip()
+    # Take first line only to avoid multi-line commentary
+    lines = [line.strip() for line in text.split("\n") if line.strip()]
+    return lines[0] if lines else ""
 
 def pre_clean_raw_title(title):
     cleaned = re.sub(r"<[^>]+>", "", title)
@@ -95,16 +117,20 @@ def get_box1_caption_title(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Translate this headline into clear, natural Bengali. Output Bengali text ONLY with no quotes:\n\n{cleaned}"
+    prompt = f"Translate this headline into clear Bengali. Provide the Bengali headline ONLY without explanation or thinking:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
-                messages=[{"role": "user", "content": prompt}],
+                messages=[
+                    {"role": "system", "content": "You are a news translator. Respond ONLY with the final translation. Do not include thinking process or tags."},
+                    {"role": "user", "content": prompt}
+                ],
                 max_tokens=60,
                 temperature=0.2
             )
-            out = res.choices[0].message.content.strip().replace('"', '').replace("'", "")
+            raw_out = res.choices[0].message.content
+            out = clean_ai_output(raw_out)
             if len(out) > 3:
                 return out
         except Exception:
@@ -117,16 +143,20 @@ def get_box3_card_headline(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Rewrite this headline into a sharp, journalistic English headline (7 to 11 words). Output English ONLY with no quotes or preamble:\n\n{cleaned}"
+    prompt = f"Rewrite this headline into a sharp, journalistic English headline (7 to 11 words). Output the English headline ONLY without explanation or thinking:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
-                messages=[{"role": "user", "content": prompt}],
+                messages=[
+                    {"role": "system", "content": "You are a news copy editor. Respond ONLY with the final headline. Do not include thinking process or tags."},
+                    {"role": "user", "content": prompt}
+                ],
                 max_tokens=60,
                 temperature=0.2
             )
-            out = res.choices[0].message.content.strip().replace('"', '').replace("'", "")
+            raw_out = res.choices[0].message.content
+            out = clean_ai_output(raw_out)
             if len(out) > 3:
                 return out
         except Exception:
@@ -134,25 +164,21 @@ def get_box3_card_headline(raw_title):
     return cleaned[:85]
 
 def extract_image_url(entry):
-    # Check media:content
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url:
             return url
 
-    # Check enclosures
     if 'enclosures' in entry and len(entry.enclosures) > 0:
         url = entry.enclosures[0].get('href')
         if url:
             return url
 
-    # Check media_thumbnail
     if 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
         url = entry.media_thumbnail[0].get('url')
         if url:
             return url
 
-    # Safe placeholder image instead of unfiltered AI generation
     return "https://images.unsplash.com/photo-1585829365295-ab7cd400c167?w=1080&q=80"
 
 def wrap_text(text, font, max_width, draw):
@@ -348,7 +374,7 @@ def post_instagram_story(image_url):
 def publish_article(entry, source_name):
     print(f"Publishing from {source_name}: {entry.title}")
     
-    # 1. Box 1: Guarantee non-empty Bengali title
+    # 1. Box 1: Bengali caption headline (guaranteed no <think> traces)
     caption_headline_bn = get_box1_caption_title(entry.title)
     if not caption_headline_bn or len(caption_headline_bn.strip()) == 0:
         caption_headline_bn = pre_clean_raw_title(entry.title)
@@ -358,11 +384,11 @@ def publish_article(entry, source_name):
     if not card_headline or len(card_headline.strip()) == 0:
         card_headline = pre_clean_raw_title(entry.title)
     
-    # 3. Download verified image or clean neutral fallback
+    # 3. Photo & Canvas Card
     img_url = extract_image_url(entry)
     card_path = create_dacca_card(img_url, card_headline, source_name)
     
-    # Format Caption: Box 1 + Box 2
+    # Caption Format: Box 1 + Box 2
     post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
     print(f"Dispatching {source_name} to Facebook Feed...")
     post_facebook_feed(card_path, post_caption)
