@@ -338,6 +338,18 @@ def upload_image_to_web(image_path):
         pass
 
     return None
+    
+def get_fb_image_url(photo_id):
+    try:
+        url = f"https://graph.facebook.com/v20.0/{photo_id}?fields=images&access_token={ACCESS_TOKEN}"
+        res = requests.get(url, timeout=10).json()
+        if "images" in res and len(res["images"]) > 0:
+            return res["images"][0]["source"]
+    except Exception as e:
+        print(f"Error fetching Meta CDN URL: {e}")
+    return None
+
+
 
 def post_facebook_feed(image_path, caption):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
@@ -428,31 +440,35 @@ def publish_article(entry, source_name, img_url):
     post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
     
     print(f"Dispatching {source_name} to Facebook...")
-    post_facebook_feed(card_path, post_caption)
+    fb_res = post_facebook_feed(card_path, post_caption)
+    fb_photo_id = fb_res.get("id") if isinstance(fb_res, dict) else None
+
     try:
         post_facebook_story(card_path)
     except Exception as err:
         print(f"FB Story bypass: {err}")
 
-    if IG_USER_ID:
-        print("Preparing Instagram delivery...")
-        feed_web_url = upload_image_to_web(card_path)
-        story_card_path = create_instagram_story_card(card_path)
-        story_web_url = upload_image_to_web(story_card_path)
+    if IG_USER_ID and fb_photo_id:
+        print("Fetching Meta CDN URL for Instagram...")
+        cdn_url = get_fb_image_url(fb_photo_id)
+        print(f"Meta CDN Image URL: {cdn_url}")
 
-        if feed_web_url:
+        if cdn_url:
             print("Posting to Instagram Feed...")
             try:
-                post_instagram_feed(feed_web_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
+                post_instagram_feed(cdn_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
             except Exception as err:
                 print(f"IG Feed error: {err}")
 
-        if story_web_url:
             print("Posting to Instagram Story...")
             try:
-                post_instagram_story(story_web_url)
+                post_instagram_story(cdn_url)
             except Exception as err:
                 print(f"IG Story error: {err}")
+        else:
+            print("Could not retrieve CDN URL from Facebook photo.")
+    else:
+        print(f"Skipping Instagram: IG_USER_ID={bool(IG_USER_ID)}, fb_photo_id={bool(fb_photo_id)}")
 
 def find_candidate_in_category(category_name, feed_list, state):
     total_feeds = len(feed_list)
