@@ -31,11 +31,14 @@
     "https://sports.yahoo.com/mlb/article/can-the-brewers-turn-their-regular-season-success-into-october-glory-205822679.html",
     "https://www.thedailystar.net/news/bangladesh/news/need-1-week-assess-situation-3076976",
     "https://www.bbc.com/bengali/articles/c1dl4d4d6l3o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/news/12040/13580984/gianni-infantino-latest-fifa-accuses-uefa-of-launching-a-smear-campaign-after-legal-cases-filed-in-american-courts"
+    "https://www.skysports.com/football/news/12040/13580984/gianni-infantino-latest-fifa-accuses-uefa-of-launching-a-smear-campaign-after-legal-cases-filed-in-american-courts",
+    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://www.nytimes.com/athletic/7563590/2026/09/03/cowboys-von-miller-jersey-number-40/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 0,
+    "international": 3,
+    "sports": 2
   }
 }
