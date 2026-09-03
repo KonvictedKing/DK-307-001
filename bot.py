@@ -220,7 +220,7 @@ def get_universal_font(size=32):
     if local_font:
         try:
             return ImageFont.truetype(local_font, size)
-        except:
+        except Exception:
             pass
     fallbacks = [
         "/usr/share/fonts/truetype/noto/NotoSansBengali-Bold.ttf",
@@ -230,7 +230,7 @@ def get_universal_font(size=32):
         if os.path.exists(fb):
             try:
                 return ImageFont.truetype(fb, size)
-            except:
+            except Exception:
                 continue
     return ImageFont.load_default()
 
@@ -317,10 +317,8 @@ def create_dacca_card(image_url, headline, source_name):
     return output_path
 
 def create_instagram_story_card(feed_card_path):
-    """Pads the 4:5 card into 1080x1920 (9:16) specifically required by Instagram Stories."""
     story_bg = Image.new("RGB", (1080, 1920), color="#000000")
     feed_card = Image.open(feed_card_path).convert("RGB")
-    # Paste centered vertically
     y_offset = (1920 - 1350) // 2
     story_bg.paste(feed_card, (0, y_offset))
     story_path = "final_story_card.jpg"
@@ -328,8 +326,6 @@ def create_instagram_story_card(feed_card_path):
     return story_path
 
 def upload_image_to_web(image_path):
-    """Uploads with multiple fallbacks so Meta's crawler never gets blocked."""
-    # Attempt 1: Catbox
     try:
         with open(image_path, "rb") as f:
             res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=15)
@@ -339,7 +335,6 @@ def upload_image_to_web(image_path):
     except Exception as e:
         print(f"Catbox failed: {e}")
 
-    # Attempt 2: Litterbox (Temporary 1-hour fast host)
     try:
         with open(image_path, "rb") as f:
             res = requests.post("https://litterbox.catbox.moe/resources/internals/api.php", data={"reqtype": "fileupload", "time": "1h"}, files={"fileToUpload": f}, timeout=15)
@@ -376,7 +371,6 @@ def post_facebook_story(image_path):
             print("Facebook Story Response:", story_res)
 
 def wait_for_ig_container(creation_id):
-    """Polls Meta until container status is FINISHED."""
     status_url = f"https://graph.facebook.com/v20.0/{creation_id}?fields=status_code&access_token={ACCESS_TOKEN}"
     for _ in range(8):
         time.sleep(5)
@@ -437,11 +431,9 @@ def publish_article(entry, source_name, img_url):
     caption_headline_bn = get_box1_caption_title(entry.title)
     card_headline = get_box3_card_headline(entry.title)
     
-    # 1. Create standard 4:5 Feed card
     card_path = create_dacca_card(img_url, card_headline, source_name)
     post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
     
-    # 2. Facebook Feed & Story
     print(f"Dispatching {source_name} to Facebook...")
     post_facebook_feed(card_path, post_caption)
     try:
@@ -449,13 +441,9 @@ def publish_article(entry, source_name, img_url):
     except Exception as err:
         print(f"FB Story bypass: {err}")
 
-    # 3. Instagram Feed & Story
     if IG_USER_ID:
         print("Preparing Instagram delivery...")
-        # Upload 4:5 card for Feed
         feed_web_url = upload_image_to_web(card_path)
-        
-        # Build 9:16 padded card for IG Story & Upload
         story_card_path = create_instagram_story_card(card_path)
         story_web_url = upload_image_to_web(story_card_path)
 
@@ -507,4 +495,20 @@ def find_any_fresh_article(all_feeds, state):
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
                 clean_title = pre_clean_raw_title(entry.title)
-   
+                if len(clean_title.split()) < 3:
+                    continue
+
+                if entry.link not in state["posted_urls"]:
+                    img_url = extract_image_url(entry)
+                    if img_url:
+                        return entry, feed["name"], img_url
+        except Exception:
+            continue
+    return None, None, None
+
+def main():
+    state = load_state()
+    categories = [
+        ("national", NATIONAL_FEEDS),
+        ("international", INTERNATIONAL_FEEDS),
+        ("sports", SPORT
