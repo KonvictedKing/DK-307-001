@@ -150,7 +150,7 @@ def get_box3_card_headline(raw_title):
         except Exception:
             continue
     return cleaned[:85]
-    def extract_image_url(entry):
+def extract_image_url(entry):
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url and not url.endswith(('.svg', '.gif')):
@@ -172,7 +172,7 @@ def get_box3_card_headline(raw_title):
         return img_match.group(1)
 
     try:
-        page_resp = requests.get(entry.link, timeout=5, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        page_resp = requests.get(entry.link, timeout=5, headers={"User-Agent": "Mozilla/5.0"})
         if page_resp.status_code == 200:
             og_match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](https?://[^"\']+)["\']', page_resp.text, re.IGNORECASE)
             if not og_match:
