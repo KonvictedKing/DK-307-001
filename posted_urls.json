@@ -19,11 +19,14 @@
     "https://sports.yahoo.com/articles/preview-st-mirren-vs-celtic-191000630.html",
     "https://www.prothomalo.com/bangladesh/ks9sgjbwxr",
     "https://www.nytimes.com/2026/09/03/world/europe/russia-ukraine-escalation.html",
-    "https://www.skysports.com/tennis/news/12040/13580916/us-open-carlos-alcaraz-planning-more-breaks-in-impossible-tennis-schedule-after-more-than-four-months-out-with-a-wrist-injury"
+    "https://www.skysports.com/tennis/news/12040/13580916/us-open-carlos-alcaraz-planning-more-breaks-in-impossible-tennis-schedule-after-more-than-four-months-out-with-a-wrist-injury",
+    "https://www.thedailystar.net/rohingya-influx/news/rohingya-genocide-case-proceed-3076971",
+    "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach",
+    "https://www.nytimes.com/athletic/7562948/2026/09/03/new-york-giants-cam-skattebo-retirement-injury/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
