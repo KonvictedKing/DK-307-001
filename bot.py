@@ -50,10 +50,7 @@ SPORTS_FEEDS = [
 groq_client = Groq(api_key=GROQ_API_KEY)
 
 def load_state():
-    state = {
-        "posted_urls": [],
-        "indices": {"national": 0, "international": 0, "sports": 0}
-    }
+    state = {"posted_urls": [], "indices": {"national": 0, "international": 0, "sports": 0}}
     if os.path.exists("posted_urls.json"):
         try:
             with open("posted_urls.json", "r") as f:
@@ -110,13 +107,13 @@ def get_box1_caption_title(raw_title):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Translate the meaning of this news into 1 short Bengali sentence/headline. Return ONLY pure Bengali text. No English words:\n{cleaned}"
+    prompt = f"Translate the meaning of this news into 1 short Bengali headline. Return ONLY pure Bengali script without quotes:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "You are a professional Bengali news translator. Respond ONLY in Bengali script."},
+                    {"role": "system", "content": "You are a professional Bengali news translator. Return only Bengali script."},
                     {"role": "user", "content": prompt}
                 ],
                 max_tokens=60,
@@ -270,7 +267,7 @@ def create_dacca_card(image_url, headline, source_name):
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
     draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 52), today_str, fill="#9ca3af", font=font_date)
 
-    # 2. Box 3: Headline Canvas Text
+    # 2. Headline Canvas Text
     wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
     text_y = 125
     for line in wrapped_lines[:3]:
@@ -281,7 +278,7 @@ def create_dacca_card(image_url, headline, source_name):
     image_top = max(text_y + 30, 360)
     image_height = 840
     try:
-        resp = requests.get(image_url, timeout=12, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"})
+        resp = requests.get(image_url, timeout=12, headers={"User-Agent": "Mozilla/5.0"})
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
         target_ratio = (width - 100) / image_height
         raw_ratio = raw_img.width / raw_img.height
@@ -319,14 +316,40 @@ def create_dacca_card(image_url, headline, source_name):
     card.save(output_path, "JPEG", quality=95)
     return output_path
 
-def upload_to_catbox(image_path):
+def create_instagram_story_card(feed_card_path):
+    """Pads the 4:5 card into 1080x1920 (9:16) specifically required by Instagram Stories."""
+    story_bg = Image.new("RGB", (1080, 1920), color="#000000")
+    feed_card = Image.open(feed_card_path).convert("RGB")
+    # Paste centered vertically
+    y_offset = (1920 - 1350) // 2
+    story_bg.paste(feed_card, (0, y_offset))
+    story_path = "final_story_card.jpg"
+    story_bg.save(story_path, "JPEG", quality=95)
+    return story_path
+
+def upload_image_to_web(image_path):
+    """Uploads with multiple fallbacks so Meta's crawler never gets blocked."""
+    # Attempt 1: Catbox
     try:
         with open(image_path, "rb") as f:
-            res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=20)
-            return res.text.strip()
+            res = requests.post("https://catbox.moe/user/api.php", data={"reqtype": "fileupload"}, files={"fileToUpload": f}, timeout=15)
+            url = res.text.strip()
+            if url.startswith("http"):
+                return url
     except Exception as e:
-        print(f"Catbox upload failed: {e}")
-        return None
+        print(f"Catbox failed: {e}")
+
+    # Attempt 2: Litterbox (Temporary 1-hour fast host)
+    try:
+        with open(image_path, "rb") as f:
+            res = requests.post("https://litterbox.catbox.moe/resources/internals/api.php", data={"reqtype": "fileupload", "time": "1h"}, files={"fileToUpload": f}, timeout=15)
+            url = res.text.strip()
+            if url.startswith("http"):
+                return url
+    except Exception as e:
+        print(f"Litterbox failed: {e}")
+
+    return None
 
 def post_facebook_feed(image_path, caption):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
@@ -343,12 +366,8 @@ def post_facebook_feed(image_path, caption):
 
 def post_facebook_story(image_path):
     url = f"https://graph.facebook.com/v20.0/{PAGE_ID}/photos"
+    payload = {"published": "false", "temporary": "true", "access_token": ACCESS_TOKEN}
     with open(image_path, "rb") as f:
-        payload = {
-            "published": "false",
-            "temporary": "true",
-            "access_token": ACCESS_TOKEN
-        }
         res = requests.post(url, files={"source": f}, data=payload).json()
         photo_id = res.get("id")
         if photo_id:
@@ -356,9 +375,22 @@ def post_facebook_story(image_path):
             story_res = requests.post(story_url, data={"photo_id": photo_id, "access_token": ACCESS_TOKEN}).json()
             print("Facebook Story Response:", story_res)
 
+def wait_for_ig_container(creation_id):
+    """Polls Meta until container status is FINISHED."""
+    status_url = f"https://graph.facebook.com/v20.0/{creation_id}?fields=status_code&access_token={ACCESS_TOKEN}"
+    for _ in range(8):
+        time.sleep(5)
+        res = requests.get(status_url).json()
+        status = res.get("status_code")
+        if status == "FINISHED":
+            return True
+        if status == "ERROR":
+            print(f"Instagram container failed status: {res}")
+            return False
+    return True
+
 def post_instagram_feed(image_url, caption):
     if not IG_USER_ID:
-        print("Instagram skipping: IG_USER_ID not provided.")
         return None
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
     payload = {
@@ -367,38 +399,37 @@ def post_instagram_feed(image_url, caption):
         "access_token": ACCESS_TOKEN
     }
     res = requests.post(create_url, data=payload).json()
-    print("IG Media Container Response:", res)
+    print("IG Feed Media Container Response:", res)
     creation_id = res.get("id")
     if not creation_id:
         return None
 
-    time.sleep(15)
+    if wait_for_ig_container(creation_id):
+        publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
+        pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
+        print("Instagram Feed Publish Response:", pub_res)
+        return pub_res.get("id")
+    return None
 
-    publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
-    pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
-    print("Instagram Feed Publish Response:", pub_res)
-    return pub_res.get("id")
-
-def post_instagram_story(image_url):
+def post_instagram_story(story_image_url):
     if not IG_USER_ID:
         return
     create_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media"
     payload = {
-        "image_url": image_url,
+        "image_url": story_image_url,
         "media_type": "STORIES",
         "access_token": ACCESS_TOKEN
     }
     res = requests.post(create_url, data=payload).json()
-    print("IG Story Container Response:", res)
+    print("IG Story Media Container Response:", res)
     creation_id = res.get("id")
     if not creation_id:
         return
 
-    time.sleep(15)
-
-    publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
-    pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
-    print("Instagram Story Publish Response:", pub_res)
+    if wait_for_ig_container(creation_id):
+        publish_url = f"https://graph.facebook.com/v20.0/{IG_USER_ID}/media_publish"
+        pub_res = requests.post(publish_url, data={"creation_id": creation_id, "access_token": ACCESS_TOKEN}).json()
+        print("Instagram Story Publish Response:", pub_res)
 
 def publish_article(entry, source_name, img_url):
     print(f"Publishing from {source_name}: {entry.title}")
@@ -406,26 +437,39 @@ def publish_article(entry, source_name, img_url):
     caption_headline_bn = get_box1_caption_title(entry.title)
     card_headline = get_box3_card_headline(entry.title)
     
+    # 1. Create standard 4:5 Feed card
     card_path = create_dacca_card(img_url, card_headline, source_name)
     post_caption = f"{caption_headline_bn}\n\nবিস্তারিত লিংকে:\n{entry.link}"
     
-    print(f"Dispatching {source_name} to Facebook Feed...")
+    # 2. Facebook Feed & Story
+    print(f"Dispatching {source_name} to Facebook...")
     post_facebook_feed(card_path, post_caption)
-
     try:
         post_facebook_story(card_path)
     except Exception as err:
         print(f"FB Story bypass: {err}")
 
+    # 3. Instagram Feed & Story
     if IG_USER_ID:
-        catbox_url = upload_to_catbox(card_path)
-        if catbox_url and catbox_url.startswith("http"):
+        print("Preparing Instagram delivery...")
+        # Upload 4:5 card for Feed
+        feed_web_url = upload_image_to_web(card_path)
+        
+        # Build 9:16 padded card for IG Story & Upload
+        story_card_path = create_instagram_story_card(card_path)
+        story_web_url = upload_image_to_web(story_card_path)
+
+        if feed_web_url:
+            print("Posting to Instagram Feed...")
             try:
-                post_instagram_feed(catbox_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
+                post_instagram_feed(feed_web_url, f"{card_headline}\n\nVia: {source_name}\n\n#news #breakingnews #bangladesh #dacca")
             except Exception as err:
                 print(f"IG Feed error: {err}")
+
+        if story_web_url:
+            print("Posting to Instagram Story...")
             try:
-                post_instagram_story(catbox_url)
+                post_instagram_story(story_web_url)
             except Exception as err:
                 print(f"IG Story error: {err}")
 
@@ -463,44 +507,4 @@ def find_any_fresh_article(all_feeds, state):
             parsed = feedparser.parse(feed["url"])
             for entry in parsed.entries:
                 clean_title = pre_clean_raw_title(entry.title)
-                if len(clean_title.split()) < 3:
-                    continue
-
-                if entry.link not in state["posted_urls"]:
-                    img_url = extract_image_url(entry)
-                    if img_url:
-                        return entry, feed["name"], img_url
-        except Exception:
-            continue
-    return None, None, None
-
-def main():
-    state = load_state()
-    categories = [
-        ("national", NATIONAL_FEEDS),
-        ("international", INTERNATIONAL_FEEDS),
-        ("sports", SPORTS_FEEDS)
-    ]
-    
-    posts_done = 0
-    all_feeds = NATIONAL_FEEDS + INTERNATIONAL_FEEDS + SPORTS_FEEDS
-
-    for cat_name, feed_list in categories:
-        entry, source_name, img_url = find_candidate_in_category(cat_name, feed_list, state)
-        
-        if not entry:
-            print(f"No fresh articles in {cat_name}. Falling back to any available fresh news with photos.")
-            entry, source_name, img_url = find_any_fresh_article(all_feeds, state)
-
-        if entry and img_url:
-            publish_article(entry, source_name, img_url)
-            state["posted_urls"].append(entry.link)
-            save_state(state)
-            posts_done += 1
-            time.sleep(15)
-
-    print(f"Cycle finished. Total published in this run: {posts_done}")
-
-if __name__ == "__main__":
-    main()
-            
+   
