@@ -46,11 +46,14 @@
     "https://www.skysports.com/racing/news/12040/13580489/today-on-sky-sports-racing-ascot-bangor-on-dee-and-worcester",
     "https://www.prothomalo.com/entertainment/dhallywood/ijimp1dabs",
     "https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-6-scores-results/OX1LD4qiBxTH/"
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-6-scores-results/OX1LD4qiBxTH/",
+    "https://www.thedailystar.net/news/bangladesh/crime-justice/news/cu-sexual-assault-fingers-pointed-bcl-men-3076216",
+    "https://www.bbc.com/bengali/articles/c17j5ez5nkwo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1552805.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
