@@ -43,11 +43,14 @@
     "https://sports.yahoo.com/articles/hunter-brown-turned-maddening-inning-011056302.html",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.aljazeera.com/video/newsfeed/2026/9/4/aje-onl-nf_south-lebanon-residents-return-to-devastated-villages-040926?traffic_source=rss",
-    "https://www.skysports.com/racing/news/12040/13580489/today-on-sky-sports-racing-ascot-bangor-on-dee-and-worcester"
+    "https://www.skysports.com/racing/news/12040/13580489/today-on-sky-sports-racing-ascot-bangor-on-dee-and-worcester",
+    "https://www.prothomalo.com/entertainment/dhallywood/ijimp1dabs",
+    "https://www.bbc.co.uk/news/articles/c9dwjv96qyqo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-6-scores-results/OX1LD4qiBxTH/"
   ],
   "indices": {
-    "national": 0,
-    "international": 6,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
