@@ -2,7 +2,7 @@ name: Auto News Bot
 
 on:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '23 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -43,4 +43,3 @@ jobs:
           git commit -m "Update posted URLs" || exit 0
           git pull --rebase origin main
           git push origin main
-          
