@@ -49,11 +49,14 @@
     "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-6-scores-results/OX1LD4qiBxTH/",
     "https://www.thedailystar.net/news/bangladesh/crime-justice/news/cu-sexual-assault-fingers-pointed-bcl-men-3076216",
     "https://www.bbc.com/bengali/articles/c17j5ez5nkwo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1552805.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1552805.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
+    "https://www.cnn.com/collections/intl-trump-040223/",
+    "https://sports.yahoo.com/wnba/article/team-usas-kids-are-all-right-as-youth-movement-leads-dominant-effort-to-open-fiba-world-cup-155216620.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 0,
+    "international": 3,
+    "sports": 5
   }
 }
