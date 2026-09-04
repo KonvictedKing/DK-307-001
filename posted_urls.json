@@ -58,11 +58,14 @@
     "https://www.skysports.com/f1/news/12040/13581166/andrea-stella-says-allegations-from-alpine-chief-flavio-briatore-are-insulting-for-mclaren-after-court-rules-on-monaco-podium",
     "https://www.thedailystar.net/news/bangladesh/news/noab-hikes-newspaper-price-tk-2-jul-25-3076201",
     "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
-    "https://www.nytimes.com/athletic/live-blogs/ipswich-vs-liverpool-live-updates-premier-league-score-result/63pl0zobFXMK/"
+    "https://www.nytimes.com/athletic/live-blogs/ipswich-vs-liverpool-live-updates-premier-league-score-result/63pl0zobFXMK/",
+    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
+    "https://www.aljazeera.com/news/2026/9/4/costa-rican-president-signals-openness-to-domestic-us-military-operations?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1552843.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 0,
+    "international": 6,
+    "sports": 3
   }
 }
