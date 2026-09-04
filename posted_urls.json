@@ -37,11 +37,14 @@
     "https://www.nytimes.com/athletic/7563590/2026/09/03/cowboys-von-miller-jersey-number-40/",
     "https://www.prothomalo.com/world/asia/xun0wyv3kl",
     "https://www.nytimes.com/2026/09/03/world/europe/norway-russian-research-ship-arctic.html",
-    "https://www.cricinfo.com/ci/content/story/1552703.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1552703.html?ex_cid=OTC-RSS",
+    "https://www.thedailystar.net/news/bangladesh/news/wasfia-first-bangladeshi-conquer-k2-3076981",
+    "https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid",
+    "https://sports.yahoo.com/articles/hunter-brown-turned-maddening-inning-011056302.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
