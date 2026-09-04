@@ -52,11 +52,14 @@
     "https://www.cricinfo.com/ci/content/story/1552805.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://sports.yahoo.com/wnba/article/team-usas-kids-are-all-right-as-youth-movement-leads-dominant-effort-to-open-fiba-world-cup-155216620.html"
+    "https://sports.yahoo.com/wnba/article/team-usas-kids-are-all-right-as-youth-movement-leads-dominant-effort-to-open-fiba-world-cup-155216620.html",
+    "https://www.prothomalo.com/world/middle-east/moneehtla7",
+    "https://www.nytimes.com/2026/09/04/world/europe/russia-europe-nato-sabotage.html",
+    "https://www.skysports.com/f1/news/12040/13581166/andrea-stella-says-allegations-from-alpine-chief-flavio-briatore-are-insulting-for-mclaren-after-court-rules-on-monaco-podium"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
