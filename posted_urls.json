@@ -40,11 +40,14 @@
     "https://www.cricinfo.com/ci/content/story/1552703.html?ex_cid=OTC-RSS",
     "https://www.thedailystar.net/news/bangladesh/news/wasfia-first-bangladeshi-conquer-k2-3076981",
     "https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid",
-    "https://sports.yahoo.com/articles/hunter-brown-turned-maddening-inning-011056302.html"
+    "https://sports.yahoo.com/articles/hunter-brown-turned-maddening-inning-011056302.html",
+    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/4/aje-onl-nf_south-lebanon-residents-return-to-devastated-villages-040926?traffic_source=rss",
+    "https://www.skysports.com/racing/news/12040/13580489/today-on-sky-sports-racing-ascot-bangor-on-dee-and-worcester"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 0,
+    "international": 6,
+    "sports": 0
   }
 }
