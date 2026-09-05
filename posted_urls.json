@@ -16,11 +16,14 @@
     "https://sports.yahoo.com/articles/marotta-inter-many-scudetto-contenders-154000418.html",
     "https://www.prothomalo.com/bangladesh/district/7sfb8sz7bc",
     "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html",
-    "https://www.skysports.com/f1/news/12040/13581632/italian-gp-qualifying-pierre-gasly-claims-shock-first-pole-position-to-beat-george-russell-to-head-of-monza-grid-for-alpine"
+    "https://www.skysports.com/f1/news/12040/13581632/italian-gp-qualifying-pierre-gasly-claims-shock-first-pole-position-to-beat-george-russell-to-head-of-monza-grid-for-alpine",
+    "https://www.thedailystar.net/news/bangladesh/news/wasfia-first-bangladeshi-conquer-k2-3076981",
+    "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-7-scores-results/08YS0L9k7dYQ/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
