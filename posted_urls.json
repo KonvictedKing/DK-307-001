@@ -19,11 +19,14 @@
     "https://www.skysports.com/f1/news/12040/13581632/italian-gp-qualifying-pierre-gasly-claims-shock-first-pole-position-to-beat-george-russell-to-head-of-monza-grid-for-alpine",
     "https://www.thedailystar.net/news/bangladesh/news/wasfia-first-bangladeshi-conquer-k2-3076981",
     "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-7-scores-results/08YS0L9k7dYQ/"
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-7-scores-results/08YS0L9k7dYQ/",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.aljazeera.com/sports/2026/9/5/haaland-head-man-city-to-the-top-of-premier-league-with-win-over-coventry?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1552945.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 0,
+    "international": 6,
+    "sports": 3
   }
 }
