@@ -22,11 +22,14 @@
     "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-7-scores-results/08YS0L9k7dYQ/",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.aljazeera.com/sports/2026/9/5/haaland-head-man-city-to-the-top-of-premier-league-with-win-over-coventry?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1552945.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1552945.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/x8fy37j5j3",
+    "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/texas-state-vs-texas-live-193000611.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 6,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
