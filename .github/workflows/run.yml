@@ -2,8 +2,12 @@ name: Auto News Bot
 
 on:
   schedule:
-    - cron: '23 * * * *'
+    - cron: '15 * * * *'
+    - cron: '45 * * * *'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   run-bot:
