@@ -369,8 +369,8 @@ def post_facebook_feed(image_path, caption):
         print("Facebook Feed Public Response:", res)
         return res
 
-def post_facebook_comment(object_id, message):
-    url = f"https://graph.facebook.com/v20.0/{object_id}/comments"
+def post_facebook_comment(target_id, message):
+    url = f"https://graph.facebook.com/v20.0/{target_id}/comments"
     payload = {
         "message": message,
         "access_token": ACCESS_TOKEN
@@ -452,23 +452,32 @@ def post_instagram_story(story_image_url):
 def publish_article(entry, source_name, img_url):
     print(f"Publishing from {source_name}: {entry.title}")
     
-    caption_headline_bn = get_box1_caption_title(entry.title)
-    card_headline = get_box3_card_headline(entry.title)
+    caption_headline = pre_clean_raw_title(entry.title)
+    is_bn = is_bengali_script(caption_headline)
+    
+    if is_bn:
+        caption_title = get_box1_caption_title(entry.title)
+        card_headline = get_box3_card_headline(entry.title)
+        notice_text = "(বিস্তারিত প্রথম কমেন্টে)"
+        comment_text = f"সম্পূর্ণ প্রতিবেদনটি পড়তে ভিজিট করুন:\n{entry.link}"
+    else:
+        caption_title = caption_headline
+        card_headline = get_box3_card_headline(entry.title)
+        notice_text = "(Details in the first comment)"
+        comment_text = f"To read the full report, visit:\n{entry.link}"
     
     card_path = create_dacca_card(img_url, card_headline, source_name)
     
-    # Clean Facebook caption directing readers to first comment
-    post_caption = f"{caption_headline_bn}\n\n(বিস্তারিত প্রথম কমেন্টে)"
-    comment_text = f"সম্পূর্ণ প্রতিবেদনটি পড়তে ভিজিট করুন:\n{entry.link}"
+    post_caption = f"{caption_title}\n\n{notice_text}"
     
     print(f"Dispatching {source_name} to Facebook...")
     fb_res = post_facebook_feed(card_path, post_caption)
+    
     fb_photo_id = fb_res.get("id") if isinstance(fb_res, dict) else None
-    fb_post_id = fb_res.get("post_id") or fb_photo_id
-
-    # Post link in first comment only on Facebook
-    if fb_post_id:
-        post_facebook_comment(fb_post_id, comment_text)
+    
+    # Target fb_photo_id directly to avoid permission error code 200
+    if fb_photo_id:
+        post_facebook_comment(fb_photo_id, comment_text)
 
     try:
         post_facebook_story(card_path)
