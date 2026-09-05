@@ -64,11 +64,14 @@
     "https://www.cricinfo.com/ci/content/story/1552843.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/religion/islam/7kzhanc08i",
     "https://www.bbc.co.uk/news/articles/cpwlrj2je1po?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/every-hampton-player-drafted-oklahoma-010040249.html"
+    "https://sports.yahoo.com/articles/every-hampton-player-drafted-oklahoma-010040249.html",
+    "https://www.thedailystar.net/news/bangladesh/news/you-cannot-remain-silent-3076231",
+    "https://www.bbc.com/bengali/articles/c3eq59zevy9o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/tennis/news/12040/13581587/us-open-serena-and-venus-williams-suffer-agonising-defeat-to-maya-joint-and-chan-hao-ching-in-a-womens-doubles-first-round-epic"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
