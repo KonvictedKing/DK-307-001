@@ -1,7 +1,17 @@
-[
-  "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
-  "https://www.prothomalo.com/video/bangladesh/lzsyoj2jg6",
-  "https://www.skysports.com/rugby-union/live-blog/12040/13581796/south-africa-vs-new-zealand-rugby-score-updates-video-and-analysis-from-third-test-in-johannesburg",
-  "posted_urls",
-  "indices"
-]
+{
+  "posted_urls": [
+    "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
+    "https://www.prothomalo.com/video/bangladesh/lzsyoj2jg6",
+    "https://www.skysports.com/rugby-union/live-blog/12040/13581796/south-africa-vs-new-zealand-rugby-score-updates-video-and-analysis-from-third-test-in-johannesburg",
+    "posted_urls",
+    "indices",
+    "https://www.prothomalo.com/opinion/column/4n617z1we3",
+    "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/WJbZfKiKH5pb/"
+  ],
+  "indices": {
+    "national": 1,
+    "international": 1,
+    "sports": 2
+  }
+}
