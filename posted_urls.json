@@ -34,11 +34,14 @@
     "https://www.nytimes.com/athletic/live-blogs/clemson-vs-lsu-live-updates-college-football-score-result/AbvlbVd6ZSaq/",
     "https://www.prothomalo.com/world/fbcc7js8t7",
     "https://www.nytimes.com/2026/09/05/world/middleeast/huckabee-west-bank-settler-attacks.html",
-    "https://www.cricinfo.com/ci/content/story/1552881.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1552881.html?ex_cid=OTC-RSS",
+    "https://www.thedailystar.net/news/bangladesh/news/need-1-week-assess-situation-3076976",
+    "https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug",
+    "https://sports.yahoo.com/articles/rafael-devers-christian-koss-both-231848225.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
