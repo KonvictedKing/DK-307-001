@@ -13,11 +13,14 @@
     "https://www.cricinfo.com/ci/content/story/1552937.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://sports.yahoo.com/articles/marotta-inter-many-scudetto-contenders-154000418.html"
+    "https://sports.yahoo.com/articles/marotta-inter-many-scudetto-contenders-154000418.html",
+    "https://www.prothomalo.com/bangladesh/district/7sfb8sz7bc",
+    "https://www.nytimes.com/2026/09/05/world/asia/nepal-floods-chinese-worker-rescue.html",
+    "https://www.skysports.com/f1/news/12040/13581632/italian-gp-qualifying-pierre-gasly-claims-shock-first-pole-position-to-beat-george-russell-to-head-of-monza-grid-for-alpine"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
