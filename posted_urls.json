@@ -70,11 +70,14 @@
     "https://www.skysports.com/tennis/news/12040/13581587/us-open-serena-and-venus-williams-suffer-agonising-defeat-to-maya-joint-and-chan-hao-ching-in-a-womens-doubles-first-round-epic",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://cnn.it/411KYN7",
-    "https://www.nytimes.com/athletic/7567510/2026/09/05/new-f2-car-2027-f1/"
+    "https://www.nytimes.com/athletic/7567510/2026/09/05/new-f2-car-2027-f1/",
+    "https://www.prothomalo.com/bangladesh/district/mizrn106ii",
+    "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
+    "https://www.cricinfo.com/ci/content/story/1552936.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
