@@ -25,11 +25,14 @@
     "https://www.cricinfo.com/ci/content/story/1552945.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/x8fy37j5j3",
     "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/texas-state-vs-texas-live-193000611.html"
+    "https://sports.yahoo.com/articles/texas-state-vs-texas-live-193000611.html",
+    "https://www.thedailystar.net/rohingya-influx/news/rohingya-genocide-case-proceed-3076971",
+    "https://www.bbc.com/bengali/articles/cn8mzy4l8z1o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/hull-city-vs-aston-villa/report/559469"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
