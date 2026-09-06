@@ -76,11 +76,14 @@
     "https://sports.yahoo.com/articles/arsenal-women-weekly-round-brighton-193000621.html",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.aljazeera.com/news/2026/9/6/amazon-cargo-plane-crashes-in-us-while-landing-at-miami-airport?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13582221/kimi-antonelli-mercedes-driver-hailed-by-pundits-and-toto-wolff-after-remarkable-19th-to-first-italian-gp-comeback-win"
+    "https://www.skysports.com/f1/news/12040/13582221/kimi-antonelli-mercedes-driver-hailed-by-pundits-and-toto-wolff-after-remarkable-19th-to-first-italian-gp-comeback-win",
+    "https://www.prothomalo.com/world/middle-east/qb6fd2smpb",
+    "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/"
   ],
   "indices": {
-    "national": 0,
-    "international": 6,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
