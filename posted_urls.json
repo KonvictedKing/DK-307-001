@@ -79,11 +79,14 @@
     "https://www.skysports.com/f1/news/12040/13582221/kimi-antonelli-mercedes-driver-hailed-by-pundits-and-toto-wolff-after-remarkable-19th-to-first-italian-gp-comeback-win",
     "https://www.prothomalo.com/world/middle-east/qb6fd2smpb",
     "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/"
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/",
+    "https://www.thedailystar.net/news/bangladesh/politics/news/ecs-dialogue-parties-runs-snag-3075346",
+    "https://www.bbc.com/bengali/articles/cx2zewgn0kyo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1553120.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
