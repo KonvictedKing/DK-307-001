@@ -40,11 +40,14 @@
     "https://sports.yahoo.com/articles/rafael-devers-christian-koss-both-231848225.html",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.aljazeera.com/news/2026/9/6/german-company-launches-rocket-as-europe-enters-satellite-race?traffic_source=rss",
-    "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out"
+    "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out",
+    "https://www.prothomalo.com/fun/w7jkcfd4dv",
+    "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7568430/2026/09/05/hunter-rincon-hat-hunter-goodman-doug-eddings-umpire/"
   ],
   "indices": {
-    "national": 0,
-    "international": 6,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
