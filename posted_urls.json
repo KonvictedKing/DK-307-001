@@ -37,11 +37,14 @@
     "https://www.cricinfo.com/ci/content/story/1552881.html?ex_cid=OTC-RSS",
     "https://www.thedailystar.net/news/bangladesh/news/need-1-week-assess-situation-3076976",
     "https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug",
-    "https://sports.yahoo.com/articles/rafael-devers-christian-koss-both-231848225.html"
+    "https://sports.yahoo.com/articles/rafael-devers-christian-koss-both-231848225.html",
+    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
+    "https://www.aljazeera.com/news/2026/9/6/german-company-launches-rocket-as-europe-enters-satellite-race?traffic_source=rss",
+    "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 0,
+    "international": 6,
+    "sports": 0
   }
 }
