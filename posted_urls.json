@@ -49,11 +49,14 @@
     "https://www.cricinfo.com/ci/content/story/1553020.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://sports.yahoo.com/articles/astros-preserve-bullpen-reins-off-062517197.html"
+    "https://sports.yahoo.com/articles/astros-preserve-bullpen-reins-off-062517197.html",
+    "https://www.prothomalo.com/video/bangladesh/nt7okyz2qq",
+    "https://www.nytimes.com/2026/09/06/world/europe/afd-germany-election-ulrich-siegmund.html",
+    "https://www.skysports.com/cricket/live-blog/12040/13581569/england-vs-ireland-third-womens-odi-live-cricket-score-updates-video-and-analysis-from-final-match-of-series-in-worcester"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
