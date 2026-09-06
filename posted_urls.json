@@ -43,11 +43,14 @@
     "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out",
     "https://www.prothomalo.com/fun/w7jkcfd4dv",
     "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7568430/2026/09/05/hunter-rincon-hat-hunter-goodman-doug-eddings-umpire/"
+    "https://www.nytimes.com/athletic/7568430/2026/09/05/hunter-rincon-hat-hunter-goodman-doug-eddings-umpire/",
+    "https://www.thedailystar.net/news/bangladesh/crime-justice/news/cu-sexual-assault-fingers-pointed-bcl-men-3076216",
+    "https://www.bbc.com/bengali/articles/cp80yr4nx01o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1553020.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
