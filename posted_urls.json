@@ -52,11 +52,14 @@
     "https://sports.yahoo.com/articles/astros-preserve-bullpen-reins-off-062517197.html",
     "https://www.prothomalo.com/video/bangladesh/nt7okyz2qq",
     "https://www.nytimes.com/2026/09/06/world/europe/afd-germany-election-ulrich-siegmund.html",
-    "https://www.skysports.com/cricket/live-blog/12040/13581569/england-vs-ireland-third-womens-odi-live-cricket-score-updates-video-and-analysis-from-final-match-of-series-in-worcester"
+    "https://www.skysports.com/cricket/live-blog/12040/13581569/england-vs-ireland-third-womens-odi-live-cricket-score-updates-video-and-analysis-from-final-match-of-series-in-worcester",
+    "https://www.thedailystar.net/news/bangladesh/news/noab-hikes-newspaper-price-tk-2-jul-25-3076201",
+    "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach",
+    "https://www.nytimes.com/athletic/7569723/2026/09/06/lsu-football-lane-kiffin-clemson-debut/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
