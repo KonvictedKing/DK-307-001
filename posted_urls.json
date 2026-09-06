@@ -73,11 +73,14 @@
     "https://www.cricinfo.com/ci/content/story/1553119.html?ex_cid=OTC-RSS",
     "https://www.thedailystar.net/news/bangladesh/news/power-crisis-may-worsen-3075341",
     "https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid",
-    "https://sports.yahoo.com/articles/arsenal-women-weekly-round-brighton-193000621.html"
+    "https://sports.yahoo.com/articles/arsenal-women-weekly-round-brighton-193000621.html",
+    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
+    "https://www.aljazeera.com/news/2026/9/6/amazon-cargo-plane-crashes-in-us-while-landing-at-miami-airport?traffic_source=rss",
+    "https://www.skysports.com/f1/news/12040/13582221/kimi-antonelli-mercedes-driver-hailed-by-pundits-and-toto-wolff-after-remarkable-19th-to-first-italian-gp-comeback-win"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 0,
+    "international": 6,
+    "sports": 0
   }
 }
