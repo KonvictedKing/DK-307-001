@@ -67,11 +67,14 @@
     "https://www.skysports.com/darts/live-blog/12040/13582276/czech-darts-open-live-scores-updates-commentary-from-third-round-as-luke-littler-and-luke-humphries-in-action-in-prague",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://cnn.it/411KYN7",
-    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-chelsea-live-updates-premier-league-score-result/mfOHBqKbgnCY/"
+    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-chelsea-live-updates-premier-league-score-result/mfOHBqKbgnCY/",
+    "https://www.prothomalo.com/bangladesh/rw37ng1ppg",
+    "https://www.nytimes.com/live/2026/09/06/world/germany-election",
+    "https://www.cricinfo.com/ci/content/story/1553119.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
