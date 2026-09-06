@@ -70,11 +70,14 @@
     "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-chelsea-live-updates-premier-league-score-result/mfOHBqKbgnCY/",
     "https://www.prothomalo.com/bangladesh/rw37ng1ppg",
     "https://www.nytimes.com/live/2026/09/06/world/germany-election",
-    "https://www.cricinfo.com/ci/content/story/1553119.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553119.html?ex_cid=OTC-RSS",
+    "https://www.thedailystar.net/news/bangladesh/news/power-crisis-may-worsen-3075341",
+    "https://www.theguardian.com/world/2026/sep/03/victims-sue-south-african-government-sharpeville-massacre-apartheid",
+    "https://sports.yahoo.com/articles/arsenal-women-weekly-round-brighton-193000621.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
