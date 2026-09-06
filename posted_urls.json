@@ -64,11 +64,14 @@
     "https://sports.yahoo.com/college-football/breaking-news/article/division-iii-power-mount-union-loses-in-week-1-to-snap-85-game-regular-season-win-streak-that-dated-back-to-2016-141925160.html",
     "https://www.thedailystar.net/news/bangladesh/news/you-cannot-remain-silent-3076231",
     "https://www.bbc.co.uk/bengali/live/cq7701ygn5p1t?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/live-blog/12040/13582276/czech-darts-open-live-scores-updates-commentary-from-third-round-as-luke-littler-and-luke-humphries-in-action-in-prague"
+    "https://www.skysports.com/darts/live-blog/12040/13582276/czech-darts-open-live-scores-updates-commentary-from-third-round-as-luke-littler-and-luke-humphries-in-action-in-prague",
+    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
+    "https://cnn.it/411KYN7",
+    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-chelsea-live-updates-premier-league-score-result/mfOHBqKbgnCY/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 0,
+    "international": 3,
+    "sports": 2
   }
 }
