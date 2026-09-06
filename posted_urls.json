@@ -61,11 +61,14 @@
     "https://www.cricinfo.com/ci/content/story/1553064.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/sports/football/5ebdwcfh4t",
     "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/division-iii-power-mount-union-loses-in-week-1-to-snap-85-game-regular-season-win-streak-that-dated-back-to-2016-141925160.html"
+    "https://sports.yahoo.com/college-football/breaking-news/article/division-iii-power-mount-union-loses-in-week-1-to-snap-85-game-regular-season-win-streak-that-dated-back-to-2016-141925160.html",
+    "https://www.thedailystar.net/news/bangladesh/news/you-cannot-remain-silent-3076231",
+    "https://www.bbc.co.uk/bengali/live/cq7701ygn5p1t?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/darts/live-blog/12040/13582276/czech-darts-open-live-scores-updates-commentary-from-third-round-as-luke-littler-and-luke-humphries-in-action-in-prague"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
