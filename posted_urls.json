@@ -117,11 +117,14 @@
     "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-9-scores-results/I4xUk1nb0D9c/",
     "https://www.prothomalo.com/bangladesh/z2ggnk9ega",
     "https://www.nytimes.com/2026/09/07/world/europe/ukraine-russia-witkoff-kushner-trump.html",
-    "https://www.cricinfo.com/ci/content/story/1553204.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553204.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c93ek1yq4zno?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
+    "https://sports.yahoo.com/articles/kyle-whittingham-oklahoma-weve-got-214156757.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
