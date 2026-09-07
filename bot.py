@@ -18,6 +18,7 @@ GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
 
 NATIONAL_FEEDS = [
     {"name": "Prothom Alo", "url": "https://www.prothomalo.com/feed"},
+    {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
     {"name": "The Daily Star", "url": "https://www.thedailystar.net/frontpage/rss.xml"},
     {"name": "bdnews24.com", "url": "https://bangla.bdnews24.com/rss.xml"},
     {"name": "Banglanews24", "url": "https://www.banglanews24.com/rss/rss.xml"},
@@ -27,7 +28,6 @@ NATIONAL_FEEDS = [
 
 INTERNATIONAL_FEEDS = [
     {"name": "BBC News", "url": "https://feeds.bbci.co.uk/news/world/rss.xml"},
-    {"name": "BBC Bangla", "url": "https://feeds.bbci.co.uk/bengali/rss.xml"},
     {"name": "CNN", "url": "http://rss.cnn.com/rss/edition.rss"},
     {"name": "The New York Times", "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"},
     {"name": "The Guardian", "url": "https://www.theguardian.com/world/rss"},
