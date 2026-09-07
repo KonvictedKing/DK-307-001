@@ -111,11 +111,14 @@
     "https://sports.yahoo.com/fantasy/article/crowdsource-your-toughest-sitstart-decisions-with-swipe-the-starter-125534566.html",
     "https://www.prothomalo.com/politics/xavdms01ex",
     "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/tennis/live-blog/12040/13582595/us-open-live-scores-updates-news-and-results-from-new-york-with-naomi-osaka-iga-swiatek-coco-gauff-and-alexander-zverev-in-action"
+    "https://www.skysports.com/tennis/live-blog/12040/13582595/us-open-live-scores-updates-news-and-results-from-new-york-with-naomi-osaka-iga-swiatek-coco-gauff-and-alexander-zverev-in-action",
+    "https://www.bbc.com/bengali/articles/c14deg3vzrko?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-9-scores-results/I4xUk1nb0D9c/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
