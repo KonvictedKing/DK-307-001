@@ -108,11 +108,14 @@
     "https://www.cricinfo.com/ci/content/story/1553166.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckpq0nenr7qpt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/7/moment-amazon-plane-crash-lands-in-miami?traffic_source=rss",
-    "https://sports.yahoo.com/fantasy/article/crowdsource-your-toughest-sitstart-decisions-with-swipe-the-starter-125534566.html"
+    "https://sports.yahoo.com/fantasy/article/crowdsource-your-toughest-sitstart-decisions-with-swipe-the-starter-125534566.html",
+    "https://www.prothomalo.com/politics/xavdms01ex",
+    "https://www.bbc.co.uk/news/articles/cpd0113082eo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/tennis/live-blog/12040/13582595/us-open-live-scores-updates-news-and-results-from-new-york-with-naomi-osaka-iga-swiatek-coco-gauff-and-alexander-zverev-in-action"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
