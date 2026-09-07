@@ -102,11 +102,14 @@
     "https://www.skysports.com/golf/news/12040/13580703/solheim-cup-2026-tv-times-how-to-watch-or-stream-live-coverage-on-sky-sports-as-europe-host-team-usa-at-bernardus-golf",
     "https://www.bbc.com/bengali/articles/c5y4l7eepldo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/06/world/americas/haiti-deportees.html",
-    "https://www.nytimes.com/athletic/7568842/2026/09/07/unai-emery-aston-villa-rebuild/"
+    "https://www.nytimes.com/athletic/7568842/2026/09/07/unai-emery-aston-villa-rebuild/",
+    "https://www.prothomalo.com/opinion/column/6cczdrssqd",
+    "https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker",
+    "https://www.cricinfo.com/ci/content/story/1553166.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
