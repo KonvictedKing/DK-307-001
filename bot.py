@@ -155,7 +155,6 @@ def get_english_headline(raw_title):
     return cleaned
 
 def extract_high_res_image(entry):
-    # Try fetching top-quality OpenGraph / Twitter metadata directly from article page
     try:
         resp = requests.get(entry.link, timeout=8, headers=BROWSER_HEADERS)
         if resp.status_code == 200:
@@ -175,7 +174,6 @@ def extract_high_res_image(entry):
     except Exception:
         pass
 
-    # Fallback to feed enclosure or media:content
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url and not url.endswith(('.svg', '.gif')):
@@ -244,7 +242,6 @@ def get_asset_path(base_name):
     return None
 
 def create_dacca_card(image_url, headline, source_name):
-    # Strictly 1:1 Aspect Ratio (1080 x 1080)
     width, height = 1080, 1080
     card = Image.new("RGB", (width, height), color="#000000")
     draw = ImageDraw.Draw(card)
@@ -278,10 +275,10 @@ def create_dacca_card(image_url, headline, source_name):
         draw.text((45, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 58
 
-    # 3. Download & Place Image (Strictly 1:1 Box)
+    # 3. Download & Place Image (1:1 Fit)
     image_top = max(text_y + 25, 290)
-    image_box_size = width - 90 # 990 width
-    image_height = height - image_top - 95 # Dynamically fits square canvas
+    image_box_size = width - 90
+    image_height = height - image_top - 110
 
     try:
         resp = requests.get(image_url, timeout=12, headers=BROWSER_HEADERS)
@@ -294,7 +291,6 @@ def create_dacca_card(image_url, headline, source_name):
             print("Image resolution too low. Skipping.")
             return None
 
-        # Center Crop to fill the card box
         target_ratio = image_box_size / image_height
         raw_ratio = raw_img.width / raw_img.height
 
@@ -313,17 +309,18 @@ def create_dacca_card(image_url, headline, source_name):
         print(f"Image load failure: {e}")
         return None
 
-    # 4. Footer
+    # 4. Footer & Enlarged Corner Logo (88px)
     footer_y = image_top + image_height + 25
-    draw.text((45, footer_y + 6), f"VIA - {source_name.upper()}", fill="#e5e7eb", font=font_footer)
+    draw.text((45, footer_y + 16), f"VIA - {source_name.upper()}", fill="#e5e7eb", font=font_footer)
 
     logo_path = get_asset_path("logo")
     if logo_path:
         try:
             d_logo = Image.open(logo_path).convert("RGBA")
             aspect = d_logo.width / d_logo.height
-            d_logo = d_logo.resize((int(60 * aspect), 60), Image.Resampling.LANCZOS)
-            card.paste(d_logo, (width - 45 - d_logo.width, footer_y - 10), mask=d_logo.split()[3])
+            logo_height = 88
+            d_logo = d_logo.resize((int(logo_height * aspect), logo_height), Image.Resampling.LANCZOS)
+            card.paste(d_logo, (width - 45 - d_logo.width, footer_y - 12), mask=d_logo.split()[3])
         except Exception:
             pass
 
@@ -472,13 +469,12 @@ def publish_article(entry, source_name, img_url):
     if is_bn:
         caption_title = get_bengali_headline(clean_raw)
         card_headline = caption_title
-        notice_text = f"বিস্তারিত প্রথম কমেন্টে অথবা ভিজিট করুন:\n{entry.link}"
+        notice_text = "(বিস্তারিত প্রথম কমেন্টে)"
         comment_text = f"সম্পূর্ণ প্রতিবেদনটি পড়তে ভিজিট করুন:\n{entry.link}"
     else:
-        # All non-Bengali sources get full journalistic English
         caption_title = get_english_headline(clean_raw)
         card_headline = caption_title
-        notice_text = f"Read the full report:\n{entry.link}"
+        notice_text = "(Details in the first comment)"
         comment_text = f"To read the full report, visit:\n{entry.link}"
     
     card_path = create_dacca_card(img_url, card_headline, source_name)
