@@ -96,11 +96,14 @@
     "https://www.aljazeera.com/video/newsfeed/2026/9/7/ten-killed-and-dozens-injured-in-mexico-fireworks-blast?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1553132.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/notre-dames-flanigan-continues-family-052901532.html"
+    "https://sports.yahoo.com/articles/notre-dames-flanigan-continues-family-052901532.html",
+    "https://trust.prothomalo.com/activities/drug-abuse/99eze3yko1",
+    "https://www.bbc.com/bengali/articles/clylz35n9y0o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/golf/news/12040/13580703/solheim-cup-2026-tv-times-how-to-watch-or-stream-live-coverage-on-sky-sports-as-europe-host-team-usa-at-bernardus-golf"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
