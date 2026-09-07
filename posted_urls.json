@@ -85,11 +85,14 @@
     "https://www.cricinfo.com/ci/content/story/1553120.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://sports.yahoo.com/articles/espn-high-expectations-rookie-wide-235418161.html"
+    "https://sports.yahoo.com/articles/espn-high-expectations-rookie-wide-235418161.html",
+    "https://www.bigganchinta.com/math/idxmjumjsg",
+    "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html",
+    "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
