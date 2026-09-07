@@ -88,11 +88,14 @@
     "https://sports.yahoo.com/articles/espn-high-expectations-rookie-wide-235418161.html",
     "https://www.bigganchinta.com/math/idxmjumjsg",
     "https://www.nytimes.com/2026/09/06/world/europe/ukraine-zelensky-witkoff-kushner-russia-putin.html",
-    "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
+    "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
+    "https://www.theguardian.com/world/2026/sep/02/guinea-bissau-voters-approve-constitution-elections",
+    "https://www.nytimes.com/athletic/7559517/2026/09/07/palace-fulham-sage-tactics/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 0,
+    "international": 5,
+    "sports": 2
   }
 }
