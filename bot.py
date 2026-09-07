@@ -49,6 +49,12 @@ SPORTS_FEEDS = [
 
 groq_client = Groq(api_key=GROQ_API_KEY)
 
+BROWSER_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9,bn;q=0.8"
+}
+
 def load_state():
     state = {"posted_urls": [], "indices": {"national": 0, "international": 0, "sports": 0}}
     if os.path.exists("posted_urls.json"):
@@ -96,27 +102,27 @@ def clean_ai_output(text):
 
 def pre_clean_raw_title(title):
     cleaned = re.sub(r"<[^>]+>", "", title)
-    patterns = [r"\[.*?\]", r"\(.*?\)", r"\|.*$", r"-.*$", r"^\s*[:\-\–\—]\s*"]
+    patterns = [r"\[.*?\]", r"\(.*?\)", r"\|.*$"]
     for p in patterns:
         cleaned = re.sub(p, "", cleaned)
     return cleaned.strip()
 
-def get_box1_caption_title(raw_title):
+def get_bengali_headline(raw_title):
     cleaned = pre_clean_raw_title(raw_title)
     if is_bengali_script(cleaned):
         return cleaned
     
     models = get_valid_chat_models()
-    prompt = f"Translate the meaning of this news into 1 short Bengali headline. Return ONLY pure Bengali script without quotes:\n{cleaned}"
+    prompt = f"Translate the meaning of this news into 1 clear Bengali headline. Return ONLY Bengali script without quotes:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "You are a professional Bengali news translator. Return only Bengali script."},
+                    {"role": "system", "content": "You are a professional Bengali journalist. Output only the Bengali headline."},
                     {"role": "user", "content": prompt}
                 ],
-                max_tokens=60,
+                max_tokens=80,
                 temperature=0.2
             )
             out = clean_ai_output(res.choices[0].message.content)
@@ -126,22 +132,19 @@ def get_box1_caption_title(raw_title):
             continue
     return cleaned
 
-def get_box3_card_headline(raw_title):
+def get_english_headline(raw_title):
     cleaned = pre_clean_raw_title(raw_title)
-    if is_bengali_script(cleaned):
-        return cleaned
-    
     models = get_valid_chat_models()
-    prompt = f"Rewrite this news title into a sharp, journalistic English headline (7 to 11 words). Return English text ONLY:\n{cleaned}"
+    prompt = f"Rewrite or translate this news title into a sharp, complete English headline (8 to 13 words). Never cut it mid-sentence. Return English ONLY:\n{cleaned}"
     for model in models:
         try:
             res = groq_client.chat.completions.create(
                 model=model,
                 messages=[
-                    {"role": "system", "content": "You are a headline copy editor. Return the final clean headline only."},
+                    {"role": "system", "content": "You are a senior news copy editor. Produce full, grammatically complete English headlines only."},
                     {"role": "user", "content": prompt}
                 ],
-                max_tokens=60,
+                max_tokens=80,
                 temperature=0.2
             )
             out = clean_ai_output(res.choices[0].message.content)
@@ -149,9 +152,30 @@ def get_box3_card_headline(raw_title):
                 return out
         except Exception:
             continue
-    return cleaned[:85]
+    return cleaned
 
-def extract_image_url(entry):
+def extract_high_res_image(entry):
+    # Try fetching top-quality OpenGraph / Twitter metadata directly from article page
+    try:
+        resp = requests.get(entry.link, timeout=8, headers=BROWSER_HEADERS)
+        if resp.status_code == 200:
+            html = resp.text
+            patterns = [
+                r'<meta[^>]+property=["\']og:image:secure_url["\'][^>]+content=["\'](https?://[^"\']+)["\']',
+                r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](https?://[^"\']+)["\']',
+                r'<meta[^>]+name=["\']twitter:image["\'][^>]+content=["\'](https?://[^"\']+)["\']',
+                r'<link[^>]+rel=["\']image_src["\'][^>]+href=["\'](https?://[^"\']+)["\']'
+            ]
+            for pat in patterns:
+                m = re.search(pat, html, re.IGNORECASE)
+                if m:
+                    candidate = m.group(1)
+                    if not candidate.endswith(('.svg', '.gif', '.ico')):
+                        return candidate
+    except Exception:
+        pass
+
+    # Fallback to feed enclosure or media:content
     if 'media_content' in entry and len(entry.media_content) > 0:
         url = entry.media_content[0].get('url')
         if url and not url.endswith(('.svg', '.gif')):
@@ -161,27 +185,6 @@ def extract_image_url(entry):
         url = entry.enclosures[0].get('href')
         if url and not url.endswith(('.svg', '.gif')):
             return url
-
-    if 'media_thumbnail' in entry and len(entry.media_thumbnail) > 0:
-        url = entry.media_thumbnail[0].get('url')
-        if url:
-            return url
-
-    html_corpus = (entry.get('summary', '') + ' ' + entry.get('description', ''))
-    img_match = re.search(r'<img[^>]+src=["\'](https?://[^"\']+\.(?:jpg|jpeg|png|webp)[^"\']*)["\']', html_corpus, re.IGNORECASE)
-    if img_match:
-        return img_match.group(1)
-
-    try:
-        page_resp = requests.get(entry.link, timeout=5, headers={"User-Agent": "Mozilla/5.0"})
-        if page_resp.status_code == 200:
-            og_match = re.search(r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\'](https?://[^"\']+)["\']', page_resp.text, re.IGNORECASE)
-            if not og_match:
-                og_match = re.search(r'<meta[^>]+content=["\'](https?://[^"\']+)["\'][^>]+property=["\']og:image["\']', page_resp.text, re.IGNORECASE)
-            if og_match:
-                return og_match.group(1)
-    except Exception:
-        pass
 
     return None
 
@@ -241,47 +244,60 @@ def get_asset_path(base_name):
     return None
 
 def create_dacca_card(image_url, headline, source_name):
-    width, height = 1080, 1350
+    # Strictly 1:1 Aspect Ratio (1080 x 1080)
+    width, height = 1080, 1080
     card = Image.new("RGB", (width, height), color="#000000")
     draw = ImageDraw.Draw(card)
 
-    font_date = get_universal_font(26)
-    font_headline = get_universal_font(52)
-    font_footer = get_universal_font(26)
-    font_brand_text = get_universal_font(44)
+    font_date = get_universal_font(24)
+    font_headline = get_universal_font(42)
+    font_footer = get_universal_font(24)
+    font_brand_text = get_universal_font(38)
 
-    # Render Branded Top Header
+    # 1. Header Logo & Date
     header_path = get_asset_path("header_logo")
     if header_path:
         try:
-            h_logo = Image.open(header_path).convert("RGB")
+            h_logo = Image.open(header_path).convert("RGBA")
             aspect = h_logo.width / h_logo.height
-            h_logo = h_logo.resize((int(54 * aspect), 54), Image.Resampling.LANCZOS)
-            card.paste(h_logo, (50, 42))
+            h_logo = h_logo.resize((int(48 * aspect), 48), Image.Resampling.LANCZOS)
+            card.paste(h_logo, (45, 35), mask=h_logo.split()[3])
         except Exception:
-            draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_brand_text)
+            draw.text((45, 35), "DACCAখবর", fill="#ffffff", font=font_brand_text)
     else:
-        draw.text((50, 42), "DACCAখবর", fill="#ffffff", font=font_brand_text)
+        draw.text((45, 35), "DACCAখবর", fill="#ffffff", font=font_brand_text)
 
-    # Date Display (Right aligned)
     today_str = datetime.utcnow().strftime("%d %b %Y").upper()
     date_bbox = draw.textbbox((0, 0), today_str, font=font_date)
-    draw.text((width - 50 - (date_bbox[2] - date_bbox[0]), 54), today_str, fill="#9ca3af", font=font_date)
+    draw.text((width - 45 - (date_bbox[2] - date_bbox[0]), 45), today_str, fill="#9ca3af", font=font_date)
 
-    # Headline Rendering
-    wrapped_lines = wrap_text(headline, font_headline, width - 100, draw)
-    text_y = 125
+    # 2. Headline
+    wrapped_lines = wrap_text(headline, font_headline, width - 90, draw)
+    text_y = 105
     for line in wrapped_lines[:3]:
-        draw.text((50, text_y), line, fill="#ffffff", font=font_headline)
-        text_y += 74
+        draw.text((45, text_y), line, fill="#ffffff", font=font_headline)
+        text_y += 58
 
-    image_top = max(text_y + 30, 360)
-    image_height = 840
+    # 3. Download & Place Image (Strictly 1:1 Box)
+    image_top = max(text_y + 25, 290)
+    image_box_size = width - 90 # 990 width
+    image_height = height - image_top - 95 # Dynamically fits square canvas
+
     try:
-        resp = requests.get(image_url, timeout=12, headers={"User-Agent": "Mozilla/5.0"})
+        resp = requests.get(image_url, timeout=12, headers=BROWSER_HEADERS)
+        if resp.status_code != 200:
+            print(f"Image HTTP error: {resp.status_code}")
+            return None
+        
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
-        target_ratio = (width - 100) / image_height
+        if raw_img.width < 300 or raw_img.height < 200:
+            print("Image resolution too low. Skipping.")
+            return None
+
+        # Center Crop to fill the card box
+        target_ratio = image_box_size / image_height
         raw_ratio = raw_img.width / raw_img.height
+
         if raw_ratio > target_ratio:
             new_width = int(raw_img.height * target_ratio)
             left = (raw_img.width - new_width) // 2
@@ -290,24 +306,24 @@ def create_dacca_card(image_url, headline, source_name):
             new_height = int(raw_img.width / target_ratio)
             top = (raw_img.height - new_height) // 2
             raw_img = raw_img.crop((0, top, raw_img.width, top + new_height))
-        
-        resized = raw_img.resize((width - 100, image_height), Image.Resampling.LANCZOS)
-        card.paste(resized, (50, image_top))
-    except Exception as e:
-        print(f"Card image render error: {e}")
-        draw.rectangle([(50, image_top), (width - 50, image_top + image_height)], fill="#1f2937")
 
-    # Bottom Footer
-    footer_y = image_top + image_height + 40
-    draw.text((50, footer_y + 12), f"VIA - {source_name.upper()}", fill="#e5e7eb", font=font_footer)
+        resized = raw_img.resize((image_box_size, image_height), Image.Resampling.LANCZOS)
+        card.paste(resized, (45, image_top))
+    except Exception as e:
+        print(f"Image load failure: {e}")
+        return None
+
+    # 4. Footer
+    footer_y = image_top + image_height + 25
+    draw.text((45, footer_y + 6), f"VIA - {source_name.upper()}", fill="#e5e7eb", font=font_footer)
 
     logo_path = get_asset_path("logo")
     if logo_path:
         try:
-            d_logo = Image.open(logo_path).convert("RGB")
+            d_logo = Image.open(logo_path).convert("RGBA")
             aspect = d_logo.width / d_logo.height
-            d_logo = d_logo.resize((int(82 * aspect), 82), Image.Resampling.LANCZOS)
-            card.paste(d_logo, (width - 50 - d_logo.width, footer_y - 12))
+            d_logo = d_logo.resize((int(60 * aspect), 60), Image.Resampling.LANCZOS)
+            card.paste(d_logo, (width - 45 - d_logo.width, footer_y - 10), mask=d_logo.split()[3])
         except Exception:
             pass
 
@@ -324,23 +340,21 @@ def create_instagram_story_card(feed_card_path):
     dark_overlay = Image.new("RGB", (story_w, story_h), color="#000000")
     bg = Image.blend(bg, dark_overlay, alpha=0.35)
 
-    target_card_w = int(story_w * 0.82)
-    aspect = feed_card.height / feed_card.width
-    target_card_h = int(target_card_w * aspect)
-    scaled_card = feed_card.resize((target_card_w, target_card_h), Image.Resampling.LANCZOS)
+    target_card_w = int(story_w * 0.88)
+    scaled_card = feed_card.resize((target_card_w, target_card_w), Image.Resampling.LANCZOS)
 
-    radius = 36
-    mask = Image.new("L", (target_card_w, target_card_h), 0)
+    radius = 32
+    mask = Image.new("L", (target_card_w, target_card_w), 0)
     draw_mask = ImageDraw.Draw(mask)
-    draw_mask.rounded_rectangle([(0, 0), (target_card_w, target_card_h)], radius=radius, fill=255)
+    draw_mask.rounded_rectangle([(0, 0), (target_card_w, target_card_w)], radius=radius, fill=255)
 
     card_x = (story_w - target_card_w) // 2
-    card_y = (story_h - target_card_h) // 2 - 40
+    card_y = (story_h - target_card_w) // 2 - 50
     bg.paste(scaled_card, (card_x, card_y), mask)
 
     draw = ImageDraw.Draw(bg)
     handle_font = get_universal_font(34)
-    draw.text((card_x + 10, card_y + target_card_h + 24), "@dacca.news", fill="#ffffff", font=handle_font)
+    draw.text((card_x + 10, card_y + target_card_w + 30), "@dacca.news", fill="#ffffff", font=handle_font)
 
     story_path = "final_story_card.jpg"
     bg.save(story_path, "JPEG", quality=95)
@@ -353,7 +367,7 @@ def get_fb_image_url(photo_id):
         if "images" in res and len(res["images"]) > 0:
             return res["images"][0]["source"]
     except Exception as e:
-        print(f"Error fetching Meta CDN URL: {e}")
+        print(f"Meta CDN Fetch Error: {e}")
     return None
 
 def post_facebook_feed(image_path, caption):
@@ -403,7 +417,7 @@ def wait_for_ig_container(creation_id):
         if status == "FINISHED":
             return True
         if status == "ERROR":
-            print(f"Instagram container failed status: {res}")
+            print(f"IG container error: {res}")
             return False
     return True
 
@@ -452,30 +466,32 @@ def post_instagram_story(story_image_url):
 def publish_article(entry, source_name, img_url):
     print(f"Publishing from {source_name}: {entry.title}")
     
-    caption_headline = pre_clean_raw_title(entry.title)
-    is_bn = is_bengali_script(caption_headline)
+    clean_raw = pre_clean_raw_title(entry.title)
+    is_bn = is_bengali_script(clean_raw)
     
     if is_bn:
-        caption_title = get_box1_caption_title(entry.title)
-        card_headline = get_box3_card_headline(entry.title)
-        notice_text = "(বিস্তারিত প্রথম কমেন্টে)"
+        caption_title = get_bengali_headline(clean_raw)
+        card_headline = caption_title
+        notice_text = f"বিস্তারিত প্রথম কমেন্টে অথবা ভিজিট করুন:\n{entry.link}"
         comment_text = f"সম্পূর্ণ প্রতিবেদনটি পড়তে ভিজিট করুন:\n{entry.link}"
     else:
-        caption_title = caption_headline
-        card_headline = get_box3_card_headline(entry.title)
-        notice_text = "(Details in the first comment)"
+        # All non-Bengali sources get full journalistic English
+        caption_title = get_english_headline(clean_raw)
+        card_headline = caption_title
+        notice_text = f"Read the full report:\n{entry.link}"
         comment_text = f"To read the full report, visit:\n{entry.link}"
     
     card_path = create_dacca_card(img_url, card_headline, source_name)
+    if not card_path:
+        print(f"Skipping article because image could not be rendered: {entry.title}")
+        return False
     
     post_caption = f"{caption_title}\n\n{notice_text}"
     
     print(f"Dispatching {source_name} to Facebook...")
     fb_res = post_facebook_feed(card_path, post_caption)
-    
     fb_photo_id = fb_res.get("id") if isinstance(fb_res, dict) else None
-    
-    # Target fb_photo_id directly to avoid permission error code 200
+
     if fb_photo_id:
         post_facebook_comment(fb_photo_id, comment_text)
 
@@ -512,8 +528,8 @@ def publish_article(entry, source_name, img_url):
                 post_instagram_story(story_cdn)
         except Exception as err:
             print(f"IG Story styling error: {err}")
-    else:
-        print(f"Skipping Instagram: IG_USER_ID={bool(IG_USER_ID)}, fb_photo_id={bool(fb_photo_id)}")
+            
+    return True
 
 def find_candidate_in_category(category_name, feed_list, state):
     total_feeds = len(feed_list)
@@ -530,7 +546,7 @@ def find_candidate_in_category(category_name, feed_list, state):
                     continue
 
                 if entry.link not in state["posted_urls"]:
-                    img_url = extract_image_url(entry)
+                    img_url = extract_high_res_image(entry)
                     if not img_url:
                         continue
 
@@ -553,7 +569,7 @@ def find_any_fresh_article(all_feeds, state):
                     continue
 
                 if entry.link not in state["posted_urls"]:
-                    img_url = extract_image_url(entry)
+                    img_url = extract_high_res_image(entry)
                     if img_url:
                         return entry, feed["name"], img_url
         except Exception:
@@ -579,11 +595,12 @@ def main():
             entry, source_name, img_url = find_any_fresh_article(all_feeds, state)
 
         if entry and img_url:
-            publish_article(entry, source_name, img_url)
-            state["posted_urls"].append(entry.link)
-            save_state(state)
-            posts_done += 1
-            time.sleep(20)
+            success = publish_article(entry, source_name, img_url)
+            if success:
+                state["posted_urls"].append(entry.link)
+                save_state(state)
+                posts_done += 1
+                time.sleep(20)
 
     print(f"Cycle finished. Total published in this run: {posts_done}")
 
