@@ -91,11 +91,14 @@
     "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.theguardian.com/world/2026/sep/02/guinea-bissau-voters-approve-constitution-elections",
-    "https://www.nytimes.com/athletic/7559517/2026/09/07/palace-fulham-sage-tactics/"
+    "https://www.nytimes.com/athletic/7559517/2026/09/07/palace-fulham-sage-tactics/",
+    "https://www.prothomalo.com/technology/science/tc3ntph0yh",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/7/ten-killed-and-dozens-injured-in-mexico-fireworks-blast?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1553132.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 6,
+    "sports": 3
   }
 }
