@@ -275,10 +275,10 @@ def create_dacca_card(image_url, headline, source_name):
         draw.text((45, text_y), line, fill="#ffffff", font=font_headline)
         text_y += 58
 
-    # 3. Download & Place Image (1:1 Fit)
+    # 3. Download & Place Image (Blurred Background Padding - No Crop)
     image_top = max(text_y + 25, 290)
-    image_box_size = width - 90
-    image_height = height - image_top - 110
+    image_box_w = width - 90
+    image_box_h = height - image_top - 110
 
     try:
         resp = requests.get(image_url, timeout=12, headers=BROWSER_HEADERS)
@@ -287,30 +287,33 @@ def create_dacca_card(image_url, headline, source_name):
             return None
         
         raw_img = Image.open(BytesIO(resp.content)).convert("RGB")
-        if raw_img.width < 300 or raw_img.height < 200:
+        if raw_img.width < 250 or raw_img.height < 150:
             print("Image resolution too low. Skipping.")
             return None
 
-        target_ratio = image_box_size / image_height
-        raw_ratio = raw_img.width / raw_img.height
+        # Base container with blurred filler
+        blur_bg = raw_img.resize((image_box_w, image_box_h), Image.Resampling.BILINEAR)
+        blur_bg = blur_bg.filter(ImageFilter.GaussianBlur(radius=40))
+        dark_overlay = Image.new("RGB", (image_box_w, image_box_h), color="#000000")
+        blur_bg = Image.blend(blur_bg, dark_overlay, alpha=0.35)
 
-        if raw_ratio > target_ratio:
-            new_width = int(raw_img.height * target_ratio)
-            left = (raw_img.width - new_width) // 2
-            raw_img = raw_img.crop((left, 0, left + new_width, raw_img.height))
-        else:
-            new_height = int(raw_img.width / target_ratio)
-            top = (raw_img.height - new_height) // 2
-            raw_img = raw_img.crop((0, top, raw_img.width, top + new_height))
+        # Scale actual image preserving 100% of contents
+        scale = min(image_box_w / raw_img.width, image_box_h / raw_img.height)
+        new_w = int(raw_img.width * scale)
+        new_h = int(raw_img.height * scale)
+        scaled_img = raw_img.resize((new_w, new_h), Image.Resampling.LANCZOS)
 
-        resized = raw_img.resize((image_box_size, image_height), Image.Resampling.LANCZOS)
-        card.paste(resized, (45, image_top))
+        paste_x = (image_box_w - new_w) // 2
+        paste_y = (image_box_h - new_h) // 2
+        blur_bg.paste(scaled_img, (paste_x, paste_y))
+
+        card.paste(blur_bg, (45, image_top))
     except Exception as e:
         print(f"Image load failure: {e}")
         return None
 
-    # 4. Footer & Enlarged Corner Logo (88px)
-    footer_y = image_top + image_height + 25
+    # 4. Footer & Enlarged Logo
+    footer_y = image_top + image_box_h + 25
     draw.text((45, footer_y + 16), f"VIA - {source_name.upper()}", fill="#e5e7eb", font=font_footer)
 
     logo_path = get_asset_path("logo")
@@ -527,9 +530,9 @@ def publish_article(entry, source_name, img_url):
             
     return True
 
-def find_candidate_in_category(category_name, feed_list, state):
+def process_category(cat_name, feed_list, state):
     total_feeds = len(feed_list)
-    start_idx = state["indices"].get(category_name, 0) % total_feeds
+    start_idx = state["indices"].get(cat_name, 0) % total_feeds
     
     for i in range(total_feeds):
         current_idx = (start_idx + i) % total_feeds
@@ -546,31 +549,19 @@ def find_candidate_in_category(category_name, feed_list, state):
                     if not img_url:
                         continue
 
-                    state["indices"][category_name] = (current_idx + 1) % total_feeds
-                    return entry, feed["name"], img_url
+                    # Attempt to publish; if image fails, continue searching
+                    success = publish_article(entry, feed["name"], img_url)
+                    if success:
+                        state["posted_urls"].append(entry.link)
+                        state["indices"][cat_name] = (current_idx + 1) % total_feeds
+                        save_state(state)
+                        return True
         except Exception as err:
             print(f"Skipping {feed['name']}: {err}")
             continue
 
-    state["indices"][category_name] = (start_idx + 1) % total_feeds
-    return None, None, None
-
-def find_any_fresh_article(all_feeds, state):
-    for feed in all_feeds:
-        try:
-            parsed = feedparser.parse(feed["url"])
-            for entry in parsed.entries:
-                clean_title = pre_clean_raw_title(entry.title)
-                if len(clean_title.split()) < 3:
-                    continue
-
-                if entry.link not in state["posted_urls"]:
-                    img_url = extract_high_res_image(entry)
-                    if img_url:
-                        return entry, feed["name"], img_url
-        except Exception:
-            continue
-    return None, None, None
+    state["indices"][cat_name] = (start_idx + 1) % total_feeds
+    return False
 
 def main():
     state = load_state()
@@ -581,22 +572,11 @@ def main():
     ]
     
     posts_done = 0
-    all_feeds = NATIONAL_FEEDS + INTERNATIONAL_FEEDS + SPORTS_FEEDS
-
     for cat_name, feed_list in categories:
-        entry, source_name, img_url = find_candidate_in_category(cat_name, feed_list, state)
-        
-        if not entry:
-            print(f"No fresh articles in {cat_name}. Falling back to any available fresh news with photos.")
-            entry, source_name, img_url = find_any_fresh_article(all_feeds, state)
-
-        if entry and img_url:
-            success = publish_article(entry, source_name, img_url)
-            if success:
-                state["posted_urls"].append(entry.link)
-                save_state(state)
-                posts_done += 1
-                time.sleep(20)
+        published = process_category(cat_name, feed_list, state)
+        if published:
+            posts_done += 1
+            time.sleep(20)
 
     print(f"Cycle finished. Total published in this run: {posts_done}")
 
