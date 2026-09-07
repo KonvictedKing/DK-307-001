@@ -120,11 +120,14 @@
     "https://www.cricinfo.com/ci/content/story/1553204.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c93ek1yq4zno?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
-    "https://sports.yahoo.com/articles/kyle-whittingham-oklahoma-weve-got-214156757.html"
+    "https://sports.yahoo.com/articles/kyle-whittingham-oklahoma-weve-got-214156757.html",
+    "https://www.prothomalo.com/world/india/w559v0ia0q",
+    "https://www.aljazeera.com/news/2026/9/7/rubio-heads-to-ecuador-colombia-peru-after-right-wing-victories-in-region?traffic_source=rss",
+    "https://www.skysports.com/football/news/12040/13582860/transfer-news-borussia-dortmund-midfielder-felix-nmecha-on-man-utds-radar-paper-talk"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
