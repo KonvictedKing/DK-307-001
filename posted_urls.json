@@ -129,11 +129,14 @@
     "https://www.nytimes.com/athletic/7572639/2026/09/07/yankees-aaron-judge-activated-injured-list/",
     "https://www.bondhushava.com/activities/k9pj7hf7jk",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1553215.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553215.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cpq0n8nlnyjo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html",
+    "https://sports.yahoo.com/articles/christian-gonzalez-patriots-agree-four-051116673.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
