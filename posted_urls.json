@@ -144,11 +144,14 @@
     "https://www.cricinfo.com/ci/content/story/1553261.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cmkg76k9qxn7t?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://sports.yahoo.com/fantasy/article/fantasy-football-what-to-expect-from-some-of-the-buzziest-names-in-preseason-heading-into-week-1-144233452.html"
+    "https://sports.yahoo.com/fantasy/article/fantasy-football-what-to-expect-from-some-of-the-buzziest-names-in-preseason-heading-into-week-1-144233452.html",
+    "https://www.prothomalo.com/entertainment/dhallywood/6ipq2f8y4c",
+    "https://www.nytimes.com/2026/09/08/world/europe/germany-merz-pressure-afd.html",
+    "https://www.skysports.com/football/live-blog/12040/13582785/carabao-cup-third-round-live-scores-updates-and-free-match-highlights-with-newcastle-sunderland-crystal-palace-in-action"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
