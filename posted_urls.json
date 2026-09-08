@@ -150,11 +150,14 @@
     "https://www.skysports.com/football/live-blog/12040/13582785/carabao-cup-third-round-live-scores-updates-and-free-match-highlights-with-newcastle-sunderland-crystal-palace-in-action",
     "https://www.bbc.com/bengali/articles/c62mn4n0qj4o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-quarterfinals-scores-results/UMKFD3sdJ6cm/"
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-quarterfinals-scores-results/UMKFD3sdJ6cm/",
+    "https://www.prothomalo.com/sports/football/olg4l1fjyz",
+    "https://www.aljazeera.com/sports/2026/9/8/real-madrid-beat-inter-milan-as-mbappe-goal-sets-mourinhos-men-on-way?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1553302.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
