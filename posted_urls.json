@@ -141,11 +141,14 @@
     "https://www.nytimes.com/athletic/7568478/2026/09/08/browns-2026-season-storylines-quarterbacks/",
     "https://www.prothomalo.com/sports/football/flh23llmce",
     "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553261.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553261.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/cmkg76k9qxn7t?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
+    "https://sports.yahoo.com/fantasy/article/fantasy-football-what-to-expect-from-some-of-the-buzziest-names-in-preseason-heading-into-week-1-144233452.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
