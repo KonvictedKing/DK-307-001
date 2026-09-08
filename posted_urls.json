@@ -153,11 +153,14 @@
     "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-quarterfinals-scores-results/UMKFD3sdJ6cm/",
     "https://www.prothomalo.com/sports/football/olg4l1fjyz",
     "https://www.aljazeera.com/sports/2026/9/8/real-madrid-beat-inter-milan-as-mbappe-goal-sets-mourinhos-men-on-way?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1553302.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553302.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cy7zn7ln866o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/weve-got-gem-bouaddi-says-220000128.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
