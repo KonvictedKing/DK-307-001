@@ -132,11 +132,14 @@
     "https://www.cricinfo.com/ci/content/story/1553215.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cpq0n8nlnyjo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html",
-    "https://sports.yahoo.com/articles/christian-gonzalez-patriots-agree-four-051116673.html"
+    "https://sports.yahoo.com/articles/christian-gonzalez-patriots-agree-four-051116673.html",
+    "https://www.prothomalo.com/bangladesh/crime/niryaatner-bhiddio-pre-jhulnt-laash-uddhaar",
+    "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+    "https://www.skysports.com/football/news/12040/13583036/ross-wilson-newcastle-chief-reveals-club-prepared-for-eddie-howe-exit-in-summer-that-never-felt-chaotic"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
