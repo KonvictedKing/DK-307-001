@@ -126,11 +126,14 @@
     "https://www.skysports.com/football/news/12040/13582860/transfer-news-borussia-dortmund-midfielder-felix-nmecha-on-man-utds-radar-paper-talk",
     "https://www.bbc.com/bengali/articles/clykg02v2j6o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/ce8e32n8epeo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7572639/2026/09/07/yankees-aaron-judge-activated-injured-list/"
+    "https://www.nytimes.com/athletic/7572639/2026/09/07/yankees-aaron-judge-activated-injured-list/",
+    "https://www.bondhushava.com/activities/k9pj7hf7jk",
+    "https://www.cnn.com/collections/intl-ukraine-030423/",
+    "https://www.cricinfo.com/ci/content/story/1553215.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
