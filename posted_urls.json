@@ -147,11 +147,14 @@
     "https://sports.yahoo.com/fantasy/article/fantasy-football-what-to-expect-from-some-of-the-buzziest-names-in-preseason-heading-into-week-1-144233452.html",
     "https://www.prothomalo.com/entertainment/dhallywood/6ipq2f8y4c",
     "https://www.nytimes.com/2026/09/08/world/europe/germany-merz-pressure-afd.html",
-    "https://www.skysports.com/football/live-blog/12040/13582785/carabao-cup-third-round-live-scores-updates-and-free-match-highlights-with-newcastle-sunderland-crystal-palace-in-action"
+    "https://www.skysports.com/football/live-blog/12040/13582785/carabao-cup-third-round-live-scores-updates-and-free-match-highlights-with-newcastle-sunderland-crystal-palace-in-action",
+    "https://www.bbc.com/bengali/articles/c62mn4n0qj4o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump",
+    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-quarterfinals-scores-results/UMKFD3sdJ6cm/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
