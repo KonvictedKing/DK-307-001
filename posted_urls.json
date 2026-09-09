@@ -162,11 +162,14 @@
     "https://www.skysports.com/football/news/12040/13583358/transfer-news-manchester-united-suffer-hammer-blow-after-top-target-lewis-hall-agrees-five-year-newcastle-deal-paper-talk",
     "https://www.bbc.com/bengali/articles/cx2znpw3pg9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/08/world/europe/china-arctic-shipping-trade-route.html",
-    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-alcaraz-live-updates-us-open-2026-score-result/2BKmpyl6redh/"
+    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-alcaraz-live-updates-us-open-2026-score-result/2BKmpyl6redh/",
+    "https://www.prothomalo.com/education/higher-education/vsfiq4bsx7",
+    "https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds",
+    "https://www.cricinfo.com/ci/content/story/1553389.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
