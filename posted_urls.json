@@ -168,11 +168,14 @@
     "https://www.cricinfo.com/ci/content/story/1553389.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckgwjl73ke0o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/9/as-sdf-disband-in-syria-kurds-ponder-how-to-secure-their-rights?traffic_source=rss",
-    "https://sports.yahoo.com/articles/rams-wrap-practice-woodland-hills-055218770.html"
+    "https://sports.yahoo.com/articles/rams-wrap-practice-woodland-hills-055218770.html",
+    "https://www.prothomalo.com/world/asia/8uib0g9rl9",
+    "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/live-blog/12040/13279317/ipswich-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
