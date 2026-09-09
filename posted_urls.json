@@ -180,11 +180,14 @@
     "https://www.cricinfo.com/ci/content/story/1553483.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c046rvwk2pvo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/09/family-andrew-frederick-british-man-found-dead-grenada-local-police-uk-investigators",
-    "https://sports.yahoo.com/articles/browns-hc-todd-monken-announces-163754381.html"
+    "https://sports.yahoo.com/articles/browns-hc-todd-monken-announces-163754381.html",
+    "https://www.prothomalo.com/bangladesh/ns6gn4qi26",
+    "https://www.aljazeera.com/news/2026/9/9/pakistan-warns-mecca-defense-pact-will-activate-after-houthi-attacks?traffic_source=rss",
+    "https://www.skysports.com/football/live-blog/12040/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
