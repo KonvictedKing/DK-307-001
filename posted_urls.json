@@ -156,11 +156,14 @@
     "https://www.cricinfo.com/ci/content/story/1553302.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cy7zn7ln866o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/weve-got-gem-bouaddi-says-220000128.html"
+    "https://sports.yahoo.com/articles/weve-got-gem-bouaddi-says-220000128.html",
+    "https://www.prothomalo.com/religion/islam/dgwf0zn99z",
+    "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
+    "https://www.skysports.com/football/news/12040/13583358/transfer-news-manchester-united-suffer-hammer-blow-after-top-target-lewis-hall-agrees-five-year-newcastle-deal-paper-talk"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
