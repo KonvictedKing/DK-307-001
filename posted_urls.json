@@ -165,11 +165,14 @@
     "https://www.nytimes.com/athletic/live-blogs/shelton-vs-alcaraz-live-updates-us-open-2026-score-result/2BKmpyl6redh/",
     "https://www.prothomalo.com/education/higher-education/vsfiq4bsx7",
     "https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds",
-    "https://www.cricinfo.com/ci/content/story/1553389.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553389.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ckgwjl73ke0o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/9/as-sdf-disband-in-syria-kurds-ponder-how-to-secure-their-rights?traffic_source=rss",
+    "https://sports.yahoo.com/articles/rams-wrap-practice-woodland-hills-055218770.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
