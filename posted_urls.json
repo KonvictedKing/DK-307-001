@@ -174,11 +174,14 @@
     "https://www.skysports.com/football/live-blog/12040/13279317/ipswich-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.co.uk/bengali/live/cr1e5j4lzdqzt?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
-    "https://www.nytimes.com/athletic/7577589/2026/09/09/lionel-messi-eldense-takeover/"
+    "https://www.nytimes.com/athletic/7577589/2026/09/09/lionel-messi-eldense-takeover/",
+    "https://www.prothomalo.com/bangladesh/crime/fyb1968r4x",
+    "https://www.nytimes.com/2026/09/09/world/africa/ebola-congo-truck-driver.html",
+    "https://www.cricinfo.com/ci/content/story/1553483.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
