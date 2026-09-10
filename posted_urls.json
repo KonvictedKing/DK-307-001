@@ -213,11 +213,14 @@
     "https://www.nytimes.com/athletic/7581037/2026/09/10/seattle-seahawks-super-bowl-repeat-chances/",
     "https://www.prothomalo.com/business/corporate/hht9g8h6w0",
     "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1553629.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553629.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c62en3r1ykeo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/sent-home-pcb-england-rizwan-162400284.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
