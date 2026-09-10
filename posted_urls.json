@@ -222,11 +222,14 @@
     "https://www.skysports.com/boxing/news/12040/13584095/anthony-joshua-car-crash",
     "https://www.bbc.com/bengali/articles/c8e3xdrj96eo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
-    "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/QRBgqo6OEtT2/"
+    "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/QRBgqo6OEtT2/",
+    "https://www.prothomalo.com/world/india/kqax2fpn6o",
+    "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
+    "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
