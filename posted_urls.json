@@ -198,11 +198,14 @@
     "https://www.skysports.com/tennis/news/12040/13583805/us-open-top-seeded-quartet-set-for-womens-semi-final-showdown-with-aryna-sabalenka-and-coco-gauff-in-action",
     "https://www.bbc.com/bengali/articles/cddvy709v28o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/10/us-states-sue-trump-over-weakening-of-endangered-species-protections?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-seahawks-live-score-updates-nfl-kickoff/ZT4QP4nbrkc1/"
+    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-seahawks-live-score-updates-nfl-kickoff/ZT4QP4nbrkc1/",
+    "https://www.prothomalo.com/opinion/column/qrpjo31zi5",
+    "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1553549.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
