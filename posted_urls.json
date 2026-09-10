@@ -204,11 +204,14 @@
     "https://www.cricinfo.com/ci/content/story/1553549.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c39md9xdr21o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/hunter-brown-got-ground-balls-055137134.html"
+    "https://sports.yahoo.com/articles/hunter-brown-got-ground-balls-055137134.html",
+    "https://www.prothomalo.com/video/bangladesh/yv8ta0o3h3",
+    "https://www.nytimes.com/2026/09/10/world/asia/afghanistan-war-photojournalism.html",
+    "https://www.skysports.com/football/news/12040/13583497/how-to-watch-premier-league-wsl-spanish-grand-prix-us-open-finals-solheim-cup-and-nfl-with-sky-sports-and-now"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
