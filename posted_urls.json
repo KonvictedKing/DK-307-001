@@ -219,11 +219,14 @@
     "https://sports.yahoo.com/articles/sent-home-pcb-england-rizwan-162400284.html",
     "https://www.prothomalo.com/video/bangladesh/en9urljz55",
     "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.skysports.com/boxing/news/12040/13584095/anthony-joshua-car-crash"
+    "https://www.skysports.com/boxing/news/12040/13584095/anthony-joshua-car-crash",
+    "https://www.bbc.com/bengali/articles/c8e3xdrj96eo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
+    "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/QRBgqo6OEtT2/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
