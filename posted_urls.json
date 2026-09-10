@@ -195,11 +195,14 @@
     "https://sports.yahoo.com/articles/australians-love-sport-nfl-win-223153008.html",
     "https://www.prothomalo.com/religion/islam/tban83fg8a",
     "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles",
-    "https://www.skysports.com/tennis/news/12040/13583805/us-open-top-seeded-quartet-set-for-womens-semi-final-showdown-with-aryna-sabalenka-and-coco-gauff-in-action"
+    "https://www.skysports.com/tennis/news/12040/13583805/us-open-top-seeded-quartet-set-for-womens-semi-final-showdown-with-aryna-sabalenka-and-coco-gauff-in-action",
+    "https://www.bbc.com/bengali/articles/cddvy709v28o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/10/us-states-sue-trump-over-weakening-of-endangered-species-protections?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-seahawks-live-score-updates-nfl-kickoff/ZT4QP4nbrkc1/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
