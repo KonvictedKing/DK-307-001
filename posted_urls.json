@@ -225,11 +225,14 @@
     "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/QRBgqo6OEtT2/",
     "https://www.prothomalo.com/world/india/kqax2fpn6o",
     "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
-    "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c8xkrlnlznro?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/10/spains-parliament-backs-citizenship-for-western-saharans-born-before-1977?traffic_source=rss",
+    "https://sports.yahoo.com/articles/were-watching-ag-day-csu-223020802.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
