@@ -228,11 +228,14 @@
     "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c8xkrlnlznro?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/10/spains-parliament-backs-citizenship-for-western-saharans-born-before-1977?traffic_source=rss",
-    "https://sports.yahoo.com/articles/were-watching-ag-day-csu-223020802.html"
+    "https://sports.yahoo.com/articles/were-watching-ag-day-csu-223020802.html",
+    "https://www.prothomalo.com/religion/islam/u1carwdzw4",
+    "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/news/12040/13584130/arsenal-transfer-news-martin-zubimendi-may-push-to-leave-premier-league-champions-paper-talk"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
