@@ -192,11 +192,14 @@
     "https://www.cricinfo.com/ci/content/story/1553526.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cd79y2xveq5o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/09/world/middleeast/syria-weapons-depot-blast.html",
-    "https://sports.yahoo.com/articles/australians-love-sport-nfl-win-223153008.html"
+    "https://sports.yahoo.com/articles/australians-love-sport-nfl-win-223153008.html",
+    "https://www.prothomalo.com/religion/islam/tban83fg8a",
+    "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles",
+    "https://www.skysports.com/tennis/news/12040/13583805/us-open-top-seeded-quartet-set-for-womens-semi-final-showdown-with-aryna-sabalenka-and-coco-gauff-in-action"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
