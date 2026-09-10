@@ -207,11 +207,14 @@
     "https://sports.yahoo.com/articles/hunter-brown-got-ground-balls-055137134.html",
     "https://www.prothomalo.com/video/bangladesh/yv8ta0o3h3",
     "https://www.nytimes.com/2026/09/10/world/asia/afghanistan-war-photojournalism.html",
-    "https://www.skysports.com/football/news/12040/13583497/how-to-watch-premier-league-wsl-spanish-grand-prix-us-open-finals-solheim-cup-and-nfl-with-sky-sports-and-now"
+    "https://www.skysports.com/football/news/12040/13583497/how-to-watch-premier-league-wsl-spanish-grand-prix-us-open-finals-solheim-cup-and-nfl-with-sky-sports-and-now",
+    "https://www.bbc.co.uk/bengali/live/cw7v413002ejt?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking",
+    "https://www.nytimes.com/athletic/7581037/2026/09/10/seattle-seahawks-super-bowl-repeat-chances/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
