@@ -237,11 +237,14 @@
     "https://www.nytimes.com/athletic/live-blogs/gauff-vs-rybakina-live-updates-us-open-2026-score-result/b9hxVSi1wStm/",
     "https://www.prothomalo.com/entertainment/ott/akgt39f7gc",
     "https://www.nytimes.com/2026/09/10/world/europe/russia-ukraine-uk-embassy.html",
-    "https://www.cricinfo.com/ci/content/story/1553682.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553682.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c3rev7e45yyo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
+    "https://sports.yahoo.com/articles/jude-bellingham-talks-over-real-055500571.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
