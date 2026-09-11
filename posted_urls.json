@@ -261,11 +261,14 @@
     "https://www.nytimes.com/athletic/live-blogs/zverev-vs-khachanov-live-updates-us-open-2026-score-result/KCPIPG1yhN34/",
     "https://www.prothomalo.com/bangladesh/crime/bne1kud7cw",
     "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553814.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553814.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cge4201y00do?at_medium=RSS&at_campaign=rss",
+    "https://cnn.it/40OSomK",
+    "https://sports.yahoo.com/articles/pirates-rookie-pitchers-pummeled-cubs-223115130.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
