@@ -240,11 +240,14 @@
     "https://www.cricinfo.com/ci/content/story/1553682.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c3rev7e45yyo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
-    "https://sports.yahoo.com/articles/jude-bellingham-talks-over-real-055500571.html"
+    "https://sports.yahoo.com/articles/jude-bellingham-talks-over-real-055500571.html",
+    "https://www.prothomalo.com/world/middle-east/sevryud8ui",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-hosted-us-911-muslims-withmusic?traffic_source=rss",
+    "https://www.skysports.com/tennis/news/12040/13584185/us-open-elena-rybakina-defeats-coco-gauff-to-silence-new-york-crowd-and-set-up-blockbuster-final-with-aryna-sabalenka"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
