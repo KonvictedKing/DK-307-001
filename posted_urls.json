@@ -249,11 +249,14 @@
     "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-fp1-fp2-times-results/87HSg1KVtKgy/",
     "https://www.prothomalo.com/politics/incm0w8i9s",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1553759.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553759.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cdr76pnzz1ro?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
+    "https://sports.yahoo.com/articles/49ers-case-contender-season-opening-163006846.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
