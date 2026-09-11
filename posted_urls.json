@@ -246,11 +246,14 @@
     "https://www.skysports.com/tennis/news/12040/13584185/us-open-elena-rybakina-defeats-coco-gauff-to-silence-new-york-crowd-and-set-up-blockbuster-final-with-aryna-sabalenka",
     "https://www.bbc.com/bengali/articles/c4g5k85k2jro?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cx2zrrpkx20o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-fp1-fp2-times-results/87HSg1KVtKgy/"
+    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-fp1-fp2-times-results/87HSg1KVtKgy/",
+    "https://www.prothomalo.com/politics/incm0w8i9s",
+    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+    "https://www.cricinfo.com/ci/content/story/1553759.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
