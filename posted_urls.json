@@ -273,11 +273,14 @@
     "https://www.nytimes.com/athletic/live-blogs/shelton-vs-tiafoe-live-updates-us-open-2026-score-result/hXTSIsSdfAEd/",
     "https://www.kishoralo.com/feature/ewevsp3qr4",
     "https://www.aljazeera.com/economy/2026/9/12/how-canadians-are-bracing-for-the-impact-of-trumps-trade-war?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1553815.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553815.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/crerx7dlz7xo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/ryder-flugence-caleb-farias-lead-054854204.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
