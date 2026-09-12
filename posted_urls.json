@@ -291,11 +291,14 @@
     "https://sports.yahoo.com/college-football/article/missouris-eli-drinkwitz-tried-to-embarrass-kansas-with-late-score-bemoans-jayhawks-making-rivalry-about-civil-war-140726866.html",
     "https://www.prothomalo.com/video/international/obdevm7ha8",
     "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/f1/news/12040/13584723/mercedes-chief-toto-wolff-fumes-at-couch-warriors-questioning-teams-treatment-of-george-russell-in-title-battle-with-kimi-antonelli"
+    "https://www.skysports.com/f1/news/12040/13584723/mercedes-chief-toto-wolff-fumes-at-couch-warriors-questioning-teams-treatment-of-george-russell-in-title-battle-with-kimi-antonelli",
+    "https://www.bbc.com/bengali/articles/clyr0plqr4ko?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/oklahoma-vs-michigan-live-updates-college-football-score-result/pxPTckumUIr0/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
