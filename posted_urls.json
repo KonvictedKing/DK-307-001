@@ -300,11 +300,14 @@
     "https://www.cricinfo.com/ci/content/story/1553924.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c07v2v9jjxyo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
-    "https://sports.yahoo.com/articles/jefferson-wooden-bednarek-capture-ultimate-192442889.html"
+    "https://sports.yahoo.com/articles/jefferson-wooden-bednarek-capture-ultimate-192442889.html",
+    "https://www.prothomalo.com/entertainment/song/4bzcrj3rxi",
+    "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss",
+    "https://www.skysports.com/tennis/live-blog/12040/13584677/us-open-live-scores-updates-news-commentary-results-from-new-york-with-aryna-sabalenka-takes-on-elena-rybakina-in-the-womens-final"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
