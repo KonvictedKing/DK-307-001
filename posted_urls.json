@@ -267,11 +267,14 @@
     "https://sports.yahoo.com/articles/pirates-rookie-pitchers-pummeled-cubs-223115130.html",
     "https://www.prothomalo.com/entertainment/song/tzxmmch5rb",
     "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
-    "https://www.skysports.com/football/news/12040/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk"
+    "https://www.skysports.com/football/news/12040/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk",
+    "https://www.bbc.com/bengali/articles/cvgyvkx7v81o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio",
+    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-tiafoe-live-updates-us-open-2026-score-result/hXTSIsSdfAEd/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
