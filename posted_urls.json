@@ -306,11 +306,14 @@
     "https://www.skysports.com/tennis/live-blog/12040/13584677/us-open-live-scores-updates-news-commentary-results-from-new-york-with-aryna-sabalenka-takes-on-elena-rybakina-in-the-womens-final",
     "https://www.bbc.com/bengali/articles/c4gr0d80pdmo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/sunderland-vs-arsenal-live-updates-premier-league-score-result/gzkZxMocCKpg/"
+    "https://www.nytimes.com/athletic/live-blogs/sunderland-vs-arsenal-live-updates-premier-league-score-result/gzkZxMocCKpg/",
+    "https://www.prothomalo.com/world/india/dcktnqglst",
+    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
+    "https://www.cricinfo.com/ci/content/story/1553966.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
