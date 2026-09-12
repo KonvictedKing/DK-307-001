@@ -288,11 +288,14 @@
     "https://www.cricinfo.com/ci/content/story/1553884.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/clyk6k8rpl7o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it?traffic_source=rss",
-    "https://sports.yahoo.com/college-football/article/missouris-eli-drinkwitz-tried-to-embarrass-kansas-with-late-score-bemoans-jayhawks-making-rivalry-about-civil-war-140726866.html"
+    "https://sports.yahoo.com/college-football/article/missouris-eli-drinkwitz-tried-to-embarrass-kansas-with-late-score-bemoans-jayhawks-making-rivalry-about-civil-war-140726866.html",
+    "https://www.prothomalo.com/video/international/obdevm7ha8",
+    "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/f1/news/12040/13584723/mercedes-chief-toto-wolff-fumes-at-couch-warriors-questioning-teams-treatment-of-george-russell-in-title-battle-with-kimi-antonelli"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
