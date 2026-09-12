@@ -309,11 +309,14 @@
     "https://www.nytimes.com/athletic/live-blogs/sunderland-vs-arsenal-live-updates-premier-league-score-result/gzkZxMocCKpg/",
     "https://www.prothomalo.com/world/india/dcktnqglst",
     "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1553966.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553966.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cz9zy0xkkgno?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/12/world/europe/trump-ireland-unification-remarks.html",
+    "https://sports.yahoo.com/articles/viral-world-cup-fan-freddy-232111136.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
