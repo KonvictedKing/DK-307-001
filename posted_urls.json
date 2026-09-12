@@ -297,11 +297,14 @@
     "https://www.nytimes.com/athletic/live-blogs/oklahoma-vs-michigan-live-updates-college-football-score-result/pxPTckumUIr0/",
     "https://www.prothomalo.com/religion/islam/yxj57a27h2",
     "https://www.nytimes.com/2026/09/12/world/middleeast/iran-escalation-leverage-houthis-strait.html",
-    "https://www.cricinfo.com/ci/content/story/1553924.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553924.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c07v2v9jjxyo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
+    "https://sports.yahoo.com/articles/jefferson-wooden-bednarek-capture-ultimate-192442889.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
