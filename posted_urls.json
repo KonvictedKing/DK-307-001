@@ -279,11 +279,14 @@
     "https://sports.yahoo.com/articles/ryder-flugence-caleb-farias-lead-054854204.html",
     "https://www.prothomalo.com/bangladesh/district/3v2w7ibasn",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/racing/news/12040/13583974/today-on-sky-sports-racing-enceladus-takes-on-christmas-day-and-pienne-bonnard-in-250th-st-leger-from-doncaster"
+    "https://www.skysports.com/racing/news/12040/13583974/today-on-sky-sports-racing-enceladus-takes-on-christmas-day-and-pienne-bonnard-in-250th-st-leger-from-doncaster",
+    "https://www.bbc.com/bengali/articles/c5y5pgqlxnzo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
+    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-qualifying-fp3-times-results/qEvSytqpcWUB/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
