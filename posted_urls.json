@@ -294,11 +294,14 @@
     "https://www.skysports.com/f1/news/12040/13584723/mercedes-chief-toto-wolff-fumes-at-couch-warriors-questioning-teams-treatment-of-george-russell-in-title-battle-with-kimi-antonelli",
     "https://www.bbc.com/bengali/articles/clyr0plqr4ko?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/oklahoma-vs-michigan-live-updates-college-football-score-result/pxPTckumUIr0/"
+    "https://www.nytimes.com/athletic/live-blogs/oklahoma-vs-michigan-live-updates-college-football-score-result/pxPTckumUIr0/",
+    "https://www.prothomalo.com/religion/islam/yxj57a27h2",
+    "https://www.nytimes.com/2026/09/12/world/middleeast/iran-escalation-leverage-houthis-strait.html",
+    "https://www.cricinfo.com/ci/content/story/1553924.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
