@@ -276,11 +276,14 @@
     "https://www.cricinfo.com/ci/content/story/1553815.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/crerx7dlz7xo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/ryder-flugence-caleb-farias-lead-054854204.html"
+    "https://sports.yahoo.com/articles/ryder-flugence-caleb-farias-lead-054854204.html",
+    "https://www.prothomalo.com/bangladesh/district/3v2w7ibasn",
+    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
+    "https://www.skysports.com/racing/news/12040/13583974/today-on-sky-sports-racing-enceladus-takes-on-christmas-day-and-pienne-bonnard-in-250th-st-leger-from-doncaster"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
