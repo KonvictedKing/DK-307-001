@@ -270,11 +270,14 @@
     "https://www.skysports.com/football/news/12040/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk",
     "https://www.bbc.com/bengali/articles/cvgyvkx7v81o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio",
-    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-tiafoe-live-updates-us-open-2026-score-result/hXTSIsSdfAEd/"
+    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-tiafoe-live-updates-us-open-2026-score-result/hXTSIsSdfAEd/",
+    "https://www.kishoralo.com/feature/ewevsp3qr4",
+    "https://www.aljazeera.com/economy/2026/9/12/how-canadians-are-bracing-for-the-impact-of-trumps-trade-war?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1553815.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
