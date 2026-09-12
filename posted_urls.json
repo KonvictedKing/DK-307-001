@@ -282,11 +282,14 @@
     "https://www.skysports.com/racing/news/12040/13583974/today-on-sky-sports-racing-enceladus-takes-on-christmas-day-and-pienne-bonnard-in-250th-st-leger-from-doncaster",
     "https://www.bbc.com/bengali/articles/c5y5pgqlxnzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
-    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-qualifying-fp3-times-results/qEvSytqpcWUB/"
+    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-qualifying-fp3-times-results/qEvSytqpcWUB/",
+    "https://www.prothomalo.com/video/bangladesh/hd34mb38xz",
+    "https://www.theguardian.com/world/2026/sep/09/australian-surfers-jake-callum-robinson-homicide-trial-mexico-ntwnfb",
+    "https://www.cricinfo.com/ci/content/story/1553884.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
