@@ -321,11 +321,14 @@
     "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-texas-live-updates-college-football-score-result/5GkJE6JxyRh8/",
     "https://www.prothomalo.com/bangladesh/district/axunb84leq",
     "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553956.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1553956.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c4gq77m9l21o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
+    "https://sports.yahoo.com/articles/roberto-firmino-incredible-064000796.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
