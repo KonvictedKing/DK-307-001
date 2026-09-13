@@ -324,11 +324,14 @@
     "https://www.cricinfo.com/ci/content/story/1553956.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c4gq77m9l21o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/roberto-firmino-incredible-064000796.html"
+    "https://sports.yahoo.com/articles/roberto-firmino-incredible-064000796.html",
+    "https://www.prothomalo.com/bangladesh/district/x6os2q54ft",
+    "https://www.nytimes.com/2026/09/13/world/middleeast/iran-hard-liners-sabotaged-peace-deal.html",
+    "https://www.skysports.com/f1/live-blog/12040/13585122/f1-spanish-gp-live-race-updates-results-stream-highlights-from-14th-round-of-2026-formula-1-season-at-madring"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
