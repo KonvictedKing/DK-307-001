@@ -339,11 +339,14 @@
     "https://sports.yahoo.com/articles/why-erling-haaland-goal-against-170107832.html",
     "https://www.prothomalo.com/video/bangladesh/081qxi9zgd",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.skysports.com/golf/news/12040/13585550/solheim-cup-2026-europe-captain-anna-nordqvist-dismisses-usa-captain-angela-stanfords-dig-at-course-set-up"
+    "https://www.skysports.com/golf/news/12040/13585550/solheim-cup-2026-europe-captain-anna-nordqvist-dismisses-usa-captain-angela-stanfords-dig-at-course-set-up",
+    "https://www.bbc.com/bengali/articles/c3rejgdp3qgo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
+    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news-week-1/QtLJHXalMwDk/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
