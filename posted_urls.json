@@ -312,11 +312,14 @@
     "https://www.cricinfo.com/ci/content/story/1553966.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cz9zy0xkkgno?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/12/world/europe/trump-ireland-unification-remarks.html",
-    "https://sports.yahoo.com/articles/viral-world-cup-fan-freddy-232111136.html"
+    "https://sports.yahoo.com/articles/viral-world-cup-fan-freddy-232111136.html",
+    "https://www.prothomalo.com/world/middle-east/q8ty4mp3kj",
+    "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
+    "https://www.skysports.com/football/news/12040/13585214/mikel-arteta-rages-at-sunderland-penalty-decision-after-arsenal-win-at-stadium-of-light-this-cannot-happen"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
