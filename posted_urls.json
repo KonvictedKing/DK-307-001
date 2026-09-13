@@ -318,11 +318,14 @@
     "https://www.skysports.com/football/news/12040/13585214/mikel-arteta-rages-at-sunderland-penalty-decision-after-arsenal-win-at-stadium-of-light-this-cannot-happen",
     "https://www.bbc.com/bengali/articles/c8r60y4v7zdo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/13/12-09-sv-trump-for-united-ireland-ir?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-texas-live-updates-college-football-score-result/5GkJE6JxyRh8/"
+    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-texas-live-updates-college-football-score-result/5GkJE6JxyRh8/",
+    "https://www.prothomalo.com/bangladesh/district/axunb84leq",
+    "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1553956.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
