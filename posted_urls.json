@@ -345,11 +345,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news-week-1/QtLJHXalMwDk/",
     "https://www.prothomalo.com/politics/5p3fsfyj16",
     "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
-    "https://www.cricinfo.com/ci/content/story/1554161.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554161.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cvgyvdzvnyzo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
+    "https://sports.yahoo.com/articles/colts-wr-alec-pierce-wrist-223205191.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
