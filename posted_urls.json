@@ -342,11 +342,14 @@
     "https://www.skysports.com/golf/news/12040/13585550/solheim-cup-2026-europe-captain-anna-nordqvist-dismisses-usa-captain-angela-stanfords-dig-at-course-set-up",
     "https://www.bbc.com/bengali/articles/c3rejgdp3qgo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news-week-1/QtLJHXalMwDk/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news-week-1/QtLJHXalMwDk/",
+    "https://www.prothomalo.com/politics/5p3fsfyj16",
+    "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
+    "https://www.cricinfo.com/ci/content/story/1554161.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
