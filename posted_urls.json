@@ -330,11 +330,14 @@
     "https://www.skysports.com/f1/live-blog/12040/13585122/f1-spanish-gp-live-race-updates-results-stream-highlights-from-14th-round-of-2026-formula-1-season-at-madring",
     "https://www.bbc.co.uk/bengali/live/c6gqdldz8xnpt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather",
-    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-race-times-results/Y9AUjynQ5v12/"
+    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-race-times-results/Y9AUjynQ5v12/",
+    "https://www.kishoralo.com/feature/ew8vxuzngb",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1554043.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
