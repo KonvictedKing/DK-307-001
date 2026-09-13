@@ -336,11 +336,14 @@
     "https://www.cricinfo.com/ci/content/story/1554043.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ceq80q9xwzqo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/why-erling-haaland-goal-against-170107832.html"
+    "https://sports.yahoo.com/articles/why-erling-haaland-goal-against-170107832.html",
+    "https://www.prothomalo.com/video/bangladesh/081qxi9zgd",
+    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
+    "https://www.skysports.com/golf/news/12040/13585550/solheim-cup-2026-europe-captain-anna-nordqvist-dismisses-usa-captain-angela-stanfords-dig-at-course-set-up"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
