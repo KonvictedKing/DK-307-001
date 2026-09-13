@@ -333,11 +333,14 @@
     "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-race-times-results/Y9AUjynQ5v12/",
     "https://www.kishoralo.com/feature/ew8vxuzngb",
     "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1554043.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554043.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ceq80q9xwzqo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/why-erling-haaland-goal-against-170107832.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
