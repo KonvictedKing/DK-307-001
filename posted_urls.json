@@ -1,7 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/05/world/europe/russia-ukraine-witkoff-kushner-moscow.html",
-    "https://www.prothomalo.com/video/bangladesh/lzsyoj2jg6",
     "https://www.skysports.com/rugby-union/live-blog/12040/13581796/south-africa-vs-new-zealand-rugby-score-updates-video-and-analysis-from-third-test-in-johannesburg",
     "posted_urls",
     "indices",
@@ -348,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554161.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cvgyvdzvnyzo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
-    "https://sports.yahoo.com/articles/colts-wr-alec-pierce-wrist-223205191.html"
+    "https://sports.yahoo.com/articles/colts-wr-alec-pierce-wrist-223205191.html",
+    "https://www.prothomalo.com/entertainment/world-cinema/3vrde4kpg1",
+    "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/tennis/news/12040/13585617/us-open-top-seed-alexander-zverev-breaks-ben-sheltons-heart-and-ends-american-dreams-by-winning-title-in-four-sets"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
