@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.skysports.com/rugby-union/live-blog/12040/13581796/south-africa-vs-new-zealand-rugby-score-updates-video-and-analysis-from-third-test-in-johannesburg",
-    "posted_urls",
-    "indices",
     "https://www.prothomalo.com/opinion/column/4n617z1we3",
     "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/WJbZfKiKH5pb/",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/colts-wr-alec-pierce-wrist-223205191.html",
     "https://www.prothomalo.com/entertainment/world-cinema/3vrde4kpg1",
     "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/tennis/news/12040/13585617/us-open-top-seed-alexander-zverev-breaks-ben-sheltons-heart-and-ends-american-dreams-by-winning-title-in-four-sets"
+    "https://www.skysports.com/tennis/news/12040/13585617/us-open-top-seed-alexander-zverev-breaks-ben-sheltons-heart-and-ends-american-dreams-by-winning-title-in-four-sets",
+    "https://www.bbc.com/bengali/articles/crr4e1g9pl4o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
+    "https://www.nytimes.com/athletic/7591847/2026/09/13/ravens-declan-doyle-offense-colts-week-1/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
