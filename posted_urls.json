@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/opinion/column/4n617z1we3",
-    "https://www.bbc.co.uk/news/articles/cj64rrne643o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/WJbZfKiKH5pb/",
     "https://www.thedailystar.net/youth/education/campus/news/cu-admin-identifies-2-molesters-3076956",
     "https://www.bbc.com/bengali/articles/c93vl4q5vggo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1552937.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/tennis/news/12040/13585617/us-open-top-seed-alexander-zverev-breaks-ben-sheltons-heart-and-ends-american-dreams-by-winning-title-in-four-sets",
     "https://www.bbc.com/bengali/articles/crr4e1g9pl4o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://www.nytimes.com/athletic/7591847/2026/09/13/ravens-declan-doyle-offense-colts-week-1/"
+    "https://www.nytimes.com/athletic/7591847/2026/09/13/ravens-declan-doyle-offense-colts-week-1/",
+    "https://www.prothomalo.com/chakri/employment/kin4fypz5u",
+    "https://www.nytimes.com/2026/09/13/world/europe/ukraine-petraeus-russian-strike.html",
+    "https://www.cricinfo.com/ci/content/story/1554177.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
