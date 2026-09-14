@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
-    "https://www.aljazeera.com/sports/2026/9/5/haaland-head-man-city-to-the-top-of-premier-league-with-win-over-coventry?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1552945.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/x8fy37j5j3",
     "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/texas-state-vs-texas-live-193000611.html",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/mBUE1HDBC0HX/",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1554237.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554237.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/capital/c014i2ksin",
+    "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
+    "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-s-malik-hooker-reportedly-has-fractured-forearm-expected-to-miss-multiple-weeks-192052589.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 5
   }
 }
