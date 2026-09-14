@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.thedailystar.net/news/bangladesh/news/wasfia-first-bangladeshi-conquer-k2-3076981",
-    "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-7-scores-results/08YS0L9k7dYQ/",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.aljazeera.com/sports/2026/9/5/haaland-head-man-city-to-the-top-of-premier-league-with-win-over-coventry?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1552945.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13585296/f1-drivers-team-bosses-hopeful-over-madring-track-changes-for-overtaking-after-new-venues-first-spanish-gp",
     "https://www.bbc.com/bengali/articles/cmz7znp5477qo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/mBUE1HDBC0HX/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/mBUE1HDBC0HX/",
+    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
+    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+    "https://www.cricinfo.com/ci/content/story/1554237.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 0,
+    "international": 2,
+    "sports": 3
   }
 }
