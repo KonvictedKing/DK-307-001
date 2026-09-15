@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/world/fbcc7js8t7",
-    "https://www.nytimes.com/2026/09/05/world/middleeast/huckabee-west-bank-settler-attacks.html",
-    "https://www.cricinfo.com/ci/content/story/1552881.html?ex_cid=OTC-RSS",
     "https://www.thedailystar.net/news/bangladesh/news/need-1-week-assess-situation-3076976",
     "https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug",
     "https://sports.yahoo.com/articles/rafael-devers-christian-koss-both-231848225.html",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7596340/2026/09/15/world-athletics-championships-london-nairobi/",
     "https://nagorik.prothomalo.com/photo/mmoqfrgbba",
     "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c60qx40dk7l4o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://sports.yahoo.com/college-football/betting/article/week-3-college-football-odds-storylines-best-bets-for-the-5-biggest-games-151028446.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
