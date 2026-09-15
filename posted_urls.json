@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
-    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://www.nytimes.com/athletic/live-blogs/clemson-vs-lsu-live-updates-college-football-score-result/AbvlbVd6ZSaq/",
     "https://www.prothomalo.com/world/fbcc7js8t7",
     "https://www.nytimes.com/2026/09/05/world/middleeast/huckabee-west-bank-settler-attacks.html",
     "https://www.cricinfo.com/ci/content/story/1552881.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-league/news/12040/13585902/leigh-leopards-and-wakefield-trinity-ready-for-rematch-as-both-clubs-look-to-make-more-history",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.aljazeera.com/news/2026/9/15/us-supreme-court-rejects-trumps-plans-on-postal-ballots-why-it-matters?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7596340/2026/09/15/world-athletics-championships-london-nairobi/"
+    "https://www.nytimes.com/athletic/7596340/2026/09/15/world-athletics-championships-london-nairobi/",
+    "https://nagorik.prothomalo.com/photo/mmoqfrgbba",
+    "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
