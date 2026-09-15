@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.thedailystar.net/news/bangladesh/crime-justice/news/cu-sexual-assault-fingers-pointed-bcl-men-3076216",
-    "https://www.bbc.com/bengali/articles/cp80yr4nx01o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553020.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.cnn.com/collections/intl-trump-040223/",
     "https://sports.yahoo.com/articles/astros-preserve-bullpen-reins-off-062517197.html",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7597755/2026/09/15/browns-vs-buccaneers-stream-how-to-watch-sept-20/",
     "https://www.bbc.co.uk/bengali/live/cmd68wy306ngt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/15/romanian-shepards-and-farmers-clash-with-police?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1554330.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554330.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
+    "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/usc-player-alleges-ex-warriors-222230794.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 3
+    "national": 0,
+    "international": 1,
+    "sports": 5
   }
 }
