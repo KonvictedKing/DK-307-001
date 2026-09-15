@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/fun/w7jkcfd4dv",
-    "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7568430/2026/09/05/hunter-rincon-hat-hunter-goodman-doug-eddings-umpire/",
     "https://www.thedailystar.net/news/bangladesh/crime-justice/news/cu-sexual-assault-fingers-pointed-bcl-men-3076216",
     "https://www.bbc.com/bengali/articles/cp80yr4nx01o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1553020.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579",
     "https://www.prothomalo.com/bangladesh/0w5eo9a5fk",
     "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
-    "https://www.nytimes.com/athletic/7597755/2026/09/15/browns-vs-buccaneers-stream-how-to-watch-sept-20/"
+    "https://www.nytimes.com/athletic/7597755/2026/09/15/browns-vs-buccaneers-stream-how-to-watch-sept-20/",
+    "https://www.bbc.co.uk/bengali/live/cmd68wy306ngt?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/15/romanian-shepards-and-farmers-clash-with-police?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1554330.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
