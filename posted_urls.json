@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/bangladesh/x8fy37j5j3",
-    "https://www.bbc.co.uk/news/articles/cx2zqp46g8eo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/texas-state-vs-texas-live-193000611.html",
     "https://www.thedailystar.net/rohingya-influx/news/rohingya-genocide-case-proceed-3076971",
     "https://www.bbc.com/bengali/articles/cn8mzy4l8z1o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/hull-city-vs-aston-villa/report/559469",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554237.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/c014i2ksin",
     "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
-    "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-s-malik-hooker-reportedly-has-fractured-forearm-expected-to-miss-multiple-weeks-192052589.html"
+    "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-s-malik-hooker-reportedly-has-fractured-forearm-expected-to-miss-multiple-weeks-192052589.html",
+    "https://www.bbc.com/bengali/articles/cmpwlkwzv8keo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us",
+    "https://www.skysports.com/rugby-league/news/12040/13585902/leigh-leopards-and-wakefield-trinity-ready-for-rematch-as-both-clubs-look-to-make-more-history"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 5
+    "national": 2,
+    "international": 4,
+    "sports": 0
   }
 }
