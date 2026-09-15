@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.thedailystar.net/rohingya-influx/news/rohingya-genocide-case-proceed-3076971",
-    "https://www.bbc.com/bengali/articles/cn8mzy4l8z1o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/hull-city-vs-aston-villa/report/559469",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
     "https://www.nytimes.com/athletic/live-blogs/clemson-vs-lsu-live-updates-college-football-score-result/AbvlbVd6ZSaq/",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-s-malik-hooker-reportedly-has-fractured-forearm-expected-to-miss-multiple-weeks-192052589.html",
     "https://www.bbc.com/bengali/articles/cmpwlkwzv8keo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us",
-    "https://www.skysports.com/rugby-league/news/12040/13585902/leigh-leopards-and-wakefield-trinity-ready-for-rematch-as-both-clubs-look-to-make-more-history"
+    "https://www.skysports.com/rugby-league/news/12040/13585902/leigh-leopards-and-wakefield-trinity-ready-for-rematch-as-both-clubs-look-to-make-more-history",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.aljazeera.com/news/2026/9/15/us-supreme-court-rejects-trumps-plans-on-postal-ballots-why-it-matters?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7596340/2026/09/15/world-athletics-championships-london-nairobi/"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 0
+    "national": 0,
+    "international": 5,
+    "sports": 2
   }
 }
