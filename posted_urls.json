@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
-    "https://www.aljazeera.com/news/2026/9/6/german-company-launches-rocket-as-europe-enters-satellite-race?traffic_source=rss",
-    "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out",
     "https://www.prothomalo.com/fun/w7jkcfd4dv",
     "https://www.bbc.co.uk/news/articles/c5y7gk9knnlo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7568430/2026/09/05/hunter-rincon-hat-hunter-goodman-doug-eddings-umpire/",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/betting/article/week-3-college-football-odds-storylines-best-bets-for-the-5-biggest-games-151028446.html",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
-    "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579"
+    "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579",
+    "https://www.prothomalo.com/bangladesh/0w5eo9a5fk",
+    "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
+    "https://www.nytimes.com/athletic/7597755/2026/09/15/browns-vs-buccaneers-stream-how-to-watch-sept-20/"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
