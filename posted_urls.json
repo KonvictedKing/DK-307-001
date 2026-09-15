@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.thedailystar.net/news/bangladesh/news/need-1-week-assess-situation-3076976",
-    "https://www.theguardian.com/world/2026/sep/05/egyptian-tv-presenter-among-12-sentenced-to-death-for-drug",
-    "https://sports.yahoo.com/articles/rafael-devers-christian-koss-both-231848225.html",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.aljazeera.com/news/2026/9/6/german-company-launches-rocket-as-europe-enters-satellite-race?traffic_source=rss",
     "https://www.skysports.com/tennis/news/12040/13582102/us-open-coco-gauff-progresses-to-fourth-round-while-compatriots-taylor-fritz-amanda-anisimova-madison-keys-knocked-out",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c60qx40dk7l4o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://sports.yahoo.com/college-football/betting/article/week-3-college-football-odds-storylines-best-bets-for-the-5-biggest-games-151028446.html"
+    "https://sports.yahoo.com/college-football/betting/article/week-3-college-football-odds-storylines-best-bets-for-the-5-biggest-games-151028446.html",
+    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
+    "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
+    "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 0,
+    "international": 3,
+    "sports": 0
   }
 }
