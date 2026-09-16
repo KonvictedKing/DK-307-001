@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
-    "https://cnn.it/411KYN7",
-    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-chelsea-live-updates-premier-league-score-result/mfOHBqKbgnCY/",
     "https://www.prothomalo.com/bangladesh/rw37ng1ppg",
     "https://www.nytimes.com/live/2026/09/06/world/germany-election",
     "https://www.cricinfo.com/ci/content/story/1553119.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/tennis/live-blog/12040/13525472/emma-raducanu-tennis-schedule-next-match-ranking-latest-results-video-and-how-to-watch-live-on-sky-sports-tennis",
     "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/7599880/2026/09/16/jj-gabriel-dowman-manchester-united-arsenal/"
+    "https://www.nytimes.com/athletic/7599880/2026/09/16/jj-gabriel-dowman-manchester-united-arsenal/",
+    "https://www.prothomalo.com/bangladesh/district/4a6fcaenv3",
+    "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html",
+    "https://www.cricinfo.com/ci/content/story/1554508.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
