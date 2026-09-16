@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
-    "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://sports.yahoo.com/articles/astros-preserve-bullpen-reins-off-062517197.html",
     "https://www.prothomalo.com/video/bangladesh/nt7okyz2qq",
     "https://www.nytimes.com/2026/09/06/world/europe/afd-germany-election-ulrich-siegmund.html",
     "https://www.skysports.com/cricket/live-blog/12040/13581569/england-vs-ireland-third-womens-odi-live-cricket-score-updates-video-and-analysis-from-final-match-of-series-in-worcester",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554330.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/usc-player-alleges-ex-warriors-222230794.html"
+    "https://sports.yahoo.com/articles/usc-player-alleges-ex-warriors-222230794.html",
+    "https://www.prothomalo.com/religion/islam/gf30ie0vwk",
+    "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
+    "https://www.skysports.com/cricket/news/12040/13586234/england-vs-sri-lanka-harry-brook-hits-42-ball-hundred-and-jos-buttler-slams-80-as-hosts-win-first-t20-by-119-runs-in-southampton"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
