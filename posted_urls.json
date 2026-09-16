@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/sports/football/5ebdwcfh4t",
-    "https://www.bbc.co.uk/news/articles/c6248nvqy8po?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/division-iii-power-mount-union-loses-in-week-1-to-snap-85-game-regular-season-win-streak-that-dated-back-to-2016-141925160.html",
     "https://www.thedailystar.net/news/bangladesh/news/you-cannot-remain-silent-3076231",
     "https://www.bbc.co.uk/bengali/live/cq7701ygn5p1t?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/darts/live-blog/12040/13582276/czech-darts-open-live-scores-updates-commentary-from-third-round-as-luke-littler-and-luke-humphries-in-action-in-prague",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554397.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/business/poshaak-kaarkhaanaayy-bhuut-aatngk-nepthye-kii",
     "https://www.aljazeera.com/sports/2026/9/16/manchester-derby-var-error-caused-by-tunnel-vision-pro-ref-chief-webb?traffic_source=rss",
-    "https://sports.yahoo.com/articles/mcburnies-scotland-return-experience-gossip-064414903.html"
+    "https://sports.yahoo.com/articles/mcburnies-scotland-return-experience-gossip-064414903.html",
+    "https://www.bbc.co.uk/bengali/live/cvrl6e4395x0t?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/tennis/live-blog/12040/13525472/emma-raducanu-tennis-schedule-next-match-ranking-latest-results-video-and-how-to-watch-live-on-sky-sports-tennis"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 5
+    "national": 2,
+    "international": 1,
+    "sports": 0
   }
 }
