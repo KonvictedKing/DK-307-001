@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/world/middle-east/qb6fd2smpb",
-    "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/",
     "https://www.thedailystar.net/news/bangladesh/politics/news/ecs-dialogue-parties-runs-snag-3075346",
     "https://www.bbc.com/bengali/articles/cx2zewgn0kyo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1553120.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/cricket/news/12040/13588700/county-championship-warwickshire-seal-two-day-win-over-essex-to-boost-title-hopes-as-sam-hain-stars",
     "https://www.prothomalo.com/bangladesh/2n173ir1qf",
     "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7601654/2026/09/16/blue-jackets-mike-priest-retirement/"
+    "https://www.nytimes.com/athletic/7601654/2026/09/16/blue-jackets-mike-priest-retirement/",
+    "https://www.bbc.com/bengali/articles/crjw51z9gy01o?at_medium=RSS&at_campaign=rss",
+    "https://cnn.it/411KYN7",
+    "https://www.cricinfo.com/ci/content/story/1554603.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
