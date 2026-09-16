@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.thedailystar.net/news/bangladesh/politics/news/ecs-dialogue-parties-runs-snag-3075346",
-    "https://www.bbc.com/bengali/articles/cx2zewgn0kyo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553120.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
     "https://sports.yahoo.com/articles/espn-high-expectations-rookie-wide-235418161.html",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7601654/2026/09/16/blue-jackets-mike-priest-retirement/",
     "https://www.bbc.com/bengali/articles/crjw51z9gy01o?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1554603.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554603.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
+    "https://www.nytimes.com/2026/09/16/world/canada/eu-canada-associate-member-trade.html",
+    "https://sports.yahoo.com/articles/m-hearing-gillette-stadium-wednesday-231234938.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 0,
+    "international": 3,
+    "sports": 5
   }
 }
