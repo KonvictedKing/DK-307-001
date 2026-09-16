@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
-    "https://www.aljazeera.com/news/2026/9/6/amazon-cargo-plane-crashes-in-us-while-landing-at-miami-airport?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13582221/kimi-antonelli-mercedes-driver-hailed-by-pundits-and-toto-wolff-after-remarkable-19th-to-first-italian-gp-comeback-win",
     "https://www.prothomalo.com/world/middle-east/qb6fd2smpb",
     "https://www.bbc.co.uk/news/articles/c980j5m8mpro?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-day-8-scores-results/DfQw236tRPfZ/",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/junior-roary-savagely-trolls-saints-174000153.html",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.aljazeera.com/video/newsfeed/2026/9/16/al-mughayyir-a-village-under-siege?traffic_source=rss",
-    "https://www.skysports.com/cricket/news/12040/13588700/county-championship-warwickshire-seal-two-day-win-over-essex-to-boost-title-hopes-as-sam-hain-stars"
+    "https://www.skysports.com/cricket/news/12040/13588700/county-championship-warwickshire-seal-two-day-win-over-essex-to-boost-title-hopes-as-sam-hain-stars",
+    "https://www.prothomalo.com/bangladesh/2n173ir1qf",
+    "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7601654/2026/09/16/blue-jackets-mike-priest-retirement/"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
