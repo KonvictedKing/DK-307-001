@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
-    "https://www.theguardian.com/world/2026/sep/02/guinea-bissau-voters-approve-constitution-elections",
-    "https://www.nytimes.com/athletic/7559517/2026/09/07/palace-fulham-sage-tactics/",
     "https://www.prothomalo.com/technology/science/tc3ntph0yh",
     "https://www.aljazeera.com/video/newsfeed/2026/9/7/ten-killed-and-dozens-injured-in-mexico-fireworks-blast?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1553132.html?ex_cid=OTC-RSS",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13588791/man-utd-2-3-brighton-michael-carricks-old-trafford-tenure-is-only-heading-in-one-direction-as-red-devils-face-familiar-story",
     "https://www.bbc.com/bengali/articles/cq0m3k1lgjy2o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/17/congress-passes-sweeping-us-sanctions-bill-targeting-russia?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7599009/2026/09/16/jets-connor-hellebuyck-suspended/"
+    "https://www.nytimes.com/athletic/7599009/2026/09/16/jets-connor-hellebuyck-suspended/",
+    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
+    "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1554624.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 0,
+    "international": 1,
+    "sports": 3
   }
 }
