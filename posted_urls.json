@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/notre-dames-flanigan-continues-family-052901532.html",
-    "https://trust.prothomalo.com/activities/drug-abuse/99eze3yko1",
     "https://www.bbc.com/bengali/articles/clylz35n9y0o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/golf/news/12040/13580703/solheim-cup-2026-tv-times-how-to-watch-or-stream-live-coverage-on-sky-sports-as-europe-host-team-usa-at-bernardus-golf",
     "https://www.bbc.com/bengali/articles/c5y4l7eepldo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554624.html?ex_cid=OTC-RSS",
     "https://www.bondhushava.com/activities/tl3kcfigdn",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://sports.yahoo.com/articles/city-took-liking-family-took-073558171.html"
+    "https://sports.yahoo.com/articles/city-took-liking-family-took-073558171.html",
+    "https://www.bbc.co.uk/bengali/live/c3n07z195r8xt?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/17/world/europe/canada-carney-eu.html",
+    "https://www.skysports.com/darts/news/12040/13583670/world-series-of-darts-finals-2026-schedule-and-results-with-luke-littler-luke-humphries-michael-van-gerwen-gian-van-veen-in-action"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
