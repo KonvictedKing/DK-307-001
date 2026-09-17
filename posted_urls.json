@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.prothomalo.com/technology/science/tc3ntph0yh",
-    "https://www.aljazeera.com/video/newsfeed/2026/9/7/ten-killed-and-dozens-injured-in-mexico-fireworks-blast?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1553132.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/news/articles/cy4zejgz3z9o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/notre-dames-flanigan-continues-family-052901532.html",
     "https://trust.prothomalo.com/activities/drug-abuse/99eze3yko1",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7599009/2026/09/16/jets-connor-hellebuyck-suspended/",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1554624.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554624.html?ex_cid=OTC-RSS",
+    "https://www.bondhushava.com/activities/tl3kcfigdn",
+    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+    "https://sports.yahoo.com/articles/city-took-liking-family-took-073558171.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
