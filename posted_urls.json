@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/07/typhoon-saudel-mass-evacuations-south-east-china-weather-tracker",
-    "https://www.cricinfo.com/ci/content/story/1553166.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/ckpq0nenr7qpt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/7/moment-amazon-plane-crash-lands-in-miami?traffic_source=rss",
     "https://sports.yahoo.com/fantasy/article/crowdsource-your-toughest-sitstart-decisions-with-swipe-the-starter-125534566.html",
     "https://www.prothomalo.com/politics/xavdms01ex",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7601453/2026/09/17/live-jake-ciely-answers-your-fantasy-football-questions-ahead-of-week-2/",
     "https://www.prothomalo.com/business/industry/4c1jmvogbj",
     "https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1554750.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554750.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cklyjz35njvwo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-3-start-em-sit-em-what-to-do-with-amare-thomas-jordan-marshall-more-181209603.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
