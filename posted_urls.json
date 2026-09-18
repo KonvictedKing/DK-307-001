@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553261.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/cmkg76k9qxn7t?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
     "https://sports.yahoo.com/fantasy/article/fantasy-football-what-to-expect-from-some-of-the-buzziest-names-in-preseason-heading-into-week-1-144233452.html",
     "https://www.prothomalo.com/entertainment/dhallywood/6ipq2f8y4c",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/brentford-vs-chelsea-live-updates-premier-league-score-result/f5gEXaDiPPKo/",
     "https://www.prothomalo.com/bangladesh/capital/eotgxp5rde",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1554923.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554923.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cmrl6461857ko?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
+    "https://sports.yahoo.com/articles/york-reach-grand-final-shut-182726461.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
