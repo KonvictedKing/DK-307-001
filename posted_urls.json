@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html",
-    "https://sports.yahoo.com/articles/christian-gonzalez-patriots-agree-four-051116673.html",
-    "https://www.prothomalo.com/bangladesh/crime/niryaatner-bhiddio-pre-jhulnt-laash-uddhaar",
     "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
     "https://www.skysports.com/football/news/12040/13583036/ross-wilson-newcastle-chief-reveals-club-prepared-for-eddie-howe-exit-in-summer-that-never-felt-chaotic",
     "https://www.bbc.com/bengali/articles/c89jedw3ey3o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554795.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckqxvdppqewgo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/us-news/2026/sep/18/louisiana-firefighters-sub-saharan-africa-feline",
-    "https://sports.yahoo.com/articles/bears-vikings-injury-report-jauan-111509918.html"
+    "https://sports.yahoo.com/articles/bears-vikings-injury-report-jauan-111509918.html",
+    "https://www.prothomalo.com/bangladesh/district/21don3nhbh",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
+    "https://www.skysports.com/boxing/news/12040/13589258/craig-richards-looks-to-relaunch-world-championship-charge-against-radivoje-kalajdzic-on-september-26-live-on-sky-sports"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
