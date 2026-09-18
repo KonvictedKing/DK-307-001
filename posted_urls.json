@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
-    "https://www.skysports.com/football/news/12040/13583036/ross-wilson-newcastle-chief-reveals-club-prepared-for-eddie-howe-exit-in-summer-that-never-felt-chaotic",
-    "https://www.bbc.com/bengali/articles/c89jedw3ey3o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/8/uk-to-announce-trade-ban-on-goods-from-illegal-israeli-settlements?traffic_source=rss",
     "https://www.nytimes.com/athletic/7568478/2026/09/08/browns-2026-season-storylines-quarterbacks/",
     "https://www.prothomalo.com/sports/football/flh23llmce",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/bears-vikings-injury-report-jauan-111509918.html",
     "https://www.prothomalo.com/bangladesh/district/21don3nhbh",
     "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
-    "https://www.skysports.com/boxing/news/12040/13589258/craig-richards-looks-to-relaunch-world-championship-charge-against-radivoje-kalajdzic-on-september-26-live-on-sky-sports"
+    "https://www.skysports.com/boxing/news/12040/13589258/craig-richards-looks-to-relaunch-world-championship-charge-against-radivoje-kalajdzic-on-september-26-live-on-sky-sports",
+    "https://www.bbc.com/bengali/articles/cqkgv2vz8z0go?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/brentford-vs-chelsea-live-updates-premier-league-score-result/f5gEXaDiPPKo/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
