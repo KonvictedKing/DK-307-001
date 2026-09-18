@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://sports.yahoo.com/fantasy/article/fantasy-football-what-to-expect-from-some-of-the-buzziest-names-in-preseason-heading-into-week-1-144233452.html",
-    "https://www.prothomalo.com/entertainment/dhallywood/6ipq2f8y4c",
     "https://www.nytimes.com/2026/09/08/world/europe/germany-merz-pressure-afd.html",
     "https://www.skysports.com/football/live-blog/12040/13582785/carabao-cup-third-round-live-scores-updates-and-free-match-highlights-with-newcastle-sunderland-crystal-palace-in-action",
     "https://www.bbc.com/bengali/articles/c62mn4n0qj4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554923.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmrl6461857ko?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
-    "https://sports.yahoo.com/articles/york-reach-grand-final-shut-182726461.html"
+    "https://sports.yahoo.com/articles/york-reach-grand-final-shut-182726461.html",
+    "https://www.prothomalo.com/bangladesh/capital/tcomce7bkz",
+    "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
+    "https://www.skysports.com/rugby-league/leeds-vs-york-valkyrie/report/64307"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
