@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1553215.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cpq0n8nlnyjo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/07/world/middleeast/israel-lebanon-strikes-hezbollah.html",
     "https://sports.yahoo.com/articles/christian-gonzalez-patriots-agree-four-051116673.html",
     "https://www.prothomalo.com/bangladesh/crime/niryaatner-bhiddio-pre-jhulnt-laash-uddhaar",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7602096/2026/09/18/nfl-schedule-games-week-2-full-list/",
     "https://www.prothomalo.com/bangladesh/capital/nv4vl3ksm3",
     "https://www.nytimes.com/2026/09/18/world/europe/germany-afd-bauhaus-culture.html",
-    "https://www.cricinfo.com/ci/content/story/1554795.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554795.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ckqxvdppqewgo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/us-news/2026/sep/18/louisiana-firefighters-sub-saharan-africa-feline",
+    "https://sports.yahoo.com/articles/bears-vikings-injury-report-jauan-111509918.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
