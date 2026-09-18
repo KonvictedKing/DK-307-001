@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
-    "https://sports.yahoo.com/articles/kyle-whittingham-oklahoma-weve-got-214156757.html",
-    "https://www.prothomalo.com/world/india/w559v0ia0q",
     "https://www.aljazeera.com/news/2026/9/7/rubio-heads-to-ecuador-colombia-peru-after-right-wing-victories-in-region?traffic_source=rss",
     "https://www.skysports.com/football/news/12040/13582860/transfer-news-borussia-dortmund-midfielder-felix-nmecha-on-man-utds-radar-paper-talk",
     "https://www.bbc.com/bengali/articles/clykg02v2j6o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554766.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq62j75yezz4o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
-    "https://sports.yahoo.com/mlb/article/edwin-diaz-to-return-to-dodgers-on-friday-but-not-as-closer-004718889.html"
+    "https://sports.yahoo.com/mlb/article/edwin-diaz-to-return-to-dodgers-on-friday-but-not-as-closer-004718889.html",
+    "https://trust.prothomalo.com/activities/drug-abuse/bg7kaaigvx",
+    "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/nfl/news/12040/13589168/buffalo-bills-beat-detroit-lions-41-31-in-first-match-at-highmark-stadium-as-josh-allen-stars-again"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
