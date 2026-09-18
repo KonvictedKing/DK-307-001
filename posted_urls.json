@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/07/canada-tariffs-us-trump",
-    "https://www.nytimes.com/athletic/live-blogs/us-open-2026-live-updates-quarterfinals-scores-results/UMKFD3sdJ6cm/",
-    "https://www.prothomalo.com/sports/football/olg4l1fjyz",
     "https://www.aljazeera.com/sports/2026/9/8/real-madrid-beat-inter-milan-as-mbappe-goal-sets-mourinhos-men-on-way?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1553302.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cy7zn7ln866o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-league/leeds-vs-york-valkyrie/report/64307",
     "https://www.bbc.com/bengali/articles/cqwyz8ewkelwo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/18/new-cat-species-found-first-in-more-than-100-years?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7608473/2026/09/18/wild-training-camp-observations/"
+    "https://www.nytimes.com/athletic/7608473/2026/09/18/wild-training-camp-observations/",
+    "https://www.prothomalo.com/world/usa/vd0oqfhnsn",
+    "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1554921.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
