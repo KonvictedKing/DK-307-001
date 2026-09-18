@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/07/world/europe/ukraine-russia-witkoff-kushner-trump.html",
-    "https://www.cricinfo.com/ci/content/story/1553204.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c93ek1yq4zno?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/07/alleged-killers-of-australian-surfers-and-american-friend-go-on-trial-in-mexico",
     "https://sports.yahoo.com/articles/kyle-whittingham-oklahoma-weve-got-214156757.html",
     "https://www.prothomalo.com/world/india/w559v0ia0q",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/lions-vs-bills-live-score-updates-nfl-tnf/it0L57MKE0Ds/",
     "https://www.prothomalo.com/religion/islam/ar62men995",
     "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
-    "https://www.cricinfo.com/ci/content/story/1554766.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554766.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cq62j75yezz4o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
+    "https://sports.yahoo.com/mlb/article/edwin-diaz-to-return-to-dodgers-on-friday-but-not-as-closer-004718889.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
