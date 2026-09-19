@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/weve-got-gem-bouaddi-says-220000128.html",
-    "https://www.prothomalo.com/religion/islam/dgwf0zn99z",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
     "https://www.skysports.com/football/news/12040/13583358/transfer-news-manchester-united-suffer-hammer-blow-after-top-target-lewis-hall-agrees-five-year-newcastle-deal-paper-talk",
     "https://www.bbc.com/bengali/articles/cx2znpw3pg9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1554921.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c893vw11qr6wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://sports.yahoo.com/college-football/article/lsu-qb-sam-leavitt-initially-questionable-for-high-profile-matchup-vs-ole-miss-taken-off-injury-report-entirely-003641268.html"
+    "https://sports.yahoo.com/college-football/article/lsu-qb-sam-leavitt-initially-questionable-for-high-profile-matchup-vs-ole-miss-taken-off-injury-report-entirely-003641268.html",
+    "https://www.prothomalo.com/sports/ztv7vhgicn",
+    "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
+    "https://www.skysports.com/football/news/12040/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
