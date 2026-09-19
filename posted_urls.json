@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/9/pakistan-warns-mecca-defense-pact-will-activate-after-houthi-attacks?traffic_source=rss",
-    "https://www.skysports.com/football/live-blog/12040/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-    "https://www.bbc.com/bengali/articles/c20793xkq3ro?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c98679wr78do?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/MwsLRUvjZkbG/",
     "https://www.prothomalo.com/sports/football/29n65upezq",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/breaking-news/article/jeremiah-smith-passes-michael-jenkins-as-ohio-states-all-time-receiving-yards-leader-164441347.html",
     "https://www.prothomalo.com/bangladesh/gxelhzd79v",
     "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/portsmouth-vs-blackburn-rovers/report/560589"
+    "https://www.skysports.com/football/portsmouth-vs-blackburn-rovers/report/560589",
+    "https://www.bbc.com/bengali/articles/cme305vj2570o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
+    "https://www.nytimes.com/athletic/live-blogs/lsu-vs-ole-miss-live-updates-score-result-lane-kiffin/NKK38vusMsBg/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
