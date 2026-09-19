@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/09/world/middleeast/syria-weapons-depot-blast.html",
-    "https://sports.yahoo.com/articles/australians-love-sport-nfl-win-223153008.html",
-    "https://www.prothomalo.com/religion/islam/tban83fg8a",
     "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles",
     "https://www.skysports.com/tennis/news/12040/13583805/us-open-top-seeded-quartet-set-for-womens-semi-final-showdown-with-aryna-sabalenka-and-coco-gauff-in-action",
     "https://www.bbc.com/bengali/articles/cddvy709v28o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555054.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck5ye403yyg5o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers",
-    "https://sports.yahoo.com/articles/littler-beats-aspinall-decider-world-212735058.html"
+    "https://sports.yahoo.com/articles/littler-beats-aspinall-decider-world-212735058.html",
+    "https://www.prothomalo.com/world/middle-east/fycyvoazu8",
+    "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
+    "https://www.skysports.com/darts/news/12040/13589960/world-series-of-darts-finals-luke-littler-wins-last-leg-decider-vs-nathan-aspinall-to-move-step-closer-to-sweep-of-majors-in-one-year"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
