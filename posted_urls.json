@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.skysports.com/football/news/12040/13583358/transfer-news-manchester-united-suffer-hammer-blow-after-top-target-lewis-hall-agrees-five-year-newcastle-deal-paper-talk",
-    "https://www.bbc.com/bengali/articles/cx2znpw3pg9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/08/world/europe/china-arctic-shipping-trade-route.html",
     "https://www.nytimes.com/athletic/live-blogs/shelton-vs-alcaraz-live-updates-us-open-2026-score-result/2BKmpyl6redh/",
     "https://www.prothomalo.com/education/higher-education/vsfiq4bsx7",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/article/lsu-qb-sam-leavitt-initially-questionable-for-high-profile-matchup-vs-ole-miss-taken-off-injury-report-entirely-003641268.html",
     "https://www.prothomalo.com/sports/ztv7vhgicn",
     "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
-    "https://www.skysports.com/football/news/12040/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat"
+    "https://www.skysports.com/football/news/12040/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat",
+    "https://www.bbc.com/bengali/articles/cmge401ndx2zo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
+    "https://www.nytimes.com/athletic/7609375/2026/09/19/padres-nl-wild-card-three-way-tie/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
