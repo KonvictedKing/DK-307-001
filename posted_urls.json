@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/sep/09/babies-born-to-anaemic-mothers-have-smaller-brains-study-finds",
-    "https://www.cricinfo.com/ci/content/story/1553389.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/ckgwjl73ke0o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/9/as-sdf-disband-in-syria-kurds-ponder-how-to-secure-their-rights?traffic_source=rss",
     "https://sports.yahoo.com/articles/rams-wrap-practice-woodland-hills-055218770.html",
     "https://www.prothomalo.com/world/asia/8uib0g9rl9",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7609375/2026/09/19/padres-nl-wild-card-three-way-tie/",
     "https://www.prothomalo.com/bangladesh/district/xffnzk3z55",
     "https://www.aljazeera.com/video/newsfeed/2026/9/19/trumps-threats-to-demolish-kennedy-center-sparks-protest?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1554957.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554957.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cx4gq6d59ry9o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/kimi-antonelli-hailed-phenomenon-david-093159371.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
