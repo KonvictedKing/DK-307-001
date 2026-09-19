@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/09/world/africa/ebola-congo-truck-driver.html",
-    "https://www.cricinfo.com/ci/content/story/1553483.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c046rvwk2pvo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/09/family-andrew-frederick-british-man-found-dead-grenada-local-police-uk-investigators",
     "https://sports.yahoo.com/articles/browns-hc-todd-monken-announces-163754381.html",
     "https://www.prothomalo.com/bangladesh/ns6gn4qi26",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pX3JwkKqosWW/",
     "https://www.prothomalo.com/bangladesh/fzifwi0xz3",
     "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
-    "https://www.cricinfo.com/ci/content/story/1555017.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555017.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cm3wj344ng6eo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/19/demonstrators-in-us-form-human-chain-to-protest-kennedy-center-closure-vote?traffic_source=rss",
+    "https://sports.yahoo.com/college-football/breaking-news/article/jeremiah-smith-passes-michael-jenkins-as-ohio-states-all-time-receiving-yards-leader-164441347.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
