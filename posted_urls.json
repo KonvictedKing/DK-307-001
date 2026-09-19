@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/09/family-andrew-frederick-british-man-found-dead-grenada-local-police-uk-investigators",
-    "https://sports.yahoo.com/articles/browns-hc-todd-monken-announces-163754381.html",
-    "https://www.prothomalo.com/bangladesh/ns6gn4qi26",
     "https://www.aljazeera.com/news/2026/9/9/pakistan-warns-mecca-defense-pact-will-activate-after-houthi-attacks?traffic_source=rss",
     "https://www.skysports.com/football/live-blog/12040/13279303/everton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.com/bengali/articles/c20793xkq3ro?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555017.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm3wj344ng6eo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/19/demonstrators-in-us-form-human-chain-to-protest-kennedy-center-closure-vote?traffic_source=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/jeremiah-smith-passes-michael-jenkins-as-ohio-states-all-time-receiving-yards-leader-164441347.html"
+    "https://sports.yahoo.com/college-football/breaking-news/article/jeremiah-smith-passes-michael-jenkins-as-ohio-states-all-time-receiving-yards-leader-164441347.html",
+    "https://www.prothomalo.com/bangladesh/gxelhzd79v",
+    "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/portsmouth-vs-blackburn-rovers/report/560589"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
