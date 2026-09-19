@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/9/8/real-madrid-beat-inter-milan-as-mbappe-goal-sets-mourinhos-men-on-way?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1553302.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cy7zn7ln866o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/weve-got-gem-bouaddi-says-220000128.html",
     "https://www.prothomalo.com/religion/islam/dgwf0zn99z",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7608473/2026/09/18/wild-training-camp-observations/",
     "https://www.prothomalo.com/world/usa/vd0oqfhnsn",
     "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1554921.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1554921.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c893vw11qr6wo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
+    "https://sports.yahoo.com/college-football/article/lsu-qb-sam-leavitt-initially-questionable-for-high-profile-matchup-vs-ole-miss-taken-off-injury-report-entirely-003641268.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
