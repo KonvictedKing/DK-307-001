@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/hunter-brown-got-ground-balls-055137134.html",
-    "https://www.prothomalo.com/video/bangladesh/yv8ta0o3h3",
     "https://www.nytimes.com/2026/09/10/world/asia/afghanistan-war-photojournalism.html",
     "https://www.skysports.com/football/news/12040/13583497/how-to-watch-premier-league-wsl-spanish-grand-prix-us-open-finals-solheim-cup-and-nfl-with-sky-sports-and-now",
     "https://www.bbc.co.uk/bengali/live/cw7v413002ejt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555043.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwe8e4ke00r3o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/20/world/asia/myanmar-mission-un-envoy.html",
-    "https://sports.yahoo.com/articles/sunderland-xi-vs-manchester-city-052000577.html"
+    "https://sports.yahoo.com/articles/sunderland-xi-vs-manchester-city-052000577.html",
+    "https://www.prothomalo.com/sports/cricket/e2wq1s9rtf",
+    "https://www.theguardian.com/world/2026/sep/18/brazil-lula-welfare-payments-weight-loss-jabs-election",
+    "https://www.skysports.com/football/news/12040/13586227/gianluigi-donnarumma-interview-man-city-goalkeeper-insists-club-are-not-in-a-transition-year-and-backs-club-to-have-a-great-season"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
