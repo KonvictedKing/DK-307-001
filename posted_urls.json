@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
-    "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/QRBgqo6OEtT2/",
-    "https://www.prothomalo.com/world/india/kqax2fpn6o",
     "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
     "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c8xkrlnlznro?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/leeds-united-vs-crystal-palace/report/559489",
     "https://www.bbc.com/bengali/articles/cx2zpg551wqo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news/1Q5ABnlqGtAG/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news/1Q5ABnlqGtAG/",
+    "https://www.prothomalo.com/politics/p8l4lliurw",
+    "https://www.aljazeera.com/video/inside-story/2026/9/20/how-will-saudi-arabia-deal-with-the-houthis?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1555182.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
