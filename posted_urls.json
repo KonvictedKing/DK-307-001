@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/10/world/asia/afghanistan-war-photojournalism.html",
-    "https://www.skysports.com/football/news/12040/13583497/how-to-watch-premier-league-wsl-spanish-grand-prix-us-open-finals-solheim-cup-and-nfl-with-sky-sports-and-now",
-    "https://www.bbc.co.uk/bengali/live/cw7v413002ejt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking",
     "https://www.nytimes.com/athletic/7581037/2026/09/10/seattle-seahawks-super-bowl-repeat-chances/",
     "https://www.prothomalo.com/business/corporate/hht9g8h6w0",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/sunderland-xi-vs-manchester-city-052000577.html",
     "https://www.prothomalo.com/sports/cricket/e2wq1s9rtf",
     "https://www.theguardian.com/world/2026/sep/18/brazil-lula-welfare-payments-weight-loss-jabs-election",
-    "https://www.skysports.com/football/news/12040/13586227/gianluigi-donnarumma-interview-man-city-goalkeeper-insists-club-are-not-in-a-transition-year-and-backs-club-to-have-a-great-season"
+    "https://www.skysports.com/football/news/12040/13586227/gianluigi-donnarumma-interview-man-city-goalkeeper-insists-club-are-not-in-a-transition-year-and-backs-club-to-have-a-great-season",
+    "https://www.bbc.com/bengali/articles/c64g7xn8dmzko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/9/20/salah-scores-hat-trick-as-trabzonspor-beat-galatasaray-in-turkish-league?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7612310/2026/09/20/tsg-hoffenheim-vs-sc-paderborn-07-stream-how-to-watch-bundesliga-sept-20/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
