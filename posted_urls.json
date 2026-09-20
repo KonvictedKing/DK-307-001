@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.skysports.com/boxing/news/12040/13584095/anthony-joshua-car-crash",
-    "https://www.bbc.com/bengali/articles/c8e3xdrj96eo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/10/world/middleeast/yemens-houthis-seize-strategic-red-sea-port-officials-say.html",
     "https://www.nytimes.com/athletic/live-blogs/champions-league-scores-live-updates-results/QRBgqo6OEtT2/",
     "https://www.prothomalo.com/world/india/kqax2fpn6o",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/r-mason-thomas-play-today-141537855.html",
     "https://www.prothomalo.com/bangladesh/crime/1ly3la6kzk",
     "https://www.nytimes.com/2026/09/20/world/middleeast/west-bank-pool-palestinians-israelis-water.html",
-    "https://www.skysports.com/football/leeds-united-vs-crystal-palace/report/559489"
+    "https://www.skysports.com/football/leeds-united-vs-crystal-palace/report/559489",
+    "https://www.bbc.com/bengali/articles/cx2zpg551wqo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
+    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news/1Q5ABnlqGtAG/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
