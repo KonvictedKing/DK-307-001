@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/10/spains-parliament-backs-citizenship-for-western-saharans-born-before-1977?traffic_source=rss",
-    "https://sports.yahoo.com/articles/were-watching-ag-day-csu-223020802.html",
-    "https://www.prothomalo.com/religion/islam/u1carwdzw4",
     "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/news/12040/13584130/arsenal-transfer-news-martin-zubimendi-may-push-to-leave-premier-league-champions-paper-talk",
     "https://www.bbc.com/bengali/articles/c1e5d8079d2o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555182.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c60re4n1gjj4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/caleb-williams-injury-bears-qb-194512247.html"
+    "https://sports.yahoo.com/articles/caleb-williams-injury-bears-qb-194512247.html",
+    "https://www.prothomalo.com/world/europe/nmmfch3608",
+    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
+    "https://www.skysports.com/cricket/news/12040/13590258/metro-bank-one-day-cup-mens-final-middlesex-beat-leicestershire-foxes-to-end-36-year-list-a-trophy-wait"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
