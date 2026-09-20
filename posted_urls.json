@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1553629.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c62en3r1ykeo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/sent-home-pcb-england-rizwan-162400284.html",
     "https://www.prothomalo.com/video/bangladesh/en9urljz55",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7612310/2026/09/20/tsg-hoffenheim-vs-sc-paderborn-07-stream-how-to-watch-bundesliga-sept-20/",
     "https://www.prothomalo.com/bangladesh/district/1ejstccpf3",
     "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555108.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555108.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/cm790j2yl0y4t?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+    "https://sports.yahoo.com/articles/r-mason-thomas-play-today-141537855.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
