@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/sent-home-pcb-england-rizwan-162400284.html",
-    "https://www.prothomalo.com/video/bangladesh/en9urljz55",
     "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
     "https://www.skysports.com/boxing/news/12040/13584095/anthony-joshua-car-crash",
     "https://www.bbc.com/bengali/articles/c8e3xdrj96eo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555108.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cm790j2yl0y4t?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/r-mason-thomas-play-today-141537855.html"
+    "https://sports.yahoo.com/articles/r-mason-thomas-play-today-141537855.html",
+    "https://www.prothomalo.com/bangladesh/crime/1ly3la6kzk",
+    "https://www.nytimes.com/2026/09/20/world/middleeast/west-bank-pool-palestinians-israelis-water.html",
+    "https://www.skysports.com/football/leeds-united-vs-crystal-palace/report/559489"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
