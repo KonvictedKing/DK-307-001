@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/10/uganda-king-secret-son-succession-dispute",
-    "https://www.cricinfo.com/ci/content/story/1553691.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c8xkrlnlznro?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/10/spains-parliament-backs-citizenship-for-western-saharans-born-before-1977?traffic_source=rss",
     "https://sports.yahoo.com/articles/were-watching-ag-day-csu-223020802.html",
     "https://www.prothomalo.com/religion/islam/u1carwdzw4",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news/1Q5ABnlqGtAG/",
     "https://www.prothomalo.com/politics/p8l4lliurw",
     "https://www.aljazeera.com/video/inside-story/2026/9/20/how-will-saudi-arabia-deal-with-the-houthis?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555182.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555182.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c60re4n1gjj4o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/caleb-williams-injury-bears-qb-194512247.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
