@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/09/uganda-withdraws-invictus-games-out-of-respect-king-charles",
-    "https://www.skysports.com/tennis/news/12040/13583805/us-open-top-seeded-quartet-set-for-womens-semi-final-showdown-with-aryna-sabalenka-and-coco-gauff-in-action",
-    "https://www.bbc.com/bengali/articles/cddvy709v28o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/10/us-states-sue-trump-over-weakening-of-endangered-species-protections?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/patriots-vs-seahawks-live-score-updates-nfl-kickoff/ZT4QP4nbrkc1/",
     "https://www.prothomalo.com/opinion/column/qrpjo31zi5",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/littler-beats-aspinall-decider-world-212735058.html",
     "https://www.prothomalo.com/world/middle-east/fycyvoazu8",
     "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
-    "https://www.skysports.com/darts/news/12040/13589960/world-series-of-darts-finals-luke-littler-wins-last-leg-decider-vs-nathan-aspinall-to-move-step-closer-to-sweep-of-majors-in-one-year"
+    "https://www.skysports.com/darts/news/12040/13589960/world-series-of-darts-finals-luke-littler-wins-last-leg-decider-vs-nathan-aspinall-to-move-step-closer-to-sweep-of-majors-in-one-year",
+    "https://www.bbc.com/bengali/articles/cq0lre1y0lrwo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7611391/2026/09/19/shohei-ohtani-injury-on-field-work-dodgers/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
