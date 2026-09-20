@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553549.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c39md9xdr21o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
     "https://sports.yahoo.com/articles/hunter-brown-got-ground-balls-055137134.html",
     "https://www.prothomalo.com/video/bangladesh/yv8ta0o3h3",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7611391/2026/09/19/shohei-ohtani-injury-on-field-work-dodgers/",
     "https://www.prothomalo.com/sports/b8nj71nt3b",
     "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
-    "https://www.cricinfo.com/ci/content/story/1555043.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555043.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cwe8e4ke00r3o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/20/world/asia/myanmar-mission-un-envoy.html",
+    "https://sports.yahoo.com/articles/sunderland-xi-vs-manchester-city-052000577.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
