@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c4g7vr0lngwo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/news/12040/13584130/arsenal-transfer-news-martin-zubimendi-may-push-to-leave-premier-league-champions-paper-talk",
-    "https://www.bbc.com/bengali/articles/c1e5d8079d2o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/04/investing/british-pound-currency-dollar/index.html",
     "https://www.nytimes.com/athletic/live-blogs/gauff-vs-rybakina-live-updates-us-open-2026-score-result/b9hxVSi1wStm/",
     "https://www.prothomalo.com/entertainment/ott/akgt39f7gc",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/caleb-williams-injury-bears-qb-194512247.html",
     "https://www.prothomalo.com/world/europe/nmmfch3608",
     "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.skysports.com/cricket/news/12040/13590258/metro-bank-one-day-cup-mens-final-middlesex-beat-leicestershire-foxes-to-end-36-year-list-a-trophy-wait"
+    "https://www.skysports.com/cricket/news/12040/13590258/metro-bank-one-day-cup-mens-final-middlesex-beat-leicestershire-foxes-to-end-36-year-list-a-trophy-wait",
+    "https://www.bbc.com/bengali/articles/cq986k23xgnjo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/20/world/americas/haiti-assassination-trial-moise.html",
+    "https://www.nytimes.com/athletic/7614435/2026/09/20/browns-buccaneers-nfl-2026-score-result-takeaways/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
