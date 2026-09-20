@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/09/rubio-us-allies-drug-trafficking",
-    "https://www.nytimes.com/athletic/7581037/2026/09/10/seattle-seahawks-super-bowl-repeat-chances/",
-    "https://www.prothomalo.com/business/corporate/hht9g8h6w0",
     "https://www.aljazeera.com/news/2026/9/10/yemens-houthis-seize-strategic-red-sea-city-of-mocha?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1553629.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c62en3r1ykeo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13586227/gianluigi-donnarumma-interview-man-city-goalkeeper-insists-club-are-not-in-a-transition-year-and-backs-club-to-have-a-great-season",
     "https://www.bbc.com/bengali/articles/c64g7xn8dmzko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/9/20/salah-scores-hat-trick-as-trabzonspor-beat-galatasaray-in-turkish-league?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7612310/2026/09/20/tsg-hoffenheim-vs-sc-paderborn-07-stream-how-to-watch-bundesliga-sept-20/"
+    "https://www.nytimes.com/athletic/7612310/2026/09/20/tsg-hoffenheim-vs-sc-paderborn-07-stream-how-to-watch-bundesliga-sept-20/",
+    "https://www.prothomalo.com/bangladesh/district/1ejstccpf3",
+    "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1555108.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
