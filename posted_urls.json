@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/11/world/middleeast/yemen-houthis-bab-al-mandab.html",
-    "https://sports.yahoo.com/articles/49ers-case-contender-season-opening-163006846.html",
-    "https://www.prothomalo.com/video/international/43rzwjv4ew",
     "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit",
     "https://www.skysports.com/f1/news/12040/13584259/spanish-gp-kimi-antonelli-edges-ferrari-in-madrid-practice-as-arvid-lindblad-suffers-first-f1-crash-at-challenging-madring-circuit",
     "https://www.bbc.com/bengali/articles/czxzwrnd4v0o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555233.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cwn74pkm383dt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
-    "https://sports.yahoo.com/articles/scotland-squad-shaping-pocognoli-debut-135205800.html"
+    "https://sports.yahoo.com/articles/scotland-squad-shaping-pocognoli-debut-135205800.html",
+    "https://www.prothomalo.com/bangladesh/0zinc71hx4",
+    "https://www.aljazeera.com/news/2026/9/21/state-of-world-getting-worse-as-un-security-council-paralysed-guterres?traffic_source=rss",
+    "https://www.skysports.com/f1/news/12040/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
