@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/10/world/europe/russia-ukraine-uk-embassy.html",
-    "https://www.cricinfo.com/ci/content/story/1553682.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c3rev7e45yyo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
     "https://sports.yahoo.com/articles/jude-bellingham-talks-over-real-055500571.html",
     "https://www.prothomalo.com/world/middle-east/sevryud8ui",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7614435/2026/09/20/browns-buccaneers-nfl-2026-score-result-takeaways/",
     "https://www.prothomalo.com/religion/islam/9b65fy6b0h",
     "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
-    "https://www.cricinfo.com/ci/content/story/1555178.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555178.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cxe87l2611pqo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/21/the-sahel-and-the-un-a-smaller-footprint-a-different-role?traffic_source=rss",
+    "https://sports.yahoo.com/articles/white-sox-keep-pace-al-010045804.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
