@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/10/zelenskyy-canada-visit",
-    "https://www.skysports.com/f1/news/12040/13584259/spanish-gp-kimi-antonelli-edges-ferrari-in-madrid-practice-as-arvid-lindblad-suffers-first-f1-crash-at-challenging-madring-circuit",
-    "https://www.bbc.com/bengali/articles/czxzwrnd4v0o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/11/how-us-leaders-remembered-the-25th-anniversary-of-the-9-11?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/zverev-vs-khachanov-live-updates-us-open-2026-score-result/KCPIPG1yhN34/",
     "https://www.prothomalo.com/bangladesh/crime/bne1kud7cw",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/scotland-squad-shaping-pocognoli-debut-135205800.html",
     "https://www.prothomalo.com/bangladesh/0zinc71hx4",
     "https://www.aljazeera.com/news/2026/9/21/state-of-world-getting-worse-as-un-security-council-paralysed-guterres?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40"
+    "https://www.skysports.com/f1/news/12040/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40",
+    "https://www.bbc.com/bengali/articles/cm20l2qq1gelo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7617891/2026/09/21/ryan-blaney-carson-hocevar-fight-comments-denny-hamlin-podcast/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
