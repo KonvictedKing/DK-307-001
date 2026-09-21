@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/sep/11/15m-fund-launched-to-create-unstoppable-momentum-to-end-fgm-worldwide",
-    "https://sports.yahoo.com/articles/jude-bellingham-talks-over-real-055500571.html",
-    "https://www.prothomalo.com/world/middle-east/sevryud8ui",
     "https://www.aljazeera.com/video/newsfeed/2026/9/11/09-11-hosted-us-911-muslims-withmusic?traffic_source=rss",
     "https://www.skysports.com/tennis/news/12040/13584185/us-open-elena-rybakina-defeats-coco-gauff-to-silence-new-york-crowd-and-set-up-blockbuster-final-with-aryna-sabalenka",
     "https://www.bbc.com/bengali/articles/c4g5k85k2jro?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555178.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cxe87l2611pqo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/21/the-sahel-and-the-un-a-smaller-footprint-a-different-role?traffic_source=rss",
-    "https://sports.yahoo.com/articles/white-sox-keep-pace-al-010045804.html"
+    "https://sports.yahoo.com/articles/white-sox-keep-pace-al-010045804.html",
+    "https://www.prothomalo.com/business/analysis/y07vpgzl6s",
+    "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/f1/news/12040/13589366/kimi-antonelli-versus-his-mind-will-decide-2026-formula-1-title-race-says-nico-rosberg-ahead-of-azerbaijan-grand-prix"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
