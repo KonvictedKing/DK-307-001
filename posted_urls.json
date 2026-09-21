@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/11/how-us-leaders-remembered-the-25th-anniversary-of-the-9-11?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/zverev-vs-khachanov-live-updates-us-open-2026-score-result/KCPIPG1yhN34/",
-    "https://www.prothomalo.com/bangladesh/crime/bne1kud7cw",
     "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1553814.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cge4201y00do?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13590364/azerbaijan-gp-mclaren-predict-four-way-battle-for-victory-with-rivals-in-baku-after-confirming-more-upgrades-to-mcl40",
     "https://www.bbc.com/bengali/articles/cm20l2qq1gelo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cw4gm7l742dmo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7617891/2026/09/21/ryan-blaney-carson-hocevar-fight-comments-denny-hamlin-podcast/"
+    "https://www.nytimes.com/athletic/7617891/2026/09/21/ryan-blaney-carson-hocevar-fight-comments-denny-hamlin-podcast/",
+    "https://www.prothomalo.com/bangladesh/capital/zl22ccz5c2",
+    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+    "https://www.cricinfo.com/ci/content/story/1555264.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
