@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c23x72yx2rvo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1553814.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cge4201y00do?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
     "https://sports.yahoo.com/articles/pirates-rookie-pitchers-pummeled-cubs-223115130.html",
     "https://www.prothomalo.com/entertainment/song/tzxmmch5rb",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7617891/2026/09/21/ryan-blaney-carson-hocevar-fight-comments-denny-hamlin-podcast/",
     "https://www.prothomalo.com/bangladesh/capital/zl22ccz5c2",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1555264.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555264.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cm62exd57dnzo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/21/world/middleeast/iraq-prime-minister-interview-disarm-militias.html",
+    "https://sports.yahoo.com/betting/sportsbook/promos/article/thescore-bet-promo-code-yahoobonus-giants-vs-rams-on-monday-night-football-sept-21-231500345.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
