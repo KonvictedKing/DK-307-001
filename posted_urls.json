@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/ryder-flugence-caleb-farias-lead-054854204.html",
-    "https://www.prothomalo.com/bangladesh/district/3v2w7ibasn",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
     "https://www.skysports.com/racing/news/12040/13583974/today-on-sky-sports-racing-enceladus-takes-on-christmas-day-and-pienne-bonnard-in-250th-st-leger-from-doncaster",
     "https://www.bbc.com/bengali/articles/c5y5pgqlxnzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555295.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/c6z7z5w2wqn5t?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/articles/channel-phillies-tonight-channel-brewers-095024646.html"
+    "https://sports.yahoo.com/articles/channel-phillies-tonight-channel-brewers-095024646.html",
+    "https://www.prothomalo.com/video/international/e8md6v5wh2",
+    "https://www.nytimes.com/2026/09/22/world/asia/china-zion-church-pastor-detained-family.html",
+    "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
