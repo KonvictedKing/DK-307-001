@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/articles/pirates-rookie-pitchers-pummeled-cubs-223115130.html",
-    "https://www.prothomalo.com/entertainment/song/tzxmmch5rb",
     "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
     "https://www.skysports.com/football/news/12040/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk",
     "https://www.bbc.com/bengali/articles/cvgyvkx7v81o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555264.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm62exd57dnzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/21/world/middleeast/iraq-prime-minister-interview-disarm-militias.html",
-    "https://sports.yahoo.com/betting/sportsbook/promos/article/thescore-bet-promo-code-yahoobonus-giants-vs-rams-on-monday-night-football-sept-21-231500345.html"
+    "https://sports.yahoo.com/betting/sportsbook/promos/article/thescore-bet-promo-code-yahoobonus-giants-vs-rams-on-monday-night-football-sept-21-231500345.html",
+    "https://www.prothomalo.com/religion/islam/6tnpctpyw5",
+    "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
+    "https://www.skysports.com/f1/news/12040/13590496/f1-grand-prix-distances-set-to-be-reduced-for-2027-season-along-with-introduction-of-hard-stop-time-on-race-days"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
