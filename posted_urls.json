@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/racing/news/12040/13583974/today-on-sky-sports-racing-enceladus-takes-on-christmas-day-and-pienne-bonnard-in-250th-st-leger-from-doncaster",
-    "https://www.bbc.com/bengali/articles/c5y5pgqlxnzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
     "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-qualifying-fp3-times-results/qEvSytqpcWUB/",
     "https://www.prothomalo.com/video/bangladesh/hd34mb38xz",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/channel-phillies-tonight-channel-brewers-095024646.html",
     "https://www.prothomalo.com/video/international/e8md6v5wh2",
     "https://www.nytimes.com/2026/09/22/world/asia/china-zion-church-pastor-detained-family.html",
-    "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions"
+    "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
+    "https://www.bbc.com/bengali/articles/cqrm9070z91vo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
+    "https://www.nytimes.com/athletic/7619548/2026/09/22/barcelona-real-madrid-la-liga-jose-mourinho-printouts/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
