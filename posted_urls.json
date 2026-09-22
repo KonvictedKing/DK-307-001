@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/oklahoma-vs-michigan-live-updates-college-football-score-result/pxPTckumUIr0/",
-    "https://www.prothomalo.com/religion/islam/yxj57a27h2",
     "https://www.nytimes.com/2026/09/12/world/middleeast/iran-escalation-leverage-houthis-strait.html",
     "https://www.cricinfo.com/ci/content/story/1553924.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c07v2v9jjxyo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13590775/players-championship-darts-winner-cameron-menzies-reveals-he-thought-he-was-suffering-from-a-heart-attack-during-trip-to-switzerland-last-year",
     "https://www.bbc.com/bengali/articles/c6y9z29rjzreo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-picture-clinching-scenarios-scores-results/KXn09xfvrw5K/"
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-picture-clinching-scenarios-scores-results/KXn09xfvrw5K/",
+    "https://www.prothomalo.com/bangladesh/vt51qsrey7",
+    "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
+    "https://www.cricinfo.com/ci/content/story/1555315.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
