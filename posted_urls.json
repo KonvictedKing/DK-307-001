@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/11/world/middleeast/tyre-engulfed-war-lebanon.html",
-    "https://www.skysports.com/football/news/12040/13584647/manchester-united-news-ruben-amorim-takes-a-swipe-at-the-clubs-former-players-now-working-in-the-media-paper-talk",
-    "https://www.bbc.com/bengali/articles/cvgyvkx7v81o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/09/ecuador-drugs-gang-terrorist-group-los-tiguerones-rubio",
     "https://www.nytimes.com/athletic/live-blogs/shelton-vs-tiafoe-live-updates-us-open-2026-score-result/hXTSIsSdfAEd/",
     "https://www.kishoralo.com/feature/ewevsp3qr4",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/betting/sportsbook/promos/article/thescore-bet-promo-code-yahoobonus-giants-vs-rams-on-monday-night-football-sept-21-231500345.html",
     "https://www.prothomalo.com/religion/islam/6tnpctpyw5",
     "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
-    "https://www.skysports.com/f1/news/12040/13590496/f1-grand-prix-distances-set-to-be-reduced-for-2027-season-along-with-introduction-of-hard-stop-time-on-race-days"
+    "https://www.skysports.com/f1/news/12040/13590496/f1-grand-prix-distances-set-to-be-reduced-for-2027-season-along-with-introduction-of-hard-stop-time-on-race-days",
+    "https://www.bbc.com/bengali/articles/cm0re2kd9evko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/22/houthis-battle-for-strategic-heights-in-yemen-as-thousands-more-flee-homes?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7617829/2026/09/22/luke-littler-booed-fans-dutch-why/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
