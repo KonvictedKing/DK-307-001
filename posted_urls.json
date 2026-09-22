@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/f1/news/12040/13584723/mercedes-chief-toto-wolff-fumes-at-couch-warriors-questioning-teams-treatment-of-george-russell-in-title-battle-with-kimi-antonelli",
-    "https://www.bbc.com/bengali/articles/clyr0plqr4ko?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
     "https://www.nytimes.com/athletic/live-blogs/oklahoma-vs-michigan-live-updates-college-football-score-result/pxPTckumUIr0/",
     "https://www.prothomalo.com/religion/islam/yxj57a27h2",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/breaking-news/article/dabo-swinney-understands-why-clemsons-future-series-with-georgia-was-canceled-but-he-doesnt-like-it-either-185628021.html",
     "https://www.prothomalo.com/world/india/2ulj8nfo3e",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/darts/news/12040/13590775/players-championship-darts-winner-cameron-menzies-reveals-he-thought-he-was-suffering-from-a-heart-attack-during-trip-to-switzerland-last-year"
+    "https://www.skysports.com/darts/news/12040/13590775/players-championship-darts-winner-cameron-menzies-reveals-he-thought-he-was-suffering-from-a-heart-attack-during-trip-to-switzerland-last-year",
+    "https://www.bbc.com/bengali/articles/c6y9z29rjzreo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-picture-clinching-scenarios-scores-results/KXn09xfvrw5K/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
