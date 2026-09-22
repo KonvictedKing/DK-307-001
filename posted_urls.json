@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it?traffic_source=rss",
-    "https://sports.yahoo.com/college-football/article/missouris-eli-drinkwitz-tried-to-embarrass-kansas-with-late-score-bemoans-jayhawks-making-rivalry-about-civil-war-140726866.html",
-    "https://www.prothomalo.com/video/international/obdevm7ha8",
     "https://www.bbc.co.uk/news/articles/cy0zvx15rywo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/f1/news/12040/13584723/mercedes-chief-toto-wolff-fumes-at-couch-warriors-questioning-teams-treatment-of-george-russell-in-title-battle-with-kimi-antonelli",
     "https://www.bbc.com/bengali/articles/clyr0plqr4ko?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555374.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6ly7ex9pm0xo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/dabo-swinney-understands-why-clemsons-future-series-with-georgia-was-canceled-but-he-doesnt-like-it-either-185628021.html"
+    "https://sports.yahoo.com/college-football/breaking-news/article/dabo-swinney-understands-why-clemsons-future-series-with-georgia-was-canceled-but-he-doesnt-like-it-either-185628021.html",
+    "https://www.prothomalo.com/world/india/2ulj8nfo3e",
+    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
+    "https://www.skysports.com/darts/news/12040/13590775/players-championship-darts-winner-cameron-menzies-reveals-he-thought-he-was-suffering-from-a-heart-attack-during-trip-to-switzerland-last-year"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
