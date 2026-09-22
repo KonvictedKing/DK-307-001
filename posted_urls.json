@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/09/australian-surfers-jake-callum-robinson-homicide-trial-mexico-ntwnfb",
-    "https://www.cricinfo.com/ci/content/story/1553884.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/clyk6k8rpl7o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/12/iran-backed-houthis-seize-strategic-mayun-island-can-they-hold-it?traffic_source=rss",
     "https://sports.yahoo.com/college-football/article/missouris-eli-drinkwitz-tried-to-embarrass-kansas-with-late-score-bemoans-jayhawks-making-rivalry-about-civil-war-140726866.html",
     "https://www.prothomalo.com/video/international/obdevm7ha8",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7619548/2026/09/22/barcelona-real-madrid-la-liga-jose-mourinho-printouts/",
     "https://www.prothomalo.com/bangladesh/district/m0biajrz0q",
     "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555374.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555374.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6ly7ex9pm0xo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/college-football/breaking-news/article/dabo-swinney-understands-why-clemsons-future-series-with-georgia-was-canceled-but-he-doesnt-like-it-either-185628021.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
