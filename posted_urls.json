@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
-    "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-qualifying-fp3-times-results/qEvSytqpcWUB/",
-    "https://www.prothomalo.com/video/bangladesh/hd34mb38xz",
     "https://www.theguardian.com/world/2026/sep/09/australian-surfers-jake-callum-robinson-homicide-trial-mexico-ntwnfb",
     "https://www.cricinfo.com/ci/content/story/1553884.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/clyk6k8rpl7o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
     "https://www.bbc.com/bengali/articles/cqrm9070z91vo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
-    "https://www.nytimes.com/athletic/7619548/2026/09/22/barcelona-real-madrid-la-liga-jose-mourinho-printouts/"
+    "https://www.nytimes.com/athletic/7619548/2026/09/22/barcelona-real-madrid-la-liga-jose-mourinho-printouts/",
+    "https://www.prothomalo.com/bangladesh/district/m0biajrz0q",
+    "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1555374.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
