@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/12/world/europe/trump-ireland-unification-remarks.html",
-    "https://sports.yahoo.com/articles/viral-world-cup-fan-freddy-232111136.html",
-    "https://www.prothomalo.com/world/middle-east/q8ty4mp3kj",
     "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
     "https://www.skysports.com/football/news/12040/13585214/mikel-arteta-rages-at-sunderland-penalty-decision-after-arsenal-win-at-stadium-of-light-this-cannot-happen",
     "https://www.bbc.com/bengali/articles/c8r60y4v7zdo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555437.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cqzez92pdwpwt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
-    "https://sports.yahoo.com/articles/want-see-him-under-pressure-114300679.html"
+    "https://sports.yahoo.com/articles/want-see-him-under-pressure-114300679.html",
+    "https://www.prothomalo.com/lifestyle/relation/r0nb8wj1kl",
+    "https://www.aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak?traffic_source=rss",
+    "https://www.skysports.com/boxing/news/12040/13590876/lucas-roehrig-rising-cruiserweight-talent-signs-with-zuffa-boxing-and-will-fight-on-sky-sports"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
