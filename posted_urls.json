@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/roberto-firmino-incredible-064000796.html",
-    "https://www.prothomalo.com/bangladesh/district/x6os2q54ft",
     "https://www.nytimes.com/2026/09/13/world/middleeast/iran-hard-liners-sabotaged-peace-deal.html",
     "https://www.skysports.com/f1/live-blog/12040/13585122/f1-spanish-gp-live-race-updates-results-stream-highlights-from-14th-round-of-2026-formula-1-season-at-madring",
     "https://www.bbc.co.uk/bengali/live/c6gqdldz8xnpt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555488.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck7v4yydzzy9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/09/23/world/un-general-assembly-iran-ukraine",
-    "https://sports.yahoo.com/soccer/article/prorel-in-liga-mx-more-fallout-from-the-madrid-derby-federico-higuain-out-in-columbus-202529930.html"
+    "https://sports.yahoo.com/soccer/article/prorel-in-liga-mx-more-fallout-from-the-madrid-derby-federico-higuain-out-in-columbus-202529930.html",
+    "https://www.prothomalo.com/bangladesh/crime/ikqeu83ofp",
+    "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
+    "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/live/578238"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
