@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/sunderland-vs-arsenal-live-updates-premier-league-score-result/gzkZxMocCKpg/",
-    "https://www.prothomalo.com/world/india/dcktnqglst",
     "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
     "https://www.cricinfo.com/ci/content/story/1553966.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cz9zy0xkkgno?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13590882/presidents-cup-us-team-captain-brandt-snedeker-wants-jj-spaun-to-make-me-look-like-an-idiot-after-snub",
     "https://www.bbc.com/bengali/articles/cje3rek1qr66o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
-    "https://www.nytimes.com/athletic/7621034/2026/09/23/caleb-williams-injury-memes-bears/"
+    "https://www.nytimes.com/athletic/7621034/2026/09/23/caleb-williams-injury-memes-bears/",
+    "https://www.prothomalo.com/bangladesh/capital/h39xw23rhf",
+    "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
+    "https://www.cricinfo.com/ci/content/story/1555437.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
