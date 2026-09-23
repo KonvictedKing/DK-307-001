@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
-    "https://www.skysports.com/football/news/12040/13585214/mikel-arteta-rages-at-sunderland-penalty-decision-after-arsenal-win-at-stadium-of-light-this-cannot-happen",
-    "https://www.bbc.com/bengali/articles/c8r60y4v7zdo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/13/12-09-sv-trump-for-united-ireland-ir?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-texas-live-updates-college-football-score-result/5GkJE6JxyRh8/",
     "https://www.prothomalo.com/bangladesh/district/axunb84leq",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/want-see-him-under-pressure-114300679.html",
     "https://www.prothomalo.com/lifestyle/relation/r0nb8wj1kl",
     "https://www.aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak?traffic_source=rss",
-    "https://www.skysports.com/boxing/news/12040/13590876/lucas-roehrig-rising-cruiserweight-talent-signs-with-zuffa-boxing-and-will-fight-on-sky-sports"
+    "https://www.skysports.com/boxing/news/12040/13590876/lucas-roehrig-rising-cruiserweight-talent-signs-with-zuffa-boxing-and-will-fight-on-sky-sports",
+    "https://www.bbc.com/bengali/articles/cx4gqyv8vz33o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7623242/2026/09/23/new-york-giants-jaxson-dart-knee-surgery/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
