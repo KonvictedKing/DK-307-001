@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
-    "https://sports.yahoo.com/articles/jefferson-wooden-bednarek-capture-ultimate-192442889.html",
-    "https://www.prothomalo.com/entertainment/song/4bzcrj3rxi",
     "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss",
     "https://www.skysports.com/tennis/live-blog/12040/13584677/us-open-live-scores-updates-news-commentary-results-from-new-york-with-aryna-sabalenka-takes-on-elena-rybakina-in-the-womens-final",
     "https://www.bbc.com/bengali/articles/c4gr0d80pdmo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555315.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwvgyzzenn13o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
-    "https://sports.yahoo.com/articles/qb-alessio-milivojevic-talks-turning-003933929.html"
+    "https://sports.yahoo.com/articles/qb-alessio-milivojevic-talks-turning-003933929.html",
+    "https://www.bbc.com/bengali/articles/c4gjxy1rld0o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/golf/news/12040/13590882/presidents-cup-us-team-captain-brandt-snedeker-wants-jj-spaun-to-make-me-look-like-an-idiot-after-snub"
   ],
   "indices": {
     "national": 2,
-    "international": 5,
-    "sports": 5
+    "international": 1,
+    "sports": 0
   }
 }
