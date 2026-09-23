@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/13/world/middleeast/iran-hard-liners-sabotaged-peace-deal.html",
-    "https://www.skysports.com/f1/live-blog/12040/13585122/f1-spanish-gp-live-race-updates-results-stream-highlights-from-14th-round-of-2026-formula-1-season-at-madring",
-    "https://www.bbc.co.uk/bengali/live/c6gqdldz8xnpt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather",
     "https://www.nytimes.com/athletic/live-blogs/f1-spain-live-updates-race-times-results/Y9AUjynQ5v12/",
     "https://www.kishoralo.com/feature/ew8vxuzngb",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/soccer/article/prorel-in-liga-mx-more-fallout-from-the-madrid-derby-federico-higuain-out-in-columbus-202529930.html",
     "https://www.prothomalo.com/bangladesh/crime/ikqeu83ofp",
     "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
-    "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/live/578238"
+    "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/live/578238",
+    "https://www.bbc.com/bengali/articles/cx4gqy6z46n5o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/9/23/fbi-says-investigating-breach-of-very-sensitive-data-by-hackers?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7624149/2026/09/23/vladimir-guerrero-jr-contract-slump-year-blue-jays/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
