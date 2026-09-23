@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/12/world/middleeast/iran-escalation-leverage-houthis-strait.html",
-    "https://www.cricinfo.com/ci/content/story/1553924.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c07v2v9jjxyo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/12/burial-king-oyo-uganda",
     "https://sports.yahoo.com/articles/jefferson-wooden-bednarek-capture-ultimate-192442889.html",
     "https://www.prothomalo.com/entertainment/song/4bzcrj3rxi",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-picture-clinching-scenarios-scores-results/KXn09xfvrw5K/",
     "https://www.prothomalo.com/bangladesh/vt51qsrey7",
     "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
-    "https://www.cricinfo.com/ci/content/story/1555315.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555315.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cwvgyzzenn13o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
+    "https://sports.yahoo.com/articles/qb-alessio-milivojevic-talks-turning-003933929.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
