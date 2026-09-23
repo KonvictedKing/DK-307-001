@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss",
-    "https://www.skysports.com/tennis/live-blog/12040/13584677/us-open-live-scores-updates-news-commentary-results-from-new-york-with-aryna-sabalenka-takes-on-elena-rybakina-in-the-womens-final",
-    "https://www.bbc.com/bengali/articles/c4gr0d80pdmo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/sunderland-vs-arsenal-live-updates-premier-league-score-result/gzkZxMocCKpg/",
     "https://www.prothomalo.com/world/india/dcktnqglst",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/qb-alessio-milivojevic-talks-turning-003933929.html",
     "https://www.bbc.com/bengali/articles/c4gjxy1rld0o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/golf/news/12040/13590882/presidents-cup-us-team-captain-brandt-snedeker-wants-jj-spaun-to-make-me-look-like-an-idiot-after-snub"
+    "https://www.skysports.com/golf/news/12040/13590882/presidents-cup-us-team-captain-brandt-snedeker-wants-jj-spaun-to-make-me-look-like-an-idiot-after-snub",
+    "https://www.bbc.com/bengali/articles/cje3rek1qr66o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
+    "https://www.nytimes.com/athletic/7621034/2026/09/23/caleb-williams-injury-memes-bears/"
   ],
   "indices": {
     "national": 2,
-    "international": 1,
-    "sports": 0
+    "international": 2,
+    "sports": 2
   }
 }
