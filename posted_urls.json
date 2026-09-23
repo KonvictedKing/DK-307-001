@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1553966.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cz9zy0xkkgno?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/12/world/europe/trump-ireland-unification-remarks.html",
     "https://sports.yahoo.com/articles/viral-world-cup-fan-freddy-232111136.html",
     "https://www.prothomalo.com/world/middle-east/q8ty4mp3kj",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7621034/2026/09/23/caleb-williams-injury-memes-bears/",
     "https://www.prothomalo.com/bangladesh/capital/h39xw23rhf",
     "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
-    "https://www.cricinfo.com/ci/content/story/1555437.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555437.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/cqzez92pdwpwt?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
+    "https://sports.yahoo.com/articles/want-see-him-under-pressure-114300679.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
