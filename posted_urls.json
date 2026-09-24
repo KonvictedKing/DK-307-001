@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
-    "https://sports.yahoo.com/articles/colts-wr-alec-pierce-wrist-223205191.html",
-    "https://www.prothomalo.com/entertainment/world-cinema/3vrde4kpg1",
     "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/tennis/news/12040/13585617/us-open-top-seed-alexander-zverev-breaks-ben-sheltons-heart-and-ends-american-dreams-by-winning-title-in-four-sets",
     "https://www.bbc.com/bengali/articles/crr4e1g9pl4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555551.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckr509d69pz4t?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/netflix-books-tyson-fury-vs-125424320.html"
+    "https://sports.yahoo.com/articles/netflix-books-tyson-fury-vs-125424320.html",
+    "https://www.prothomalo.com/business/economics/v1cv657tl1",
+    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
+    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
