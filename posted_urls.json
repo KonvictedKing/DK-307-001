@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/why-erling-haaland-goal-against-170107832.html",
-    "https://www.prothomalo.com/video/bangladesh/081qxi9zgd",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
     "https://www.skysports.com/golf/news/12040/13585550/solheim-cup-2026-europe-captain-anna-nordqvist-dismisses-usa-captain-angela-stanfords-dig-at-course-set-up",
     "https://www.bbc.com/bengali/articles/c3rejgdp3qgo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555508.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckyvz0433prro?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/packers-wire-staff-predictions-week-013402548.html"
+    "https://sports.yahoo.com/articles/packers-wire-staff-predictions-week-013402548.html",
+    "https://www.prothomalo.com/bangladesh/district/4be3hhtl1q",
+    "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
+    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
