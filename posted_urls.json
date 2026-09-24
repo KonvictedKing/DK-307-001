@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.skysports.com/golf/news/12040/13585550/solheim-cup-2026-europe-captain-anna-nordqvist-dismisses-usa-captain-angela-stanfords-dig-at-course-set-up",
-    "https://www.bbc.com/bengali/articles/c3rejgdp3qgo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
     "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news-week-1/QtLJHXalMwDk/",
     "https://www.prothomalo.com/politics/5p3fsfyj16",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/packers-wire-staff-predictions-week-013402548.html",
     "https://www.prothomalo.com/bangladesh/district/4be3hhtl1q",
     "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
-    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest"
+    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+    "https://www.bbc.com/bengali/articles/c6d08xedzjm4o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
+    "https://www.nytimes.com/athletic/7623692/2026/09/24/college-football-picks-spread-week-4-texas-tennessee/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
