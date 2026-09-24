@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/13/world/middleeast/iran-meeting-gulf-arab-states.html",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news-week-1/QtLJHXalMwDk/",
-    "https://www.prothomalo.com/politics/5p3fsfyj16",
     "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
     "https://www.cricinfo.com/ci/content/story/1554161.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cvgyvdzvnyzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
     "https://www.bbc.com/bengali/articles/c6d08xedzjm4o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
-    "https://www.nytimes.com/athletic/7623692/2026/09/24/college-football-picks-spread-week-4-texas-tennessee/"
+    "https://www.nytimes.com/athletic/7623692/2026/09/24/college-football-picks-spread-week-4-texas-tennessee/",
+    "https://www.prothomalo.com/bangladesh/capital/febx058u8l",
+    "https://www.aljazeera.com/opinions/2026/9/24/to-the-victor-belong-venezuelas-spoils-delcy-rodriguezs-unga-about-face?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1555551.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
