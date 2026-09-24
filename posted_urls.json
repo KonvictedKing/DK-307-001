@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://www.nytimes.com/athletic/7591847/2026/09/13/ravens-declan-doyle-offense-colts-week-1/",
-    "https://www.prothomalo.com/chakri/employment/kin4fypz5u",
     "https://www.nytimes.com/2026/09/13/world/europe/ukraine-petraeus-russian-strike.html",
     "https://www.cricinfo.com/ci/content/story/1554177.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq5xqwy65zjo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
     "https://www.bbc.com/bengali/articles/cwg7km5nv7lko?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
-    "https://www.nytimes.com/athletic/7626430/2026/09/24/president-trump-tennessee-texas-college-football-game/"
+    "https://www.nytimes.com/athletic/7626430/2026/09/24/president-trump-tennessee-texas-college-football-game/",
+    "https://www.prothomalo.com/bangladesh/environment/tpzd8n9vrl",
+    "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
+    "https://www.cricinfo.com/ci/content/story/1555626.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
