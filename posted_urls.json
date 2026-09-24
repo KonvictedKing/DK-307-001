@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/13/world/europe/ukraine-petraeus-russian-strike.html",
-    "https://www.cricinfo.com/ci/content/story/1554177.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cq5xqwy65zjo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations",
     "https://sports.yahoo.com/articles/watch-levante-honour-barcelona-world-062000240.html",
     "https://www.prothomalo.com/video/entertainment/5jf30zkm4b",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7626430/2026/09/24/president-trump-tennessee-texas-college-football-game/",
     "https://www.prothomalo.com/bangladesh/environment/tpzd8n9vrl",
     "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
-    "https://www.cricinfo.com/ci/content/story/1555626.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555626.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cmn0jnw7e5lko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
+    "https://sports.yahoo.com/articles/finally-fury-vs-joshua-official-215135952.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
