@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations",
-    "https://sports.yahoo.com/articles/watch-levante-honour-barcelona-world-062000240.html",
-    "https://www.prothomalo.com/video/entertainment/5jf30zkm4b",
     "https://www.aljazeera.com/news/2026/9/14/ammonia-gas-leak-in-jordans-aqaba-industrial-area-injures-11-people?traffic_source=rss",
     "https://www.skysports.com/f1/news/12040/13585296/f1-drivers-team-bosses-hopeful-over-madring-track-changes-for-overtaking-after-new-venues-first-spanish-gp",
     "https://www.bbc.com/bengali/articles/cmz7znp5477qo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555626.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmn0jnw7e5lko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
-    "https://sports.yahoo.com/articles/finally-fury-vs-joshua-official-215135952.html"
+    "https://sports.yahoo.com/articles/finally-fury-vs-joshua-official-215135952.html",
+    "https://www.prothomalo.com/bangladesh/3ysqbd4935",
+    "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/news/12040/13591497/man-utd-transfer-news-barcelona-not-interested-in-wonderkid-jj-gabriel-says-sporting-director-deco-paper-talk"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
