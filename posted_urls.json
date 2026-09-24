@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/13/world-leaders-gather-in-new-delhi-for-final-day-of-brics-summit?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1554043.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/ceq80q9xwzqo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/why-erling-haaland-goal-against-170107832.html",
     "https://www.prothomalo.com/video/bangladesh/081qxi9zgd",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7624149/2026/09/23/vladimir-guerrero-jr-contract-slump-year-blue-jays/",
     "https://www.prothomalo.com/world/hx8gkjhayj",
     "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555508.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555508.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ckyvz0433prro?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
+    "https://sports.yahoo.com/articles/packers-wire-staff-predictions-week-013402548.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
