@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
-    "https://www.cricinfo.com/ci/content/story/1554161.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cvgyvdzvnyzo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
     "https://sports.yahoo.com/articles/colts-wr-alec-pierce-wrist-223205191.html",
     "https://www.prothomalo.com/entertainment/world-cinema/3vrde4kpg1",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7623692/2026/09/24/college-football-picks-spread-week-4-texas-tennessee/",
     "https://www.prothomalo.com/bangladesh/capital/febx058u8l",
     "https://www.aljazeera.com/opinions/2026/9/24/to-the-victor-belong-venezuelas-spoils-delcy-rodriguezs-unga-about-face?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555551.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555551.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/ckr509d69pz4t?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/netflix-books-tyson-fury-vs-125424320.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
