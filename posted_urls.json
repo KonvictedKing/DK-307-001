@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/tennis/news/12040/13585617/us-open-top-seed-alexander-zverev-breaks-ben-sheltons-heart-and-ends-american-dreams-by-winning-title-in-four-sets",
-    "https://www.bbc.com/bengali/articles/crr4e1g9pl4o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
     "https://www.nytimes.com/athletic/7591847/2026/09/13/ravens-declan-doyle-offense-colts-week-1/",
     "https://www.prothomalo.com/chakri/employment/kin4fypz5u",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/netflix-books-tyson-fury-vs-125424320.html",
     "https://www.prothomalo.com/business/economics/v1cv657tl1",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two"
+    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+    "https://www.bbc.com/bengali/articles/cwg7km5nv7lko?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
+    "https://www.nytimes.com/athletic/7626430/2026/09/24/president-trump-tennessee-texas-college-football-game/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
