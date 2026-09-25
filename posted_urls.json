@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/15/us-supreme-court-rejects-trumps-plans-on-postal-ballots-why-it-matters?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7596340/2026/09/15/world-athletics-championships-london-nairobi/",
-    "https://nagorik.prothomalo.com/photo/mmoqfrgbba",
     "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c60qx40dk7l4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13590628/chelsea-women-sonia-bompastor-and-carly-telford-discuss-new-fertility-and-player-maternity-policies-in-wsl-first",
     "https://www.prothomalo.com/bangladesh/wz7ycqvku2",
     "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/f1-azerbaijan-live-updates-qualifying-fp3-times-results/yQHtKpborKe8/"
+    "https://www.nytimes.com/athletic/live-blogs/f1-azerbaijan-live-updates-qualifying-fp3-times-results/yQHtKpborKe8/",
+    "https://www.bbc.com/bengali/articles/c35y74pk58d2o?at_medium=RSS&at_campaign=rss",
+    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+    "https://www.cricinfo.com/ci/content/story/1555698.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
