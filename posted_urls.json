@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/mBUE1HDBC0HX/",
-    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
     "https://www.cricinfo.com/ci/content/story/1554237.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/c014i2ksin",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13591497/man-utd-transfer-news-barcelona-not-interested-in-wonderkid-jj-gabriel-says-sporting-director-deco-paper-talk",
     "https://www.bbc.com/bengali/articles/c6pwl9r2ljk9o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/falcons-vs-packers-live-score-updates-nfl-tnf/Pw4Cem7BtJfn/"
+    "https://www.nytimes.com/athletic/live-blogs/falcons-vs-packers-live-score-updates-nfl-tnf/Pw4Cem7BtJfn/",
+    "https://www.prothomalo.com/fun/bfewlm76gp",
+    "https://www.nytimes.com/2026/09/24/world/americas/haiti-roger-stone-migration.html",
+    "https://www.cricinfo.com/ci/content/story/1555599.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
