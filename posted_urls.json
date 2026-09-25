@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
-    "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579",
-    "https://www.prothomalo.com/bangladesh/0w5eo9a5fk",
     "https://www.theguardian.com/global-development/2026/sep/15/ebola-outbreak-in-drc-has-peaked-say-authorities-as-infection-rates-slow",
     "https://www.nytimes.com/athletic/7597755/2026/09/15/browns-vs-buccaneers-stream-how-to-watch-sept-20/",
     "https://www.bbc.co.uk/bengali/live/cmd68wy306ngt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-friday-live-scores-updates-scottie-scheffler-sam-burns-again-leading-us-team-in-foursomes-matches-at-medinah-173239386.html",
     "https://www.prothomalo.com/bangladesh/crime/6z0isyayk6",
     "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
-    "https://www.skysports.com/boxing/news/12040/13591876/tyson-fury-anthony-joshua-fight-is-stepping-stone-to-oleksandr-usyk-trilogy-ill-knock-him-out-inside-seven-rounds"
+    "https://www.skysports.com/boxing/news/12040/13591876/tyson-fury-anthony-joshua-fight-is-stepping-stone-to-oleksandr-usyk-trilogy-ill-knock-him-out-inside-seven-rounds",
+    "https://www.bbc.com/bengali/articles/cw7v4g2v5835o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/25/which-countries-walked-out-of-netanyahus-unga-speech?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/manchester-city-charges-live-updates/goAnm054BqCA/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
