@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://sports.yahoo.com/college-football/betting/article/week-3-college-football-odds-storylines-best-bets-for-the-5-biggest-games-151028446.html",
-    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.nytimes.com/2026/09/15/world/asia/kyrgyzstan-economy-russia-war.html",
     "https://www.skysports.com/football/liverpool-vs-tottenham-hotspur/live/577579",
     "https://www.prothomalo.com/bangladesh/0w5eo9a5fk",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555698.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
-    "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-friday-live-scores-updates-scottie-scheffler-sam-burns-again-leading-us-team-in-foursomes-matches-at-medinah-173239386.html"
+    "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-friday-live-scores-updates-scottie-scheffler-sam-burns-again-leading-us-team-in-foursomes-matches-at-medinah-173239386.html",
+    "https://www.prothomalo.com/bangladesh/crime/6z0isyayk6",
+    "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
+    "https://www.skysports.com/boxing/news/12040/13591876/tyson-fury-anthony-joshua-fight-is-stepping-stone-to-oleksandr-usyk-trilogy-ill-knock-him-out-inside-seven-rounds"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
