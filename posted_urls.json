@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1554237.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/capital/c014i2ksin",
     "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
     "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-s-malik-hooker-reportedly-has-fractured-forearm-expected-to-miss-multiple-weeks-192052589.html",
     "https://www.bbc.com/bengali/articles/cmpwlkwzv8keo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/falcons-vs-packers-live-score-updates-nfl-tnf/Pw4Cem7BtJfn/",
     "https://www.prothomalo.com/fun/bfewlm76gp",
     "https://www.nytimes.com/2026/09/24/world/americas/haiti-roger-stone-migration.html",
-    "https://www.cricinfo.com/ci/content/story/1555599.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555599.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cvrl67p427l8o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
+    "https://sports.yahoo.com/articles/genius-ohashi-bids-third-asian-063751024.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
