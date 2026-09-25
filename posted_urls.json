@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/14/ammonia-gas-leak-in-jordans-aqaba-industrial-area-injures-11-people?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13585296/f1-drivers-team-bosses-hopeful-over-madring-track-changes-for-overtaking-after-new-venues-first-spanish-gp",
-    "https://www.bbc.com/bengali/articles/cmz7znp5477qo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/mBUE1HDBC0HX/",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/finally-fury-vs-joshua-official-215135952.html",
     "https://www.prothomalo.com/bangladesh/3ysqbd4935",
     "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/news/12040/13591497/man-utd-transfer-news-barcelona-not-interested-in-wonderkid-jj-gabriel-says-sporting-director-deco-paper-talk"
+    "https://www.skysports.com/football/news/12040/13591497/man-utd-transfer-news-barcelona-not-interested-in-wonderkid-jj-gabriel-says-sporting-director-deco-paper-talk",
+    "https://www.bbc.com/bengali/articles/c6pwl9r2ljk9o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/falcons-vs-packers-live-score-updates-nfl-tnf/Pw4Cem7BtJfn/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
