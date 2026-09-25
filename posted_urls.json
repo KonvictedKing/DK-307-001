@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cw980n0nd0qjo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1554300.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c60qx40dk7l4o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
     "https://sports.yahoo.com/college-football/betting/article/week-3-college-football-odds-storylines-best-bets-for-the-5-biggest-games-151028446.html",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/f1-azerbaijan-live-updates-qualifying-fp3-times-results/yQHtKpborKe8/",
     "https://www.bbc.com/bengali/articles/c35y74pk58d2o?at_medium=RSS&at_campaign=rss",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1555698.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555698.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
+    "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-friday-live-scores-updates-scottie-scheffler-sam-burns-again-leading-us-team-in-foursomes-matches-at-medinah-173239386.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 0,
+    "international": 3,
+    "sports": 5
   }
 }
