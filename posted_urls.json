@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/15/white-south-africans-denied-refugee-status-us",
-    "https://www.skysports.com/rugby-league/news/12040/13585902/leigh-leopards-and-wakefield-trinity-ready-for-rematch-as-both-clubs-look-to-make-more-history",
-    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.aljazeera.com/news/2026/9/15/us-supreme-court-rejects-trumps-plans-on-postal-ballots-why-it-matters?traffic_source=rss",
     "https://www.nytimes.com/athletic/7596340/2026/09/15/world-athletics-championships-london-nairobi/",
     "https://nagorik.prothomalo.com/photo/mmoqfrgbba",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/genius-ohashi-bids-third-asian-063751024.html",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13590628/chelsea-women-sonia-bompastor-and-carly-telford-discuss-new-fertility-and-player-maternity-policies-in-wsl-first"
+    "https://www.skysports.com/football/news/12040/13590628/chelsea-women-sonia-bompastor-and-carly-telford-discuss-new-fertility-and-player-maternity-policies-in-wsl-first",
+    "https://www.prothomalo.com/bangladesh/wz7ycqvku2",
+    "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/f1-azerbaijan-live-updates-qualifying-fp3-times-results/yQHtKpborKe8/"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
