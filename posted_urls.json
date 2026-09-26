@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1554603.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.nytimes.com/2026/09/16/world/canada/eu-canada-associate-member-trade.html",
     "https://sports.yahoo.com/articles/m-hearing-gillette-stadium-wednesday-231234938.html",
     "https://www.prothomalo.com/politics/uuiix539qx",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/oregon-usc-live-updates-college-football-score-result/efCoC5Hd9Lyo/",
     "https://www.bbc.com/bengali/articles/ckddvv3gpyjzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/26/world/asia/pakistan-protest-islamabad-containers.html",
-    "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
+    "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
+    "https://sports.yahoo.com/mlb/article/dodgers-reliever-blake-treinen-likely-finished-for-2026-season-after-suffering-shoulder-injury-while-warming-up-235530409.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 0,
+    "international": 4,
+    "sports": 5
   }
 }
