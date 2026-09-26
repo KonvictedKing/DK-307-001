@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/16/al-mughayyir-a-village-under-siege?traffic_source=rss",
-    "https://www.skysports.com/cricket/news/12040/13588700/county-championship-warwickshire-seal-two-day-win-over-essex-to-boost-title-hopes-as-sam-hain-stars",
-    "https://www.prothomalo.com/bangladesh/2n173ir1qf",
     "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7601654/2026/09/16/blue-jackets-mike-priest-retirement/",
     "https://www.bbc.com/bengali/articles/crjw51z9gy01o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/pickleball-tip-week-fixing-tall-180225203.html",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/london-city-lionesses-vs-brighton-and-hove-albion-women/report/575777"
+    "https://www.skysports.com/football/london-city-lionesses-vs-brighton-and-hove-albion-women/report/575777",
+    "https://www.prothomalo.com/sports/football/dpnoycdjy7",
+    "https://www.cnn.com/collections/intl-trump-040223/",
+    "https://www.nytimes.com/athletic/live-blogs/oregon-usc-live-updates-college-football-score-result/efCoC5Hd9Lyo/"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 0
+    "national": 1,
+    "international": 2,
+    "sports": 2
   }
 }
