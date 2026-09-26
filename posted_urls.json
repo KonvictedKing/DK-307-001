@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/tennis/live-blog/12040/13525472/emma-raducanu-tennis-schedule-next-match-ranking-latest-results-video-and-how-to-watch-live-on-sky-sports-tennis",
-    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.cnn.com/collections/intl-trump-040223/",
     "https://www.nytimes.com/athletic/7599880/2026/09/16/jj-gabriel-dowman-manchester-united-arsenal/",
     "https://www.prothomalo.com/bangladesh/district/4a6fcaenv3",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/racing-louisville-playoff-hopes-over-101605010.html",
     "https://www.bbc.com/bengali/articles/ck5yeel4251wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
-    "https://www.skysports.com/f1/news/12040/13591978/azerbaijan-gp-george-russell-holds-off-max-verstappen-for-victory-in-thrilling-baku-finale-as-kimi-antonelli-recovers-to-fifth"
+    "https://www.skysports.com/f1/news/12040/13591978/azerbaijan-gp-george-russell-holds-off-max-verstappen-for-victory-in-thrilling-baku-finale-as-kimi-antonelli-recovers-to-fifth",
+    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
+    "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
+    "https://www.nytimes.com/athletic/live-blogs/england-vs-spain-live-updates-nations-league-score-result/I7TPJQ7HiBn0/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 0,
+    "international": 3,
+    "sports": 2
   }
 }
