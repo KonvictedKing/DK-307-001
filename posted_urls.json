@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/15/romanian-shepards-and-farmers-clash-with-police?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1554330.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/usc-player-alleges-ex-warriors-222230794.html",
     "https://www.prothomalo.com/religion/islam/gf30ie0vwk",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/manchester-city-charges-live-updates/goAnm054BqCA/",
     "https://www.prothomalo.com/bangladesh/8k69uzr1wf",
     "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555717.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555717.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6zjzzynnxxgo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://sports.yahoo.com/articles/illinois-high-school-football-scores-000619684.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
