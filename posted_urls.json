@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/16/discovery-women-bodies-anger-femicide-south-africa",
-    "https://sports.yahoo.com/articles/junior-roary-savagely-trolls-saints-174000153.html",
-    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.aljazeera.com/video/newsfeed/2026/9/16/al-mughayyir-a-village-under-siege?traffic_source=rss",
     "https://www.skysports.com/cricket/news/12040/13588700/county-championship-warwickshire-seal-two-day-win-over-essex-to-boost-title-hopes-as-sam-hain-stars",
     "https://www.prothomalo.com/bangladesh/2n173ir1qf",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555830.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm6244njzvv0o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/26/stop-arming-israel-pro-palestine-protesters-march-on-labour-conference?traffic_source=rss",
-    "https://sports.yahoo.com/articles/pickleball-tip-week-fixing-tall-180225203.html"
+    "https://sports.yahoo.com/articles/pickleball-tip-week-fixing-tall-180225203.html",
+    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
+    "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/london-city-lionesses-vs-brighton-and-hove-albion-women/report/575777"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 0,
+    "international": 1,
+    "sports": 0
   }
 }
