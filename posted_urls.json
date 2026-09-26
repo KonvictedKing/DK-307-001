@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/7599880/2026/09/16/jj-gabriel-dowman-manchester-united-arsenal/",
-    "https://www.prothomalo.com/bangladesh/district/4a6fcaenv3",
     "https://www.nytimes.com/2026/09/16/world/middleeast/gaza-building-collapse.html",
     "https://www.cricinfo.com/ci/content/story/1554508.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6gmr4d333l7o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13591978/azerbaijan-gp-george-russell-holds-off-max-verstappen-for-victory-in-thrilling-baku-finale-as-kimi-antonelli-recovers-to-fifth",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
-    "https://www.nytimes.com/athletic/live-blogs/england-vs-spain-live-updates-nations-league-score-result/I7TPJQ7HiBn0/"
+    "https://www.nytimes.com/athletic/live-blogs/england-vs-spain-live-updates-nations-league-score-result/I7TPJQ7HiBn0/",
+    "https://www.prothomalo.com/bangladesh/district/s6rt4hwkcr",
+    "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers",
+    "https://www.cricinfo.com/ci/content/story/1555830.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
