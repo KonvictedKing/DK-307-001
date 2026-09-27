@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/16/world/canada/eu-canada-associate-member-trade.html",
-    "https://sports.yahoo.com/articles/m-hearing-gillette-stadium-wednesday-231234938.html",
-    "https://www.prothomalo.com/politics/uuiix539qx",
     "https://www.theguardian.com/world/2026/sep/16/us-visa-restrictions-south-africans-trump-claims-anti-white-discrimination",
     "https://www.skysports.com/football/news/12040/13588791/man-utd-2-3-brighton-michael-carricks-old-trafford-tenure-is-only-heading-in-one-direction-as-red-devils-face-familiar-story",
     "https://www.bbc.com/bengali/articles/cq0m3k1lgjy2o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
-    "https://sports.yahoo.com/mlb/article/dodgers-reliever-blake-treinen-likely-finished-for-2026-season-after-suffering-shoulder-injury-while-warming-up-235530409.html"
+    "https://sports.yahoo.com/mlb/article/dodgers-reliever-blake-treinen-likely-finished-for-2026-season-after-suffering-shoulder-injury-while-warming-up-235530409.html",
+    "https://www.prothomalo.com/entertainment/dhallywood/nfex74pqjt",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/27/araghchi-ignores-trump-waits-for-mediators-response-on-hormuz?traffic_source=rss",
+    "https://www.skysports.com/golf/news/12040/13592061/presidents-cup-international-team-take-historic-10-5-7-5-lead-over-team-usa-into-sunday-singles-and-chase-medinah-win"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
