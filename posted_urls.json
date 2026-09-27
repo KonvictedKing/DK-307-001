@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/environment/2026/sep/17/wildlife-african-wild-dogs-longest-journey-zambia-conservation-aoe",
-    "https://www.nytimes.com/athletic/7601453/2026/09/17/live-jake-ciely-answers-your-fantasy-football-questions-ahead-of-week-2/",
-    "https://www.prothomalo.com/business/industry/4c1jmvogbj",
     "https://www.aljazeera.com/news/2026/9/17/the-uks-king-charles-warns-ai-leaders-of-existential-dangers?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1554750.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cklyjz35njvwo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/watch/video/13592406/australia-42-38-south-africa-rugby-union-highlights",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-3-scores-live-updates-schedule-injuries-highlights/Lhouc2rMqXTT/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-3-scores-live-updates-schedule-injuries-highlights/Lhouc2rMqXTT/",
+    "https://www.prothomalo.com/bangladesh/whozbxlwiz",
+    "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1555984.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
