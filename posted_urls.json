@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cwly7vkke4jxo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-3-start-em-sit-em-what-to-do-with-amare-thomas-jordan-marshall-more-181209603.html",
-    "https://www.prothomalo.com/bangladesh/crime/990dbttpye",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
     "https://www.skysports.com/darts/news/12040/13589036/world-series-of-darts-finals-michael-van-gerwen-loses-to-daryl-gurney-as-luke-humphries-gian-van-veen-progress-in-first-round",
     "https://www.bbc.com/bengali/articles/cq4g7j3y72z4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1555984.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck5ywnxjg53wo?at_medium=RSS&at_campaign=rss",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://sports.yahoo.com/mlb/article/giants-manager-tony-vitello-ends-rough-first-season-with-mlb-high-seventh-ejection-202418453.html"
+    "https://sports.yahoo.com/mlb/article/giants-manager-tony-vitello-ends-rough-first-season-with-mlb-high-seventh-ejection-202418453.html",
+    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
+    "https://www.nytimes.com/2026/09/27/world/europe/raf-fairford-airbase-arrests.html",
+    "https://www.skysports.com/cricket/news/12040/13592513/india-vs-west-indies-virat-kohli-joins-sachin-tendulkar-in-passing-15000-odi-runs-as-his-55th-ton-fires-india-to-victory"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 0,
+    "international": 3,
+    "sports": 0
   }
 }
