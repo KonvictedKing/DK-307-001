@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.skysports.com/darts/news/12040/13589036/world-series-of-darts-finals-michael-van-gerwen-loses-to-daryl-gurney-as-luke-humphries-gian-van-veen-progress-in-first-round",
-    "https://www.bbc.com/bengali/articles/cq4g7j3y72z4o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html",
     "https://www.nytimes.com/athletic/live-blogs/lions-vs-bills-live-score-updates-nfl-tnf/it0L57MKE0Ds/",
     "https://www.prothomalo.com/religion/islam/ar62men995",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/mlb/article/giants-manager-tony-vitello-ends-rough-first-season-with-mlb-high-seventh-ejection-202418453.html",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.nytimes.com/2026/09/27/world/europe/raf-fairford-airbase-arrests.html",
-    "https://www.skysports.com/cricket/news/12040/13592513/india-vs-west-indies-virat-kohli-joins-sachin-tendulkar-in-passing-15000-odi-runs-as-his-55th-ton-fires-india-to-victory"
+    "https://www.skysports.com/cricket/news/12040/13592513/india-vs-west-indies-virat-kohli-joins-sachin-tendulkar-in-passing-15000-odi-runs-as-his-55th-ton-fires-india-to-victory",
+    "https://www.prothomalo.com/religion/islam/qp36v6or40",
+    "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
+    "https://www.nytimes.com/athletic/7637955/2026/09/27/baker-mayfield-injury-buccaneers-vikings/"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
