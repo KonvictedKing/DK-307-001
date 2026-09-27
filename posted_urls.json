@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/17/congress-passes-sweeping-us-sanctions-bill-targeting-russia?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7599009/2026/09/16/jets-connor-hellebuyck-suspended/",
-    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.bbc.co.uk/news/articles/cv0lrxw6ygl2o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1554624.html?ex_cid=OTC-RSS",
     "https://www.bondhushava.com/activities/tl3kcfigdn",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13592061/presidents-cup-international-team-take-historic-10-5-7-5-lead-over-team-usa-into-sunday-singles-and-chase-medinah-win",
     "https://www.bbc.com/bengali/articles/cmn455e0zwx2o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-bracket-picture-tracker-updates/KXn09xfvrw5K/"
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-bracket-picture-tracker-updates/KXn09xfvrw5K/",
+    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
+    "https://cnn.it/411KYN7",
+    "https://www.cricinfo.com/ci/content/story/1555862.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 0,
+    "international": 2,
+    "sports": 3
   }
 }
