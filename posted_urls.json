@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
-    "https://www.skysports.com/boxing/news/12040/13589258/craig-richards-looks-to-relaunch-world-championship-charge-against-radivoje-kalajdzic-on-september-26-live-on-sky-sports",
-    "https://www.bbc.com/bengali/articles/cqkgv2vz8z0go?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cm2dw1w9d3yjo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/brentford-vs-chelsea-live-updates-premier-league-score-result/f5gEXaDiPPKo/",
     "https://www.prothomalo.com/bangladesh/capital/eotgxp5rde",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/nfl/article/cj-strouds-prove-it-year-is-off-to-a-nightmare-start-174601556.html",
     "https://www.prothomalo.com/entertainment/song/i3sa5igv4x",
     "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/news/12040/13592991/world-grand-prix-darts-luke-littler-in-shock-first-round-exit-as-defending-champion-loses-to-luke-woodhouse"
+    "https://www.skysports.com/darts/news/12040/13592991/world-grand-prix-darts-luke-littler-in-shock-first-round-exit-as-defending-champion-loses-to-luke-woodhouse",
+    "https://www.bbc.com/bengali/articles/cmlyrlkvzn8vo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+    "https://www.nytimes.com/athletic/live-blogs/eagles-vs-bears-score-live-updates-monday-night-football/gteczLyV8XJs/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
