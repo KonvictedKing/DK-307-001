@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/nfl/news/12040/13589168/buffalo-bills-beat-detroit-lions-41-31-in-first-match-at-highmark-stadium-as-josh-allen-stars-again",
-    "https://www.bbc.com/bengali/articles/cq1j4kk9dxl9o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
     "https://www.nytimes.com/athletic/7602096/2026/09/18/nfl-schedule-games-week-2-full-list/",
     "https://www.prothomalo.com/bangladesh/capital/nv4vl3ksm3",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/advantage-wnba-playoffs-goes-team-020108757.html",
     "https://www.prothomalo.com/video/international/snp2oj09sn",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.skysports.com/nfl/news/12040/13592502/baltimore-ravens-produce-miracle-in-rio-de-janeiro-patrick-mahomes-ties-tom-brady-and-james-cook-stars-for-buffalo-bills-nfl-sunday-review"
+    "https://www.skysports.com/nfl/news/12040/13592502/baltimore-ravens-produce-miracle-in-rio-de-janeiro-patrick-mahomes-ties-tom-brady-and-james-cook-stars-for-buffalo-bills-nfl-sunday-review",
+    "https://www.bbc.co.uk/bengali/live/cwm2q3yyzmlqt?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/28/world/europe/raf-fairford-incident-air-base-terrorism-uk.html",
+    "https://www.nytimes.com/athletic/7638968/2026/09/28/nfl-brian-dawkins-department-of-homeland-security-philadelphia-eagles/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
