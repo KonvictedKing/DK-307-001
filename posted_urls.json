@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/18/louisiana-firefighters-sub-saharan-africa-feline",
-    "https://sports.yahoo.com/articles/bears-vikings-injury-report-jauan-111509918.html",
-    "https://www.prothomalo.com/bangladesh/district/21don3nhbh",
     "https://www.aljazeera.com/video/newsfeed/2026/9/18/09-18-26-pakistan-blast?traffic_source=rss",
     "https://www.skysports.com/boxing/news/12040/13589258/craig-richards-looks-to-relaunch-world-championship-charge-against-radivoje-kalajdzic-on-september-26-live-on-sky-sports",
     "https://www.bbc.com/bengali/articles/cqkgv2vz8z0go?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556034.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c34gd105l1xlo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/28/paris-court-finds-swiftair-guilty-over-2014-mali-crash-that-killed-116?traffic_source=rss",
-    "https://sports.yahoo.com/nfl/article/cj-strouds-prove-it-year-is-off-to-a-nightmare-start-174601556.html"
+    "https://sports.yahoo.com/nfl/article/cj-strouds-prove-it-year-is-off-to-a-nightmare-start-174601556.html",
+    "https://www.prothomalo.com/entertainment/song/i3sa5igv4x",
+    "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/darts/news/12040/13592991/world-grand-prix-darts-luke-littler-in-shock-first-round-exit-as-defending-champion-loses-to-luke-woodhouse"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
