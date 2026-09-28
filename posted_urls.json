@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/17/world/middleeast/yemen-houthis-marib.html",
-    "https://www.nytimes.com/athletic/live-blogs/lions-vs-bills-live-score-updates-nfl-tnf/it0L57MKE0Ds/",
-    "https://www.prothomalo.com/religion/islam/ar62men995",
     "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
     "https://www.cricinfo.com/ci/content/story/1554766.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq62j75yezz4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/cricket/news/12040/13592513/india-vs-west-indies-virat-kohli-joins-sachin-tendulkar-in-passing-15000-odi-runs-as-his-55th-ton-fires-india-to-victory",
     "https://www.prothomalo.com/religion/islam/qp36v6or40",
     "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
-    "https://www.nytimes.com/athletic/7637955/2026/09/27/baker-mayfield-injury-buccaneers-vikings/"
+    "https://www.nytimes.com/athletic/7637955/2026/09/27/baker-mayfield-injury-buccaneers-vikings/",
+    "https://www.bbc.com/bengali/articles/c65y5x0ew5z9o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1555991.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
