@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/16/al-qaida-and-is-linked-violence-in-africas-sahel-belt-set-to-hit-record-levels-this-year",
-    "https://www.cricinfo.com/ci/content/story/1554766.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cq62j75yezz4o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/18/iran-expels-swedish-diplomat-in-retaliatory-move?traffic_source=rss",
     "https://sports.yahoo.com/mlb/article/edwin-diaz-to-return-to-dodgers-on-friday-but-not-as-closer-004718889.html",
     "https://trust.prothomalo.com/activities/drug-abuse/bg7kaaigvx",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7637955/2026/09/27/baker-mayfield-injury-buccaneers-vikings/",
     "https://www.bbc.com/bengali/articles/c65y5x0ew5z9o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555991.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1555991.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
+    "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/advantage-wnba-playoffs-goes-team-020108757.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 3
+    "national": 0,
+    "international": 1,
+    "sports": 5
   }
 }
