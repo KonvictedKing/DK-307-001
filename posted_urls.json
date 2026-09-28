@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
-    "https://www.nytimes.com/athletic/7602096/2026/09/18/nfl-schedule-games-week-2-full-list/",
-    "https://www.prothomalo.com/bangladesh/capital/nv4vl3ksm3",
     "https://www.nytimes.com/2026/09/18/world/europe/germany-afd-bauhaus-culture.html",
     "https://www.cricinfo.com/ci/content/story/1554795.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckqxvdppqewgo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/nfl/news/12040/13592502/baltimore-ravens-produce-miracle-in-rio-de-janeiro-patrick-mahomes-ties-tom-brady-and-james-cook-stars-for-buffalo-bills-nfl-sunday-review",
     "https://www.bbc.co.uk/bengali/live/cwm2q3yyzmlqt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/28/world/europe/raf-fairford-incident-air-base-terrorism-uk.html",
-    "https://www.nytimes.com/athletic/7638968/2026/09/28/nfl-brian-dawkins-department-of-homeland-security-philadelphia-eagles/"
+    "https://www.nytimes.com/athletic/7638968/2026/09/28/nfl-brian-dawkins-department-of-homeland-security-philadelphia-eagles/",
+    "https://www.prothomalo.com/video/bangladesh/x3x4v86i9y",
+    "https://www.theguardian.com/music/2026/sep/28/mighty-sparrow-the-trinidad-and-tobago-singer-known-as-the-calypso-king-of-the-world-dies-aged-91",
+    "https://www.cricinfo.com/ci/content/story/1556034.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
