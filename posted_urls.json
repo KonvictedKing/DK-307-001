@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
-    "https://sports.yahoo.com/articles/york-reach-grand-final-shut-182726461.html",
-    "https://www.prothomalo.com/bangladesh/capital/tcomce7bkz",
     "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
     "https://www.skysports.com/rugby-league/leeds-vs-york-valkyrie/report/64307",
     "https://www.bbc.com/bengali/articles/cqwyz8ewkelwo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556070.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6n9wrpry1zeo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
-    "https://sports.yahoo.com/articles/protect-college-sports-act-could-024147875.html"
+    "https://sports.yahoo.com/articles/protect-college-sports-act-could-024147875.html",
+    "https://www.prothomalo.com/world/india/vz9q92czx1",
+    "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
+    "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
