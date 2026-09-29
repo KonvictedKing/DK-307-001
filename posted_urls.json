@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c63d7lexyym1o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1554921.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c893vw11qr6wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
     "https://sports.yahoo.com/college-football/article/lsu-qb-sam-leavitt-initially-questionable-for-high-profile-matchup-vs-ole-miss-taken-off-injury-report-entirely-003641268.html",
     "https://www.prothomalo.com/sports/ztv7vhgicn",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7641675/2026/09/29/ronald-acuna-jr-braves-playoffs-world-series/",
     "https://www.prothomalo.com/bangladesh/ki0agrstl4",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1556144.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1556144.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cmx2z7qp2l24o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/09/29/world/europe/ukraine-kramatorsk.html",
+    "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-5-qb-rankings-eric-frotons-top-quarterbacks-163437104.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
