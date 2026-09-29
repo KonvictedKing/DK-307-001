@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/18/survivor-panic-struggle-breathe-nigeria-prison-cell-died-minna",
-    "https://www.skysports.com/rugby-league/leeds-vs-york-valkyrie/report/64307",
-    "https://www.bbc.com/bengali/articles/cqwyz8ewkelwo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/18/new-cat-species-found-first-in-more-than-100-years?traffic_source=rss",
     "https://www.nytimes.com/athletic/7608473/2026/09/18/wild-training-camp-observations/",
     "https://www.prothomalo.com/world/usa/vd0oqfhnsn",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/protect-college-sports-act-could-024147875.html",
     "https://www.prothomalo.com/world/india/vz9q92czx1",
     "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
-    "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip"
+    "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
+    "https://www.bbc.co.uk/bengali/live/ck05r3l9v040t?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7641675/2026/09/29/ronald-acuna-jr-braves-playoffs-world-series/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
