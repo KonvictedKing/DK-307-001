@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1554923.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cmrl6461857ko?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/18/world/africa/us-deportation-hotel-equatorial-guinea.html",
     "https://sports.yahoo.com/articles/york-reach-grand-final-shut-182726461.html",
     "https://www.prothomalo.com/bangladesh/capital/tcomce7bkz",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/eagles-vs-bears-score-live-updates-monday-night-football/gteczLyV8XJs/",
     "https://www.prothomalo.com/bangladesh/crime/g6jygxoz4a",
     "https://www.nytimes.com/2026/09/28/world/europe/us-air-base-uk-terror-incident-fairford.html",
-    "https://www.cricinfo.com/ci/content/story/1556070.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1556070.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6n9wrpry1zeo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
+    "https://sports.yahoo.com/articles/protect-college-sports-act-could-024147875.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
