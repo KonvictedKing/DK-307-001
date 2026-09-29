@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://sports.yahoo.com/college-football/article/lsu-qb-sam-leavitt-initially-questionable-for-high-profile-matchup-vs-ole-miss-taken-off-injury-report-entirely-003641268.html",
-    "https://www.prothomalo.com/sports/ztv7vhgicn",
     "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
     "https://www.skysports.com/football/news/12040/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat",
     "https://www.bbc.com/bengali/articles/cmge401ndx2zo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556144.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmx2z7qp2l24o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/29/world/europe/ukraine-kramatorsk.html",
-    "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-5-qb-rankings-eric-frotons-top-quarterbacks-163437104.html"
+    "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-5-qb-rankings-eric-frotons-top-quarterbacks-163437104.html",
+    "https://www.prothomalo.com/sports/football/mfufbq4pm2",
+    "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
+    "https://www.skysports.com/football/scotland-vs-switzerland/report/554028"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
