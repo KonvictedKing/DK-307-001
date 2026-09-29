@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/18/world/europe/putin-russia-election-ideas.html",
-    "https://www.skysports.com/football/news/12040/13589535/brentford-3-0-chelsea-defensive-issues-for-xabi-alonso-laid-bare-after-chastening-west-london-derby-defeat",
-    "https://www.bbc.com/bengali/articles/cmge401ndx2zo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
     "https://www.nytimes.com/athletic/7609375/2026/09/19/padres-nl-wild-card-three-way-tie/",
     "https://www.prothomalo.com/bangladesh/district/xffnzk3z55",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-5-qb-rankings-eric-frotons-top-quarterbacks-163437104.html",
     "https://www.prothomalo.com/sports/football/mfufbq4pm2",
     "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
-    "https://www.skysports.com/football/scotland-vs-switzerland/report/554028"
+    "https://www.skysports.com/football/scotland-vs-switzerland/report/554028",
+    "https://www.bbc.com/bengali/articles/crp3keqwjdn5o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/9/29/what-we-know-about-raf-fairford-bomb?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/fZrg3S4HNyON/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
