@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
-    "https://www.nytimes.com/athletic/live-blogs/lsu-vs-ole-miss-live-updates-score-result-lane-kiffin/NKK38vusMsBg/",
-    "https://www.prothomalo.com/bangladesh/district/r56uync8vu",
     "https://www.nytimes.com/2026/09/19/world/europe/uk-israel-west-bank-sanctions.html",
     "https://www.cricinfo.com/ci/content/story/1555054.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck5ye403yyg5o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13593759/cristiano-ronaldo-portugal-captain-decides-to-national-team-leave-camp-amid-reported-rift-with-head-coach-jorge-jesus",
     "https://www.bbc.co.uk/bengali/live/ckp840rgd4r2t?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/09/30/world/dubai-flight-tel-aviv-israel-pilots",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/oZ8GurdgZ1sc/"
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/oZ8GurdgZ1sc/",
+    "https://www.prothomalo.com/world/middle-east/f07mzlcimp",
+    "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
+    "https://www.cricinfo.com/ci/content/story/1556616.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
