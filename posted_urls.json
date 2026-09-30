@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
-    "https://www.cricinfo.com/ci/content/story/1555017.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cm3wj344ng6eo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/19/demonstrators-in-us-form-human-chain-to-protest-kennedy-center-closure-vote?traffic_source=rss",
     "https://sports.yahoo.com/college-football/breaking-news/article/jeremiah-smith-passes-michael-jenkins-as-ohio-states-all-time-receiving-yards-leader-164441347.html",
     "https://www.prothomalo.com/bangladesh/gxelhzd79v",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7645301/2026/09/30/spain-croatia-lamine-yamal-70-second-goal/",
     "https://www.prothomalo.com/bangladesh/district/rfyyggy4zo",
     "https://www.aljazeera.com/opinions/2026/9/30/why-israel-is-interfering-in-palestinian-education?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1556617.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1556617.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/crwyz8qe7y0qo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/patriots-confident-bounce-back-skills-141617421.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
