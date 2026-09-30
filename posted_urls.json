@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/18/us-men-deported-hotel-equatorial-guinea",
-    "https://www.nytimes.com/athletic/7609375/2026/09/19/padres-nl-wild-card-three-way-tie/",
-    "https://www.prothomalo.com/bangladesh/district/xffnzk3z55",
     "https://www.aljazeera.com/video/newsfeed/2026/9/19/trumps-threats-to-demolish-kennedy-center-sparks-protest?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1554957.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cx4gq6d59ry9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/scotland-vs-switzerland/report/554028",
     "https://www.bbc.com/bengali/articles/crp3keqwjdn5o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/29/what-we-know-about-raf-fairford-bomb?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/fZrg3S4HNyON/"
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/fZrg3S4HNyON/",
+    "https://www.prothomalo.com/entertainment/bollywood/78yoff7m31",
+    "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1556159.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
