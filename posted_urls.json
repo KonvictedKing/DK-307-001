@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/19/world/americas/mexico-melon-contest-veracruz.html",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pX3JwkKqosWW/",
-    "https://www.prothomalo.com/bangladesh/fzifwi0xz3",
     "https://www.theguardian.com/world/2026/sep/18/british-woman-kidnapped-malawi-police-shootout",
     "https://www.cricinfo.com/ci/content/story/1555017.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm3wj344ng6eo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-league/news/12040/13592782/super-league-grand-final-george-williams-hoping-to-change-course-of-warrington-wolves-history-with-victory-in-his-final-game",
     "https://www.bbc.com/bengali/articles/cxm2qmrp2vjjo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/27/melbourne-man-disappearance-south-american-hiking-trail-search-peru",
-    "https://www.nytimes.com/athletic/7645301/2026/09/30/spain-croatia-lamine-yamal-70-second-goal/"
+    "https://www.nytimes.com/athletic/7645301/2026/09/30/spain-croatia-lamine-yamal-70-second-goal/",
+    "https://www.prothomalo.com/bangladesh/district/rfyyggy4zo",
+    "https://www.aljazeera.com/opinions/2026/9/30/why-israel-is-interfering-in-palestinian-education?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1556617.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
