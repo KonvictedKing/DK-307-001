@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6e30580jqjpo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/kimi-antonelli-hailed-phenomenon-david-093159371.html",
-    "https://www.prothomalo.com/technology/freelancing/r31xn9p3cb",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
     "https://www.skysports.com/boxing/news/12040/13589323/johnny-fisher-michael-pirotton-pledges-september-26-copper-box-upset-his-mind-is-broke-too-much-pressure",
     "https://www.bbc.com/bengali/articles/cmde0536dwyno?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556159.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6vgy2pzr09wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://sports.yahoo.com/wnba/breaking-news/article/aces-star-aja-wilson-gets-into-heated-exchange-with-fan-in-game-2-vs-fever-after-sophie-cunningham-foul-004145520.html"
+    "https://sports.yahoo.com/wnba/breaking-news/article/aces-star-aja-wilson-gets-into-heated-exchange-with-fan-in-game-2-vs-fever-after-sophie-cunningham-foul-004145520.html",
+    "https://www.prothomalo.com/opinion/column/to594i1m5j",
+    "https://www.nytimes.com/2026/09/29/world/middleeast/west-bank-israel-settlers-attack-soldiers-palestinians.html",
+    "https://www.skysports.com/rugby-league/news/12040/13592782/super-league-grand-final-george-williams-hoping-to-change-course-of-warrington-wolves-history-with-victory-in-his-final-game"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
