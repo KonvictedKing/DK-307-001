@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/19/demonstrators-in-us-form-human-chain-to-protest-kennedy-center-closure-vote?traffic_source=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/jeremiah-smith-passes-michael-jenkins-as-ohio-states-all-time-receiving-yards-leader-164441347.html",
-    "https://www.prothomalo.com/bangladesh/gxelhzd79v",
     "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/portsmouth-vs-blackburn-rovers/report/560589",
     "https://www.bbc.com/bengali/articles/cme305vj2570o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556617.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/crwyz8qe7y0qo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/patriots-confident-bounce-back-skills-141617421.html"
+    "https://sports.yahoo.com/articles/patriots-confident-bounce-back-skills-141617421.html",
+    "https://www.prothomalo.com/video/bangladesh/paexvz8t1h",
+    "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
+    "https://www.skysports.com/football/news/12040/13593759/cristiano-ronaldo-portugal-captain-decides-to-national-team-leave-camp-amid-reported-rift-with-head-coach-jorge-jesus"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
