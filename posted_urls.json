@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/portsmouth-vs-blackburn-rovers/report/560589",
-    "https://www.bbc.com/bengali/articles/cme305vj2570o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
     "https://www.nytimes.com/athletic/live-blogs/lsu-vs-ole-miss-live-updates-score-result-lane-kiffin/NKK38vusMsBg/",
     "https://www.prothomalo.com/bangladesh/district/r56uync8vu",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/patriots-confident-bounce-back-skills-141617421.html",
     "https://www.prothomalo.com/video/bangladesh/paexvz8t1h",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.skysports.com/football/news/12040/13593759/cristiano-ronaldo-portugal-captain-decides-to-national-team-leave-camp-amid-reported-rift-with-head-coach-jorge-jesus"
+    "https://www.skysports.com/football/news/12040/13593759/cristiano-ronaldo-portugal-captain-decides-to-national-team-leave-camp-amid-reported-rift-with-head-coach-jorge-jesus",
+    "https://www.bbc.co.uk/bengali/live/ckp840rgd4r2t?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/live/2026/09/30/world/dubai-flight-tel-aviv-israel-pilots",
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/oZ8GurdgZ1sc/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
