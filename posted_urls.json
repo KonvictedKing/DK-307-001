@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
-    "https://www.skysports.com/darts/news/12040/13589960/world-series-of-darts-finals-luke-littler-wins-last-leg-decider-vs-nathan-aspinall-to-move-step-closer-to-sweep-of-majors-in-one-year",
-    "https://www.bbc.com/bengali/articles/cq0lre1y0lrwo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cwly5d9v7r43o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7611391/2026/09/19/shohei-ohtani-injury-on-field-work-dodgers/",
     "https://www.prothomalo.com/sports/b8nj71nt3b",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/boxing/article/bob-montgomery-beau-jack-ike-williams-the-forgotten-rivalry-that-defined-an-era-of-lightweight-boxing-234727650.html",
     "https://www.prothomalo.com/sports/cricket/ub1hfxe88b",
     "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/news/12040/13593755/world-grand-prix-gerwyn-price-books-all-welsh-quarter-final-with-jonny-clayton-as-nathan-aspinall-breezes-through"
+    "https://www.skysports.com/darts/news/12040/13593755/world-grand-prix-gerwyn-price-books-all-welsh-quarter-final-with-jonny-clayton-as-nathan-aspinall-breezes-through",
+    "https://www.bbc.com/bengali/articles/cmgqdq91lj8ko?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
+    "https://www.nytimes.com/athletic/7642434/2026/10/01/matthias-jaissle-in-his-own-words/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
