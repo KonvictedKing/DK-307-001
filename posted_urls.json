@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c34gdjk1ne8yo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555108.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/cm790j2yl0y4t?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
     "https://sports.yahoo.com/articles/r-mason-thomas-play-today-141537855.html",
     "https://www.prothomalo.com/bangladesh/crime/1ly3la6kzk",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7650006/2026/10/01/angel-reese-wnba-defensive-player-of-year/",
     "https://www.prothomalo.com/bangladesh/ap9vnko263",
     "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
-    "https://www.cricinfo.com/ci/content/story/1556742.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1556742.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cm9w4w1xvgn9o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/01/world/europe/uk-iran-terrorism-raf-fairford.html",
+    "https://sports.yahoo.com/betting/sportsbook/promos/article/fanduel-promo-code-get-up-to-250-in-bonuses-for-tnf-steelers-vs-browns-235400226.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
