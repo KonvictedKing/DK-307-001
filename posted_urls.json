@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/20/world/asia/myanmar-mission-un-envoy.html",
-    "https://sports.yahoo.com/articles/sunderland-xi-vs-manchester-city-052000577.html",
-    "https://www.prothomalo.com/sports/cricket/e2wq1s9rtf",
     "https://www.theguardian.com/world/2026/sep/18/brazil-lula-welfare-payments-weight-loss-jabs-election",
     "https://www.skysports.com/football/news/12040/13586227/gianluigi-donnarumma-interview-man-city-goalkeeper-insists-club-are-not-in-a-transition-year-and-backs-club-to-have-a-great-season",
     "https://www.bbc.com/bengali/articles/c64g7xn8dmzko?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556732.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/crgjqj8qz01vt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings",
-    "https://sports.yahoo.com/articles/nebraska-freshman-running-back-listed-131756265.html"
+    "https://sports.yahoo.com/articles/nebraska-freshman-running-back-listed-131756265.html",
+    "https://www.prothomalo.com/video/bangladesh/hezzspaf7z",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/1/jerusalem-daily-netanyahu-calls-flight-incident-another-9?traffic_source=rss",
+    "https://www.skysports.com/football/news/12040/13594069/man-city-charges-how-premier-league-club-plan-to-argue-their-innocence-in-appeal"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
