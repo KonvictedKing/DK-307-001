@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/books/2026/sep/18/olga-tokarczuk-j-m-coetzee-lead-calls-for-release-of-disappeared-eritrean-writers",
-    "https://sports.yahoo.com/articles/littler-beats-aspinall-decider-world-212735058.html",
-    "https://www.prothomalo.com/world/middle-east/fycyvoazu8",
     "https://www.aljazeera.com/news/2026/9/19/saudi-led-coalition-says-defences-intercept-houthi-missile-fired-at-riyadh?traffic_source=rss",
     "https://www.skysports.com/darts/news/12040/13589960/world-series-of-darts-finals-luke-littler-wins-last-leg-decider-vs-nathan-aspinall-to-move-step-closer-to-sweep-of-majors-in-one-year",
     "https://www.bbc.com/bengali/articles/cq0lre1y0lrwo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556616.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c3wyz0vq12rzo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/30/pennsylvania-confirms-fifth-measles-associated-death-as-us-outbreak-grows?traffic_source=rss",
-    "https://sports.yahoo.com/boxing/article/bob-montgomery-beau-jack-ike-williams-the-forgotten-rivalry-that-defined-an-era-of-lightweight-boxing-234727650.html"
+    "https://sports.yahoo.com/boxing/article/bob-montgomery-beau-jack-ike-williams-the-forgotten-rivalry-that-defined-an-era-of-lightweight-boxing-234727650.html",
+    "https://www.prothomalo.com/sports/cricket/ub1hfxe88b",
+    "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/darts/news/12040/13593755/world-grand-prix-gerwyn-price-books-all-welsh-quarter-final-with-jonny-clayton-as-nathan-aspinall-breezes-through"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
