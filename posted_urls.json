@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/r-mason-thomas-play-today-141537855.html",
-    "https://www.prothomalo.com/bangladesh/crime/1ly3la6kzk",
     "https://www.nytimes.com/2026/09/20/world/middleeast/west-bank-pool-palestinians-israelis-water.html",
     "https://www.skysports.com/football/leeds-united-vs-crystal-palace/report/559489",
     "https://www.bbc.com/bengali/articles/cx2zpg551wqo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556742.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm9w4w1xvgn9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/01/world/europe/uk-iran-terrorism-raf-fairford.html",
-    "https://sports.yahoo.com/betting/sportsbook/promos/article/fanduel-promo-code-get-up-to-250-in-bonuses-for-tnf-steelers-vs-browns-235400226.html"
+    "https://sports.yahoo.com/betting/sportsbook/promos/article/fanduel-promo-code-get-up-to-250-in-bonuses-for-tnf-steelers-vs-browns-235400226.html",
+    "https://www.prothomalo.com/religion/islam/ramzdj7qpk",
+    "https://www.theguardian.com/us-news/2026/sep/30/burundi-third-country-deportations-trump-immigration",
+    "https://www.skysports.com/football/news/12040/13594183/man-city-players-told-they-could-be-entitled-to-rip-up-contracts-after-guilty-verdict-in-premier-league-case-paper-talk"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
