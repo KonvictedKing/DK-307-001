@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/20/world/middleeast/west-bank-pool-palestinians-israelis-water.html",
-    "https://www.skysports.com/football/leeds-united-vs-crystal-palace/report/559489",
-    "https://www.bbc.com/bengali/articles/cx2zpg551wqo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
     "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news/1Q5ABnlqGtAG/",
     "https://www.prothomalo.com/politics/p8l4lliurw",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/betting/sportsbook/promos/article/fanduel-promo-code-get-up-to-250-in-bonuses-for-tnf-steelers-vs-browns-235400226.html",
     "https://www.prothomalo.com/religion/islam/ramzdj7qpk",
     "https://www.theguardian.com/us-news/2026/sep/30/burundi-third-country-deportations-trump-immigration",
-    "https://www.skysports.com/football/news/12040/13594183/man-city-players-told-they-could-be-entitled-to-rip-up-contracts-after-guilty-verdict-in-premier-league-case-paper-talk"
+    "https://www.skysports.com/football/news/12040/13594183/man-city-players-told-they-could-be-entitled-to-rip-up-contracts-after-guilty-verdict-in-premier-league-case-paper-talk",
+    "https://www.bbc.com/bengali/articles/cwr7d7xg9dk8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/2/how-switzerland-lost-20-percent-of-its-ice-in-five-years?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/steelers-vs-browns-live-score-updates-nfl-tnf/SZDaK7OK4rxk/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
