@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/caleb-williams-injury-bears-qb-194512247.html",
-    "https://www.prothomalo.com/world/europe/nmmfch3608",
     "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
     "https://www.skysports.com/cricket/news/12040/13590258/metro-bank-one-day-cup-mens-final-middlesex-beat-leicestershire-foxes-to-end-36-year-list-a-trophy-wait",
     "https://www.bbc.com/bengali/articles/cq986k23xgnjo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556885.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c60m3mx77jngo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/bears-tyson-bagent-shares-eye-123548174.html"
+    "https://sports.yahoo.com/articles/bears-tyson-bagent-shares-eye-123548174.html",
+    "https://www.prothomalo.com/bangladesh/district/493wjyzbj5",
+    "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
+    "https://www.skysports.com/racing/news/12040/13594251/ascot-tips-mezcala-fancied-to-scoop-challenge-cup-prize"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
