@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/20/former-president-of-chile-withdraws-from-race-to-become-un-secretary-general",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-live-scores-results-news/1Q5ABnlqGtAG/",
-    "https://www.prothomalo.com/politics/p8l4lliurw",
     "https://www.aljazeera.com/video/inside-story/2026/9/20/how-will-saudi-arabia-deal-with-the-houthis?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1555182.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c60re4n1gjj4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13594183/man-city-players-told-they-could-be-entitled-to-rip-up-contracts-after-guilty-verdict-in-premier-league-case-paper-talk",
     "https://www.bbc.com/bengali/articles/cwr7d7xg9dk8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/2/how-switzerland-lost-20-percent-of-its-ice-in-five-years?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/steelers-vs-browns-live-score-updates-nfl-tnf/SZDaK7OK4rxk/"
+    "https://www.nytimes.com/athletic/live-blogs/steelers-vs-browns-live-score-updates-nfl-tnf/SZDaK7OK4rxk/",
+    "https://www.prothomalo.com/politics/zd6whiptr2",
+    "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1556885.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
