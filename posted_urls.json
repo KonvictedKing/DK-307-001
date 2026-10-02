@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.skysports.com/cricket/news/12040/13590258/metro-bank-one-day-cup-mens-final-middlesex-beat-leicestershire-foxes-to-end-36-year-list-a-trophy-wait",
-    "https://www.bbc.com/bengali/articles/cq986k23xgnjo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/20/world/americas/haiti-assassination-trial-moise.html",
     "https://www.nytimes.com/athletic/7614435/2026/09/20/browns-buccaneers-nfl-2026-score-result-takeaways/",
     "https://www.prothomalo.com/religion/islam/9b65fy6b0h",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/bears-tyson-bagent-shares-eye-123548174.html",
     "https://www.prothomalo.com/bangladesh/district/493wjyzbj5",
     "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
-    "https://www.skysports.com/racing/news/12040/13594251/ascot-tips-mezcala-fancied-to-scoop-challenge-cup-prize"
+    "https://www.skysports.com/racing/news/12040/13594251/ascot-tips-mezcala-fancied-to-scoop-challenge-cup-prize",
+    "https://www.bbc.com/bengali/articles/cm0e08nnneero?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin",
+    "https://www.nytimes.com/athletic/live-blogs/france-vs-italy-live-updates-nations-league-score-result/mS26E0WR6iDw/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
