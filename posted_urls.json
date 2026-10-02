@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/20/world/americas/haiti-assassination-trial-moise.html",
-    "https://www.nytimes.com/athletic/7614435/2026/09/20/browns-buccaneers-nfl-2026-score-result-takeaways/",
-    "https://www.prothomalo.com/religion/islam/9b65fy6b0h",
     "https://www.theguardian.com/world/2026/sep/20/more-than-a-dozen-arrested-in-connection-with-assassination-of-haitian-president",
     "https://www.cricinfo.com/ci/content/story/1555178.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cxe87l2611pqo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/racing/news/12040/13594251/ascot-tips-mezcala-fancied-to-scoop-challenge-cup-prize",
     "https://www.bbc.com/bengali/articles/cm0e08nnneero?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin",
-    "https://www.nytimes.com/athletic/live-blogs/france-vs-italy-live-updates-nations-league-score-result/mS26E0WR6iDw/"
+    "https://www.nytimes.com/athletic/live-blogs/france-vs-italy-live-updates-nations-league-score-result/mS26E0WR6iDw/",
+    "https://www.prothomalo.com/bangladesh/capital/ejdpprbeof",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-party-leader-withdraws-from-israeli-elections?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1556952.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
