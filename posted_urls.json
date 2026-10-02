@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/inside-story/2026/9/20/how-will-saudi-arabia-deal-with-the-houthis?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555182.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c60re4n1gjj4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cvwyz29n0nn2o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/caleb-williams-injury-bears-qb-194512247.html",
     "https://www.prothomalo.com/world/europe/nmmfch3608",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/steelers-vs-browns-live-score-updates-nfl-tnf/SZDaK7OK4rxk/",
     "https://www.prothomalo.com/politics/zd6whiptr2",
     "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1556885.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1556885.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c60m3mx77jngo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+    "https://sports.yahoo.com/articles/bears-tyson-bagent-shares-eye-123548174.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
