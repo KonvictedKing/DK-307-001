@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/21/the-sahel-and-the-un-a-smaller-footprint-a-different-role?traffic_source=rss",
-    "https://sports.yahoo.com/articles/white-sox-keep-pace-al-010045804.html",
-    "https://www.prothomalo.com/business/analysis/y07vpgzl6s",
     "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/f1/news/12040/13589366/kimi-antonelli-versus-his-mind-will-decide-2026-formula-1-title-race-says-nico-rosberg-ahead-of-azerbaijan-grand-prix",
     "https://www.bbc.com/bengali/articles/cq7705176klgo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1556952.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckg433z98v5o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/nba/article/fired-blazers-broadcaster-braiden-bell-apologizes-after-old-tweets-cost-him-job-in-1-day-225406882.html"
+    "https://sports.yahoo.com/nba/article/fired-blazers-broadcaster-braiden-bell-apologizes-after-old-tweets-cost-him-job-in-1-day-225406882.html",
+    "https://www.prothomalo.com/sports/football/bjndan4qb8",
+    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
+    "https://www.skysports.com/darts/news/12040/13594543/world-grand-prix-darts-james-wade-and-nathan-aspinall-with-statement-displays-ahead-of-semi-finals"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
