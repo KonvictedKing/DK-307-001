@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1555264.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cm62exd57dnzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/21/world/middleeast/iraq-prime-minister-interview-disarm-militias.html",
     "https://sports.yahoo.com/betting/sportsbook/promos/article/thescore-bet-promo-code-yahoobonus-giants-vs-rams-on-monday-night-football-sept-21-231500345.html",
     "https://www.prothomalo.com/religion/islam/6tnpctpyw5",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
     "https://www.prothomalo.com/world/europe/6zkbu12sm8",
     "https://www.nytimes.com/2026/10/03/world/canada/quebec-election-independence-parti-quebecois-separatism.html",
-    "https://www.cricinfo.com/ci/content/story/1557024.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557024.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c34g1q7lqj2yo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
+    "https://sports.yahoo.com/articles/forecast-floridas-road-matchup-vs-175433468.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
