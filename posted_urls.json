@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/21/world/europe/germany-afd-far-right.html",
-    "https://www.cricinfo.com/ci/content/story/1555233.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/cwn74pkm383dt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/us-news/ng-interactive/2026/sep/21/trump-deportation-deals",
     "https://sports.yahoo.com/articles/scotland-squad-shaping-pocognoli-debut-135205800.html",
     "https://www.prothomalo.com/bangladesh/0zinc71hx4",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7654430/2026/10/02/freddie-freeman-world-series-grand-slam-seat-dodgers/",
     "https://www.prothomalo.com/sports/cricket/otfsied5fg",
     "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son",
-    "https://www.cricinfo.com/ci/content/story/1556959.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1556959.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cq78pl4kmml8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/3/bosnian-serb-leader-says-bosnia-is-dead-ahead-of-election?traffic_source=rss",
+    "https://sports.yahoo.com/articles/arsenal-18yo-wins-4th-senior-080500412.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
