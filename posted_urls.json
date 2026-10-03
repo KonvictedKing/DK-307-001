@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/21/africa-healthcare-aid-program-withdrawl",
-    "https://www.skysports.com/f1/news/12040/13590496/f1-grand-prix-distances-set-to-be-reduced-for-2027-season-along-with-introduction-of-hard-stop-time-on-race-days",
-    "https://www.bbc.com/bengali/articles/cm0re2kd9evko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/22/houthis-battle-for-strategic-heights-in-yemen-as-thousands-more-flee-homes?traffic_source=rss",
     "https://www.nytimes.com/athletic/7617829/2026/09/22/luke-littler-booed-fans-dutch-why/",
     "https://www.prothomalo.com/video/bangladesh/q65aww2iku",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/forecast-floridas-road-matchup-vs-175433468.html",
     "https://www.prothomalo.com/bangladesh/capital/rp1t12pdpq",
     "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss",
-    "https://www.skysports.com/football/croatia-vs-england/report/554052"
+    "https://www.skysports.com/football/croatia-vs-england/report/554052",
+    "https://www.bbc.com/bengali/articles/cqn497vmwe38o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-iowa-live-updates-college-football-score-result/3jF4NZAZTWyv/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
