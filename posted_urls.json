@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/22/houthis-battle-for-strategic-heights-in-yemen-as-thousands-more-flee-homes?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7617829/2026/09/22/luke-littler-booed-fans-dutch-why/",
-    "https://www.prothomalo.com/video/bangladesh/q65aww2iku",
     "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1555295.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/c6z7z5w2wqn5t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/croatia-vs-england/report/554052",
     "https://www.bbc.com/bengali/articles/cqn497vmwe38o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c8zxl62yzxzxo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-iowa-live-updates-college-football-score-result/3jF4NZAZTWyv/"
+    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-iowa-live-updates-college-football-score-result/3jF4NZAZTWyv/",
+    "https://www.prothomalo.com/bangladesh/5o2u6w3ikh",
+    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+    "https://www.cricinfo.com/ci/content/story/1557077.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
