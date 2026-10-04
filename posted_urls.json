@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/darts/news/12040/13590775/players-championship-darts-winner-cameron-menzies-reveals-he-thought-he-was-suffering-from-a-heart-attack-during-trip-to-switzerland-last-year",
-    "https://www.bbc.com/bengali/articles/c6y9z29rjzreo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
     "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-picture-clinching-scenarios-scores-results/KXn09xfvrw5K/",
     "https://www.prothomalo.com/bangladesh/vt51qsrey7",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/dual-code-winger-nawaqanitawase-stars-131217588.html",
     "https://www.prothomalo.com/bangladesh/t38lgfzaol",
     "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html",
-    "https://www.skysports.com/tennis/news/12040/13594880/china-open-novak-djokovic-keeps-unblemished-record-in-beijing-by-handing-alexander-zverev-a-rare-defeat"
+    "https://www.skysports.com/tennis/news/12040/13594880/china-open-novak-djokovic-keeps-unblemished-record-in-beijing-by-handing-alexander-zverev-a-rare-defeat",
+    "https://www.bbc.com/bengali/articles/c6d7qxe3pwqvo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
+    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/c9ld07SVkn5E/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
