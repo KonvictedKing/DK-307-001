@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
-    "https://www.cricinfo.com/ci/content/story/1555315.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cwvgyzzenn13o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/9/23/iran-war-live-trump-confirms-very-good-meeting-with-iran-at-un?traffic_source=rss",
     "https://sports.yahoo.com/articles/qb-alessio-milivojevic-talks-turning-003933929.html",
     "https://www.bbc.com/bengali/articles/c4gjxy1rld0o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/c9ld07SVkn5E/",
     "https://www.prothomalo.com/bangladesh/district/gsynyaxyum",
     "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1557128.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557128.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cm4gvn8jd3k9o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/kyndal-stowers-sets-texas-m-212713660.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
