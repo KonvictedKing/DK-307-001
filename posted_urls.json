@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/dabo-swinney-understands-why-clemsons-future-series-with-georgia-was-canceled-but-he-doesnt-like-it-either-185628021.html",
-    "https://www.prothomalo.com/world/india/2ulj8nfo3e",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
     "https://www.skysports.com/darts/news/12040/13590775/players-championship-darts-winner-cameron-menzies-reveals-he-thought-he-was-suffering-from-a-heart-attack-during-trip-to-switzerland-last-year",
     "https://www.bbc.com/bengali/articles/c6y9z29rjzreo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557108.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckqxnrwx10ydt?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/articles/dual-code-winger-nawaqanitawase-stars-131217588.html"
+    "https://sports.yahoo.com/articles/dual-code-winger-nawaqanitawase-stars-131217588.html",
+    "https://www.prothomalo.com/bangladesh/t38lgfzaol",
+    "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html",
+    "https://www.skysports.com/tennis/news/12040/13594880/china-open-novak-djokovic-keeps-unblemished-record-in-beijing-by-handing-alexander-zverev-a-rare-defeat"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
