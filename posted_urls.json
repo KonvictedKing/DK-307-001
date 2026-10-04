@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/22/world/asia/china-zion-church-pastor-detained-family.html",
-    "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
-    "https://www.bbc.com/bengali/articles/cqrm9070z91vo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
     "https://www.nytimes.com/athletic/7619548/2026/09/22/barcelona-real-madrid-la-liga-jose-mourinho-printouts/",
     "https://www.prothomalo.com/bangladesh/district/m0biajrz0q",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/pitt-qb-mason-heintschels-season-003127464.html",
     "https://www.prothomalo.com/bangladesh/crime/3n3746gxyp",
     "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
-    "https://www.skysports.com/darts/news/12040/13594720/world-grand-prix-darts-luke-humphries-to-face-gerywn-price-in-sundays-final-in-leicester-live-on-sky-sports"
+    "https://www.skysports.com/darts/news/12040/13594720/world-grand-prix-darts-luke-humphries-to-face-gerywn-price-in-sundays-final-in-leicester-live-on-sky-sports",
+    "https://www.bbc.com/bengali/articles/ck62y42q28r2o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/10/4/yamal-scores-stunning-goal-in-spains-3-1-nations-league-win-over-czechia?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7657458/2026/10/04/college-football-playoff-projections-week-5/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
