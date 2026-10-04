@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/technology/2026/sep/22/british-columbia-sues-openai-sam-altman-tumbler-ridge-school-shooting",
-    "https://www.nytimes.com/athletic/7619548/2026/09/22/barcelona-real-madrid-la-liga-jose-mourinho-printouts/",
-    "https://www.prothomalo.com/bangladesh/district/m0biajrz0q",
     "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1555374.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6ly7ex9pm0xo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13594720/world-grand-prix-darts-luke-humphries-to-face-gerywn-price-in-sundays-final-in-leicester-live-on-sky-sports",
     "https://www.bbc.com/bengali/articles/ck62y42q28r2o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/10/4/yamal-scores-stunning-goal-in-spains-3-1-nations-league-win-over-czechia?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7657458/2026/10/04/college-football-playoff-projections-week-5/"
+    "https://www.nytimes.com/athletic/7657458/2026/10/04/college-football-playoff-projections-week-5/",
+    "https://www.prothomalo.com/bangladesh/district/eehac9aeiq",
+    "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1557108.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
