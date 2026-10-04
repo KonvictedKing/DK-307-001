@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/22/why-are-the-houthis-fighting-for-yemens-kahboub-mountains?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555374.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6ly7ex9pm0xo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c9dr74g32g8go?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/college-football/breaking-news/article/dabo-swinney-understands-why-clemsons-future-series-with-georgia-was-canceled-but-he-doesnt-like-it-either-185628021.html",
     "https://www.prothomalo.com/world/india/2ulj8nfo3e",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7657458/2026/10/04/college-football-playoff-projections-week-5/",
     "https://www.prothomalo.com/bangladesh/district/eehac9aeiq",
     "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557108.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557108.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/ckqxnrwx10ydt?at_medium=RSS&at_campaign=rss",
+    "https://cnn.it/40OSomK",
+    "https://sports.yahoo.com/articles/dual-code-winger-nawaqanitawase-stars-131217588.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
