@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cm0e32rwvrryo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555295.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/c6z7z5w2wqn5t?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
     "https://sports.yahoo.com/articles/channel-phillies-tonight-channel-brewers-095024646.html",
     "https://www.prothomalo.com/video/international/e8md6v5wh2",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-iowa-live-updates-college-football-score-result/3jF4NZAZTWyv/",
     "https://www.prothomalo.com/bangladesh/5o2u6w3ikh",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1557077.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557077.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cx1l35qyg3m4o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/03/world/middleeast/oman-flydubai-flight-1073-pilot-radicalized.html",
+    "https://sports.yahoo.com/articles/pitt-qb-mason-heintschels-season-003127464.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
