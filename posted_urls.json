@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/09/22/world/un-general-assembly-trump-speech-news",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-picture-clinching-scenarios-scores-results/KXn09xfvrw5K/",
-    "https://www.prothomalo.com/bangladesh/vt51qsrey7",
     "https://www.theguardian.com/world/2026/sep/22/hurricane-polo-mexico",
     "https://www.cricinfo.com/ci/content/story/1555315.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwvgyzzenn13o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/tennis/news/12040/13594880/china-open-novak-djokovic-keeps-unblemished-record-in-beijing-by-handing-alexander-zverev-a-rare-defeat",
     "https://www.bbc.com/bengali/articles/c6d7qxe3pwqvo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
-    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/c9ld07SVkn5E/"
+    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/c9ld07SVkn5E/",
+    "https://www.prothomalo.com/bangladesh/district/gsynyaxyum",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1557128.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
