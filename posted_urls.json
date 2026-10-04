@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/articles/channel-phillies-tonight-channel-brewers-095024646.html",
-    "https://www.prothomalo.com/video/international/e8md6v5wh2",
     "https://www.nytimes.com/2026/09/22/world/asia/china-zion-church-pastor-detained-family.html",
     "https://www.skysports.com/football/live-blog/12040/13427059/england-football-news-live-updates-schedule-and-analysis-of-thomas-tuchels-three-lions",
     "https://www.bbc.com/bengali/articles/cqrm9070z91vo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557077.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cx1l35qyg3m4o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/03/world/middleeast/oman-flydubai-flight-1073-pilot-radicalized.html",
-    "https://sports.yahoo.com/articles/pitt-qb-mason-heintschels-season-003127464.html"
+    "https://sports.yahoo.com/articles/pitt-qb-mason-heintschels-season-003127464.html",
+    "https://www.prothomalo.com/bangladesh/crime/3n3746gxyp",
+    "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
+    "https://www.skysports.com/darts/news/12040/13594720/world-grand-prix-darts-luke-humphries-to-face-gerywn-price-in-sundays-final-in-leicester-live-on-sky-sports"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
