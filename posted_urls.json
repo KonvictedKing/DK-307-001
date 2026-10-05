@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
-    "https://sports.yahoo.com/articles/want-see-him-under-pressure-114300679.html",
-    "https://www.prothomalo.com/lifestyle/relation/r0nb8wj1kl",
     "https://www.aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak?traffic_source=rss",
     "https://www.skysports.com/boxing/news/12040/13590876/lucas-roehrig-rising-cruiserweight-talent-signs-with-zuffa-boxing-and-will-fight-on-sky-sports",
     "https://www.bbc.com/bengali/articles/cx4gqyv8vz33o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557114.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6ewe1jpldeko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/10/5/djokovic-defeats-top-seed-zverev-to-reach-china-open-semifinals?traffic_source=rss",
-    "https://sports.yahoo.com/articles/117m-rogers-failed-bournemouth-feared-070056651.html"
+    "https://sports.yahoo.com/articles/117m-rogers-failed-bournemouth-feared-070056651.html",
+    "https://www.prothomalo.com/world/usa/hx0t4sehsp",
+    "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/racing/news/12040/13594924/today-on-sky-sports-racing-wolverhampton-and-yarmouth"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
