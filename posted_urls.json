@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/22/world/asia/sri-lanka-convictions-easter-2019-bomb-attacks.html",
-    "https://www.cricinfo.com/ci/content/story/1555437.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/cqzez92pdwpwt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
     "https://sports.yahoo.com/articles/want-see-him-under-pressure-114300679.html",
     "https://www.prothomalo.com/lifestyle/relation/r0nb8wj1kl",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/lions-vs-panthers-live-score-updates-nfl-snf-result/eHVZ4EcZRs7L/",
     "https://www.prothomalo.com/sports/japrfmpy06",
     "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
-    "https://www.cricinfo.com/ci/content/story/1557114.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557114.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6ewe1jpldeko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/10/5/djokovic-defeats-top-seed-zverev-to-reach-china-open-semifinals?traffic_source=rss",
+    "https://sports.yahoo.com/articles/117m-rogers-failed-bournemouth-feared-070056651.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
