@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/liveblog/2026/9/23/un-general-assembly-live-irans-pezeshkian-ukraines-zelenskyy-to-speak?traffic_source=rss",
-    "https://www.skysports.com/boxing/news/12040/13590876/lucas-roehrig-rising-cruiserweight-talent-signs-with-zuffa-boxing-and-will-fight-on-sky-sports",
-    "https://www.bbc.com/bengali/articles/cx4gqyv8vz33o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7623242/2026/09/23/new-york-giants-jaxson-dart-knee-surgery/",
     "https://www.prothomalo.com/business/bank/yngf6beyl6",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/117m-rogers-failed-bournemouth-feared-070056651.html",
     "https://www.prothomalo.com/world/usa/hx0t4sehsp",
     "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/racing/news/12040/13594924/today-on-sky-sports-racing-wolverhampton-and-yarmouth"
+    "https://www.skysports.com/racing/news/12040/13594924/today-on-sky-sports-racing-wolverhampton-and-yarmouth",
+    "https://www.bbc.co.uk/bengali/live/c50me0j704w4t?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
+    "https://www.nytimes.com/athletic/7662941/2026/10/05/fantasy-football-early-waivers-speed-run-worthy-coleman/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
