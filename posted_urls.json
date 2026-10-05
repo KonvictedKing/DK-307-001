@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/golf/news/12040/13590882/presidents-cup-us-team-captain-brandt-snedeker-wants-jj-spaun-to-make-me-look-like-an-idiot-after-snub",
-    "https://www.bbc.com/bengali/articles/cje3rek1qr66o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
     "https://www.nytimes.com/athletic/7621034/2026/09/23/caleb-williams-injury-memes-bears/",
     "https://www.prothomalo.com/bangladesh/capital/h39xw23rhf",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/kyndal-stowers-sets-texas-m-212713660.html",
     "https://www.prothomalo.com/sports/football/n7q2cpugoe",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/football/republic-of-ireland-vs-israel/report/554064"
+    "https://www.skysports.com/football/republic-of-ireland-vs-israel/report/554064",
+    "https://www.bbc.com/bengali/articles/cxvgyjyj7l3yo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
+    "https://www.nytimes.com/athletic/live-blogs/lions-vs-panthers-live-score-updates-nfl-snf-result/eHVZ4EcZRs7L/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
