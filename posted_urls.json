@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/09/23/world/un-general-assembly-iran-ukraine",
-    "https://sports.yahoo.com/soccer/article/prorel-in-liga-mx-more-fallout-from-the-madrid-derby-federico-higuain-out-in-columbus-202529930.html",
-    "https://www.prothomalo.com/bangladesh/crime/ikqeu83ofp",
     "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
     "https://www.skysports.com/football/chelsea-women-vs-austria-wien-women/live/578238",
     "https://www.bbc.com/bengali/articles/cx4gqy6z46n5o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557209.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq1kd71nem7ro?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/05/guardian-readers-fundraising-somalian-boy-injured-in-us-strike-surgery-abdiqadir-salah",
-    "https://sports.yahoo.com/articles/man-united-told-real-chance-223500397.html"
+    "https://sports.yahoo.com/articles/man-united-told-real-chance-223500397.html",
+    "https://www.prothomalo.com/bangladesh/district/b7czzb2n86",
+    "https://www.aljazeera.com/news/2026/10/5/trumps-approval-hits-new-low-among-hispanic-voters-ahead-of-midterms?traffic_source=rss",
+    "https://www.skysports.com/tennis/news/12040/13595569/coco-gauff-reports-online-racial-abuse-after-incident-during-her-victory-over-sun-xinran-at-china-open"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
