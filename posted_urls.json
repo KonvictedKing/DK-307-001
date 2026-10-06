@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/netflix-books-tyson-fury-vs-125424320.html",
-    "https://www.prothomalo.com/business/economics/v1cv657tl1",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
     "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
     "https://www.bbc.com/bengali/articles/cwg7km5nv7lko?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm9dzlgq29jzo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/fsu-baseball-makes-major-change-213615174.html"
+    "https://sports.yahoo.com/articles/fsu-baseball-makes-major-change-213615174.html",
+    "https://www.prothomalo.com/sports/football/xi1stw4j5y",
+    "https://www.nytimes.com/live/2026/10/06/world/france-protests-students-schools",
+    "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
