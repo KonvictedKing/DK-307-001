@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
-    "https://www.nytimes.com/athletic/7623692/2026/09/24/college-football-picks-spread-week-4-texas-tennessee/",
-    "https://www.prothomalo.com/bangladesh/capital/febx058u8l",
     "https://www.aljazeera.com/opinions/2026/9/24/to-the-victor-belong-venezuelas-spoils-delcy-rodriguezs-unga-about-face?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1555551.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckr509d69pz4t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-union/news/12040/13595705/red-roses-englands-marlie-packer-to-miss-wxv-global-series-matches-against-canada-and-usa-in-north-america",
     "https://www.bbc.com/bengali/articles/ckr5ymrnl49do?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/6/is-europe-preparing-for-a-wider-war-with-russia?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/england-vs-czech-republic-live-updates-nations-league-score-result/aqUfFAmpqsis/"
+    "https://www.nytimes.com/athletic/live-blogs/england-vs-czech-republic-live-updates-nations-league-score-result/aqUfFAmpqsis/",
+    "https://www.prothomalo.com/bangladesh/district/0b0ftf7jia",
+    "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
