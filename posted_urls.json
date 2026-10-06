@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/packers-wire-staff-predictions-week-013402548.html",
-    "https://www.prothomalo.com/bangladesh/district/4be3hhtl1q",
     "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
     "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
     "https://www.bbc.com/bengali/articles/c6d08xedzjm4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557244.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/c370p45wkgqgt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/06/world/americas/us-reaper-drones-colombia-ecuador-cartels.html",
-    "https://sports.yahoo.com/articles/nothing-left-why-lionel-messi-154601856.html"
+    "https://sports.yahoo.com/articles/nothing-left-why-lionel-messi-154601856.html",
+    "https://www.bondhushava.com/career/7x7imyjahq",
+    "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
+    "https://www.skysports.com/rugby-union/news/12040/13595705/red-roses-englands-marlie-packer-to-miss-wxv-global-series-matches-against-canada-and-usa-in-north-america"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
