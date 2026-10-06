@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/23/world/africa/ethiopia-tigray-airport.html",
-    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
-    "https://www.bbc.com/bengali/articles/c6d08xedzjm4o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
     "https://www.nytimes.com/athletic/7623692/2026/09/24/college-football-picks-spread-week-4-texas-tennessee/",
     "https://www.prothomalo.com/bangladesh/capital/febx058u8l",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/nothing-left-why-lionel-messi-154601856.html",
     "https://www.bondhushava.com/career/7x7imyjahq",
     "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
-    "https://www.skysports.com/rugby-union/news/12040/13595705/red-roses-englands-marlie-packer-to-miss-wxv-global-series-matches-against-canada-and-usa-in-north-america"
+    "https://www.skysports.com/rugby-union/news/12040/13595705/red-roses-englands-marlie-packer-to-miss-wxv-global-series-matches-against-canada-and-usa-in-north-america",
+    "https://www.bbc.com/bengali/articles/ckr5ymrnl49do?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/6/is-europe-preparing-for-a-wider-war-with-russia?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/england-vs-czech-republic-live-updates-nations-league-score-result/aqUfFAmpqsis/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
