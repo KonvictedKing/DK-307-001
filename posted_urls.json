@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
-    "https://www.cricinfo.com/ci/content/story/1555626.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cmn0jnw7e5lko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
     "https://sports.yahoo.com/articles/finally-fury-vs-joshua-official-215135952.html",
     "https://www.prothomalo.com/bangladesh/3ysqbd4935",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/D5DlZreYcw6e/",
     "https://www.prothomalo.com/bangladesh/rnke4taf2e",
     "https://www.aljazeera.com/video/newsfeed/2026/10/7/syrian-embassy-returns-seized-passport-after-43-years?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1557286.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557286.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cwn8dgpjrx31o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/fishers-native-enters-free-agency-084030109.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
