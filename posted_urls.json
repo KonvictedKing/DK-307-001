@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
-    "https://www.nytimes.com/athletic/7626430/2026/09/24/president-trump-tennessee-texas-college-football-game/",
-    "https://www.prothomalo.com/bangladesh/environment/tpzd8n9vrl",
     "https://www.theguardian.com/world/2026/sep/24/fears-return-to-war-tigray-rebels-launch-offensive-against-ethiopian-army",
     "https://www.cricinfo.com/ci/content/story/1555626.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmn0jnw7e5lko?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
     "https://www.bbc.com/bengali/articles/cmpqgde1r073o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/D5DlZreYcw6e/"
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/D5DlZreYcw6e/",
+    "https://www.prothomalo.com/bangladesh/rnke4taf2e",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/7/syrian-embassy-returns-seized-passport-after-43-years?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1557286.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
