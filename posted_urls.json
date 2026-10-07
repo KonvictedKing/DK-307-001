@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-    "https://www.bbc.com/bengali/articles/cwg7km5nv7lko?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
     "https://www.nytimes.com/athletic/7626430/2026/09/24/president-trump-tennessee-texas-college-football-game/",
     "https://www.prothomalo.com/bangladesh/environment/tpzd8n9vrl",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/fsu-baseball-makes-major-change-213615174.html",
     "https://www.prothomalo.com/sports/football/xi1stw4j5y",
     "https://www.nytimes.com/live/2026/10/06/world/france-protests-students-schools",
-    "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
+    "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+    "https://www.bbc.com/bengali/articles/cmpqgde1r073o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes",
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/D5DlZreYcw6e/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
