@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/24/world/americas/haiti-roger-stone-migration.html",
-    "https://www.cricinfo.com/ci/content/story/1555599.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cvrl67p427l8o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
     "https://sports.yahoo.com/articles/genius-ohashi-bids-third-asian-063751024.html",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7513984/2026/10/07/liv-golf-jon-rahm-depart-funding/",
     "https://www.prothomalo.com/world/europe/x1urhinsff",
     "https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed",
-    "https://www.cricinfo.com/ci/content/story/1557573.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557573.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cw98ze839645o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/7/pro-palestine-university-groups-march-in-london-on-october-7-anniversary?traffic_source=rss",
+    "https://sports.yahoo.com/articles/commanders-qb-jayden-daniels-working-221028272.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
