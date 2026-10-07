@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
-    "https://sports.yahoo.com/articles/finally-fury-vs-joshua-official-215135952.html",
-    "https://www.prothomalo.com/bangladesh/3ysqbd4935",
     "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/news/12040/13591497/man-utd-transfer-news-barcelona-not-interested-in-wonderkid-jj-gabriel-says-sporting-director-deco-paper-talk",
     "https://www.bbc.com/bengali/articles/c6pwl9r2ljk9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557286.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwn8dgpjrx31o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/fishers-native-enters-free-agency-084030109.html"
+    "https://sports.yahoo.com/articles/fishers-native-enters-free-agency-084030109.html",
+    "https://www.prothomalo.com/entertainment/hollywood/mqhjrehra2",
+    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
+    "https://www.skysports.com/f1/news/12040/13595500/lewis-hamilton-insists-ferrari-must-catch-up-with-rivals-on-power-unit-performance-for-2027-f1-season"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
