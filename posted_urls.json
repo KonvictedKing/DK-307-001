@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555717.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6zjzzynnxxgo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
     "https://sports.yahoo.com/articles/illinois-high-school-football-scores-000619684.html",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7671964/2026/10/08/nfl-supreme-court-prediction-markets-kalshi/",
     "https://www.prothomalo.com/bangladesh/capital/n5wulx1mdq",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1557595.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557595.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c5lyevr4pz1lo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/08/world/europe/france-student-protests-paris.html",
+    "https://sports.yahoo.com/articles/could-eagles-salary-cap-hit-222257398.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
