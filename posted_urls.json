@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1555698.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
     "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-friday-live-scores-updates-scottie-scheffler-sam-burns-again-leading-us-team-in-foursomes-matches-at-medinah-173239386.html",
     "https://www.prothomalo.com/bangladesh/crime/6z0isyayk6",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/inE8qsHMcoZh/",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.nytimes.com/2026/10/08/world/asia/india-cockroach-janta-party.html",
-    "https://www.cricinfo.com/ci/content/story/1557605.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557605.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/education/campus/mf1a1ea7d0",
+    "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
+    "https://sports.yahoo.com/articles/az-alkmaar-closing-contract-star-092500485.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
