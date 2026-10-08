@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/25/lula-says-trump-wants-to-colonise-and-capture-brazils-resources-by-meddling-in-election",
-    "https://sports.yahoo.com/articles/genius-ohashi-bids-third-asian-063751024.html",
-    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
     "https://www.skysports.com/football/news/12040/13590628/chelsea-women-sonia-bompastor-and-carly-telford-discuss-new-fertility-and-player-maternity-policies-in-wsl-first",
     "https://www.prothomalo.com/bangladesh/wz7ycqvku2",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557573.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cw98ze839645o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/7/pro-palestine-university-groups-march-in-london-on-october-7-anniversary?traffic_source=rss",
-    "https://sports.yahoo.com/articles/commanders-qb-jayden-daniels-working-221028272.html"
+    "https://sports.yahoo.com/articles/commanders-qb-jayden-daniels-working-221028272.html",
+    "https://www.prothomalo.com/bangladesh/crime/jhe4maop3z",
+    "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/news/12040/13596325/arsenal-manager-mikel-arteta-becomes-premier-leagues-highest-paid-boss-on-20m-a-year-new-contract-paper-talk"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
