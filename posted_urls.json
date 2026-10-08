@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13590628/chelsea-women-sonia-bompastor-and-carly-telford-discuss-new-fertility-and-player-maternity-policies-in-wsl-first",
-    "https://www.prothomalo.com/bangladesh/wz7ycqvku2",
     "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/f1-azerbaijan-live-updates-qualifying-fp3-times-results/yQHtKpborKe8/",
     "https://www.bbc.com/bengali/articles/c35y74pk58d2o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/commanders-qb-jayden-daniels-working-221028272.html",
     "https://www.prothomalo.com/bangladesh/crime/jhe4maop3z",
     "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/news/12040/13596325/arsenal-manager-mikel-arteta-becomes-premier-leagues-highest-paid-boss-on-20m-a-year-new-contract-paper-talk"
+    "https://www.skysports.com/football/news/12040/13596325/arsenal-manager-mikel-arteta-becomes-premier-leagues-highest-paid-boss-on-20m-a-year-new-contract-paper-talk",
+    "https://www.bbc.com/bengali/articles/c6geljl30vwno?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/inE8qsHMcoZh/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
