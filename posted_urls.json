@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/25/which-countries-walked-out-of-netanyahus-unga-speech?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/manchester-city-charges-live-updates/goAnm054BqCA/",
-    "https://www.prothomalo.com/bangladesh/8k69uzr1wf",
     "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1555717.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6zjzzynnxxgo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/athletics/news/12040/13596451/georgia-hunter-bell-british-800m-and-1500m-runner-celebrates-teams-female-track-success",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7671964/2026/10/08/nfl-supreme-court-prediction-markets-kalshi/"
+    "https://www.nytimes.com/athletic/7671964/2026/10/08/nfl-supreme-court-prediction-markets-kalshi/",
+    "https://www.prothomalo.com/bangladesh/capital/n5wulx1mdq",
+    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+    "https://www.cricinfo.com/ci/content/story/1557595.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
