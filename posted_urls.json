@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/25/world/middleeast/netanyahu-warning-oct-7-uae.html",
-    "https://sports.yahoo.com/golf/breaking-news/article/presidents-cup-friday-live-scores-updates-scottie-scheffler-sam-burns-again-leading-us-team-in-foursomes-matches-at-medinah-173239386.html",
-    "https://www.prothomalo.com/bangladesh/crime/6z0isyayk6",
     "https://www.theguardian.com/world/2026/sep/25/alberta-canada-rat-patrol",
     "https://www.skysports.com/boxing/news/12040/13591876/tyson-fury-anthony-joshua-fight-is-stepping-stone-to-oleksandr-usyk-trilogy-ill-knock-him-out-inside-seven-rounds",
     "https://www.bbc.com/bengali/articles/cw7v4g2v5835o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557605.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/education/campus/mf1a1ea7d0",
     "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
-    "https://sports.yahoo.com/articles/az-alkmaar-closing-contract-star-092500485.html"
+    "https://sports.yahoo.com/articles/az-alkmaar-closing-contract-star-092500485.html",
+    "https://www.bbc.com/bengali/articles/cv62y3n1yer8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/10/8/man-city-must-stick-together-after-premier-league-charges-says-haaland?traffic_source=rss",
+    "https://www.skysports.com/athletics/news/12040/13596451/georgia-hunter-bell-british-800m-and-1500m-runner-celebrates-teams-female-track-success"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
