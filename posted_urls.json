@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/9/26/yuki-kurihara-esports-gold-medal-japan-asian-games-2026-aichi-nagoya?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555750.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/district/2s18mgg3mt",
     "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/racing-louisville-playoff-hopes-over-101605010.html",
     "https://www.bbc.com/bengali/articles/ck5yeel4251wo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/guardians-vs-white-sox-live-updates-mlb-playoffs-game-4-score-result/LRdsMKqYJZY9/",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557718.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557718.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/capital/5oa02iwuu1",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://sports.yahoo.com/articles/breaking-enzo-maresca-questioned-first-093300583.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
