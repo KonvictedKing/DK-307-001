@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
-    "https://www.nytimes.com/athletic/live-blogs/england-vs-spain-live-updates-nations-league-score-result/I7TPJQ7HiBn0/",
-    "https://www.prothomalo.com/bangladesh/district/s6rt4hwkcr",
     "https://www.theguardian.com/world/2026/sep/26/us-airstrikes-ecuador-fishers",
     "https://www.cricinfo.com/ci/content/story/1555830.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm6244njzvv0o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/watch/video/13596982/pioneer-pete-dominates-the-welsh-champion-hurdle",
     "https://www.bondhushava.com/feature/iuwnbrz6vn",
     "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-manchester-city-live-updates/bFHGXz7UnTo2/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-manchester-city-live-updates/bFHGXz7UnTo2/",
+    "https://www.bbc.com/bengali/articles/cw99zy014n2ko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/10/9/manchester-united-vs-tottenham-premier-league-teams-prediction-lineups?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1557797.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
