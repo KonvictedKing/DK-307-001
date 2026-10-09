@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/25/world/middleeast/un-companies-westbank-settlements.html",
-    "https://www.skysports.com/football/news/12040/13591966/transfer-news-crystal-palace-chairman-steve-parish-tells-liverpool-accepting-50m-ismaila-sarr-bid-was-never-going-to-happen-paper-talk",
-    "https://www.prothomalo.com/world/india/uabl2oadty",
     "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
     "https://www.nytimes.com/athletic/7630933/2026/09/26/jobe-bellingham-jude-england-dortumund/",
     "https://www.bbc.com/bengali/articles/ck87vnlxxydxo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/could-eagles-salary-cap-hit-222257398.html",
     "https://www.prothomalo.com/bangladesh/district/24h4h5qkmx",
     "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
-    "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
+    "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+    "https://www.bbc.com/bengali/articles/cjd4ynkr72xo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/9/christa-pike-case-underscores-prevalence-of-botched-executions-in-us?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-white-sox-live-updates-mlb-playoffs-game-4-score-result/LRdsMKqYJZY9/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
