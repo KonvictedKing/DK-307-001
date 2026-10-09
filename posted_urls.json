@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://sports.yahoo.com/articles/illinois-high-school-football-scores-000619684.html",
-    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.nytimes.com/2026/09/25/world/middleeast/un-companies-westbank-settlements.html",
     "https://www.skysports.com/football/news/12040/13591966/transfer-news-crystal-palace-chairman-steve-parish-tells-liverpool-accepting-50m-ismaila-sarr-bid-was-never-going-to-happen-paper-talk",
     "https://www.prothomalo.com/world/india/uabl2oadty",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557595.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c5lyevr4pz1lo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/08/world/europe/france-student-protests-paris.html",
-    "https://sports.yahoo.com/articles/could-eagles-salary-cap-hit-222257398.html"
+    "https://sports.yahoo.com/articles/could-eagles-salary-cap-hit-222257398.html",
+    "https://www.prothomalo.com/bangladesh/district/24h4h5qkmx",
+    "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
+    "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
