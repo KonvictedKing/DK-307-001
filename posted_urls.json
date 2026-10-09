@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
-    "https://www.skysports.com/f1/news/12040/13591978/azerbaijan-gp-george-russell-holds-off-max-verstappen-for-victory-in-thrilling-baku-finale-as-kimi-antonelli-recovers-to-fifth",
-    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.nytimes.com/2026/09/26/world/middleeast/israel-netanyahu-gali-baharav-miara-attorney-general.html",
     "https://www.nytimes.com/athletic/live-blogs/england-vs-spain-live-updates-nations-league-score-result/I7TPJQ7HiBn0/",
     "https://www.prothomalo.com/bangladesh/district/s6rt4hwkcr",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/breaking-enzo-maresca-questioned-first-093300583.html",
     "https://www.bbc.com/bengali/articles/cvkgknz82xelo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026",
-    "https://www.skysports.com/watch/video/13596982/pioneer-pete-dominates-the-welsh-champion-hurdle"
+    "https://www.skysports.com/watch/video/13596982/pioneer-pete-dominates-the-welsh-champion-hurdle",
+    "https://www.bondhushava.com/feature/iuwnbrz6vn",
+    "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-manchester-city-live-updates/bFHGXz7UnTo2/"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
