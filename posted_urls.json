@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/25/michigan-ceo-loses-job-lake-america-photo",
-    "https://www.nytimes.com/athletic/7630933/2026/09/26/jobe-bellingham-jude-england-dortumund/",
-    "https://www.bbc.com/bengali/articles/ck87vnlxxydxo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/9/26/yuki-kurihara-esports-gold-medal-japan-asian-games-2026-aichi-nagoya?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1555750.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/district/2s18mgg3mt",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
     "https://www.bbc.com/bengali/articles/cjd4ynkr72xo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/9/christa-pike-case-underscores-prevalence-of-botched-executions-in-us?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-white-sox-live-updates-mlb-playoffs-game-4-score-result/LRdsMKqYJZY9/"
+    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-white-sox-live-updates-mlb-playoffs-game-4-score-result/LRdsMKqYJZY9/",
+    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
+    "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1557718.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 0,
+    "international": 1,
+    "sports": 3
   }
 }
