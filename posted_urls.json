@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/26/world/asia/pakistan-protest-islamabad-containers.html",
-    "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.theguardian.com/world/2026/sep/26/lula-bans-fixed-odds-sports-betting-a-week-before-brazilian-elections",
     "https://sports.yahoo.com/mlb/article/dodgers-reliever-blake-treinen-likely-finished-for-2026-season-after-suffering-shoulder-injury-while-warming-up-235530409.html",
     "https://www.prothomalo.com/entertainment/dhallywood/nfex74pqjt",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/cTsnwvSSUG8t/",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
-    "https://www.cricinfo.com/ci/content/story/1557831.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557831.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/district/p59zwl16j4",
+    "https://www.aljazeera.com/news/2026/10/10/us-lifts-sanctions-on-daughter-of-military-linked-myanmar-tycoon?traffic_source=rss",
+    "https://sports.yahoo.com/articles/eagles-vs-jaguars-announcers-meet-082002775.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 3
+    "national": 1,
+    "international": 5,
+    "sports": 5
   }
 }
