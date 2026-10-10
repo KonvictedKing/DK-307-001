@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/27/araghchi-ignores-trump-waits-for-mediators-response-on-hormuz?traffic_source=rss",
-    "https://www.skysports.com/golf/news/12040/13592061/presidents-cup-international-team-take-historic-10-5-7-5-lead-over-team-usa-into-sunday-singles-and-chase-medinah-win",
-    "https://www.bbc.com/bengali/articles/cmn455e0zwx2o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-bracket-picture-tracker-updates/KXn09xfvrw5K/",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/eagles-vs-jaguars-announcers-meet-082002775.html",
     "https://www.bbc.com/bengali/articles/c6wyr1gp38kro?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/racing/news/12040/13597306/dewhurst-stakes-darkness-falls-ignites-triple-crown-dreams-with-newmarket-triumph"
+    "https://www.skysports.com/racing/news/12040/13597306/dewhurst-stakes-darkness-falls-ignites-triple-crown-dreams-with-newmarket-triumph",
+    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
+    "https://www.cnn.com/collections/intl-trump-040223/",
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/nSaCUVzOjvjj/"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 0
+    "national": 0,
+    "international": 2,
+    "sports": 2
   }
 }
