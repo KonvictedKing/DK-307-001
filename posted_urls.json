@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
-    "https://www.skysports.com/watch/video/13592406/australia-42-38-south-africa-rugby-union-highlights",
-    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/nfl-week-3-scores-live-updates-schedule-injuries-highlights/Lhouc2rMqXTT/",
     "https://www.prothomalo.com/bangladesh/whozbxlwiz",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/watch-notre-dame-start-stanford-195929595.html",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly"
+    "https://www.skysports.com/football/news/12040/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly",
+    "https://www.prothomalo.com/religion/islam/b5cwho4puh",
+    "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7678567/2026/10/10/ucla-oregon-score-recap-iamaleava-raiola/"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
