@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/27/world/asia/china-us-ai-distrust.html",
-    "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-and-lions-among-teams-to-call-steelers-about-potential-trade-for-joey-porter-jr-122405453.html",
-    "https://www.bbc.co.uk/bengali/live/ckq63n44lzd2t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/27/mass-shootings-south-africa-johannesburg-cape-town",
     "https://www.skysports.com/watch/video/13592406/australia-42-38-south-africa-rugby-union-highlights",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557869.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmx23qjxezk9o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
-    "https://sports.yahoo.com/articles/watch-notre-dame-start-stanford-195929595.html"
+    "https://sports.yahoo.com/articles/watch-notre-dame-start-stanford-195929595.html",
+    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
+    "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death?traffic_source=rss",
+    "https://www.skysports.com/football/news/12040/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 0,
+    "international": 5,
+    "sports": 0
   }
 }
