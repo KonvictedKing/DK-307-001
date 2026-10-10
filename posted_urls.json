@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cmvgyyw2jeego?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoff-bracket-picture-tracker-updates/KXn09xfvrw5K/",
-    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://cnn.it/411KYN7",
     "https://www.cricinfo.com/ci/content/story/1555862.html?ex_cid=OTC-RSS",
     "https://www.bigganchinta.com/biology/nyninzqx6e",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/racing/news/12040/13597306/dewhurst-stakes-darkness-falls-ignites-triple-crown-dreams-with-newmarket-triumph",
     "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/nSaCUVzOjvjj/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/nSaCUVzOjvjj/",
+    "https://www.prothomalo.com/bangladesh/wbfkuhgh1f",
+    "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
+    "https://www.cricinfo.com/ci/content/story/1557869.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
