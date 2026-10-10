@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/live-blogs/oregon-usc-live-updates-college-football-score-result/efCoC5Hd9Lyo/",
-    "https://www.bbc.com/bengali/articles/ckddvv3gpyjzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/26/world/asia/pakistan-protest-islamabad-containers.html",
     "https://www.cricinfo.com/ci/content/story/1555797.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13597050/swiss-darts-trophy-former-world-champion-michael-smith-plans-on-playing-100-per-cent-of-the-tournaments-in-2027-after-opening-win",
     "https://www.bbc.com/bengali/articles/cmz65l7pwn5xo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
-    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/cTsnwvSSUG8t/"
+    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/cTsnwvSSUG8t/",
+    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
+    "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
+    "https://www.cricinfo.com/ci/content/story/1557831.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 0,
+    "international": 4,
+    "sports": 3
   }
 }
