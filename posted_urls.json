@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1555862.html?ex_cid=OTC-RSS",
-    "https://www.bigganchinta.com/biology/nyninzqx6e",
     "https://www.nytimes.com/2026/09/27/world/asia/china-us-ai-distrust.html",
     "https://sports.yahoo.com/nfl/breaking-news/article/cowboys-and-lions-among-teams-to-call-steelers-about-potential-trade-for-joey-porter-jr-122405453.html",
     "https://www.bbc.co.uk/bengali/live/ckq63n44lzd2t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/nSaCUVzOjvjj/",
     "https://www.prothomalo.com/bangladesh/wbfkuhgh1f",
     "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
-    "https://www.cricinfo.com/ci/content/story/1557869.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557869.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cmx23qjxezk9o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
+    "https://sports.yahoo.com/articles/watch-notre-dame-start-stanford-195929595.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
