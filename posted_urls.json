@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/26/stop-arming-israel-pro-palestine-protesters-march-on-labour-conference?traffic_source=rss",
-    "https://sports.yahoo.com/articles/pickleball-tip-week-fixing-tall-180225203.html",
-    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.bbc.co.uk/news/articles/cm4gjjwvvlzro?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/london-city-lionesses-vs-brighton-and-hove-albion-women/report/575777",
     "https://www.prothomalo.com/sports/football/dpnoycdjy7",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557797.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/ni-world-cup-hopes-gone-212433689.html"
+    "https://sports.yahoo.com/articles/ni-world-cup-hopes-gone-212433689.html",
+    "https://www.prothomalo.com/photo/international/8if1yjf6ll",
+    "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
+    "https://www.skysports.com/darts/news/12040/13597050/swiss-darts-trophy-former-world-champion-michael-smith-plans-on-playing-100-per-cent-of-the-tournaments-in-2027-after-opening-win"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
