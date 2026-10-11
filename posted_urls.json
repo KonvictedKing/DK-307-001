@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://sports.yahoo.com/mlb/article/giants-manager-tony-vitello-ends-rough-first-season-with-mlb-high-seventh-ejection-202418453.html",
-    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.nytimes.com/2026/09/27/world/europe/raf-fairford-airbase-arrests.html",
     "https://www.skysports.com/cricket/news/12040/13592513/india-vs-west-indies-virat-kohli-joins-sachin-tendulkar-in-passing-15000-odi-runs-as-his-55th-ton-fires-india-to-victory",
     "https://www.prothomalo.com/religion/islam/qp36v6or40",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
-    "https://sports.yahoo.com/articles/toxicity-uncertainty-await-man-city-052708911.html"
+    "https://sports.yahoo.com/articles/toxicity-uncertainty-await-man-city-052708911.html",
+    "https://www.bondhushava.com/feature/cdheca8o3s",
+    "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions",
+    "https://www.skysports.com/golf/news/12040/13597656/baycurrent-classic-michael-brennan-holds-on-to-win-title-in-japan-ahead-of-jacob-bridgeman-and-keith-mitchell"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
