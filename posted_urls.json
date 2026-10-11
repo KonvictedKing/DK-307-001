@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1555984.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/ck5ywnxjg53wo?at_medium=RSS&at_campaign=rss",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
     "https://sports.yahoo.com/mlb/article/giants-manager-tony-vitello-ends-rough-first-season-with-mlb-high-seventh-ejection-202418453.html",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7678567/2026/10/10/ucla-oregon-score-recap-iamaleava-raiola/",
     "https://www.bbc.com/bengali/articles/c6n4ez0339qlo?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
+    "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
+    "https://sports.yahoo.com/articles/toxicity-uncertainty-await-man-city-052708911.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 0,
+    "international": 3,
+    "sports": 5
   }
 }
