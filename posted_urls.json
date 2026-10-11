@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/environment/2026/sep/27/baboons-cape-town-divided-over-plan-to-remove-its-monkeys-aoe",
-    "https://www.nytimes.com/athletic/7637955/2026/09/27/baker-mayfield-injury-buccaneers-vikings/",
-    "https://www.bbc.com/bengali/articles/c65y5x0ew5z9o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1555991.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13597656/baycurrent-classic-michael-brennan-holds-on-to-win-title-in-japan-ahead-of-jacob-bridgeman-and-keith-mitchell",
     "https://www.bbc.co.uk/bengali/live/c6ev3xe1y3vkt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/11/meet-the-man-helping-indias-detained-protesters-get-home?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/f1-singapore-gp-live-updates-race-times-results/kxTnwUO69dRU/"
+    "https://www.nytimes.com/athletic/live-blogs/f1-singapore-gp-live-updates-race-times-results/kxTnwUO69dRU/",
+    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
+    "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1557960.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 0,
+    "international": 1,
+    "sports": 3
   }
 }
