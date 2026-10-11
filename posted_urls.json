@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.skysports.com/nfl/news/12040/13592502/baltimore-ravens-produce-miracle-in-rio-de-janeiro-patrick-mahomes-ties-tom-brady-and-james-cook-stars-for-buffalo-bills-nfl-sunday-review",
-    "https://www.bbc.co.uk/bengali/live/cwm2q3yyzmlqt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/09/28/world/europe/raf-fairford-incident-air-base-terrorism-uk.html",
     "https://www.nytimes.com/athletic/7638968/2026/09/28/nfl-brian-dawkins-department-of-homeland-security-philadelphia-eagles/",
     "https://www.prothomalo.com/video/bangladesh/x3x4v86i9y",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/breaking-news/article/ap-top-25-georgia-moves-to-no-1-after-texas-loss-florida-and-oregon-drop-out-of-poll-180423774.html",
     "https://www.bbc.com/bengali/articles/cqm26dykgeezo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
-    "https://www.skysports.com/darts/news/12040/13597879/swiss-darts-trophy-2026-jonny-clayton-defeats-luke-humphries-to-secure-fourth-euro-tour-title"
+    "https://www.skysports.com/darts/news/12040/13597879/swiss-darts-trophy-2026-jonny-clayton-defeats-luke-humphries-to-secure-fourth-euro-tour-title",
+    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
+    "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages",
+    "https://www.nytimes.com/athletic/live-blogs/dodgers-vs-brewers-live-updates-mlb-playoffs-game-1-score-result/gH9BqhlrWf8e/"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 0
+    "national": 0,
+    "international": 4,
+    "sports": 2
   }
 }
