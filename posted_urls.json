@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/advantage-wnba-playoffs-goes-team-020108757.html",
-    "https://www.prothomalo.com/video/international/snp2oj09sn",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
     "https://www.skysports.com/nfl/news/12040/13592502/baltimore-ravens-produce-miracle-in-rio-de-janeiro-patrick-mahomes-ties-tom-brady-and-james-cook-stars-for-buffalo-bills-nfl-sunday-review",
     "https://www.bbc.co.uk/bengali/live/cwm2q3yyzmlqt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1557960.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/politics/zm986o0dhk",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://sports.yahoo.com/college-football/breaking-news/article/ap-top-25-georgia-moves-to-no-1-after-texas-loss-florida-and-oregon-drop-out-of-poll-180423774.html"
+    "https://sports.yahoo.com/college-football/breaking-news/article/ap-top-25-georgia-moves-to-no-1-after-texas-loss-florida-and-oregon-drop-out-of-poll-180423774.html",
+    "https://www.bbc.com/bengali/articles/cqm26dykgeezo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
+    "https://www.skysports.com/darts/news/12040/13597879/swiss-darts-trophy-2026-jonny-clayton-defeats-luke-humphries-to-secure-fourth-euro-tour-title"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
