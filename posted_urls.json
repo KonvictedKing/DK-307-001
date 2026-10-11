@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/9/27/jerusalem-daily-israeli-opposition-leaders-unite-to-drive-out-netanyahu?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-3-scores-live-updates-schedule-injuries-highlights/Lhouc2rMqXTT/",
-    "https://www.prothomalo.com/bangladesh/whozbxlwiz",
     "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1555984.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck5ywnxjg53wo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly",
     "https://www.prothomalo.com/religion/islam/b5cwho4puh",
     "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7678567/2026/10/10/ucla-oregon-score-recap-iamaleava-raiola/"
+    "https://www.nytimes.com/athletic/7678567/2026/10/10/ucla-oregon-score-recap-iamaleava-raiola/",
+    "https://www.bbc.com/bengali/articles/c6n4ez0339qlo?at_medium=RSS&at_campaign=rss",
+    "https://cnn.it/411KYN7",
+    "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
