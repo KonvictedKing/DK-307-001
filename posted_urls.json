@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/liveblog/2026/9/28/iran-war-live-tehran-warns-its-fully-prepared-for-war-amid-hormuz-tensions?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1555991.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.bbc.co.uk/news/articles/cw98005ndz7no?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/advantage-wnba-playoffs-goes-team-020108757.html",
     "https://www.prothomalo.com/video/international/snp2oj09sn",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/f1-singapore-gp-live-updates-race-times-results/kxTnwUO69dRU/",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557960.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1557960.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/politics/zm986o0dhk",
+    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+    "https://sports.yahoo.com/college-football/breaking-news/article/ap-top-25-georgia-moves-to-no-1-after-texas-loss-florida-and-oregon-drop-out-of-poll-180423774.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
