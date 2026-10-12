@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/28/world/europe/raf-fairford-incident-air-base-terrorism-uk.html",
-    "https://www.nytimes.com/athletic/7638968/2026/09/28/nfl-brian-dawkins-department-of-homeland-security-philadelphia-eagles/",
-    "https://www.prothomalo.com/video/bangladesh/x3x4v86i9y",
     "https://www.theguardian.com/music/2026/sep/28/mighty-sparrow-the-trinidad-and-tobago-singer-known-as-the-calypso-king-of-the-world-dies-aged-91",
     "https://www.cricinfo.com/ci/content/story/1556034.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c34gd105l1xlo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13597879/swiss-darts-trophy-2026-jonny-clayton-defeats-luke-humphries-to-secure-fourth-euro-tour-title",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages",
-    "https://www.nytimes.com/athletic/live-blogs/dodgers-vs-brewers-live-updates-mlb-playoffs-game-1-score-result/gH9BqhlrWf8e/"
+    "https://www.nytimes.com/athletic/live-blogs/dodgers-vs-brewers-live-updates-mlb-playoffs-game-1-score-result/gH9BqhlrWf8e/",
+    "https://www.prothomalo.com/bangladesh/bpzuvhmczk",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1558041.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
