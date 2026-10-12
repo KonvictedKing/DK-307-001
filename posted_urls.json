@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/28/paris-court-finds-swiftair-guilty-over-2014-mali-crash-that-killed-116?traffic_source=rss",
-    "https://sports.yahoo.com/nfl/article/cj-strouds-prove-it-year-is-off-to-a-nightmare-start-174601556.html",
-    "https://www.prothomalo.com/entertainment/song/i3sa5igv4x",
     "https://www.bbc.co.uk/news/articles/c8ly40xx0dr0o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/darts/news/12040/13592991/world-grand-prix-darts-luke-littler-in-shock-first-round-exit-as-defending-champion-loses-to-luke-woodhouse",
     "https://www.bbc.com/bengali/articles/cmlyrlkvzn8vo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558041.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c5wyr11lyzmeo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/miami-dolphins-own-worst-enemy-011829859.html"
+    "https://sports.yahoo.com/articles/miami-dolphins-own-worst-enemy-011829859.html",
+    "https://www.prothomalo.com/bangladesh/luy1k5evd6",
+    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
+    "https://www.skysports.com/racing/news/12040/13597525/today-on-sky-sports-racing-newcastle-worcester-and-yarmouth"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
