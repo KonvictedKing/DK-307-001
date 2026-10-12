@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/music/2026/sep/28/mighty-sparrow-the-trinidad-and-tobago-singer-known-as-the-calypso-king-of-the-world-dies-aged-91",
-    "https://www.cricinfo.com/ci/content/story/1556034.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c34gd105l1xlo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/9/28/paris-court-finds-swiftair-guilty-over-2014-mali-crash-that-killed-116?traffic_source=rss",
     "https://sports.yahoo.com/nfl/article/cj-strouds-prove-it-year-is-off-to-a-nightmare-start-174601556.html",
     "https://www.prothomalo.com/entertainment/song/i3sa5igv4x",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/dodgers-vs-brewers-live-updates-mlb-playoffs-game-1-score-result/gH9BqhlrWf8e/",
     "https://www.prothomalo.com/bangladesh/bpzuvhmczk",
     "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1558041.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558041.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c5wyr11lyzmeo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/miami-dolphins-own-worst-enemy-011829859.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
