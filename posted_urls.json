@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
-    "https://sports.yahoo.com/articles/protect-college-sports-act-could-024147875.html",
-    "https://www.prothomalo.com/world/india/vz9q92czx1",
     "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
     "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
     "https://www.bbc.co.uk/bengali/live/ck05r3l9v040t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558184.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cwe9l87zezn7t?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/12/pope-leo-to-undergo-surgery-to-remove-lung-nodule-in-rome?traffic_source=rss",
-    "https://sports.yahoo.com/articles/3-fantasy-football-week-6-194558102.html"
+    "https://sports.yahoo.com/articles/3-fantasy-football-week-6-194558102.html",
+    "https://www.prothomalo.com/bangladesh/fnsozewtkc",
+    "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/coventry-city-vs-newcastle-united/report/559497"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
