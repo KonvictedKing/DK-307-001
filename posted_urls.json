@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/28/world/europe/us-air-base-uk-terror-incident-fairford.html",
-    "https://www.cricinfo.com/ci/content/story/1556070.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6n9wrpry1zeo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/28/drc-politician-beaten-death-radio-appearance-ebola",
     "https://sports.yahoo.com/articles/protect-college-sports-act-could-024147875.html",
     "https://www.prothomalo.com/world/india/vz9q92czx1",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7681745/2026/10/12/lewis-hamilton-singapore-mistake-ferrari/",
     "https://www.prothomalo.com/video/bangladesh/4ot5n3fuc1",
     "https://www.theguardian.com/us-news/2026/oct/12/fugitive-venezuela-bribery-case",
-    "https://www.cricinfo.com/ci/content/story/1558184.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558184.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/cwe9l87zezn7t?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/12/pope-leo-to-undergo-surgery-to-remove-lung-nodule-in-rome?traffic_source=rss",
+    "https://sports.yahoo.com/articles/3-fantasy-football-week-6-194558102.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
