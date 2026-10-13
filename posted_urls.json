@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cwm2qmjgy93do?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1556159.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6vgy2pzr09wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
     "https://sports.yahoo.com/wnba/breaking-news/article/aces-star-aja-wilson-gets-into-heated-exchange-with-fan-in-game-2-vs-fever-after-sophie-cunningham-foul-004145520.html",
     "https://www.prothomalo.com/opinion/column/to594i1m5j",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/atletico-madrid-vs-manchester-united-live-updates-champions-league-score-result/oehRSNzvL7m5/",
     "https://www.prothomalo.com/bangladesh/vwsiat9suu",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1558335.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558335.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cmlydwgeyek6o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/13/world/middleeast/israel-october-7-attacks-elections.html",
+    "https://sports.yahoo.com/nfl/article/bills-hc-joe-brady-on-james-cooks-fumbles-its-gotta-improve-or-the-carries-are-gonna-decrease-224113642.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
