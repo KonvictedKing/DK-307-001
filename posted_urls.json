@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
-    "https://www.skysports.com/football/scotland-vs-switzerland/report/554028",
-    "https://www.bbc.com/bengali/articles/crp3keqwjdn5o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/9/29/what-we-know-about-raf-fairford-bomb?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/fZrg3S4HNyON/",
     "https://www.prothomalo.com/entertainment/bollywood/78yoff7m31",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/arsenal-youth-duo-called-first-092000275.html",
     "https://www.prothomalo.com/sports/cricket/zl72bxefan",
     "https://www.aljazeera.com/news/2026/10/13/how-protests-have-shaped-india-from-anti-hindi-agitation-to-farm-laws?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13598805/enzo-maresca-man-city-boss-defends-anfield-celebrations-after-beating-liverpool-in-first-game-since-guilty-verdict"
+    "https://www.skysports.com/football/news/12040/13598805/enzo-maresca-man-city-boss-defends-anfield-celebrations-after-beating-liverpool-in-first-game-since-guilty-verdict",
+    "https://www.bbc.com/bengali/articles/cr624jpwj40eo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/atletico-madrid-vs-manchester-united-live-updates-champions-league-score-result/oehRSNzvL7m5/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
