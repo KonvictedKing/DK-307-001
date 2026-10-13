@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/29/world/europe/ukraine-kramatorsk.html",
-    "https://sports.yahoo.com/fantasy/article/college-fantasy-football-week-5-qb-rankings-eric-frotons-top-quarterbacks-163437104.html",
-    "https://www.prothomalo.com/sports/football/mfufbq4pm2",
     "https://www.theguardian.com/us-news/2026/sep/27/hurricane-nolo-hawaii-hurricane-polo-mexico",
     "https://www.skysports.com/football/scotland-vs-switzerland/report/554028",
     "https://www.bbc.com/bengali/articles/crp3keqwjdn5o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558211.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ck1exg00z4e1t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
-    "https://sports.yahoo.com/articles/arsenal-youth-duo-called-first-092000275.html"
+    "https://sports.yahoo.com/articles/arsenal-youth-duo-called-first-092000275.html",
+    "https://www.prothomalo.com/sports/cricket/zl72bxefan",
+    "https://www.aljazeera.com/news/2026/10/13/how-protests-have-shaped-india-from-anti-hindi-agitation-to-farm-laws?traffic_source=rss",
+    "https://www.skysports.com/football/news/12040/13598805/enzo-maresca-man-city-boss-defends-anfield-celebrations-after-beating-liverpool-in-first-game-since-guilty-verdict"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
