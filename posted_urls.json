@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/9/29/fighting-in-ethiopia-intensifies-whats-the-latest?traffic_source=rss",
-    "https://www.skysports.com/football/live-blog/12040/12507208/football-latest-news-gossip",
-    "https://www.bbc.co.uk/bengali/live/ck05r3l9v040t?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cm5y5nynl75ko?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7641675/2026/09/29/ronald-acuna-jr-braves-playoffs-world-series/",
     "https://www.prothomalo.com/bangladesh/ki0agrstl4",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/3-fantasy-football-week-6-194558102.html",
     "https://www.prothomalo.com/bangladesh/fnsozewtkc",
     "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/coventry-city-vs-newcastle-united/report/559497"
+    "https://www.skysports.com/football/coventry-city-vs-newcastle-united/report/559497",
+    "https://www.bbc.com/bengali/articles/c6n49yr8nd41o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+    "https://www.nytimes.com/athletic/live-blogs/bills-vs-rams-live-score-updates-nfl-mnf-result/0eiv1MDOyDY9/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
