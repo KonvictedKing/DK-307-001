@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/09/29/world/middleeast/west-bank-israel-settlers-attack-soldiers-palestinians.html",
-    "https://www.skysports.com/rugby-league/news/12040/13592782/super-league-grand-final-george-williams-hoping-to-change-course-of-warrington-wolves-history-with-victory-in-his-final-game",
-    "https://www.bbc.com/bengali/articles/cxm2qmrp2vjjo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/27/melbourne-man-disappearance-south-american-hiking-trail-search-peru",
     "https://www.nytimes.com/athletic/7645301/2026/09/30/spain-croatia-lamine-yamal-70-second-goal/",
     "https://www.prothomalo.com/bangladesh/district/rfyyggy4zo",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/nfl/article/bills-hc-joe-brady-on-james-cooks-fumbles-its-gotta-improve-or-the-carries-are-gonna-decrease-224113642.html",
     "https://www.prothomalo.com/religion/islam/zw0pu2dxyf",
     "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
-    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two"
+    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+    "https://www.bbc.com/bengali/articles/c6rmyj917gvdo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-rays-live-updates-mlb-playoffs-game-2-score-result/cNw8Rm1ZEKCK/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
