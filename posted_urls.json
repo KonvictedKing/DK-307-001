@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/patriots-confident-bounce-back-skills-141617421.html",
-    "https://www.prothomalo.com/video/bangladesh/paexvz8t1h",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
     "https://www.skysports.com/football/news/12040/13593759/cristiano-ronaldo-portugal-captain-decides-to-national-team-leave-camp-amid-reported-rift-with-head-coach-jorge-jesus",
     "https://www.bbc.co.uk/bengali/live/ckp840rgd4r2t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558351.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cqkgleln0kg8o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://sports.yahoo.com/articles/bills-dc-jim-leonhard-makes-073139351.html"
+    "https://sports.yahoo.com/articles/bills-dc-jim-leonhard-makes-073139351.html",
+    "https://www.prothomalo.com/chakri/employment/tzrah2pd8h",
+    "https://www.nytimes.com/2026/10/13/world/europe/russia-putin-trump-diesel-ukraine.html",
+    "https://www.skysports.com/nfl/news/12040/13599132/tyreek-hill-nfl-free-agent-receiver-found-liable-for-two-counts-of-battery-as-jury-awards-estranged-wife-500k"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
