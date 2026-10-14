@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cqgmrm7xd8wyo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/news/12040/13593755/world-grand-prix-gerwyn-price-books-all-welsh-quarter-final-with-jonny-clayton-as-nathan-aspinall-breezes-through",
-    "https://www.bbc.com/bengali/articles/cmgqdq91lj8ko?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
     "https://www.nytimes.com/athletic/7642434/2026/10/01/matthias-jaissle-in-his-own-words/",
     "https://www.prothomalo.com/world/india/jyh2mu15ch",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/washington-footballs-time-passing-leader-183016272.html",
     "https://www.prothomalo.com/chakri/employment/rf17ylisfm",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.skysports.com/football/lincoln-city-vs-west-ham-united/live/560614"
+    "https://www.skysports.com/football/lincoln-city-vs-west-ham-united/live/560614",
+    "https://www.bbc.com/bengali/articles/c6n4ejkewj7wo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/14/world/asia/japan-protest-russia-detention-journalist.html",
+    "https://www.nytimes.com/athletic/live-blogs/manchester-city-vs-psg-live-updates-champions-league-score-result/ABv2zRY8iG40/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
