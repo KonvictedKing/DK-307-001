@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/opinions/2026/9/30/why-israel-is-interfering-in-palestinian-education?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1556617.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/crwyz8qe7y0qo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/ckjw5jx2l393o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/patriots-confident-bounce-back-skills-141617421.html",
     "https://www.prothomalo.com/video/bangladesh/paexvz8t1h",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/guardians-vs-rays-live-updates-mlb-playoffs-game-2-score-result/cNw8Rm1ZEKCK/",
     "https://www.prothomalo.com/opinion/column/aiftw5z0o3",
     "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1558351.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558351.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cqkgleln0kg8o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
+    "https://sports.yahoo.com/articles/bills-dc-jim-leonhard-makes-073139351.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
