@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/27/melbourne-man-disappearance-south-american-hiking-trail-search-peru",
-    "https://www.nytimes.com/athletic/7645301/2026/09/30/spain-croatia-lamine-yamal-70-second-goal/",
-    "https://www.prothomalo.com/bangladesh/district/rfyyggy4zo",
     "https://www.aljazeera.com/opinions/2026/9/30/why-israel-is-interfering-in-palestinian-education?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1556617.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/crwyz8qe7y0qo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
     "https://www.bbc.com/bengali/articles/c6rmyj917gvdo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-rays-live-updates-mlb-playoffs-game-2-score-result/cNw8Rm1ZEKCK/"
+    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-rays-live-updates-mlb-playoffs-game-2-score-result/cNw8Rm1ZEKCK/",
+    "https://www.prothomalo.com/opinion/column/aiftw5z0o3",
+    "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1558351.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
