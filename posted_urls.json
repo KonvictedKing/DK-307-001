@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/09/30/world/dubai-flight-tel-aviv-israel-pilots",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-news-highlights/oZ8GurdgZ1sc/",
-    "https://www.prothomalo.com/world/middle-east/f07mzlcimp",
     "https://www.theguardian.com/us-news/2026/sep/30/trump-state-department-human-rights-fund",
     "https://www.cricinfo.com/ci/content/story/1556616.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c3wyz0vq12rzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/nfl/news/12040/13599132/tyreek-hill-nfl-free-agent-receiver-found-liable-for-two-counts-of-battery-as-jury-awards-estranged-wife-500k",
     "https://www.bbc.co.uk/bengali/live/c6rmy3gxpnwnt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
-    "https://www.nytimes.com/athletic/7689296/2026/10/14/lisandro-martinez-cbs-amazon-prime/"
+    "https://www.nytimes.com/athletic/7689296/2026/10/14/lisandro-martinez-cbs-amazon-prime/",
+    "https://www.kishoralo.com/feature/u2l4ixwy04",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/14/uk-restaurateur-claims-losses-after-video-calling-for-gaza-destruction?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1558464.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
