@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
-    "https://www.cricinfo.com/ci/content/story/1556742.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cm9w4w1xvgn9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/01/world/europe/uk-iran-terrorism-raf-fairford.html",
     "https://sports.yahoo.com/betting/sportsbook/promos/article/fanduel-promo-code-get-up-to-250-in-bonuses-for-tnf-steelers-vs-browns-235400226.html",
     "https://www.prothomalo.com/religion/islam/ramzdj7qpk",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7672624/2026/10/15/womens-basketball-shoes-culture-growth-impact/",
     "https://www.prothomalo.com/sports/football/v39mb3by0l",
     "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
-    "https://www.cricinfo.com/ci/content/story/1558532.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558532.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/cw07315ejj93t?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
+    "https://sports.yahoo.com/articles/midseason-report-card-usc-football-120443664.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
