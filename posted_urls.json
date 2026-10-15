@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
-    "https://www.skysports.com/racing/news/12040/13594251/ascot-tips-mezcala-fancied-to-scoop-challenge-cup-prize",
-    "https://www.bbc.com/bengali/articles/cm0e08nnneero?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin",
     "https://www.nytimes.com/athletic/live-blogs/france-vs-italy-live-updates-nations-league-score-result/mS26E0WR6iDw/",
     "https://www.prothomalo.com/bangladesh/capital/ejdpprbeof",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/seahawks-rb-emanuel-wilson-carries-203020594.html",
     "https://www.prothomalo.com/world/europe/kyty4eqbym",
     "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
-    "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
+    "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+    "https://www.bbc.com/bengali/articles/ck9qz05wg25do?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
