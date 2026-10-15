@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings",
-    "https://sports.yahoo.com/articles/nebraska-freshman-running-back-listed-131756265.html",
-    "https://www.prothomalo.com/video/bangladesh/hezzspaf7z",
     "https://www.aljazeera.com/video/newsfeed/2026/10/1/jerusalem-daily-netanyahu-calls-flight-incident-another-9?traffic_source=rss",
     "https://www.skysports.com/football/news/12040/13594069/man-city-charges-how-premier-league-club-plan-to-argue-their-innocence-in-appeal",
     "https://www.bbc.com/bengali/articles/ckeq8qygdg74o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558497.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c5x2v0d2199po?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/15/costa-rica-opens-mega-prison-as-bukele-model-embraced-across-latin-america?traffic_source=rss",
-    "https://sports.yahoo.com/articles/david-montgomery-unable-practice-005102072.html"
+    "https://sports.yahoo.com/articles/david-montgomery-unable-practice-005102072.html",
+    "https://www.prothomalo.com/video/international/fwk7ld7mq2",
+    "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
