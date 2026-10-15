@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/01/world/americas/brazil-gambling-debts-elections.html",
-    "https://www.cricinfo.com/ci/content/story/1556732.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/crgjqj8qz01vt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/sep/30/south-africa-gender-based-violence-women-killings",
     "https://sports.yahoo.com/articles/nebraska-freshman-running-back-listed-131756265.html",
     "https://www.prothomalo.com/video/bangladesh/hezzspaf7z",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/manchester-city-vs-psg-live-updates-champions-league-score-result/ABv2zRY8iG40/",
     "https://www.prothomalo.com/sports/football/j4e7ql2pto",
     "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-    "https://www.cricinfo.com/ci/content/story/1558497.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558497.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c5x2v0d2199po?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/15/costa-rica-opens-mega-prison-as-bukele-model-embraced-across-latin-america?traffic_source=rss",
+    "https://sports.yahoo.com/articles/david-montgomery-unable-practice-005102072.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
