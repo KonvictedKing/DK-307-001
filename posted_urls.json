@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cmn4540d4z87o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7650006/2026/10/01/angel-reese-wnba-defensive-player-of-year/",
-    "https://www.prothomalo.com/bangladesh/ap9vnko263",
     "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
     "https://www.cricinfo.com/ci/content/story/1556742.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm9w4w1xvgn9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
     "https://www.bbc.com/bengali/articles/cq78p72y1nyxo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
-    "https://www.nytimes.com/athletic/7672624/2026/10/15/womens-basketball-shoes-culture-growth-impact/"
+    "https://www.nytimes.com/athletic/7672624/2026/10/15/womens-basketball-shoes-culture-growth-impact/",
+    "https://www.prothomalo.com/sports/football/v39mb3by0l",
+    "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
+    "https://www.cricinfo.com/ci/content/story/1558532.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
