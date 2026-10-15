@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/bears-tyson-bagent-shares-eye-123548174.html",
-    "https://www.prothomalo.com/bangladesh/district/493wjyzbj5",
     "https://www.nytimes.com/2026/10/02/world/asia/flydubai-attack-pilot-israel-india-smit-machchhar.html",
     "https://www.skysports.com/racing/news/12040/13594251/ascot-tips-mezcala-fancied-to-scoop-challenge-cup-prize",
     "https://www.bbc.com/bengali/articles/cm0e08nnneero?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558630.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq3695z2rx23o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/15/world/europe/ireland-dublin-hotel-antisemitism.html",
-    "https://sports.yahoo.com/articles/seahawks-rb-emanuel-wilson-carries-203020594.html"
+    "https://sports.yahoo.com/articles/seahawks-rb-emanuel-wilson-carries-203020594.html",
+    "https://www.prothomalo.com/world/europe/kyty4eqbym",
+    "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
+    "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
