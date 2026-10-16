@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.skysports.com/darts/news/12040/13594543/world-grand-prix-darts-james-wade-and-nathan-aspinall-with-statement-displays-ahead-of-semi-finals",
-    "https://www.bbc.com/bengali/articles/ck20r4ne5v7wo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/02/world/middleeast/flydubai-attack-timeline.html",
     "https://www.nytimes.com/athletic/7654430/2026/10/02/freddie-freeman-world-series-grand-slam-seat-dodgers/",
     "https://www.prothomalo.com/sports/cricket/otfsied5fg",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/blackhawks-patrick-kane-sets-nhl-013124973.html",
     "https://www.prothomalo.com/bangladesh/district/z0n1zcxxcv",
     "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
-    "https://www.skysports.com/nfl/news/12040/13599666/denver-broncos-17-14-seattle-seahawks-ot-denver-defense-overpowers-sam-darnold-and-defending-champions"
+    "https://www.skysports.com/nfl/news/12040/13599666/denver-broncos-17-14-seattle-seahawks-ot-denver-defense-overpowers-sam-darnold-and-defending-champions",
+    "https://www.bbc.com/bengali/articles/c6y8ln8ykyejo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/uk-news/2026/oct/15/falklands-javier-milei-adviser-santiago-caputo-uk-islam-argentina",
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/aJBz0Ds3T8WC/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
