@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/nba/article/fired-blazers-broadcaster-braiden-bell-apologizes-after-old-tweets-cost-him-job-in-1-day-225406882.html",
-    "https://www.prothomalo.com/sports/football/bjndan4qb8",
     "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
     "https://www.skysports.com/darts/news/12040/13594543/world-grand-prix-darts-james-wade-and-nathan-aspinall-with-statement-displays-ahead-of-semi-finals",
     "https://www.bbc.com/bengali/articles/ck20r4ne5v7wo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558621.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6d09lrn8pnyo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/blackhawks-patrick-kane-sets-nhl-013124973.html"
+    "https://sports.yahoo.com/articles/blackhawks-patrick-kane-sets-nhl-013124973.html",
+    "https://www.prothomalo.com/bangladesh/district/z0n1zcxxcv",
+    "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
+    "https://www.skysports.com/nfl/news/12040/13599666/denver-broncos-17-14-seattle-seahawks-ot-denver-defense-overpowers-sam-darnold-and-defending-champions"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
