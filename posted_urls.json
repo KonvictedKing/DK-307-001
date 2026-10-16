@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-party-leader-withdraws-from-israeli-elections?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1556952.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/ckg433z98v5o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/nba/article/fired-blazers-broadcaster-braiden-bell-apologizes-after-old-tweets-cost-him-job-in-1-day-225406882.html",
     "https://www.prothomalo.com/sports/football/bjndan4qb8",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/",
     "https://www.prothomalo.com/sports/vo8vbxrvy4",
     "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1558621.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558621.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6d09lrn8pnyo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+    "https://sports.yahoo.com/articles/blackhawks-patrick-kane-sets-nhl-013124973.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
