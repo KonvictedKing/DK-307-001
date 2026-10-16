@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/02/row-erupts-over-cairo-mural-depicting-tutankhamun-and-nefertiti-with-dark-skin",
-    "https://www.nytimes.com/athletic/live-blogs/france-vs-italy-live-updates-nations-league-score-result/mS26E0WR6iDw/",
-    "https://www.prothomalo.com/bangladesh/capital/ejdpprbeof",
     "https://www.aljazeera.com/video/newsfeed/2026/10/2/arab-party-leader-withdraws-from-israeli-elections?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1556952.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckg433z98v5o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.com/bengali/articles/ck9qz05wg25do?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/"
+    "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/",
+    "https://www.prothomalo.com/sports/vo8vbxrvy4",
+    "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1558621.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
