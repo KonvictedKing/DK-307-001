@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
-    "https://sports.yahoo.com/articles/forecast-floridas-road-matchup-vs-175433468.html",
-    "https://www.prothomalo.com/bangladesh/capital/rp1t12pdpq",
     "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss",
     "https://www.skysports.com/football/croatia-vs-england/report/554052",
     "https://www.bbc.com/bengali/articles/cqn497vmwe38o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558791.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6wy4qxrn2xgo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
-    "https://sports.yahoo.com/articles/warriors-vs-trail-blazers-preseason-210931328.html"
+    "https://sports.yahoo.com/articles/warriors-vs-trail-blazers-preseason-210931328.html",
+    "https://www.prothomalo.com/religion/islam/do51r74lph",
+    "https://www.bbc.co.uk/news/articles/cvx284w16z1po?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/rugby-union/news/12040/13600079/champions-cup-gloucester-claim-thrilling-draw-against-holders-bordeaux"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
