@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/02/world/middleeast/flydubai-attack-timeline.html",
-    "https://www.nytimes.com/athletic/7654430/2026/10/02/freddie-freeman-world-series-grand-slam-seat-dodgers/",
-    "https://www.prothomalo.com/sports/cricket/otfsied5fg",
     "https://www.theguardian.com/world/2026/oct/02/brazil-lula-stop-fascism-bolsonaro-son",
     "https://www.cricinfo.com/ci/content/story/1556959.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq78pl4kmml8o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/nfl/news/12040/13599666/denver-broncos-17-14-seattle-seahawks-ot-denver-defense-overpowers-sam-darnold-and-defending-champions",
     "https://www.bbc.com/bengali/articles/c6y8ln8ykyejo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/uk-news/2026/oct/15/falklands-javier-milei-adviser-santiago-caputo-uk-islam-argentina",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/aJBz0Ds3T8WC/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/aJBz0Ds3T8WC/",
+    "https://trust.prothomalo.com/activities/alor-school/0zcyjav7s6",
+    "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1558741.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
