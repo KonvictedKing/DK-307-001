@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/3/bosnian-serb-leader-says-bosnia-is-dead-ahead-of-election?traffic_source=rss",
-    "https://sports.yahoo.com/articles/arsenal-18yo-wins-4th-senior-080500412.html",
-    "https://www.prothomalo.com/world/middle-east/znb8jvzx3b",
     "https://www.bbc.co.uk/news/articles/c61wv7lgex13o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/f1/live-blog/12040/13594552/f1-bahrain-gp-in-malaysia-live-final-practice-and-qualifying-updates-results-stream-highlights-from-formula-1-race-weekend-in-sepang",
     "https://www.bbc.com/bengali/articles/cw0k04ezk3rzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558741.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6x2ved0k80wo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/texas-vs-florida-watch-date-123000419.html"
+    "https://sports.yahoo.com/articles/texas-vs-florida-watch-date-123000419.html",
+    "https://www.prothomalo.com/video/international/zrg4z5wtob",
+    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
+    "https://www.skysports.com/f1/news/12040/13599576/united-states-gp-2026-dates-schedule-austin-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-at-cota-live-on-sky-sports"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
