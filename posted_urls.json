@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/03/world/canada/quebec-election-independence-parti-quebecois-separatism.html",
-    "https://www.cricinfo.com/ci/content/story/1557024.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c34g1q7lqj2yo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/03/libyan-unity-talks-warlord-son-linked-drone-attack-khalifa-haftar",
     "https://sports.yahoo.com/articles/forecast-floridas-road-matchup-vs-175433468.html",
     "https://www.prothomalo.com/bangladesh/capital/rp1t12pdpq",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7696589/2026/10/16/panthers-vs-eagles-stream-how-to-watch-oct-18/",
     "https://www.prothomalo.com/bangladesh/p3vxp5xbsn",
     "https://www.theguardian.com/environment/2026/oct/16/brazil-amazon-deforestation-lowest-on-record-election",
-    "https://www.cricinfo.com/ci/content/story/1558791.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558791.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6wy4qxrn2xgo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/economy/2026/10/16/meta-employees-say-lulas-accounts-restricted-in-brazil-election-report?traffic_source=rss",
+    "https://sports.yahoo.com/articles/warriors-vs-trail-blazers-preseason-210931328.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
