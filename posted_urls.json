@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1557128.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cm4gvn8jd3k9o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/kyndal-stowers-sets-texas-m-212713660.html",
     "https://www.prothomalo.com/sports/football/n7q2cpugoe",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-indiana-live-updates-college-football-score-result/FHGunvCKncHb/",
     "https://www.prothomalo.com/onnoalo/treatise/corgzft0w3",
     "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ck3wv4vwwzggo?at_medium=RSS&at_campaign=rss",
+    "https://cnn.it/40OSomK",
+    "https://sports.yahoo.com/college-football/breaking-news/article/arch-manning-struggles-colin-simmons-injured-as-florida-scores-24-straight-to-upset-no-7-texas-192502525.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
