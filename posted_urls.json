@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/football/republic-of-ireland-vs-israel/report/554064",
-    "https://www.bbc.com/bengali/articles/cxvgyjyj7l3yo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
     "https://www.nytimes.com/athletic/live-blogs/lions-vs-panthers-live-score-updates-nfl-snf-result/eHVZ4EcZRs7L/",
     "https://www.prothomalo.com/sports/japrfmpy06",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/breaking-news/article/arch-manning-struggles-colin-simmons-injured-as-florida-scores-24-straight-to-upset-no-7-texas-192502525.html",
     "https://www.prothomalo.com/sports/football/n13v8d5ndx",
     "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
-    "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford"
+    "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
+    "https://www.bbc.com/bengali/articles/cvlyd2xnx75do?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/news/2026/oct/16/jamaicans-confront-enslavement-taboo-busting-stories-on-screen-possession",
+    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-wnba-finals-game-1-score-live-updates/vG8Rm3iKdqBQ/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
