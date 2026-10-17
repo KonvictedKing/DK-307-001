@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
-    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/c9ld07SVkn5E/",
-    "https://www.prothomalo.com/bangladesh/district/gsynyaxyum",
     "https://www.aljazeera.com/video/newsfeed/2026/10/4/ku-klux-klan-leader-claims-rising-support-ahead-of-us-midterm-elections?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1557128.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm4gvn8jd3k9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/brentford-vs-liverpool/live/559505",
     "https://www.bbc.com/bengali/articles/ck5yn9lrz597o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-indiana-live-updates-college-football-score-result/FHGunvCKncHb/"
+    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-indiana-live-updates-college-football-score-result/FHGunvCKncHb/",
+    "https://www.prothomalo.com/onnoalo/treatise/corgzft0w3",
+    "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
