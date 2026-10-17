@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/04/world/middleeast/houthis-oil-attack-saudi-arabia-yemen.html",
-    "https://www.nytimes.com/athletic/live-blogs/lions-vs-panthers-live-score-updates-nfl-snf-result/eHVZ4EcZRs7L/",
-    "https://www.prothomalo.com/sports/japrfmpy06",
     "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
     "https://www.cricinfo.com/ci/content/story/1557114.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6ewe1jpldeko?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
     "https://www.bbc.com/bengali/articles/cvlyd2xnx75do?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/news/2026/oct/16/jamaicans-confront-enslavement-taboo-busting-stories-on-screen-possession",
-    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-wnba-finals-game-1-score-live-updates/vG8Rm3iKdqBQ/"
+    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-wnba-finals-game-1-score-live-updates/vG8Rm3iKdqBQ/",
+    "https://www.prothomalo.com/sports/cricket/snydtjczvp",
+    "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1558881.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
