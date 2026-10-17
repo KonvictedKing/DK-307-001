@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/articles/dual-code-winger-nawaqanitawase-stars-131217588.html",
-    "https://www.prothomalo.com/bangladesh/t38lgfzaol",
     "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html",
     "https://www.skysports.com/tennis/news/12040/13594880/china-open-novak-djokovic-keeps-unblemished-record-in-beijing-by-handing-alexander-zverev-a-rare-defeat",
     "https://www.bbc.com/bengali/articles/c6d7qxe3pwqvo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558843.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cj20vwy1pqyxo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
-    "https://sports.yahoo.com/articles/xabi-alonso-reaction-chelsea-boss-133516299.html"
+    "https://sports.yahoo.com/articles/xabi-alonso-reaction-chelsea-boss-133516299.html",
+    "https://www.prothomalo.com/bangladesh/58mzwxx9uo",
+    "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
+    "https://www.skysports.com/football/brentford-vs-liverpool/live/559505"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
