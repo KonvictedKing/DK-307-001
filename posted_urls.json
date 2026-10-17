@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ckreyjzzzywqo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/kyndal-stowers-sets-texas-m-212713660.html",
-    "https://www.prothomalo.com/sports/football/n7q2cpugoe",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
     "https://www.skysports.com/football/republic-of-ireland-vs-israel/report/554064",
     "https://www.bbc.com/bengali/articles/cxvgyjyj7l3yo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck3wv4vwwzggo?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/college-football/breaking-news/article/arch-manning-struggles-colin-simmons-injured-as-florida-scores-24-straight-to-upset-no-7-texas-192502525.html"
+    "https://sports.yahoo.com/college-football/breaking-news/article/arch-manning-struggles-colin-simmons-injured-as-florida-scores-24-straight-to-upset-no-7-texas-192502525.html",
+    "https://www.prothomalo.com/sports/football/n13v8d5ndx",
+    "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
+    "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
