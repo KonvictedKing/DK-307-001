@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/03/world/middleeast/oman-flydubai-flight-1073-pilot-radicalized.html",
-    "https://sports.yahoo.com/articles/pitt-qb-mason-heintschels-season-003127464.html",
-    "https://www.prothomalo.com/bangladesh/crime/3n3746gxyp",
     "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
     "https://www.skysports.com/darts/news/12040/13594720/world-grand-prix-darts-luke-humphries-to-face-gerywn-price-in-sundays-final-in-leicester-live-on-sky-sports",
     "https://www.bbc.com/bengali/articles/ck62y42q28r2o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558772.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwm26yr13vydo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-    "https://sports.yahoo.com/articles/bruins-vs-ducks-score-live-010001325.html"
+    "https://sports.yahoo.com/articles/bruins-vs-ducks-score-live-010001325.html",
+    "https://www.prothomalo.com/fun/tni1k3bolm",
+    "https://www.aljazeera.com/news/2026/10/17/the-chatbot-murder-guide-ais-struggle-between-privacy-reporting-violence?traffic_source=rss",
+    "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
