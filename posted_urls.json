@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html",
-    "https://www.skysports.com/tennis/news/12040/13594880/china-open-novak-djokovic-keeps-unblemished-record-in-beijing-by-handing-alexander-zverev-a-rare-defeat",
-    "https://www.bbc.com/bengali/articles/c6d7qxe3pwqvo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/04/egyptian-journalist-faces-terrorism-charges-entire-newsroom-detained-matsadaash-press-freedom",
     "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/c9ld07SVkn5E/",
     "https://www.prothomalo.com/bangladesh/district/gsynyaxyum",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/xabi-alonso-reaction-chelsea-boss-133516299.html",
     "https://www.prothomalo.com/bangladesh/58mzwxx9uo",
     "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
-    "https://www.skysports.com/football/brentford-vs-liverpool/live/559505"
+    "https://www.skysports.com/football/brentford-vs-liverpool/live/559505",
+    "https://www.bbc.com/bengali/articles/ck5yn9lrz597o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-indiana-live-updates-college-football-score-result/FHGunvCKncHb/"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 0
+    "national": 2,
+    "international": 5,
+    "sports": 2
   }
 }
