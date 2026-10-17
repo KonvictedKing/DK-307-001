@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/10/4/yamal-scores-stunning-goal-in-spains-3-1-nations-league-win-over-czechia?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7657458/2026/10/04/college-football-playoff-projections-week-5/",
-    "https://www.prothomalo.com/bangladesh/district/eehac9aeiq",
     "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1557108.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckqxnrwx10ydt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament",
     "https://www.bbc.com/bengali/articles/cqrly015p1nzo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7698183/2026/10/17/devils-vs-capitals-stream-how-to-watch-oct-17/"
+    "https://www.nytimes.com/athletic/7698183/2026/10/17/devils-vs-capitals-stream-how-to-watch-oct-17/",
+    "https://www.prothomalo.com/business/economics/me3njgz968",
+    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+    "https://www.cricinfo.com/ci/content/story/1558843.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
