@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cxly4nym57q9o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557108.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/ckqxnrwx10ydt?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
     "https://sports.yahoo.com/articles/dual-code-winger-nawaqanitawase-stars-131217588.html",
     "https://www.prothomalo.com/bangladesh/t38lgfzaol",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7698183/2026/10/17/devils-vs-capitals-stream-how-to-watch-oct-17/",
     "https://www.prothomalo.com/business/economics/me3njgz968",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1558843.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558843.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cj20vwy1pqyxo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
+    "https://sports.yahoo.com/articles/xabi-alonso-reaction-chelsea-boss-133516299.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
