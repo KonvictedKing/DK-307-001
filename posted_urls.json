@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/oct/03/us-coast-guard-missing-air-ambulance-massachusetts",
-    "https://www.skysports.com/darts/news/12040/13594720/world-grand-prix-darts-luke-humphries-to-face-gerywn-price-in-sundays-final-in-leicester-live-on-sky-sports",
-    "https://www.bbc.com/bengali/articles/ck62y42q28r2o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/10/4/yamal-scores-stunning-goal-in-spains-3-1-nations-league-win-over-czechia?traffic_source=rss",
     "https://www.nytimes.com/athletic/7657458/2026/10/04/college-football-playoff-projections-week-5/",
     "https://www.prothomalo.com/bangladesh/district/eehac9aeiq",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/bruins-vs-ducks-score-live-010001325.html",
     "https://www.prothomalo.com/fun/tni1k3bolm",
     "https://www.aljazeera.com/news/2026/10/17/the-chatbot-murder-guide-ais-struggle-between-privacy-reporting-violence?traffic_source=rss",
-    "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament"
+    "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament",
+    "https://www.bbc.com/bengali/articles/cqrly015p1nzo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7698183/2026/10/17/devils-vs-capitals-stream-how-to-watch-oct-17/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
