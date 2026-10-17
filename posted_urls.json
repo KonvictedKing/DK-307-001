@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1557077.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cx1l35qyg3m4o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/03/world/middleeast/oman-flydubai-flight-1073-pilot-radicalized.html",
     "https://sports.yahoo.com/articles/pitt-qb-mason-heintschels-season-003127464.html",
     "https://www.prothomalo.com/bangladesh/crime/3n3746gxyp",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/rays-vs-guardians-live-updates-mlb-playoffs-game-4-score-result/5k6hzFAi2Bye/",
     "https://www.kishoralo.com/feature/kqb93l7dhj",
     "https://www.nytimes.com/2026/10/16/world/europe/trump-zelensky-ukraine-war.html",
-    "https://www.cricinfo.com/ci/content/story/1558772.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558772.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cwm26yr13vydo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
+    "https://sports.yahoo.com/articles/bruins-vs-ducks-score-live-010001325.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
