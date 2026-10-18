@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
-    "https://www.skysports.com/rugby-union/news/12040/13595705/red-roses-englands-marlie-packer-to-miss-wxv-global-series-matches-against-canada-and-usa-in-north-america",
-    "https://www.bbc.com/bengali/articles/ckr5ymrnl49do?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/6/is-europe-preparing-for-a-wider-war-with-russia?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/england-vs-czech-republic-live-updates-nations-league-score-result/aqUfFAmpqsis/",
     "https://www.prothomalo.com/bangladesh/district/0b0ftf7jia",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/loss-byu-proves-costly-notre-172753742.html",
     "https://www.prothomalo.com/video/bangladesh/ktwzickqua",
     "https://www.aljazeera.com/video/newsfeed/2026/10/18/tiger-shroff-mumbai-shooting-salman-khan?traffic_source=rss",
-    "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512"
+    "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512",
+    "https://www.bbc.com/bengali/articles/cr93z9nl13dko?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-6-scores-live-updates-schedule-injuries-highlights/Xlbvehr2fb79/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
