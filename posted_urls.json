@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/racing/news/12040/13594924/today-on-sky-sports-racing-wolverhampton-and-yarmouth",
-    "https://www.bbc.co.uk/bengali/live/c50me0j704w4t?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
     "https://www.nytimes.com/athletic/7662941/2026/10/05/fantasy-football-early-waivers-speed-run-worthy-coleman/",
     "https://www.prothomalo.com/bangladesh/district/lmb0eivjdf",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/kyle-whittingham-answers-michigan-qb-001706409.html",
     "https://www.prothomalo.com/religion/islam/7vq0s7wajd",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return"
+    "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return",
+    "https://www.bbc.com/bengali/articles/c5gm029lmnneo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html",
+    "https://www.nytimes.com/athletic/7700216/2026/10/18/jaron-keawe-sagapolutele-cal-qbs-jackson-broussard/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
