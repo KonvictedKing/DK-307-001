@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/06/world/americas/us-reaper-drones-colombia-ecuador-cartels.html",
-    "https://sports.yahoo.com/articles/nothing-left-why-lionel-messi-154601856.html",
-    "https://www.bondhushava.com/career/7x7imyjahq",
     "https://www.theguardian.com/world/2026/oct/06/kenya-first-ebola-case-death-drc",
     "https://www.skysports.com/rugby-union/news/12040/13595705/red-roses-englands-marlie-packer-to-miss-wxv-global-series-matches-against-canada-and-usa-in-north-america",
     "https://www.bbc.com/bengali/articles/ckr5ymrnl49do?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558962.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cr9dz0g7770lo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
-    "https://sports.yahoo.com/articles/loss-byu-proves-costly-notre-172753742.html"
+    "https://sports.yahoo.com/articles/loss-byu-proves-costly-notre-172753742.html",
+    "https://www.prothomalo.com/video/bangladesh/ktwzickqua",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/18/tiger-shroff-mumbai-shooting-salman-khan?traffic_source=rss",
+    "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
