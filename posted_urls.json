@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/6/is-europe-preparing-for-a-wider-war-with-russia?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/england-vs-czech-republic-live-updates-nations-league-score-result/aqUfFAmpqsis/",
-    "https://www.prothomalo.com/bangladesh/district/0b0ftf7jia",
     "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm9dzlgq29jzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512",
     "https://www.bbc.com/bengali/articles/cr93z9nl13dko?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-6-scores-live-updates-schedule-injuries-highlights/Xlbvehr2fb79/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-6-scores-live-updates-schedule-injuries-highlights/Xlbvehr2fb79/",
+    "https://www.prothomalo.com/world/europe/xxwruheg1e",
+    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
+    "https://www.cricinfo.com/ci/content/story/1558979.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
