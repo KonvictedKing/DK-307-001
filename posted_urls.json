@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/10/5/djokovic-defeats-top-seed-zverev-to-reach-china-open-semifinals?traffic_source=rss",
-    "https://sports.yahoo.com/articles/117m-rogers-failed-bournemouth-feared-070056651.html",
-    "https://www.prothomalo.com/world/usa/hx0t4sehsp",
     "https://www.bbc.co.uk/news/articles/ck1l34ed592no?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/racing/news/12040/13594924/today-on-sky-sports-racing-wolverhampton-and-yarmouth",
     "https://www.bbc.co.uk/bengali/live/c50me0j704w4t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558881.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmy4xvxl3yl1o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/kyle-whittingham-answers-michigan-qb-001706409.html"
+    "https://sports.yahoo.com/articles/kyle-whittingham-answers-michigan-qb-001706409.html",
+    "https://www.prothomalo.com/religion/islam/7vq0s7wajd",
+    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
+    "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
