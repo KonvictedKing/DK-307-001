@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557361.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cm9dzlgq29jzo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
     "https://sports.yahoo.com/articles/fsu-baseball-makes-major-change-213615174.html",
     "https://www.prothomalo.com/sports/football/xi1stw4j5y",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nfl-week-6-scores-live-updates-schedule-injuries-highlights/Xlbvehr2fb79/",
     "https://www.prothomalo.com/world/europe/xxwruheg1e",
     "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1558979.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558979.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6n9r2xzl99lo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html",
+    "https://sports.yahoo.com/articles/kenneth-walker-scores-twice-chiefs-215121910.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
