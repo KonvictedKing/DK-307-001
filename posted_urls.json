@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/05/guardian-readers-fundraising-somalian-boy-injured-in-us-strike-surgery-abdiqadir-salah",
-    "https://sports.yahoo.com/articles/man-united-told-real-chance-223500397.html",
-    "https://www.prothomalo.com/bangladesh/district/b7czzb2n86",
     "https://www.aljazeera.com/news/2026/10/5/trumps-approval-hits-new-low-among-hispanic-voters-ahead-of-midterms?traffic_source=rss",
     "https://www.skysports.com/tennis/news/12040/13595569/coco-gauff-reports-online-racial-abuse-after-incident-during-her-victory-over-sun-xinran-at-china-open",
     "https://www.bbc.com/bengali/articles/cm9qzv2j220vo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1558914.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cmx2870x0plyt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/features/2026/10/18/food-or-medicine-the-impossible-choices-facing-sudans-chronically-ill?traffic_source=rss",
-    "https://sports.yahoo.com/articles/pcb-snubs-michael-atherton-nasser-094900178.html"
+    "https://sports.yahoo.com/articles/pcb-snubs-michael-atherton-nasser-094900178.html",
+    "https://www.prothomalo.com/entertainment/bollywood/bpvefciqqs",
+    "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/golf/news/12040/13600531/dp-world-india-championship-eugenio-chacarra-wins-to-move-top-of-race-to-dubai-standings-with-rory-mcilroy-finishing-in-a-share-of-42nd-place"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
