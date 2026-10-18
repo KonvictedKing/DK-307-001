@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/05/world/europe/russia-plague-siberia.html",
-    "https://www.cricinfo.com/ci/content/story/1557209.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cq1kd71nem7ro?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/05/guardian-readers-fundraising-somalian-boy-injured-in-us-strike-surgery-abdiqadir-salah",
     "https://sports.yahoo.com/articles/man-united-told-real-chance-223500397.html",
     "https://www.prothomalo.com/bangladesh/district/b7czzb2n86",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7700216/2026/10/18/jaron-keawe-sagapolutele-cal-qbs-jackson-broussard/",
     "https://www.prothomalo.com/education/higher-education/e5h2ln438k",
     "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
-    "https://www.cricinfo.com/ci/content/story/1558914.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558914.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/cmx2870x0plyt?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/features/2026/10/18/food-or-medicine-the-impossible-choices-facing-sudans-chronically-ill?traffic_source=rss",
+    "https://sports.yahoo.com/articles/pcb-snubs-michael-atherton-nasser-094900178.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
