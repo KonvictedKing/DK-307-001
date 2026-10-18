@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1557244.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/c370p45wkgqgt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/06/world/americas/us-reaper-drones-colombia-ecuador-cartels.html",
     "https://sports.yahoo.com/articles/nothing-left-why-lionel-messi-154601856.html",
     "https://www.bondhushava.com/career/7x7imyjahq",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/leeds-vs-manchester-united-live-updates-premier-league-score-result/UWajhTmhZYtb/",
     "https://www.prothomalo.com/bangladesh/district/rxz8q5bqab",
     "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
-    "https://www.cricinfo.com/ci/content/story/1558962.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558962.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cr9dz0g7770lo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
+    "https://sports.yahoo.com/articles/loss-byu-proves-costly-notre-172753742.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
