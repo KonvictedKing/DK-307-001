@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/ng-interactive/2026/oct/04/brazil-presidential-election-2026-first-round-live-results",
-    "https://www.cricinfo.com/ci/content/story/1557114.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6ewe1jpldeko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/10/5/djokovic-defeats-top-seed-zverev-to-reach-china-open-semifinals?traffic_source=rss",
     "https://sports.yahoo.com/articles/117m-rogers-failed-bournemouth-feared-070056651.html",
     "https://www.prothomalo.com/world/usa/hx0t4sehsp",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-wnba-finals-game-1-score-live-updates/vG8Rm3iKdqBQ/",
     "https://www.prothomalo.com/sports/cricket/snydtjczvp",
     "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1558881.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1558881.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cmy4xvxl3yl1o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/kyle-whittingham-answers-michigan-qb-001706409.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
