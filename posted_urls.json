@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/fishers-native-enters-free-agency-084030109.html",
-    "https://www.prothomalo.com/entertainment/hollywood/mqhjrehra2",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
     "https://www.skysports.com/f1/news/12040/13595500/lewis-hamilton-insists-ferrari-must-catch-up-with-rivals-on-power-unit-performance-for-2027-f1-season",
     "https://www.bbc.co.uk/bengali/live/c6n04d7qz8kvt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559019.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cr5ynlzje74wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/cowboys-defense-still-dismal-rip-051934392.html"
+    "https://sports.yahoo.com/articles/cowboys-defense-still-dismal-rip-051934392.html",
+    "https://www.bondhushava.com/activities/kkksj3cbe8",
+    "https://www.nytimes.com/2026/10/19/world/africa/dirty-gold-industry-coverup-launder-madagascar.html",
+    "https://www.skysports.com/football/news/12040/13600890/sarina-wiegman-england-women-boss-signs-new-two-year-contract-extension-through-to-end-of-euro-2029"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
