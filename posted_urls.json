@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/D5DlZreYcw6e/",
-    "https://www.prothomalo.com/bangladesh/rnke4taf2e",
     "https://www.aljazeera.com/video/newsfeed/2026/10/7/syrian-embassy-returns-seized-passport-after-43-years?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1557286.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwn8dgpjrx31o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/nfl/live-blog/12040/13600325/nfl-2026-results-and-highlights-cleveland-browns-go-top-of-afc-north-with-divisional-win-over-baltimore-ravens",
     "https://www.bbc.com/bengali/articles/c6pwgqlg8j74o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/cowboys-vs-packers-live-score-updates-nfl-snf-result/uqeNOn9qDrcD/"
+    "https://www.nytimes.com/athletic/live-blogs/cowboys-vs-packers-live-score-updates-nfl-snf-result/uqeNOn9qDrcD/",
+    "https://www.bondhushava.com/activities/tp6csjvwsd",
+    "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1559019.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
