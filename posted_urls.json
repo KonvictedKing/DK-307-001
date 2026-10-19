@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/7/syrian-embassy-returns-seized-passport-after-43-years?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1557286.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cwn8dgpjrx31o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/fishers-native-enters-free-agency-084030109.html",
     "https://www.prothomalo.com/entertainment/hollywood/mqhjrehra2",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/cowboys-vs-packers-live-score-updates-nfl-snf-result/uqeNOn9qDrcD/",
     "https://www.bondhushava.com/activities/tp6csjvwsd",
     "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559019.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559019.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cr5ynlzje74wo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
+    "https://sports.yahoo.com/articles/cowboys-defense-still-dismal-rip-051934392.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
