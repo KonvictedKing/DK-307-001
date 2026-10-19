@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed",
-    "https://www.cricinfo.com/ci/content/story/1557573.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cw98ze839645o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/7/pro-palestine-university-groups-march-in-london-on-october-7-anniversary?traffic_source=rss",
     "https://sports.yahoo.com/articles/commanders-qb-jayden-daniels-working-221028272.html",
     "https://www.prothomalo.com/bangladesh/crime/jhe4maop3z",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nba-season-start-live-updates-latest-news-schedule-games-scores/iAdFcCak0Nx8/",
     "https://www.prothomalo.com/business/economics/uyonv313af",
     "https://www.aljazeera.com/news/2026/10/19/brazilian-court-orders-meta-to-prove-lula-and-bolsonaro-get-equal-treatment?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1559073.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559073.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ckq6n86y946ro?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/backlash-follows-decision-continue-utsa-174100648.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
