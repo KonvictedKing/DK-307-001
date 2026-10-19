@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/07/world/middleeast/israel-october-7-attacks-hostages-twins-berman.html",
-    "https://www.nytimes.com/athletic/7513984/2026/10/07/liv-golf-jon-rahm-depart-funding/",
-    "https://www.prothomalo.com/world/europe/x1urhinsff",
     "https://www.theguardian.com/science/2026/oct/05/skull-fractures-suggest-servants-of-egypts-ancient-kings-were-sacrificed",
     "https://www.cricinfo.com/ci/content/story/1557573.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cw98ze839645o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13600890/sarina-wiegman-england-women-boss-signs-new-two-year-contract-extension-through-to-end-of-euro-2029",
     "https://www.bbc.co.uk/bengali/live/cqp8gzd2w269t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
-    "https://www.nytimes.com/athletic/live-blogs/nba-season-start-live-updates-latest-news-schedule-games-scores/iAdFcCak0Nx8/"
+    "https://www.nytimes.com/athletic/live-blogs/nba-season-start-live-updates-latest-news-schedule-games-scores/iAdFcCak0Nx8/",
+    "https://www.prothomalo.com/business/economics/uyonv313af",
+    "https://www.aljazeera.com/news/2026/10/19/brazilian-court-orders-meta-to-prove-lula-and-bolsonaro-get-equal-treatment?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1559073.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
