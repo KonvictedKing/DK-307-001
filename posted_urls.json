@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/7/pro-palestine-university-groups-march-in-london-on-october-7-anniversary?traffic_source=rss",
-    "https://sports.yahoo.com/articles/commanders-qb-jayden-daniels-working-221028272.html",
-    "https://www.prothomalo.com/bangladesh/crime/jhe4maop3z",
     "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/news/12040/13596325/arsenal-manager-mikel-arteta-becomes-premier-leagues-highest-paid-boss-on-20m-a-year-new-contract-paper-talk",
     "https://www.bbc.com/bengali/articles/c6geljl30vwno?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559073.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckq6n86y946ro?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/backlash-follows-decision-continue-utsa-174100648.html"
+    "https://sports.yahoo.com/articles/backlash-follows-decision-continue-utsa-174100648.html",
+    "https://www.prothomalo.com/world/usa/ukz2wjnp8e",
+    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
+    "https://www.skysports.com/football/live-blog/12040/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
