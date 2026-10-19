@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.skysports.com/f1/news/12040/13595500/lewis-hamilton-insists-ferrari-must-catch-up-with-rivals-on-power-unit-performance-for-2027-f1-season",
-    "https://www.bbc.co.uk/bengali/live/c6n04d7qz8kvt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/07/world/middleeast/israel-october-7-attacks-hostages-twins-berman.html",
     "https://www.nytimes.com/athletic/7513984/2026/10/07/liv-golf-jon-rahm-depart-funding/",
     "https://www.prothomalo.com/world/europe/x1urhinsff",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/cowboys-defense-still-dismal-rip-051934392.html",
     "https://www.bondhushava.com/activities/kkksj3cbe8",
     "https://www.nytimes.com/2026/10/19/world/africa/dirty-gold-industry-coverup-launder-madagascar.html",
-    "https://www.skysports.com/football/news/12040/13600890/sarina-wiegman-england-women-boss-signs-new-two-year-contract-extension-through-to-end-of-euro-2029"
+    "https://www.skysports.com/football/news/12040/13600890/sarina-wiegman-england-women-boss-signs-new-two-year-contract-extension-through-to-end-of-euro-2029",
+    "https://www.bbc.co.uk/bengali/live/cqp8gzd2w269t?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
+    "https://www.nytimes.com/athletic/live-blogs/nba-season-start-live-updates-latest-news-schedule-games-scores/iAdFcCak0Nx8/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
