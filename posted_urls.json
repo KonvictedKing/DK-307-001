@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/08/world/europe/france-student-protests-paris.html",
-    "https://sports.yahoo.com/articles/could-eagles-salary-cap-hit-222257398.html",
-    "https://www.prothomalo.com/bangladesh/district/24h4h5qkmx",
     "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
     "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
     "https://www.bbc.com/bengali/articles/cjd4ynkr72xo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559179.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
-    "https://sports.yahoo.com/articles/report-nets-wont-sign-noah-132731340.html"
+    "https://sports.yahoo.com/articles/report-nets-wont-sign-noah-132731340.html",
+    "https://www.prothomalo.com/entertainment/hollywood/j0mde6djb3",
+    "https://www.aljazeera.com/video/doha-debates/2026/10/20/how-does-language-affect-how-we-think?traffic_source=rss",
+    "https://www.skysports.com/f1/live-blog/12040/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
