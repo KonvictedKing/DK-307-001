@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557718.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/capital/5oa02iwuu1",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
     "https://sports.yahoo.com/articles/breaking-enzo-maresca-questioned-first-093300583.html",
     "https://www.bbc.com/bengali/articles/cvkgknz82xelo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/psg-vs-barcelona-live-updates-champions-league-score-result-paris/KeivhpSzsyEJ/",
     "https://www.protichinta.com/article/qgfddr4303",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1559256.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559256.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cwp8gj4p5jx6o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/20/world/europe/france-student-protests-slogan.html",
+    "https://sports.yahoo.com/articles/showed-character-hoene-f-hrich-221200632.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
