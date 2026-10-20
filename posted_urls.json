@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/environment/2026/oct/08/researchers-find-180000-giant-tortoises-living-on-island-in-seychelles",
-    "https://www.skysports.com/football/live-blog/12040/13025497/chelsea-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-    "https://www.bbc.com/bengali/articles/cjd4ynkr72xo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/9/christa-pike-case-underscores-prevalence-of-botched-executions-in-us?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/guardians-vs-white-sox-live-updates-mlb-playoffs-game-4-score-result/LRdsMKqYJZY9/",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/report-nets-wont-sign-noah-132731340.html",
     "https://www.prothomalo.com/entertainment/hollywood/j0mde6djb3",
     "https://www.aljazeera.com/video/doha-debates/2026/10/20/how-does-language-affect-how-we-think?traffic_source=rss",
-    "https://www.skysports.com/f1/live-blog/12040/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts"
+    "https://www.skysports.com/f1/live-blog/12040/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
+    "https://www.bbc.com/bengali/articles/c9zrdpk0462zo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/psg-vs-barcelona-live-updates-champions-league-score-result-paris/KeivhpSzsyEJ/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
