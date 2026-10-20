@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/10/8/man-city-must-stick-together-after-premier-league-charges-says-haaland?traffic_source=rss",
-    "https://www.skysports.com/athletics/news/12040/13596451/georgia-hunter-bell-british-800m-and-1500m-runner-celebrates-teams-female-track-success",
-    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7671964/2026/10/08/nfl-supreme-court-prediction-markets-kalshi/",
     "https://www.prothomalo.com/bangladesh/capital/n5wulx1mdq",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/atvs-reacts-survey-feeling-more-014802977.html",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/nba/news/12040/13599477/nba-lebron-james-philadelphia-76ers-face-vital-litmus-test-against-reigning-champion-new-york-knicks-on-opening-night"
+    "https://www.skysports.com/nba/news/12040/13599477/nba-lebron-james-philadelphia-76ers-face-vital-litmus-test-against-reigning-champion-new-york-knicks-on-opening-night",
+    "https://www.prothomalo.com/bangladesh/capital/zjh44ke8nm",
+    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
+    "https://www.nytimes.com/athletic/7701054/2026/10/20/ten-hag-ronaldo-man-utd/"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 0
+    "national": 1,
+    "international": 2,
+    "sports": 2
   }
 }
