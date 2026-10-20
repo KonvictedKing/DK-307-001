@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/08/world/asia/india-cockroach-janta-party.html",
-    "https://www.cricinfo.com/ci/content/story/1557605.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/education/campus/mf1a1ea7d0",
     "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
     "https://sports.yahoo.com/articles/az-alkmaar-closing-contract-star-092500485.html",
     "https://www.bbc.com/bengali/articles/cv62y3n1yer8o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/tottenham-vs-coventry-live-updates-premier-league-score-result/Ty63Kg2OJbeo/",
     "https://www.prothomalo.com/entertainment/ott/g38e9q0qhk",
     "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
-    "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6y4309wwmp8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
+    "https://sports.yahoo.com/articles/atvs-reacts-survey-feeling-more-014802977.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
