@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/07/flavio-bolsonaro-advance-brazil-election-jolt-climate-campaigners",
-    "https://sports.yahoo.com/articles/az-alkmaar-closing-contract-star-092500485.html",
-    "https://www.bbc.com/bengali/articles/cv62y3n1yer8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/10/8/man-city-must-stick-together-after-premier-league-charges-says-haaland?traffic_source=rss",
     "https://www.skysports.com/athletics/news/12040/13596451/georgia-hunter-bell-british-800m-and-1500m-runner-celebrates-teams-female-track-success",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6y4309wwmp8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
-    "https://sports.yahoo.com/articles/atvs-reacts-survey-feeling-more-014802977.html"
+    "https://sports.yahoo.com/articles/atvs-reacts-survey-feeling-more-014802977.html",
+    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
+    "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/nba/news/12040/13599477/nba-lebron-james-philadelphia-76ers-face-vital-litmus-test-against-reigning-champion-new-york-knicks-on-opening-night"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 0,
+    "international": 1,
+    "sports": 0
   }
 }
