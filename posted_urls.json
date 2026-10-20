@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1557595.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c5lyevr4pz1lo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/08/world/europe/france-student-protests-paris.html",
     "https://sports.yahoo.com/articles/could-eagles-salary-cap-hit-222257398.html",
     "https://www.prothomalo.com/bangladesh/district/24h4h5qkmx",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7701054/2026/10/20/ten-hag-ronaldo-man-utd/",
     "https://www.bbc.co.uk/bengali/live/c6073vv8e0e9t?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/20/world/europe/france-protests-europe-centrist-far-right.html",
-    "https://www.cricinfo.com/ci/content/story/1559179.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559179.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
+    "https://sports.yahoo.com/articles/report-nets-wont-sign-noah-132731340.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 0,
+    "international": 4,
+    "sports": 5
   }
 }
