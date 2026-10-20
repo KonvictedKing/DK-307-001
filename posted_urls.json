@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/mlb-playoffs-live-scores-updates-results-alds-nlds-news-highlights/inE8qsHMcoZh/",
-    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.nytimes.com/2026/10/08/world/asia/india-cockroach-janta-party.html",
     "https://www.cricinfo.com/ci/content/story/1557605.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/education/campus/mf1a1ea7d0",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.com/bengali/articles/c615jlex1lzlo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/19/world/middleeast/israel-uae-jews-dubai-fear.html",
-    "https://www.nytimes.com/athletic/live-blogs/tottenham-vs-coventry-live-updates-premier-league-score-result/Ty63Kg2OJbeo/"
+    "https://www.nytimes.com/athletic/live-blogs/tottenham-vs-coventry-live-updates-premier-league-score-result/Ty63Kg2OJbeo/",
+    "https://www.prothomalo.com/entertainment/ott/g38e9q0qhk",
+    "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
+    "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
