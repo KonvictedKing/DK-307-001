@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/09/navanethem-navi-pillay-wins-nobel-peace-prize",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-manchester-city-live-updates/bFHGXz7UnTo2/",
-    "https://www.bbc.com/bengali/articles/cw99zy014n2ko?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/10/9/manchester-united-vs-tottenham-premier-league-teams-prediction-lineups?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1557797.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
     "https://www.bigganchinta.com/technology/tsqw3n0kjk",
     "https://www.aljazeera.com/news/2026/10/21/us-jails-guatemalan-man-for-30-years-over-deadly-smuggling-operation?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7709303/2026/10/20/paul-george-boston-celtics-opener-optimism/"
+    "https://www.nytimes.com/athletic/7709303/2026/10/20/paul-george-boston-celtics-opener-optimism/",
+    "https://www.bbc.com/bengali/articles/cjy5606yg95do?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1559269.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
