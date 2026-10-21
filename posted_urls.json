@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/10/9/manchester-united-vs-tottenham-premier-league-teams-prediction-lineups?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1557797.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/ni-world-cup-hopes-gone-212433689.html",
     "https://www.prothomalo.com/photo/international/8if1yjf6ll",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7709303/2026/10/20/paul-george-boston-celtics-opener-optimism/",
     "https://www.bbc.com/bengali/articles/cjy5606yg95do?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cq5ynkx3xy11o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559269.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559269.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/capital/9nzmo5ejrn",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://sports.yahoo.com/articles/spurs-struggle-defend-3-point-074218386.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
