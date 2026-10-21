@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/racing/news/12040/13597306/dewhurst-stakes-darkness-falls-ignites-triple-crown-dreams-with-newmarket-triumph",
-    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.cnn.com/collections/intl-trump-040223/",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/nSaCUVzOjvjj/",
     "https://www.prothomalo.com/bangladesh/wbfkuhgh1f",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/texans-mailbag-houston-move-receiver-183517032.html",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
-    "https://www.skysports.com/football/como-vs-manchester-united/report/577645"
+    "https://www.skysports.com/football/como-vs-manchester-united/report/577645",
+    "https://www.prothomalo.com/sports/football/rn02mxb8ws",
+    "https://www.nytimes.com/2026/10/21/world/middleeast/stakes-for-palestinians-of-israel-election.html",
+    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-3-result/CUnVp99nssji/"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 0
+    "national": 1,
+    "international": 3,
+    "sports": 2
   }
 }
