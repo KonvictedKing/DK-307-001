@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/09/world/middleeast/yemen-houthi-attack-saudi-arabia-airport-riyadh.html",
-    "https://www.nytimes.com/athletic/live-blogs/wnba-playoffs-live-scores-updates-results-semifinals/cTsnwvSSUG8t/",
-    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.theguardian.com/society/2026/oct/09/vaccine-trial-guinea-bissau-rfk-jr",
     "https://www.cricinfo.com/ci/content/story/1557831.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/district/p59zwl16j4",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13601825/mercedes-confirm-kimi-antonelli-george-russell-to-both-run-latest-mercedes-car-upgrades-at-united-states-gp",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida",
-    "https://www.nytimes.com/athletic/live-blogs/nba-scores-season-games-schedule-today/iAdFcCak0Nx8/"
+    "https://www.nytimes.com/athletic/live-blogs/nba-scores-season-games-schedule-today/iAdFcCak0Nx8/",
+    "https://www.haal.fashion/lifestyle/zs5v8fjboy",
+    "https://www.aljazeera.com/news/2026/10/21/trump-says-ai-data-centres-should-pay-dividends-in-pre-midterm-shift?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1559342.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
