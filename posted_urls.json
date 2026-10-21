@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/nSaCUVzOjvjj/",
-    "https://www.prothomalo.com/bangladesh/wbfkuhgh1f",
     "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
     "https://www.cricinfo.com/ci/content/story/1557869.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmx23qjxezk9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/como-vs-manchester-united/report/577645",
     "https://www.prothomalo.com/sports/football/rn02mxb8ws",
     "https://www.nytimes.com/2026/10/21/world/middleeast/stakes-for-palestinians-of-israel-election.html",
-    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-3-result/CUnVp99nssji/"
+    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-3-result/CUnVp99nssji/",
+    "https://www.bbc.com/bengali/articles/c5x2vpnm0wzjo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
+    "https://www.cricinfo.com/ci/content/story/1559374.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
