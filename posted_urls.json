@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://sports.yahoo.com/articles/breaking-enzo-maresca-questioned-first-093300583.html",
-    "https://www.bbc.com/bengali/articles/cvkgknz82xelo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/10/09/world/nobel-peace-prize-winner-2026",
     "https://www.skysports.com/watch/video/13596982/pioneer-pete-dominates-the-welsh-champion-hurdle",
     "https://www.bondhushava.com/feature/iuwnbrz6vn",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559256.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cwp8gj4p5jx6o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/20/world/europe/france-student-protests-slogan.html",
-    "https://sports.yahoo.com/articles/showed-character-hoene-f-hrich-221200632.html"
+    "https://sports.yahoo.com/articles/showed-character-hoene-f-hrich-221200632.html",
+    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
+    "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau",
+    "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 0,
+    "international": 4,
+    "sports": 0
   }
 }
