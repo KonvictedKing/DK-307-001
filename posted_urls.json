@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/ni-world-cup-hopes-gone-212433689.html",
-    "https://www.prothomalo.com/photo/international/8if1yjf6ll",
     "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
     "https://www.skysports.com/darts/news/12040/13597050/swiss-darts-trophy-former-world-champion-michael-smith-plans-on-playing-100-per-cent-of-the-tournaments-in-2027-after-opening-win",
     "https://www.bbc.com/bengali/articles/cmz65l7pwn5xo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559269.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/9nzmo5ejrn",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://sports.yahoo.com/articles/spurs-struggle-defend-3-point-074218386.html"
+    "https://sports.yahoo.com/articles/spurs-struggle-defend-3-point-074218386.html",
+    "https://www.bbc.com/bengali/articles/cxvgd9dnrv39o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/20/world/middleeast/yemen-taiz-houthi-siege.html",
+    "https://www.skysports.com/f1/news/12040/13601825/mercedes-confirm-kimi-antonelli-george-russell-to-both-run-latest-mercedes-car-upgrades-at-united-states-gp"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
