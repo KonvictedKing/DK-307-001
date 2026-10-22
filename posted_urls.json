@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/11/meet-the-man-helping-indias-detained-protesters-get-home?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/f1-singapore-gp-live-updates-race-times-results/kxTnwUO69dRU/",
-    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1557960.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/politics/zm986o0dhk",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13279280/brentford-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7711821/2026/10/22/eagles-jalen-hurts-blood-clots-timeline-medical-care/"
+    "https://www.nytimes.com/athletic/7711821/2026/10/22/eagles-jalen-hurts-blood-clots-timeline-medical-care/",
+    "https://www.prothomalo.com/bangladesh/78x7fs1j2s",
+    "https://cnn.it/411KYN7",
+    "https://www.cricinfo.com/ci/content/story/1559622.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
