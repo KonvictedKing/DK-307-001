@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cw0k0g57mk3zo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1557960.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/politics/zm986o0dhk",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
     "https://sports.yahoo.com/college-football/breaking-news/article/ap-top-25-georgia-moves-to-no-1-after-texas-loss-florida-and-oregon-drop-out-of-poll-180423774.html",
     "https://www.bbc.com/bengali/articles/cqm26dykgeezo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7711821/2026/10/22/eagles-jalen-hurts-blood-clots-timeline-medical-care/",
     "https://www.prothomalo.com/bangladesh/78x7fs1j2s",
     "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1559622.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559622.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cm79p74rx54zo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html",
+    "https://sports.yahoo.com/articles/dallas-goedert-unable-practice-thursday-224902720.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
