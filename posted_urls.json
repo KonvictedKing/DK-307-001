@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
-    "https://sports.yahoo.com/articles/toxicity-uncertainty-await-man-city-052708911.html",
-    "https://www.bondhushava.com/feature/cdheca8o3s",
     "https://www.theguardian.com/global-development/2026/oct/09/egypt-six-journalists-matsadaash-protest-over-detentions",
     "https://www.skysports.com/golf/news/12040/13597656/baycurrent-classic-michael-brennan-holds-on-to-win-title-in-japan-ahead-of-jacob-bridgeman-and-keith-mitchell",
     "https://www.bbc.co.uk/bengali/live/c6ev3xe1y3vkt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/video/international/9558yaptb9",
     "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
-    "https://sports.yahoo.com/articles/haven-t-given-chelsea-100m-140500953.html"
+    "https://sports.yahoo.com/articles/haven-t-given-chelsea-100m-140500953.html",
+    "https://www.bbc.com/bengali/articles/cr62yee4n4pno?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/22/israel-frees-suspects-in-two-settler-attacks-as-west-bank-pogroms-intensify?traffic_source=rss",
+    "https://www.skysports.com/football/live-blog/12040/13279280/brentford-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
