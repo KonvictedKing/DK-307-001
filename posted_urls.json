@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13597374/man-utd-1-1-spurs-michael-carrick-entering-a-defining-period-and-must-correct-underperformance-quickly",
-    "https://www.prothomalo.com/religion/islam/b5cwho4puh",
     "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7678567/2026/10/10/ucla-oregon-score-recap-iamaleava-raiola/",
     "https://www.bbc.com/bengali/articles/c6n4ez0339qlo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/fairfield-prep-wins-fourth-straight-012907458.html",
     "https://www.prothomalo.com/bangladesh/rsrhr97dof",
     "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest"
+    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
+    "https://www.bbc.com/bengali/articles/cwr7ym0zvgggo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/collections/intl-trump-040223/",
+    "https://www.nytimes.com/athletic/7713278/2026/10/22/michael-carrick-man-utd-sack-manager/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
