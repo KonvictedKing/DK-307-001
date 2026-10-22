@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/09/world/asia/what-to-know-about-the-delhi-protests.html",
-    "https://www.cricinfo.com/ci/content/story/1557869.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cmx23qjxezk9o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/environment/2026/oct/09/isaias-strengthens-first-atlantic-hurricane-2026",
     "https://sports.yahoo.com/articles/watch-notre-dame-start-stanford-195929595.html",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-3-result/CUnVp99nssji/",
     "https://www.bbc.com/bengali/articles/c5x2vpnm0wzjo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
-    "https://www.cricinfo.com/ci/content/story/1559374.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559374.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
+    "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss",
+    "https://sports.yahoo.com/articles/fairfield-prep-wins-fourth-straight-012907458.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 3
+    "national": 0,
+    "international": 5,
+    "sports": 5
   }
 }
