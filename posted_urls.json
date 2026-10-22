@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7678567/2026/10/10/ucla-oregon-score-recap-iamaleava-raiola/",
-    "https://www.bbc.com/bengali/articles/c6n4ez0339qlo?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/411KYN7",
     "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
     "https://www.bbc.com/bengali/articles/cwr7ym0zvgggo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/7713278/2026/10/22/michael-carrick-man-utd-sack-manager/"
+    "https://www.nytimes.com/athletic/7713278/2026/10/22/michael-carrick-man-utd-sack-manager/",
+    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
+    "https://www.nytimes.com/2026/10/22/world/asia/afghanistan-pakistan-proxy-war.html",
+    "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 0,
+    "international": 3,
+    "sports": 3
   }
 }
