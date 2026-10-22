@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1557827.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.nytimes.com/2026/10/10/world/europe/russia-plague.html",
     "https://sports.yahoo.com/articles/toxicity-uncertainty-await-man-city-052708911.html",
     "https://www.bondhushava.com/feature/cdheca8o3s",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7713278/2026/10/22/michael-carrick-man-utd-sack-manager/",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.nytimes.com/2026/10/22/world/asia/afghanistan-pakistan-proxy-war.html",
-    "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/video/international/9558yaptb9",
+    "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
+    "https://sports.yahoo.com/articles/haven-t-given-chelsea-100m-140500953.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
