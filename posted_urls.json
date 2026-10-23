@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/12/pope-leo-to-undergo-surgery-to-remove-lung-nodule-in-rome?traffic_source=rss",
-    "https://sports.yahoo.com/articles/3-fantasy-football-week-6-194558102.html",
-    "https://www.prothomalo.com/bangladesh/fnsozewtkc",
     "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/coventry-city-vs-newcastle-united/report/559497",
     "https://www.bbc.com/bengali/articles/c6n49yr8nd41o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/college-football/breaking-news/article/star-oregon-state-wr-jesse-legree-says-he-wont-transfer-and-will-return-to-beavers-in-2027-184316602.html",
     "https://www.bbc.com/bengali/articles/cw1m43y8mex4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/rugby-union/news/12040/13602874/christian-wade-equals-try-scoring-record-as-newcastle-beat-sale-in-gallagher-prem"
+    "https://www.skysports.com/rugby-union/news/12040/13602874/christian-wade-equals-try-scoring-record-as-newcastle-beat-sale-in-gallagher-prem",
+    "https://www.prothomalo.com/bangladesh/gm3ugus9bd",
+    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
+    "https://www.nytimes.com/athletic/7718014/2026/10/23/sam-laporta-lions-contract-extension-comments-barstool/"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 0
+    "national": 1,
+    "international": 2,
+    "sports": 2
   }
 }
