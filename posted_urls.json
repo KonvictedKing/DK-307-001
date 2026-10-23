@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://sports.yahoo.com/college-football/breaking-news/article/ap-top-25-georgia-moves-to-no-1-after-texas-loss-florida-and-oregon-drop-out-of-poll-180423774.html",
-    "https://www.bbc.com/bengali/articles/cqm26dykgeezo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
     "https://www.skysports.com/darts/news/12040/13597879/swiss-darts-trophy-2026-jonny-clayton-defeats-luke-humphries-to-secure-fourth-euro-tour-title",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559622.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm79p74rx54zo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html",
-    "https://sports.yahoo.com/articles/dallas-goedert-unable-practice-thursday-224902720.html"
+    "https://sports.yahoo.com/articles/dallas-goedert-unable-practice-thursday-224902720.html",
+    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
+    "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
+    "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 0,
+    "international": 4,
+    "sports": 0
   }
 }
