@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/11/world/middleeast/saudi-arabia-options-houthis.html",
-    "https://www.skysports.com/darts/news/12040/13597879/swiss-darts-trophy-2026-jonny-clayton-defeats-luke-humphries-to-secure-fourth-euro-tour-title",
-    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages",
     "https://www.nytimes.com/athletic/live-blogs/dodgers-vs-brewers-live-updates-mlb-playoffs-game-1-score-result/gH9BqhlrWf8e/",
     "https://www.prothomalo.com/bangladesh/bpzuvhmczk",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/dallas-goedert-unable-practice-thursday-224902720.html",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
-    "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns"
+    "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns",
+    "https://www.haal.fashion/lifestyle/well-being/9ybr8h7e7f",
+    "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-bears-live-score-updates-nfl-tnf-result/d1ANDhyScmVZ/"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
