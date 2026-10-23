@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/oct/12/fugitive-venezuela-bribery-case",
-    "https://www.cricinfo.com/ci/content/story/1558184.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/cwe9l87zezn7t?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/12/pope-leo-to-undergo-surgery-to-remove-lung-nodule-in-rome?traffic_source=rss",
     "https://sports.yahoo.com/articles/3-fantasy-football-week-6-194558102.html",
     "https://www.prothomalo.com/bangladesh/fnsozewtkc",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559773.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/politics/bgwllkjrc9",
     "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/star-oregon-state-wr-jesse-legree-says-he-wont-transfer-and-will-return-to-beavers-in-2027-184316602.html"
+    "https://sports.yahoo.com/college-football/breaking-news/article/star-oregon-state-wr-jesse-legree-says-he-wont-transfer-and-will-return-to-beavers-in-2027-184316602.html",
+    "https://www.bbc.com/bengali/articles/cw1m43y8mex4o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/rugby-union/news/12040/13602874/christian-wade-equals-try-scoring-record-as-newcastle-beat-sale-in-gallagher-prem"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 5
+    "national": 2,
+    "international": 1,
+    "sports": 0
   }
 }
