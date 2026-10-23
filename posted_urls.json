@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/11/isaias-florida-alabama-power-outages",
-    "https://www.nytimes.com/athletic/live-blogs/dodgers-vs-brewers-live-updates-mlb-playoffs-game-1-score-result/gH9BqhlrWf8e/",
-    "https://www.prothomalo.com/bangladesh/bpzuvhmczk",
     "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1558041.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c5wyr11lyzmeo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns",
     "https://www.haal.fashion/lifestyle/well-being/9ybr8h7e7f",
     "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-bears-live-score-updates-nfl-tnf-result/d1ANDhyScmVZ/"
+    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-bears-live-score-updates-nfl-tnf-result/d1ANDhyScmVZ/",
+    "https://www.bbc.com/bengali/articles/c35ynjwrjjp4o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1559671.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
