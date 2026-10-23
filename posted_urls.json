@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.skysports.com/racing/news/12040/13597525/today-on-sky-sports-racing-newcastle-worcester-and-yarmouth",
-    "https://www.bbc.com/bengali/articles/c6p9gym4vzm3o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/12/world/asia/europe-taliban-deportations-migrants.html",
     "https://www.nytimes.com/athletic/7681745/2026/10/12/lewis-hamilton-singapore-mistake-ferrari/",
     "https://www.prothomalo.com/video/bangladesh/4ot5n3fuc1",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13602481/newcastle-united-reporter-notebook-matthias-jaissle-needs-some-wins-to-quieten-down-the-noise-on-tyneside",
     "https://www.prothomalo.com/world/india/mv340498h4",
     "https://www.nytimes.com/2026/10/23/world/americas/nayib-bukele-el-salvador-president.html",
-    "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/"
+    "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
+    "https://www.bbc.com/bengali/articles/crq8ndq34g25o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread",
+    "https://www.cricinfo.com/ci/content/story/1559773.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
