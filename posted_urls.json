@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/11/pakistani-national-killed-second-houthi-strike-riyadh-airport?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1558041.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c5wyr11lyzmeo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6pvg4jyz1m0o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/miami-dolphins-own-worst-enemy-011829859.html",
     "https://www.prothomalo.com/bangladesh/luy1k5evd6",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/patriots-vs-bears-live-score-updates-nfl-tnf-result/d1ANDhyScmVZ/",
     "https://www.bbc.com/bengali/articles/c35ynjwrjjp4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559671.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559671.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
+    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+    "https://www.skysports.com/football/news/12040/13602481/newcastle-united-reporter-notebook-matthias-jaissle-needs-some-wins-to-quieten-down-the-noise-on-tyneside"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 0,
+    "international": 2,
+    "sports": 0
   }
 }
