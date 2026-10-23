@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/12/world/asia/europe-taliban-deportations-migrants.html",
-    "https://www.nytimes.com/athletic/7681745/2026/10/12/lewis-hamilton-singapore-mistake-ferrari/",
-    "https://www.prothomalo.com/video/bangladesh/4ot5n3fuc1",
     "https://www.theguardian.com/us-news/2026/oct/12/fugitive-venezuela-bribery-case",
     "https://www.cricinfo.com/ci/content/story/1558184.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cwe9l87zezn7t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
     "https://www.bbc.com/bengali/articles/crq8ndq34g25o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread",
-    "https://www.cricinfo.com/ci/content/story/1559773.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559773.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/politics/bgwllkjrc9",
+    "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss",
+    "https://sports.yahoo.com/college-football/breaking-news/article/star-oregon-state-wr-jesse-legree-says-he-wont-transfer-and-will-return-to-beavers-in-2027-184316602.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 3
+    "national": 1,
+    "international": 5,
+    "sports": 5
   }
 }
