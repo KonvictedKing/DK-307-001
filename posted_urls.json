@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/13/world/europe/russia-putin-trump-diesel-ukraine.html",
-    "https://www.skysports.com/nfl/news/12040/13599132/tyreek-hill-nfl-free-agent-receiver-found-liable-for-two-counts-of-battery-as-jury-awards-estranged-wife-500k",
-    "https://www.bbc.co.uk/bengali/live/c6rmy3gxpnwnt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
     "https://www.nytimes.com/athletic/7689296/2026/10/14/lisandro-martinez-cbs-amazon-prime/",
     "https://www.kishoralo.com/feature/u2l4ixwy04",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/live-blog/12040/13603168/f1-united-states-gp-live-qualifying-and-final-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-austin",
     "https://www.prothomalo.com/bangladesh/0o27fwpjxy",
     "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-4-result/lQd2jGxEqpA3/"
+    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-4-result/lQd2jGxEqpA3/",
+    "https://www.bbc.com/bengali/articles/cmx2wnd0e55zo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1559852.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
