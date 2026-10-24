@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://www.cricinfo.com/ci/content/story/1558335.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cmlydwgeyek6o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/13/world/middleeast/israel-october-7-attacks-elections.html",
     "https://sports.yahoo.com/nfl/article/bills-hc-joe-brady-on-james-cooks-fumbles-its-gotta-improve-or-the-carries-are-gonna-decrease-224113642.html",
     "https://www.prothomalo.com/religion/islam/zw0pu2dxyf",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559829.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/video/bangladesh/uagm3yhwe8",
     "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
-    "https://sports.yahoo.com/articles/mls-playoff-picture-lafc-philadelphia-110129726.html"
+    "https://sports.yahoo.com/articles/mls-playoff-picture-lafc-philadelphia-110129726.html",
+    "https://www.bbc.com/bengali/articles/c6m2d1gx277go?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
+    "https://www.skysports.com/watch/video/13603058/derby-contender-giant-sequoia-storms-to-success-in-the-futurity-trophy"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 5
+    "national": 2,
+    "international": 4,
+    "sports": 0
   }
 }
