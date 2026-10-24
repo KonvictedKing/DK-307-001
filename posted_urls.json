@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/13/world/middleeast/israel-october-7-attacks-elections.html",
-    "https://sports.yahoo.com/nfl/article/bills-hc-joe-brady-on-james-cooks-fumbles-its-gotta-improve-or-the-carries-are-gonna-decrease-224113642.html",
-    "https://www.prothomalo.com/religion/islam/zw0pu2dxyf",
     "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
     "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
     "https://www.bbc.com/bengali/articles/c6rmyj917gvdo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/mls-playoff-picture-lafc-philadelphia-110129726.html",
     "https://www.bbc.com/bengali/articles/c6m2d1gx277go?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
-    "https://www.skysports.com/watch/video/13603058/derby-contender-giant-sequoia-storms-to-success-in-the-futurity-trophy"
+    "https://www.skysports.com/watch/video/13603058/derby-contender-giant-sequoia-storms-to-success-in-the-futurity-trophy",
+    "https://www.prothomalo.com/sports/football/u16nzv0pav",
+    "https://www.aljazeera.com/sports/2026/10/24/ballon-dor-2026-can-kylian-mbappes-real-madrid-and-france-record-win-it?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pMlD8IF5ULFh/"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
