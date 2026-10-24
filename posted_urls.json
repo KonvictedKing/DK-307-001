@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/coventry-city-vs-newcastle-united/report/559497",
-    "https://www.bbc.com/bengali/articles/c6n49yr8nd41o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
     "https://www.nytimes.com/athletic/live-blogs/bills-vs-rams-live-score-updates-nfl-mnf-result/0eiv1MDOyDY9/",
     "https://www.prothomalo.com/sports/football/xwqlm81uc3",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-union/news/12040/13602874/christian-wade-equals-try-scoring-record-as-newcastle-beat-sale-in-gallagher-prem",
     "https://www.prothomalo.com/bangladesh/gm3ugus9bd",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.nytimes.com/athletic/7718014/2026/10/23/sam-laporta-lions-contract-extension-comments-barstool/"
+    "https://www.nytimes.com/athletic/7718014/2026/10/23/sam-laporta-lions-contract-extension-comments-barstool/",
+    "https://www.bbc.com/bengali/articles/c6kgqkxvejz8o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/23/world/middleeast/west-bank-shooting-israel.html",
+    "https://www.cricinfo.com/ci/content/story/1559777.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 2
+    "national": 2,
+    "international": 3,
+    "sports": 3
   }
 }
