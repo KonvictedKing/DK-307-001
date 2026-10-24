@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
-    "https://sports.yahoo.com/articles/arsenal-youth-duo-called-first-092000275.html",
-    "https://www.prothomalo.com/sports/cricket/zl72bxefan",
     "https://www.aljazeera.com/news/2026/10/13/how-protests-have-shaped-india-from-anti-hindi-agitation-to-farm-laws?traffic_source=rss",
     "https://www.skysports.com/football/news/12040/13598805/enzo-maresca-man-city-boss-defends-anfield-celebrations-after-beating-liverpool-in-first-game-since-guilty-verdict",
     "https://www.bbc.com/bengali/articles/cr624jpwj40eo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/jalen-lott-messiah-hampton-ruled-004154849.html",
     "https://www.bbc.com/bengali/articles/cm20vg3p6lzvo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/24/argentina-identifies-dozens-of-victims-killed-in-its-dirty?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13602762/adrian-newey-responds-to-christian-horners-criticism-of-him-in-new-book-over-red-bulls-struggles-with-renault-in-2014"
+    "https://www.skysports.com/f1/news/12040/13602762/adrian-newey-responds-to-christian-horners-criticism-of-him-in-new-book-over-red-bulls-struggles-with-renault-in-2014",
+    "https://www.prothomalo.com/education/examination/v3njhdpn45",
+    "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7719344/2026/10/24/union-berlin-vs-fc-augsburg-stream-how-to-watch-bundesliga-oct-24/"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
