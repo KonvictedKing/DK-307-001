@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/13/how-protests-have-shaped-india-from-anti-hindi-agitation-to-farm-laws?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13598805/enzo-maresca-man-city-boss-defends-anfield-celebrations-after-beating-liverpool-in-first-game-since-guilty-verdict",
-    "https://www.bbc.com/bengali/articles/cr624jpwj40eo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/atletico-madrid-vs-manchester-united-live-updates-champions-league-score-result/oehRSNzvL7m5/",
     "https://www.prothomalo.com/bangladesh/vwsiat9suu",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13602762/adrian-newey-responds-to-christian-horners-criticism-of-him-in-new-book-over-red-bulls-struggles-with-renault-in-2014",
     "https://www.prothomalo.com/education/examination/v3njhdpn45",
     "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7719344/2026/10/24/union-berlin-vs-fc-augsburg-stream-how-to-watch-bundesliga-oct-24/"
+    "https://www.nytimes.com/athletic/7719344/2026/10/24/union-berlin-vs-fc-augsburg-stream-how-to-watch-bundesliga-oct-24/",
+    "https://www.bbc.com/bengali/articles/cmn8eq9vepq5o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+    "https://www.cricinfo.com/ci/content/story/1559829.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
