@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/oct/13/california-storm-floods",
-    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
-    "https://www.bbc.com/bengali/articles/c6rmyj917gvdo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/guardians-vs-rays-live-updates-mlb-playoffs-game-2-score-result/cNw8Rm1ZEKCK/",
     "https://www.prothomalo.com/opinion/column/aiftw5z0o3",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/watch/video/13603058/derby-contender-giant-sequoia-storms-to-success-in-the-futurity-trophy",
     "https://www.prothomalo.com/sports/football/u16nzv0pav",
     "https://www.aljazeera.com/sports/2026/10/24/ballon-dor-2026-can-kylian-mbappes-real-madrid-and-france-record-win-it?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pMlD8IF5ULFh/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pMlD8IF5ULFh/",
+    "https://www.bbc.com/bengali/articles/c9dr8n7pd4zko?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
