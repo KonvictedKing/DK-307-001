@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1558351.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cqkgleln0kg8o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
     "https://sports.yahoo.com/articles/bills-dc-jim-leonhard-makes-073139351.html",
     "https://www.prothomalo.com/chakri/employment/tzrah2pd8h",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/education/eicessir-phl-prkaash-29-akttobr",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-180500715.html"
+    "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-180500715.html",
+    "https://www.bbc.com/bengali/articles/cqp8g6rkpy3xo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/24/world/canada/us-midterms-election-interference-carney-trump.html",
+    "https://www.skysports.com/f1/live-blog/12040/13603168/f1-united-states-gp-live-qualifying-and-final-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-austin"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
