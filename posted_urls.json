@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/guardians-vs-rays-live-updates-mlb-playoffs-game-2-score-result/cNw8Rm1ZEKCK/",
-    "https://www.prothomalo.com/opinion/column/aiftw5z0o3",
     "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1558351.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cqkgleln0kg8o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pMlD8IF5ULFh/",
     "https://www.bbc.com/bengali/articles/c9dr8n7pd4zko?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/education/eicessir-phl-prkaash-29-akttobr",
+    "https://www.cnn.com/collections/intl-ukraine-030423/",
+    "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-180500715.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
