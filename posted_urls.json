@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/atletico-madrid-vs-manchester-united-live-updates-champions-league-score-result/oehRSNzvL7m5/",
-    "https://www.prothomalo.com/bangladesh/vwsiat9suu",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
     "https://www.cricinfo.com/ci/content/story/1558335.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmlydwgeyek6o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7719344/2026/10/24/union-berlin-vs-fc-augsburg-stream-how-to-watch-bundesliga-oct-24/",
     "https://www.bbc.com/bengali/articles/cmn8eq9vepq5o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1559829.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559829.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/video/bangladesh/uagm3yhwe8",
+    "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
+    "https://sports.yahoo.com/articles/mls-playoff-picture-lafc-philadelphia-110129726.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 5
   }
 }
