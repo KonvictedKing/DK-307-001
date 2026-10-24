@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/14/guinea-bissau-vaccine-hepatitis-b-trial-denial",
-    "https://www.nytimes.com/athletic/7689296/2026/10/14/lisandro-martinez-cbs-amazon-prime/",
-    "https://www.kishoralo.com/feature/u2l4ixwy04",
     "https://www.aljazeera.com/video/newsfeed/2026/10/14/uk-restaurateur-claims-losses-after-video-calling-for-gaza-destruction?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1558464.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cqev3dwmj48vo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-4-result/lQd2jGxEqpA3/",
     "https://www.bbc.com/bengali/articles/cmx2wnd0e55zo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1559852.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559852.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/europe/uqi1yu06hs",
+    "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/wnba/article/valkyries-ditch-corporate-speak-but-get-right-down-to-business-to-even-wnba-finals-231150460.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
