@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/12/world/europe/nato-strategy-russia-europe.html",
-    "https://www.cricinfo.com/ci/content/story/1558211.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/ck1exg00z4e1t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/13/latin-america-organised-crime-cartels-drugs-cocaine-europe",
     "https://sports.yahoo.com/articles/arsenal-youth-duo-called-first-092000275.html",
     "https://www.prothomalo.com/sports/cricket/zl72bxefan",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559777.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/religion/islam/99w07y12fv",
     "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
-    "https://sports.yahoo.com/articles/jalen-lott-messiah-hampton-ruled-004154849.html"
+    "https://sports.yahoo.com/articles/jalen-lott-messiah-hampton-ruled-004154849.html",
+    "https://www.bbc.com/bengali/articles/cm20vg3p6lzvo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/24/argentina-identifies-dozens-of-victims-killed-in-its-dirty?traffic_source=rss",
+    "https://www.skysports.com/f1/news/12040/13602762/adrian-newey-responds-to-christian-horners-criticism-of-him-in-new-book-over-red-bulls-struggles-with-renault-in-2014"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
