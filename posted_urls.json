@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
-    "https://www.nytimes.com/athletic/7672624/2026/10/15/womens-basketball-shoes-culture-growth-impact/",
-    "https://www.prothomalo.com/sports/football/v39mb3by0l",
     "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
     "https://www.cricinfo.com/ci/content/story/1558532.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cw07315ejj93t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/manchester-united-vs-bournemouth-live-updates-premier-league-score-result/PZhkmrBGVDhD/",
     "https://www.bbc.com/bengali/articles/cme3xejj0lzgo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-lula-bolsonaro-what-to-know.html",
-    "https://www.cricinfo.com/ci/content/story/1559974.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559974.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/district/p1vuyjnpny",
+    "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
+    "https://sports.yahoo.com/articles/james-anderson-left-disappointed-lancashire-175200687.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
