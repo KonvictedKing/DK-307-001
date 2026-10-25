@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-ukraine-angry-at-us-sv?traffic_source=rss",
-    "https://www.skysports.com/golf/news/12040/13599506/dp-world-india-championship-rory-mcilroy-four-off-clubhouse-lead-after-thunder-and-lightning-delays-in-first-round",
-    "https://www.bbc.com/bengali/articles/cq23dm1xz1g4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7693074/2026/10/15/jalen-hurts-superficial-blood-clot-eagles/",
     "https://www.prothomalo.com/video/bangladesh/qphfwa5132",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13603690/michael-carrick-man-utd-future-eddie-howe-and-julian-nagelsmann-expected-frontrunners-if-head-coach-departs",
     "https://www.prothomalo.com/entertainment/drama/n50sao9o4d",
     "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-7-scores-live-updates-schedule-injuries-highlights/LKDqK318OtwD/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-7-scores-live-updates-schedule-injuries-highlights/LKDqK318OtwD/",
+    "https://www.bbc.com/bengali/articles/ckz7x91znjx9o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
+    "https://www.cricinfo.com/ci/content/story/1559978.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
