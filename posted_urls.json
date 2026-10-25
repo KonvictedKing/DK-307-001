@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/crx23qlnj27qo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7693074/2026/10/15/jalen-hurts-superficial-blood-clot-eagles/",
-    "https://www.prothomalo.com/video/bangladesh/qphfwa5132",
     "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
     "https://www.cricinfo.com/ci/content/story/1558630.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq3695z2rx23o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nfl-week-7-scores-live-updates-schedule-injuries-highlights/LKDqK318OtwD/",
     "https://www.bbc.com/bengali/articles/ckz7x91znjx9o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1559978.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1559978.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/religion/islam/zdbqflo91b",
+    "https://www.nytimes.com/live/2026/10/25/world/brazil-election",
+    "https://sports.yahoo.com/articles/broncos-offense-finds-big-play-232745136.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 5
   }
 }
