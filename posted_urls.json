@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c8wy9veedgygo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/live-blog/12040/13025499/man-city-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
-    "https://www.bbc.com/bengali/articles/cq78p72y1nyxo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
     "https://www.nytimes.com/athletic/7672624/2026/10/15/womens-basketball-shoes-culture-growth-impact/",
     "https://www.prothomalo.com/sports/football/v39mb3by0l",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/watch/video/13603463/arthur-fils-tweener-sends-crowd-wild-in-brussels",
     "https://www.haal.fashion/lifestyle/jvg14swbgb",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/manchester-united-vs-bournemouth-live-updates-premier-league-score-result/PZhkmrBGVDhD/"
+    "https://www.nytimes.com/athletic/live-blogs/manchester-united-vs-bournemouth-live-updates-premier-league-score-result/PZhkmrBGVDhD/",
+    "https://www.bbc.com/bengali/articles/cme3xejj0lzgo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-lula-bolsonaro-what-to-know.html",
+    "https://www.cricinfo.com/ci/content/story/1559974.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 2
+    "national": 2,
+    "international": 3,
+    "sports": 3
   }
 }
