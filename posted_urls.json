@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/technology/2026/oct/14/zimbabwean-author-simbarashe-kundizeza-denies-ai-story",
-    "https://www.cricinfo.com/ci/content/story/1558497.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c5x2v0d2199po?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/15/costa-rica-opens-mega-prison-as-bukele-model-embraced-across-latin-america?traffic_source=rss",
     "https://sports.yahoo.com/articles/david-montgomery-unable-practice-005102072.html",
     "https://www.prothomalo.com/video/international/fwk7ld7mq2",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559887.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/europe/p8q2ih71kp",
     "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
-    "https://sports.yahoo.com/articles/patrick-mahomes-play-today-status-094640845.html"
+    "https://sports.yahoo.com/articles/patrick-mahomes-play-today-status-094640845.html",
+    "https://www.bbc.co.uk/bengali/live/cx98zpj6me8gt?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/watch/video/13603463/arthur-fils-tweener-sends-crowd-wild-in-brussels"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 5
+    "national": 2,
+    "international": 1,
+    "sports": 0
   }
 }
