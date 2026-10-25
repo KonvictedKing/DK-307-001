@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
-    "https://sports.yahoo.com/articles/midseason-report-card-usc-football-120443664.html",
-    "https://www.prothomalo.com/bangladesh/iuu9ljwyul",
     "https://www.aljazeera.com/video/newsfeed/2026/10/15/10-15-ukraine-angry-at-us-sv?traffic_source=rss",
     "https://www.skysports.com/golf/news/12040/13599506/dp-world-india-championship-rory-mcilroy-four-off-clubhouse-lead-after-thunder-and-lightning-delays-in-first-round",
     "https://www.bbc.com/bengali/articles/cq23dm1xz1g4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/james-anderson-left-disappointed-lancashire-175200687.html",
     "https://www.bbc.com/bengali/articles/cx7vp0d3z5q8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
-    "https://www.skysports.com/football/news/12040/13603690/michael-carrick-man-utd-future-eddie-howe-and-julian-nagelsmann-expected-frontrunners-if-head-coach-departs"
+    "https://www.skysports.com/football/news/12040/13603690/michael-carrick-man-utd-future-eddie-howe-and-julian-nagelsmann-expected-frontrunners-if-head-coach-departs",
+    "https://www.prothomalo.com/entertainment/drama/n50sao9o4d",
+    "https://www.bbc.co.uk/news/articles/cvx28ljp8n4xo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-7-scores-live-updates-schedule-injuries-highlights/LKDqK318OtwD/"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
