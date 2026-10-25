@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.skysports.com/football/lincoln-city-vs-west-ham-united/live/560614",
-    "https://www.bbc.com/bengali/articles/c6n4ejkewj7wo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/14/world/asia/japan-protest-russia-detention-journalist.html",
     "https://www.nytimes.com/athletic/live-blogs/manchester-city-vs-psg-live-updates-champions-league-score-result/ABv2zRY8iG40/",
     "https://www.prothomalo.com/sports/football/j4e7ql2pto",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13603359/f1-academy-alisha-palmowski-becomes-2026-champion-with-three-races-of-season-to-spare-in-austin",
     "https://www.prothomalo.com/opinion/column/3kwz9rumtv",
     "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
-    "https://www.nytimes.com/athletic/live-blogs/ole-miss-vs-texas-live-updates-college-football-score-result/v0lp0NuSNVIT/"
+    "https://www.nytimes.com/athletic/live-blogs/ole-miss-vs-texas-live-updates-college-football-score-result/v0lp0NuSNVIT/",
+    "https://www.bbc.com/bengali/articles/ckp8g2yd7605o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/news/audio/2026/oct/23/brazil-election-battle-for-amazon-podcast",
+    "https://www.cricinfo.com/ci/content/story/1559887.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
