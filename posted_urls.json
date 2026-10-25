@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/15/world/asia/north-korea-china-bridge-yalu.html",
-    "https://www.cricinfo.com/ci/content/story/1558532.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/cw07315ejj93t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/15/senegal-homosexuality-criminalised-anti-lgbtq-arrests-hiv-testing-human-rights-watch",
     "https://sports.yahoo.com/articles/midseason-report-card-usc-football-120443664.html",
     "https://www.prothomalo.com/bangladesh/iuu9ljwyul",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1559974.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/district/p1vuyjnpny",
     "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
-    "https://sports.yahoo.com/articles/james-anderson-left-disappointed-lancashire-175200687.html"
+    "https://sports.yahoo.com/articles/james-anderson-left-disappointed-lancashire-175200687.html",
+    "https://www.bbc.com/bengali/articles/cx7vp0d3z5q8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
+    "https://www.skysports.com/football/news/12040/13603690/michael-carrick-man-utd-future-eddie-howe-and-julian-nagelsmann-expected-frontrunners-if-head-coach-departs"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
