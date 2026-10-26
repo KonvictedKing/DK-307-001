@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
-    "https://www.skysports.com/nfl/news/12040/13599666/denver-broncos-17-14-seattle-seahawks-ot-denver-defense-overpowers-sam-darnold-and-defending-champions",
-    "https://www.bbc.com/bengali/articles/c6y8ln8ykyejo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/uk-news/2026/oct/15/falklands-javier-milei-adviser-santiago-caputo-uk-islam-argentina",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/aJBz0Ds3T8WC/",
     "https://trust.prothomalo.com/activities/alor-school/0zcyjav7s6",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/cricket/news/12040/13603987/south-africa-meet-australia-in-third-test-series-decider-at-cape-town-with-careers-on-the-line-for-tourists",
     "https://www.haal.fashion/arrangement/event/5e3dkkhrdl",
     "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
-    "https://www.nytimes.com/athletic/live-blogs/ballon-dor-2026-live-updates-results-time/sND0BDpI7kfj/"
+    "https://www.nytimes.com/athletic/live-blogs/ballon-dor-2026-live-updates-results-time/sND0BDpI7kfj/",
+    "https://www.bbc.com/bengali/articles/cmx2wr592pzko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/26/brazil-lula-victory-whatsapp-campaign-janones?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1560077.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
