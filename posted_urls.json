@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
-    "https://sports.yahoo.com/articles/blackhawks-patrick-kane-sets-nhl-013124973.html",
-    "https://www.prothomalo.com/bangladesh/district/z0n1zcxxcv",
     "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
     "https://www.skysports.com/nfl/news/12040/13599666/denver-broncos-17-14-seattle-seahawks-ot-denver-defense-overpowers-sam-darnold-and-defending-champions",
     "https://www.bbc.com/bengali/articles/c6y8ln8ykyejo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/top-performers-week-9-high-080426265.html",
     "https://www.bbc.co.uk/bengali/live/cmed3wd0yvjwt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/26/world/europe/ukraine-russia-pows-prisoners.html",
-    "https://www.skysports.com/cricket/news/12040/13603987/south-africa-meet-australia-in-third-test-series-decider-at-cape-town-with-careers-on-the-line-for-tourists"
+    "https://www.skysports.com/cricket/news/12040/13603987/south-africa-meet-australia-in-third-test-series-decider-at-cape-town-with-careers-on-the-line-for-tourists",
+    "https://www.haal.fashion/arrangement/event/5e3dkkhrdl",
+    "https://www.theguardian.com/global-development/2026/oct/26/uk-sanctions-sudanese-military-leaders-implicated-in-el-fasher-campaign-of",
+    "https://www.nytimes.com/athletic/live-blogs/ballon-dor-2026-live-updates-results-time/sND0BDpI7kfj/"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
