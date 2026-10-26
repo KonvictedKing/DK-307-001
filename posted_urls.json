@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1558621.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6d09lrn8pnyo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
     "https://sports.yahoo.com/articles/blackhawks-patrick-kane-sets-nhl-013124973.html",
     "https://www.prothomalo.com/bangladesh/district/z0n1zcxxcv",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/tqnh6p4t7a",
     "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
-    "https://sports.yahoo.com/articles/top-performers-week-9-high-080426265.html"
+    "https://sports.yahoo.com/articles/top-performers-week-9-high-080426265.html",
+    "https://www.bbc.co.uk/bengali/live/cmed3wd0yvjwt?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/26/world/europe/ukraine-russia-pows-prisoners.html",
+    "https://www.skysports.com/cricket/news/12040/13603987/south-africa-meet-australia-in-third-test-series-decider-at-cape-town-with-careers-on-the-line-for-tourists"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
