@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/",
-    "https://www.prothomalo.com/sports/vo8vbxrvy4",
     "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1558621.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6d09lrn8pnyo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-seahawks-live-score-updates-nfl-snf-result/K6qrvGP9FnzN/",
     "https://www.bbc.com/bengali/articles/cq4g1jkl3nn8o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/capital/tqnh6p4t7a",
+    "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
+    "https://sports.yahoo.com/articles/top-performers-week-9-high-080426265.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
