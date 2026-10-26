@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/15/nicolas-maduro-torture-allegations-cilia-flores",
-    "https://www.skysports.com/football/live-blog/12040/13279295/brighton-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-    "https://www.bbc.com/bengali/articles/ck9qz05wg25do?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/15/at-least-4-including-3-children-killed-in-us-elementary-school-shooting?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/seahawks-vs-broncos-live-score-updates-nfl-tnf/ZX6N8h1EzpMs/",
     "https://www.prothomalo.com/sports/vo8vbxrvy4",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit",
     "https://www.prothomalo.com/world/middle-east/ril9kyq0pv",
     "https://www.aljazeera.com/video/newsfeed/2026/10/26/netanyahu-rival-eisenkot-holds-final-rally-before-israeli-election?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-seahawks-live-score-updates-nfl-snf-result/K6qrvGP9FnzN/"
+    "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-seahawks-live-score-updates-nfl-snf-result/K6qrvGP9FnzN/",
+    "https://www.bbc.com/bengali/articles/cq4g1jkl3nn8o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
