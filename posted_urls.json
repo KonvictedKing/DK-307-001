@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news-analysis/2026/10/16/why-is-china-buying-up-gold?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1558741.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6x2ved0k80wo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cm89zp48k4kzo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/texas-vs-florida-watch-date-123000419.html",
     "https://www.prothomalo.com/video/international/zrg4z5wtob",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560077.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/sports/football/8wf198055f",
     "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/texas-football-qb-arch-manning-203834350.html"
+    "https://sports.yahoo.com/articles/texas-football-qb-arch-manning-203834350.html",
+    "https://www.bbc.com/bengali/articles/cmwy4glx5e0lo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+    "https://www.skysports.com/basketball/news/12040/13604207/jalen-williams-oklahoma-city-thunder-star-requires-surgery-for-broken-leg-and-dislocated-ankle"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
