@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/16/world/europe/trump-zelensky-ukraine-war.html",
-    "https://www.cricinfo.com/ci/content/story/1558772.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cwm26yr13vydo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
     "https://sports.yahoo.com/articles/bruins-vs-ducks-score-live-010001325.html",
     "https://www.prothomalo.com/fun/tni1k3bolm",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560346.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/12ln24rmir",
     "https://www.theguardian.com/world/2026/oct/26/sudan-paramilitary-drone-strikes-rapid-support-forces-power-cuts-eastern-states",
-    "https://sports.yahoo.com/articles/texans-report-card-grading-houstons-192506021.html"
+    "https://sports.yahoo.com/articles/texans-report-card-grading-houstons-192506021.html",
+    "https://www.bbc.co.uk/bengali/live/ckr5ylz8n6npt?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/27/arab-towns-in-israel-celebrate-historic-knesset-gains-with-fireworks?traffic_source=rss",
+    "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
