@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/australia-news/2026/oct/17/mexican-judge-sentences-three-men-to-158-years-in-prison-for-murders-of-australian-and-us-surfers-ntwnfb",
-    "https://sports.yahoo.com/articles/bruins-vs-ducks-score-live-010001325.html",
-    "https://www.prothomalo.com/fun/tni1k3bolm",
     "https://www.aljazeera.com/news/2026/10/17/the-chatbot-murder-guide-ais-struggle-between-privacy-reporting-violence?traffic_source=rss",
     "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament",
     "https://www.bbc.com/bengali/articles/cqrly015p1nzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/texans-report-card-grading-houstons-192506021.html",
     "https://www.bbc.co.uk/bengali/live/ckr5ylz8n6npt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/27/arab-towns-in-israel-celebrate-historic-knesset-gains-with-fireworks?traffic_source=rss",
-    "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610"
+    "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610",
+    "https://www.prothomalo.com/world/india/48mwe7kfnj",
+    "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/nba-cup-scores-season-games-schedule/8uid2umpFT0Q/"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
