@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.skysports.com/f1/news/12040/13599576/united-states-gp-2026-dates-schedule-austin-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-at-cota-live-on-sky-sports",
-    "https://www.bbc.com/bengali/articles/cx1l3j4080pzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/16/world/middleeast/israel-mansour-abbas.html",
     "https://www.nytimes.com/athletic/7696589/2026/10/16/panthers-vs-eagles-stream-how-to-watch-oct-18/",
     "https://www.prothomalo.com/bangladesh/p3vxp5xbsn",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/basketball/news/12040/13604207/jalen-williams-oklahoma-city-thunder-star-requires-surgery-for-broken-leg-and-dislocated-ankle",
     "https://www.kishoralo.com/feature/vy95hakb3m",
     "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html",
-    "https://www.nytimes.com/athletic/live-blogs/brewers-vs-rays-live-updates-mlb-world-series-game-3-score-result/6umVOHDKZPcG/"
+    "https://www.nytimes.com/athletic/live-blogs/brewers-vs-rays-live-updates-mlb-world-series-game-3-score-result/6umVOHDKZPcG/",
+    "https://www.bbc.com/bengali/articles/c6g7xe53d211o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
+    "https://www.cricinfo.com/ci/content/story/1560125.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
