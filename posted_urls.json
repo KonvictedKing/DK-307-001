@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/40OSomK",
-    "https://sports.yahoo.com/college-football/breaking-news/article/arch-manning-struggles-colin-simmons-injured-as-florida-scores-24-straight-to-upset-no-7-texas-192502525.html",
-    "https://www.prothomalo.com/sports/football/n13v8d5ndx",
     "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
     "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
     "https://www.bbc.com/bengali/articles/cvlyd2xnx75do?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/tennessee-titans-dt-jeffery-simmons-184935749.html",
     "https://www.bbc.com/bengali/articles/ck98zm4r9pm9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
-    "https://www.skysports.com/rugby-union/news/12040/13604946/prem-rugby-and-rfu-committed-to-expanding-top-flight-with-english-clubs-despite-welsh-interest"
+    "https://www.skysports.com/rugby-union/news/12040/13604946/prem-rugby-and-rfu-committed-to-expanding-top-flight-with-english-clubs-despite-welsh-interest",
+    "https://www.prothomalo.com/religion/islam/w5epmuqvss",
+    "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
+    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-chelsea-live-updates-carabao-cup-score-result/cgmrfjpuFYkF/"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
