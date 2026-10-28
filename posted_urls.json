@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/17/world/europe/pope-leo-discharged-hospital.html",
-    "https://sports.yahoo.com/articles/xabi-alonso-reaction-chelsea-boss-133516299.html",
-    "https://www.prothomalo.com/bangladesh/58mzwxx9uo",
     "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
     "https://www.skysports.com/football/brentford-vs-liverpool/live/559505",
     "https://www.bbc.com/bengali/articles/ck5yn9lrz597o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/nick-fortes-scores-walk-off-054131921.html",
     "https://www.bbc.com/bengali/articles/cvglw5lwpepzo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/politics/2026/oct/26/uk-international-aid-target-spending-shortfall-budget-research",
-    "https://www.skysports.com/darts/news/12040/13604135/beat-luke-littler-teenagers-jayden-walker-and-mitchell-lawrie-set-to-challenge-world-no-1-to-win-501000"
+    "https://www.skysports.com/darts/news/12040/13604135/beat-luke-littler-teenagers-jayden-walker-and-mitchell-lawrie-set-to-challenge-world-no-1-to-win-501000",
+    "https://www.bondhushava.com/activities/30r4gpd778",
+    "https://www.aljazeera.com/news/2026/10/28/israels-election-the-battle-between-change-and-anti-palestinian-sentiment?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7729443/2026/10/28/edmonton-oilers-defence-connor-murphy-stats/"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
