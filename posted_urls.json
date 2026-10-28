@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
-    "https://www.skysports.com/football/brentford-vs-liverpool/live/559505",
-    "https://www.bbc.com/bengali/articles/ck5yn9lrz597o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-indiana-live-updates-college-football-score-result/FHGunvCKncHb/",
     "https://www.prothomalo.com/onnoalo/treatise/corgzft0w3",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13604135/beat-luke-littler-teenagers-jayden-walker-and-mitchell-lawrie-set-to-challenge-world-no-1-to-win-501000",
     "https://www.bondhushava.com/activities/30r4gpd778",
     "https://www.aljazeera.com/news/2026/10/28/israels-election-the-battle-between-change-and-anti-palestinian-sentiment?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7729443/2026/10/28/edmonton-oilers-defence-connor-murphy-stats/"
+    "https://www.nytimes.com/athletic/7729443/2026/10/28/edmonton-oilers-defence-connor-murphy-stats/",
+    "https://www.bbc.co.uk/bengali/live/c8qln7rxdw7pt?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1560430.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
