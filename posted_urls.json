@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/17/the-chatbot-murder-guide-ais-struggle-between-privacy-reporting-violence?traffic_source=rss",
-    "https://www.skysports.com/rugby-league/live-blog/12040/13600058/rugby-league-world-cup-2026-live-updates-from-england-men-vs-tonga-and-women-vs-wales-in-opening-games-of-the-tournament",
-    "https://www.bbc.com/bengali/articles/cqrly015p1nzo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7698183/2026/10/17/devils-vs-capitals-stream-how-to-watch-oct-17/",
     "https://www.prothomalo.com/business/economics/me3njgz968",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/fleetwood-town-vs-arsenal/report/578610",
     "https://www.prothomalo.com/world/india/48mwe7kfnj",
     "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nba-cup-scores-season-games-schedule/8uid2umpFT0Q/"
+    "https://www.nytimes.com/athletic/live-blogs/nba-cup-scores-season-games-schedule/8uid2umpFT0Q/",
+    "https://www.bbc.com/bengali/articles/c87q005245do?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/04/investing/british-pound-currency-dollar/index.html",
+    "https://www.cricinfo.com/ci/content/story/1560352.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
