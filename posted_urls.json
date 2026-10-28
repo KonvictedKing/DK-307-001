@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/17/17-10-clip-france-clashes-protests-fr?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/ohio-state-vs-indiana-live-updates-college-football-score-result/FHGunvCKncHb/",
-    "https://www.prothomalo.com/onnoalo/treatise/corgzft0w3",
     "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ck3wv4vwwzggo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7729443/2026/10/28/edmonton-oilers-defence-connor-murphy-stats/",
     "https://www.bbc.co.uk/bengali/live/c8qln7rxdw7pt?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1560430.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560430.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/entertainment/world-cinema/dxempw6n1z",
+    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+    "https://sports.yahoo.com/articles/tennessee-titans-dt-jeffery-simmons-184935749.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
