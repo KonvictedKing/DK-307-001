@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cv98zw1k8kp3o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1558889.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/ck3wv4vwwzggo?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
     "https://sports.yahoo.com/college-football/breaking-news/article/arch-manning-struggles-colin-simmons-injured-as-florida-scores-24-straight-to-upset-no-7-texas-192502525.html",
     "https://www.prothomalo.com/sports/football/n13v8d5ndx",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560430.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/entertainment/world-cinema/dxempw6n1z",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://sports.yahoo.com/articles/tennessee-titans-dt-jeffery-simmons-184935749.html"
+    "https://sports.yahoo.com/articles/tennessee-titans-dt-jeffery-simmons-184935749.html",
+    "https://www.bbc.com/bengali/articles/ck98zm4r9pm9o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
+    "https://www.skysports.com/rugby-union/news/12040/13604946/prem-rugby-and-rfu-committed-to-expanding-top-flight-with-english-clubs-despite-welsh-interest"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
