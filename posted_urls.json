@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/17/world/middleeast/israeli-settlers-attack-palestinians-diplomats-west-bank.html",
-    "https://www.skysports.com/football/news/12040/13600115/premier-league-hits-and-misses-liverpool-ride-their-luck-to-win-at-brentford",
-    "https://www.bbc.com/bengali/articles/cvlyd2xnx75do?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/news/2026/oct/16/jamaicans-confront-enslavement-taboo-busting-stories-on-screen-possession",
     "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-wnba-finals-game-1-score-live-updates/vG8Rm3iKdqBQ/",
     "https://www.prothomalo.com/sports/cricket/snydtjczvp",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-union/news/12040/13604946/prem-rugby-and-rfu-committed-to-expanding-top-flight-with-english-clubs-despite-welsh-interest",
     "https://www.prothomalo.com/religion/islam/w5epmuqvss",
     "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-chelsea-live-updates-carabao-cup-score-result/cgmrfjpuFYkF/"
+    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-chelsea-live-updates-carabao-cup-score-result/cgmrfjpuFYkF/",
+    "https://www.bbc.com/bengali/articles/cxdd8nqqqmymo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1560491.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
