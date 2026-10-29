@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6d937wedj7jo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/kyle-whittingham-answers-michigan-qb-001706409.html",
-    "https://www.prothomalo.com/religion/islam/7vq0s7wajd",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
     "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return",
     "https://www.bbc.com/bengali/articles/c5gm029lmnneo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/barrett-barnes-lead-raptors-129-022756859.html",
     "https://www.bbc.co.uk/bengali/live/c977pmml67rzt?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
-    "https://www.skysports.com/golf/news/12040/13605176/maybank-classic-englands-charley-hull-two-shots-off-lead-after-opening-round-of-lpga-tour-event-in-malaysia"
+    "https://www.skysports.com/golf/news/12040/13605176/maybank-classic-englands-charley-hull-two-shots-off-lead-after-opening-round-of-lpga-tour-event-in-malaysia",
+    "https://www.prothomalo.com/sports/cricket/havs08wgsy",
+    "https://www.nytimes.com/2026/10/29/world/europe/synthetic-opioids-estonia.html",
+    "https://www.nytimes.com/athletic/7734566/2026/10/29/detroit-pistons-hornets-score-cade-cunningham/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 1,
+    "international": 3,
+    "sports": 2
   }
 }
