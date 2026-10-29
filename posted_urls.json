@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.skysports.com/darts/news/12040/13600495/dutch-darts-championship-michael-van-gerwen-suffers-another-early-exit-as-gian-van-veen-makes-history-and-gerwyn-price-triumphs-on-return",
-    "https://www.bbc.com/bengali/articles/c5gm029lmnneo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html",
     "https://www.nytimes.com/athletic/7700216/2026/10/18/jaron-keawe-sagapolutele-cal-qbs-jackson-broussard/",
     "https://www.prothomalo.com/education/higher-education/e5h2ln438k",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13605176/maybank-classic-englands-charley-hull-two-shots-off-lead-after-opening-round-of-lpga-tour-event-in-malaysia",
     "https://www.prothomalo.com/sports/cricket/havs08wgsy",
     "https://www.nytimes.com/2026/10/29/world/europe/synthetic-opioids-estonia.html",
-    "https://www.nytimes.com/athletic/7734566/2026/10/29/detroit-pistons-hornets-score-cade-cunningham/"
+    "https://www.nytimes.com/athletic/7734566/2026/10/29/detroit-pistons-hornets-score-cade-cunningham/",
+    "https://www.bbc.com/bengali/articles/cj040xyree3eo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
+    "https://www.cricinfo.com/ci/content/story/1560571.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
