@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/news/2026/oct/16/jamaicans-confront-enslavement-taboo-busting-stories-on-screen-possession",
-    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-wnba-finals-game-1-score-live-updates/vG8Rm3iKdqBQ/",
-    "https://www.prothomalo.com/sports/cricket/snydtjczvp",
     "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1558881.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmy4xvxl3yl1o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-chelsea-live-updates-carabao-cup-score-result/cgmrfjpuFYkF/",
     "https://www.bbc.com/bengali/articles/cxdd8nqqqmymo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1560491.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560491.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/sports/football/lg2y19u6op",
+    "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/barrett-barnes-lead-raptors-129-022756859.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
