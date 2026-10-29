@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/17/world/europe/france-protest-riots-marseille.html",
-    "https://www.nytimes.com/athletic/7700216/2026/10/18/jaron-keawe-sagapolutele-cal-qbs-jackson-broussard/",
-    "https://www.prothomalo.com/education/higher-education/e5h2ln438k",
     "https://www.theguardian.com/news/ng-interactive/2026/oct/18/4000-people-minding-our-own-business-four-decades-on-falklands-again-face-a-hostile-argentina",
     "https://www.cricinfo.com/ci/content/story/1558914.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cmx2870x0plyt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7734566/2026/10/29/detroit-pistons-hornets-score-cade-cunningham/",
     "https://www.bbc.com/bengali/articles/cj040xyree3eo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-    "https://www.cricinfo.com/ci/content/story/1560571.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560571.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/middle-east/9v6gjgyjha",
+    "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
+    "https://sports.yahoo.com/articles/houston-astros-look-fill-needs-165051791.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 3
+    "national": 1,
+    "international": 5,
+    "sports": 5
   }
 }
