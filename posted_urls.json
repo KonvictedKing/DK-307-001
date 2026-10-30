@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-6-scores-live-updates-schedule-injuries-highlights/Xlbvehr2fb79/",
-    "https://www.prothomalo.com/world/europe/xxwruheg1e",
     "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
     "https://www.cricinfo.com/ci/content/story/1558979.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6n9r2xzl99lo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/ocUcWZZ1Ta8G/",
     "https://www.bbc.com/bengali/articles/c5vgjz9ez11lo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
-    "https://www.cricinfo.com/ci/content/story/1560766.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560766.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/video/bangladesh/hjigmcph0i",
+    "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html",
+    "https://sports.yahoo.com/articles/kurt-warner-isnt-sold-york-155519233.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 5
   }
 }
