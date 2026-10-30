@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c574pdzl0k4no?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/golf/news/12040/13600531/dp-world-india-championship-eugenio-chacarra-wins-to-move-top-of-race-to-dubai-standings-with-rory-mcilroy-finishing-in-a-share-of-42nd-place",
-    "https://www.bbc.com/bengali/articles/ckd6dnjxd642o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
     "https://www.nytimes.com/athletic/live-blogs/leeds-vs-manchester-united-live-updates-premier-league-score-result/UWajhTmhZYtb/",
     "https://www.prothomalo.com/bangladesh/district/rxz8q5bqab",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
     "https://www.prothomalo.com/bangladesh/m7qgb6n6cd",
     "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.nytimes.com/athletic/7736677/2026/10/29/red-wings-dylan-larkin-suspension-trade/"
+    "https://www.nytimes.com/athletic/7736677/2026/10/29/red-wings-dylan-larkin-suspension-trade/",
+    "https://www.bbc.com/bengali/articles/c6je5448y799o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
+    "https://www.cricinfo.com/ci/content/story/1560648.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 2
+    "national": 2,
+    "international": 3,
+    "sports": 3
   }
 }
