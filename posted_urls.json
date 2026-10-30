@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1558979.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6n9r2xzl99lo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html",
     "https://sports.yahoo.com/articles/kenneth-walker-scores-twice-chiefs-215121910.html",
     "https://www.prothomalo.com/religion/islam/1ndrizem2d",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560766.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/video/bangladesh/hjigmcph0i",
     "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html",
-    "https://sports.yahoo.com/articles/kurt-warner-isnt-sold-york-155519233.html"
+    "https://sports.yahoo.com/articles/kurt-warner-isnt-sold-york-155519233.html",
+    "https://www.bbc.com/bengali/articles/cm4g15n49vyvo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
+    "https://www.skysports.com/f1/live-blog/12040/13605426/f1-mexico-city-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 5
+    "national": 2,
+    "international": 4,
+    "sports": 0
   }
 }
