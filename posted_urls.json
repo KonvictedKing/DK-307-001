@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/18/sarah-forbes-bonetta-biography-queen-victoria",
-    "https://www.skysports.com/nfl/live-blog/12040/13600325/nfl-2026-results-and-highlights-cleveland-browns-go-top-of-afc-north-with-divisional-win-over-baltimore-ravens",
-    "https://www.bbc.com/bengali/articles/c6pwgqlg8j74o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/cowboys-vs-packers-live-score-updates-nfl-snf-result/uqeNOn9qDrcD/",
     "https://www.bondhushava.com/activities/tp6csjvwsd",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/live-blog/12040/13605426/f1-mexico-city-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend",
     "https://www.prothomalo.com/bangladesh/iwtc0j5503",
     "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
-    "https://www.nytimes.com/athletic/7739792/2026/10/30/demarcus-henry-unc-commitment-michael-malone-recruiting/"
+    "https://www.nytimes.com/athletic/7739792/2026/10/30/demarcus-henry-unc-commitment-michael-malone-recruiting/",
+    "https://www.bbc.com/bengali/articles/cr5yn72jwe7jo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1560806.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
