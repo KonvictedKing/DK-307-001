@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/18/tiger-shroff-mumbai-shooting-salman-khan?traffic_source=rss",
-    "https://www.skysports.com/football/nottingham-forest-vs-arsenal/report/559512",
-    "https://www.bbc.com/bengali/articles/cr93z9nl13dko?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c3eweygrjzd7o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/nfl-week-6-scores-live-updates-schedule-injuries-highlights/Xlbvehr2fb79/",
     "https://www.prothomalo.com/world/europe/xxwruheg1e",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s",
     "https://www.prothomalo.com/bangladesh/district/o0qfytky8h",
     "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/ocUcWZZ1Ta8G/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/ocUcWZZ1Ta8G/",
+    "https://www.bbc.com/bengali/articles/c5vgjz9ez11lo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
+    "https://www.cricinfo.com/ci/content/story/1560766.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
