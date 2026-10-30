@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/18/world/canada/canadian-army-base-fire-kills-4.html",
-    "https://sports.yahoo.com/articles/kenneth-walker-scores-twice-chiefs-215121910.html",
-    "https://www.prothomalo.com/religion/islam/1ndrizem2d",
     "https://www.theguardian.com/world/2026/oct/18/sarah-forbes-bonetta-biography-queen-victoria",
     "https://www.skysports.com/nfl/live-blog/12040/13600325/nfl-2026-results-and-highlights-cleveland-browns-go-top-of-afc-north-with-divisional-win-over-baltimore-ravens",
     "https://www.bbc.com/bengali/articles/c6pwgqlg8j74o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/kurt-warner-isnt-sold-york-155519233.html",
     "https://www.bbc.com/bengali/articles/cm4g15n49vyvo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
-    "https://www.skysports.com/f1/live-blog/12040/13605426/f1-mexico-city-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend"
+    "https://www.skysports.com/f1/live-blog/12040/13605426/f1-mexico-city-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend",
+    "https://www.prothomalo.com/bangladesh/iwtc0j5503",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
+    "https://www.nytimes.com/athletic/7739792/2026/10/30/demarcus-henry-unc-commitment-michael-malone-recruiting/"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
