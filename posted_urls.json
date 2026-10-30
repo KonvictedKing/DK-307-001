@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/18/world/europe/france-protests-shock-arson.html",
-    "https://www.cricinfo.com/ci/content/story/1558962.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cr9dz0g7770lo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/18/lagos-hypemen-redefining-afrobeats-music-afrohype",
     "https://sports.yahoo.com/articles/loss-byu-proves-costly-notre-172753742.html",
     "https://www.prothomalo.com/video/bangladesh/ktwzickqua",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560648.html?ex_cid=OTC-RSS",
     "https://www.kishoralo.com/feature/7wx10901fd",
     "https://www.theguardian.com/world/2026/oct/29/bryan-adams-donald-trump-song",
-    "https://sports.yahoo.com/articles/cowboys-ceedee-lamb-seeking-revenge-015410221.html"
+    "https://sports.yahoo.com/articles/cowboys-ceedee-lamb-seeking-revenge-015410221.html",
+    "https://www.bbc.com/bengali/articles/cqkgj2kpmz44o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
+    "https://www.skysports.com/f1/news/12040/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
