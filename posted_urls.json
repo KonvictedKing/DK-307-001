@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/backlash-follows-decision-continue-utsa-174100648.html",
-    "https://www.prothomalo.com/world/usa/ukz2wjnp8e",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
     "https://www.skysports.com/football/live-blog/12040/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.com/bengali/articles/c615jlex1lzlo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/49ers-te-iowa-great-george-133241927.html",
     "https://www.bbc.com/bengali/articles/cw1m42djrl5yo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527"
+    "https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527",
+    "https://www.prothomalo.com/bangladesh/capital/1r1f1kz6te",
+    "https://www.nytimes.com/2026/10/31/world/asia/vietnam-missing-war-dead.html",
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 1,
+    "international": 3,
+    "sports": 2
   }
 }
