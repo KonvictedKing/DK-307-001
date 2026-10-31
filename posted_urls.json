@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
-    "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/c6y4309wwmp8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
     "https://sports.yahoo.com/articles/atvs-reacts-survey-feeling-more-014802977.html",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560822.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/middle-east/g0rryddb0j",
     "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
-    "https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html"
+    "https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html",
+    "https://www.bbc.com/bengali/articles/cwg7xpx2dlk4o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/watch/video/13606526/watch-sovereignty-is-crowned-king-in-the-breeders-cup-classic"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 5
+    "national": 2,
+    "international": 1,
+    "sports": 0
   }
 }
