@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/19/world/africa/dirty-gold-industry-coverup-launder-madagascar.html",
-    "https://www.skysports.com/football/news/12040/13600890/sarina-wiegman-england-women-boss-signs-new-two-year-contract-extension-through-to-end-of-euro-2029",
-    "https://www.bbc.co.uk/bengali/live/cqp8gzd2w269t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/news/2026/oct/19/hurricane-trudy-mexico-pacific-coast-greece-floods",
     "https://www.nytimes.com/athletic/live-blogs/nba-season-start-live-updates-latest-news-schedule-games-scores/iAdFcCak0Nx8/",
     "https://www.prothomalo.com/business/economics/uyonv313af",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-union/usa-women-vs-england/report/113218",
     "https://www.bigganchinta.com/others/1i5f3p9tu5",
     "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
-    "https://www.nytimes.com/athletic/7740917/2026/10/31/mens-erste-bank-open-stream-how-to-watch-october-31/"
+    "https://www.nytimes.com/athletic/7740917/2026/10/31/mens-erste-bank-open-stream-how-to-watch-october-31/",
+    "https://www.bbc.com/bengali/articles/cke8rp2m7l13o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/liveblog/2026/10/31/chelsea-vs-manchester-united-live-premier-league?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1560835.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
