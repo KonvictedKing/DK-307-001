@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://sports.yahoo.com/articles/cowboys-defense-still-dismal-rip-051934392.html",
-    "https://www.bondhushava.com/activities/kkksj3cbe8",
     "https://www.nytimes.com/2026/10/19/world/africa/dirty-gold-industry-coverup-launder-madagascar.html",
     "https://www.skysports.com/football/news/12040/13600890/sarina-wiegman-england-women-boss-signs-new-two-year-contract-extension-through-to-end-of-euro-2029",
     "https://www.bbc.co.uk/bengali/live/cqp8gzd2w269t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/caleb-williams-refuses-stop-wearing-004527155.html",
     "https://www.bbc.com/bengali/articles/cwj3474djk12o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html",
-    "https://www.skysports.com/rugby-union/usa-women-vs-england/report/113218"
+    "https://www.skysports.com/rugby-union/usa-women-vs-england/report/113218",
+    "https://www.bigganchinta.com/others/1i5f3p9tu5",
+    "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
+    "https://www.nytimes.com/athletic/7740917/2026/10/31/mens-erste-bank-open-stream-how-to-watch-october-31/"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
