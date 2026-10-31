@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/liveblog/2026/10/18/iran-war-live-tehran-says-netanyahu-seeks-more-war-yemen-fighting-flares?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/cowboys-vs-packers-live-score-updates-nfl-snf-result/uqeNOn9qDrcD/",
-    "https://www.bondhushava.com/activities/tp6csjvwsd",
     "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1559019.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cr5ynlzje74wo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7739792/2026/10/30/demarcus-henry-unc-commitment-michael-malone-recruiting/",
     "https://www.bbc.com/bengali/articles/cr5yn72jwe7jo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1560806.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560806.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/asia/nl3agybg94",
+    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
+    "https://sports.yahoo.com/articles/caleb-williams-refuses-stop-wearing-004527155.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
