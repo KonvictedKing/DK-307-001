@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/19/world/middleeast/israel-uae-jews-dubai-fear.html",
-    "https://www.nytimes.com/athletic/live-blogs/tottenham-vs-coventry-live-updates-premier-league-score-result/Ty63Kg2OJbeo/",
-    "https://www.prothomalo.com/entertainment/ott/g38e9q0qhk",
     "https://www.theguardian.com/us-news/2026/oct/19/us-migrants-deportation-ukraine-sudan",
     "https://www.cricinfo.com/ci/content/story/1559091.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6y4309wwmp8o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce/",
     "https://www.bbc.com/bengali/articles/cmeweqlv5dk7o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
-    "https://www.cricinfo.com/ci/content/story/1560822.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560822.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/middle-east/g0rryddb0j",
+    "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
+    "https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 3
+    "national": 1,
+    "international": 5,
+    "sports": 5
   }
 }
