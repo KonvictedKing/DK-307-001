@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/19/brazilian-court-orders-meta-to-prove-lula-and-bolsonaro-get-equal-treatment?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1559073.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/ckq6n86y946ro?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cwp9g43g2p07o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/backlash-follows-decision-continue-utsa-174100648.html",
     "https://www.prothomalo.com/world/usa/ukz2wjnp8e",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560835.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/video/bangladesh/r1imvgk9cl",
     "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/49ers-te-iowa-great-george-133241927.html"
+    "https://sports.yahoo.com/articles/49ers-te-iowa-great-george-133241927.html",
+    "https://www.bbc.com/bengali/articles/cw1m42djrl5yo?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
+    "https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
