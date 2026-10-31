@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.skysports.com/football/live-blog/12040/13541482/coventry-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-    "https://www.bbc.com/bengali/articles/c615jlex1lzlo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/19/world/middleeast/israel-uae-jews-dubai-fear.html",
     "https://www.nytimes.com/athletic/live-blogs/tottenham-vs-coventry-live-updates-premier-league-score-result/Ty63Kg2OJbeo/",
     "https://www.prothomalo.com/entertainment/ott/g38e9q0qhk",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527",
     "https://www.prothomalo.com/bangladesh/capital/1r1f1kz6te",
     "https://www.nytimes.com/2026/10/31/world/asia/vietnam-missing-war-dead.html",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce/",
+    "https://www.bbc.com/bengali/articles/cmeweqlv5dk7o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
+    "https://www.cricinfo.com/ci/content/story/1560822.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
