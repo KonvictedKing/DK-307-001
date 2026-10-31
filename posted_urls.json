@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cw240zl08dm5o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559019.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cr5ynlzje74wo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
     "https://sports.yahoo.com/articles/cowboys-defense-still-dismal-rip-051934392.html",
     "https://www.bondhushava.com/activities/kkksj3cbe8",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560806.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/asia/nl3agybg94",
     "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://sports.yahoo.com/articles/caleb-williams-refuses-stop-wearing-004527155.html"
+    "https://sports.yahoo.com/articles/caleb-williams-refuses-stop-wearing-004527155.html",
+    "https://www.bbc.com/bengali/articles/cwj3474djk12o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html",
+    "https://www.skysports.com/rugby-union/usa-women-vs-england/report/113218"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
