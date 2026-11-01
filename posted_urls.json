@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://www.nytimes.com/athletic/7701054/2026/10/20/ten-hag-ronaldo-man-utd/",
-    "https://www.bbc.co.uk/bengali/live/c6073vv8e0e9t?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/20/world/europe/france-protests-europe-centrist-far-right.html",
     "https://www.cricinfo.com/ci/content/story/1559179.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/dream-vs-valkyries-live-score-updates-wnba-finals-game-7-result/9MzDkCrG5Jdo/",
     "https://www.bbc.com/bengali/articles/cqzjx24z0ynjo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/31/todayspaper/we-are-coming-from-hell-a-ukrainian-citys-evacuees-tell-survival-stories.html",
-    "https://www.cricinfo.com/ci/content/story/1560883.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1560883.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
+    "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
+    "https://sports.yahoo.com/articles/just-waiting-moment-fakhar-zaman-093600789.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 0,
+    "international": 4,
+    "sports": 5
   }
 }
