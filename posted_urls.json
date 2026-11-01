@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/20/world/europe/france-protests-europe-centrist-far-right.html",
-    "https://www.cricinfo.com/ci/content/story/1559179.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.theguardian.com/world/2026/oct/19/kenya-starvation-cult-leader-guilty-murder-190-children",
     "https://sports.yahoo.com/articles/report-nets-wont-sign-noah-132731340.html",
     "https://www.prothomalo.com/entertainment/hollywood/j0mde6djb3",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560883.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
-    "https://sports.yahoo.com/articles/just-waiting-moment-fakhar-zaman-093600789.html"
+    "https://sports.yahoo.com/articles/just-waiting-moment-fakhar-zaman-093600789.html",
+    "https://www.prothomalo.com/sports/other-sports/cklws2hx7s",
+    "https://www.aljazeera.com/video/upfront/2026/11/1/jamaal-bowman-if-i-had-kept-my-mouth-shut-id-be-in-congress?traffic_source=rss",
+    "https://www.skysports.com/golf/news/12040/13606584/lpga-maybank-championship-miyu-yamashita-holds-off-yan-liu-to-defend-her-title-at-the-kuala-lumpur-golf-and-country-club"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 5
+    "national": 1,
+    "international": 5,
+    "sports": 0
   }
 }
