@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/20/saudi-arabia-cancels-2026-davos-in-the-desert-amid-houthi-attacks?traffic_source=rss",
-    "https://sports.yahoo.com/articles/atvs-reacts-survey-feeling-more-014802977.html",
-    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.bbc.co.uk/news/articles/cx30ez03djyqo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/nba/news/12040/13599477/nba-lebron-james-philadelphia-76ers-face-vital-litmus-test-against-reigning-champion-new-york-knicks-on-opening-night",
     "https://www.prothomalo.com/bangladesh/capital/zjh44ke8nm",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html",
     "https://www.bbc.com/bengali/articles/cwg7xpx2dlk4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/watch/video/13606526/watch-sovereignty-is-crowned-king-in-the-breeders-cup-classic"
+    "https://www.skysports.com/watch/video/13606526/watch-sovereignty-is-crowned-king-in-the-breeders-cup-classic",
+    "https://www.prothomalo.com/sports/cricket/jrvn1w2gmw",
+    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/dream-vs-valkyries-live-score-updates-wnba-finals-game-7-result/9MzDkCrG5Jdo/"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 0
+    "national": 1,
+    "international": 2,
+    "sports": 2
   }
 }
