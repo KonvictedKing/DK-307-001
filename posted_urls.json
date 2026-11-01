@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/doha-debates/2026/10/20/how-does-language-affect-how-we-think?traffic_source=rss",
-    "https://www.skysports.com/f1/live-blog/12040/12466779/f1-news-rumours-and-gossip-formula-1-latest-updates-on-teams-driver-transfer-market-and-contracts",
-    "https://www.bbc.com/bengali/articles/c9zrdpk0462zo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cm5ynkk570pno?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/psg-vs-barcelona-live-updates-champions-league-score-result-paris/KeivhpSzsyEJ/",
     "https://www.protichinta.com/article/qgfddr4303",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13606584/lpga-maybank-championship-miyu-yamashita-holds-off-yan-liu-to-defend-her-title-at-the-kuala-lumpur-golf-and-country-club",
     "https://www.bbc.com/bengali/articles/crgj9xznejx3o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-arsenal-live-updates-premier-league-score-result/tAD6b9M2brnp/"
+    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-arsenal-live-updates-premier-league-score-result/tAD6b9M2brnp/",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
+    "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 0,
+    "international": 2,
+    "sports": 3
   }
 }
