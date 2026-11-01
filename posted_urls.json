@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://www.cricinfo.com/ci/content/story/1559256.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cwp8gj4p5jx6o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/20/world/europe/france-student-protests-slogan.html",
     "https://sports.yahoo.com/articles/showed-character-hoene-f-hrich-221200632.html",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/jwkqha21wn",
     "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html",
-    "https://sports.yahoo.com/articles/lions-overcome-injuries-knock-off-210811238.html"
+    "https://sports.yahoo.com/articles/lions-overcome-injuries-knock-off-210811238.html",
+    "https://www.bbc.co.uk/bengali/live/cm9wz2dx4dr2t?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
+    "https://www.skysports.com/golf/news/12040/13606705/hotelplanner-tour-grand-final-julien-sale-secures-title-hamish-brown-crowned-road-to-mallorca-no-1-and-dp-world-tour-cards-confirmed"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 5
+    "national": 2,
+    "international": 4,
+    "sports": 0
   }
 }
