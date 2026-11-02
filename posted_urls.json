@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau",
-    "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
-    "https://www.bigganchinta.com/technology/tsqw3n0kjk",
     "https://www.aljazeera.com/news/2026/10/21/us-jails-guatemalan-man-for-30-years-over-deadly-smuggling-operation?traffic_source=rss",
     "https://www.nytimes.com/athletic/7709303/2026/10/20/paul-george-boston-celtics-opener-optimism/",
     "https://www.bbc.com/bengali/articles/cjy5606yg95do?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13606705/hotelplanner-tour-grand-final-julien-sale-secures-title-hamish-brown-crowned-road-to-mallorca-no-1-and-dp-world-tour-cards-confirmed",
     "https://www.prothomalo.com/world/usa/fezsfjkztz",
     "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-8-scores-live-updates-schedule-injuries-highlights/y4VbXxkJfDyi/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-8-scores-live-updates-schedule-injuries-highlights/y4VbXxkJfDyi/",
+    "https://www.bbc.com/bengali/articles/cwr7yxmky8zmo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1561051.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
