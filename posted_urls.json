@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/20/world/europe/france-student-protests-slogan.html",
-    "https://sports.yahoo.com/articles/showed-character-hoene-f-hrich-221200632.html",
-    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.theguardian.com/world/2026/oct/20/rfk-jr-vaccine-researchers-offices-raided-guinea-bissau",
     "https://www.skysports.com/nba/news/12040/13601519/nba-detroit-pistons-stage-epic-22-point-comeback-to-defeat-boston-celtics-as-season-tips-off-in-style",
     "https://www.bigganchinta.com/technology/tsqw3n0kjk",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/lions-overcome-injuries-knock-off-210811238.html",
     "https://www.bbc.co.uk/bengali/live/cm9wz2dx4dr2t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
-    "https://www.skysports.com/golf/news/12040/13606705/hotelplanner-tour-grand-final-julien-sale-secures-title-hamish-brown-crowned-road-to-mallorca-no-1-and-dp-world-tour-cards-confirmed"
+    "https://www.skysports.com/golf/news/12040/13606705/hotelplanner-tour-grand-final-julien-sale-secures-title-hamish-brown-crowned-road-to-mallorca-no-1-and-dp-world-tour-cards-confirmed",
+    "https://www.prothomalo.com/world/usa/fezsfjkztz",
+    "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-8-scores-live-updates-schedule-injuries-highlights/y4VbXxkJfDyi/"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
