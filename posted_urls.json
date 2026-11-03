@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/oct/21/ice-detention-illness-deportation-florida",
-    "https://www.nytimes.com/athletic/live-blogs/nba-scores-season-games-schedule-today/iAdFcCak0Nx8/",
-    "https://www.haal.fashion/lifestyle/zs5v8fjboy",
     "https://www.aljazeera.com/news/2026/10/21/trump-says-ai-data-centres-should-pay-dividends-in-pre-midterm-shift?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1559342.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cmkg7knyy8d3o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/bD8NcJyP9Dp1/",
     "https://www.prothomalo.com/entertainment/tollywood/v5hai3h7hd",
     "https://www.aljazeera.com/video/the-bottom-line/2026/11/2/after-israels-election-whats-next?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1561160.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561160.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/ckz65v6w51n3t?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/2027-nfl-draft-updated-qb-013008740.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
