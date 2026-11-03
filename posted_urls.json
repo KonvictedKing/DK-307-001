@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
-    "https://www.bbc.com/bengali/articles/cwr7ym0zvgggo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/collections/intl-trump-040223/",
     "https://www.nytimes.com/athletic/7713278/2026/10/22/michael-carrick-man-utd-sack-manager/",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights",
     "https://www.bbc.com/bengali/articles/cme8rlk1gjx0o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/college-football-playoff-rankings-live-updates-week-10-predictions-results/iRRQZEU7JLOh/"
+    "https://www.nytimes.com/athletic/live-blogs/college-football-playoff-rankings-live-updates-week-10-predictions-results/iRRQZEU7JLOh/",
+    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
+    "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
+    "https://www.cricinfo.com/ci/content/story/1561326.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 0,
+    "international": 3,
+    "sports": 3
   }
 }
