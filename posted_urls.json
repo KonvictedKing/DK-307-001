@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss",
-    "https://sports.yahoo.com/articles/fairfield-prep-wins-fourth-straight-012907458.html",
-    "https://www.prothomalo.com/bangladesh/rsrhr97dof",
     "https://www.bbc.co.uk/news/articles/cm98zn5j89kdo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/live-blog/12040/13208899/wsl-news-transfers-rumours-gossip-and-womens-football-latest",
     "https://www.bbc.com/bengali/articles/cwr7ym0zvgggo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/seattle-mariners-hire-chicago-cubs-174951557.html",
     "https://www.prothomalo.com/politics/taugp93tl0",
     "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights"
+    "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights",
+    "https://www.bbc.com/bengali/articles/cme8rlk1gjx0o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/college-football-playoff-rankings-live-updates-week-10-predictions-results/iRRQZEU7JLOh/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
