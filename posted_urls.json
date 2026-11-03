@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/21/trump-says-ai-data-centres-should-pay-dividends-in-pre-midterm-shift?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1559342.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cmkg7knyy8d3o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/texans-mailbag-houston-move-receiver-183517032.html",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561160.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckz65v6w51n3t?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/2027-nfl-draft-updated-qb-013008740.html"
+    "https://sports.yahoo.com/articles/2027-nfl-draft-updated-qb-013008740.html",
+    "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://www.skysports.com/football/news/12040/13607320/newcastle-are-flat-and-boring-8211-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 0,
+    "international": 2,
+    "sports": 0
   }
 }
