@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
-    "https://www.cricinfo.com/ci/content/story/1559374.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.aljazeera.com/news/2026/10/22/colombian-president-purges-national-museum-of-works-promoting-communism?traffic_source=rss",
     "https://sports.yahoo.com/articles/fairfield-prep-wins-fourth-straight-012907458.html",
     "https://www.prothomalo.com/bangladesh/rsrhr97dof",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
-    "https://sports.yahoo.com/articles/seattle-mariners-hire-chicago-cubs-174951557.html"
+    "https://sports.yahoo.com/articles/seattle-mariners-hire-chicago-cubs-174951557.html",
+    "https://www.prothomalo.com/politics/taugp93tl0",
+    "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
