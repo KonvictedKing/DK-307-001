@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cq3djn5nxx12o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/texans-mailbag-houston-move-receiver-183517032.html",
-    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
     "https://www.skysports.com/football/como-vs-manchester-united/report/577645",
     "https://www.prothomalo.com/sports/football/rn02mxb8ws",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/2027-nfl-draft-updated-qb-013008740.html",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://www.skysports.com/football/news/12040/13607320/newcastle-are-flat-and-boring-8211-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat"
+    "https://www.skysports.com/football/news/12040/13607320/newcastle-are-flat-and-boring-8211-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat",
+    "https://www.prothomalo.com/bangladesh/district/e281e18vn1",
+    "https://www.nytimes.com/2026/11/03/world/asia/australia-social-media-ban-high-court.html",
+    "https://www.nytimes.com/athletic/7749986/2026/11/03/tenerife-player-jesus-de-miguel-dies/"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 0
+    "national": 1,
+    "international": 3,
+    "sports": 2
   }
 }
