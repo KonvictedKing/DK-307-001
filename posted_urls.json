@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/21/world/middleeast/stakes-for-palestinians-of-israel-election.html",
-    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-3-result/CUnVp99nssji/",
-    "https://www.bbc.com/bengali/articles/c5x2vpnm0wzjo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/21/us-vaccine-trial-african-newborns-hepatitis-b",
     "https://www.cricinfo.com/ci/content/story/1559374.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7749986/2026/11/03/tenerife-player-jesus-de-miguel-dies/",
     "https://www.bbc.co.uk/bengali/live/cq70pg93x5g8t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
-    "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
+    "https://sports.yahoo.com/articles/seattle-mariners-hire-chicago-cubs-174951557.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 3
+    "national": 0,
+    "international": 5,
+    "sports": 5
   }
 }
