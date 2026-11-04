@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/22/israel-frees-suspects-in-two-settler-attacks-as-west-bank-pogroms-intensify?traffic_source=rss",
-    "https://www.skysports.com/football/live-blog/12040/13279280/brentford-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
-    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7711821/2026/10/22/eagles-jalen-hurts-blood-clots-timeline-medical-care/",
     "https://www.prothomalo.com/bangladesh/78x7fs1j2s",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13607248/toto-wolff-says-good-person-kimi-antonelli-should-be-a-role-model-for-entitled-formula-1-drivers-ahead-of-sao-paulo-grand-prix",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7752183/2026/11/04/college-football-playoff-rankings-the-pulse/"
+    "https://www.nytimes.com/athletic/7752183/2026/11/04/college-football-playoff-rankings-the-pulse/",
+    "https://www.prothomalo.com/photo/bangladesh/ubs6m4hld2",
+    "https://www.cnn.com/collections/intl-trump-040223/",
+    "https://www.cricinfo.com/ci/content/story/1561414.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
