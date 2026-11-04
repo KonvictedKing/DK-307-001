@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cr5ynl63v0pyo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7711821/2026/10/22/eagles-jalen-hurts-blood-clots-timeline-medical-care/",
-    "https://www.prothomalo.com/bangladesh/78x7fs1j2s",
     "https://cnn.it/411KYN7",
     "https://www.cricinfo.com/ci/content/story/1559622.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm79p74rx54zo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7752183/2026/11/04/college-football-playoff-rankings-the-pulse/",
     "https://www.prothomalo.com/photo/bangladesh/ubs6m4hld2",
     "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.cricinfo.com/ci/content/story/1561414.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561414.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ckjwe5n1544vo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
+    "https://sports.yahoo.com/articles/rams-db-takes-hilarious-shot-191249574.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
