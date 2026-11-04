@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/22/world/asia/afghanistan-pakistan-proxy-war.html",
-    "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/video/international/9558yaptb9",
     "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
     "https://sports.yahoo.com/articles/haven-t-given-chelsea-100m-140500953.html",
     "https://www.bbc.com/bengali/articles/cr62yee4n4pno?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561326.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/sports/cricket/odq2susyno",
     "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
-    "https://sports.yahoo.com/articles/rapid-reaction-northwestern-women-basketball-031241513.html"
+    "https://sports.yahoo.com/articles/rapid-reaction-northwestern-women-basketball-031241513.html",
+    "https://www.bbc.co.uk/bengali/live/cred371n9j4vt?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/gallery/2026/11/4/photos-champions-league-and-tenerife-fans-pay-tribute-to-de-miguel?traffic_source=rss",
+    "https://www.skysports.com/f1/news/12040/13607248/toto-wolff-says-good-person-kimi-antonelli-should-be-a-role-model-for-entitled-formula-1-drivers-ahead-of-sao-paulo-grand-prix"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
