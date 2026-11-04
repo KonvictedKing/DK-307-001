@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-trump-040223/",
-    "https://www.nytimes.com/athletic/7713278/2026/10/22/michael-carrick-man-utd-sack-manager/",
-    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.nytimes.com/2026/10/22/world/asia/afghanistan-pakistan-proxy-war.html",
     "https://www.cricinfo.com/ci/content/story/1559467.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/video/international/9558yaptb9",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/college-football-playoff-rankings-live-updates-week-10-predictions-results/iRRQZEU7JLOh/",
     "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
-    "https://www.cricinfo.com/ci/content/story/1561326.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561326.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/sports/cricket/odq2susyno",
+    "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
+    "https://sports.yahoo.com/articles/rapid-reaction-northwestern-women-basketball-031241513.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
