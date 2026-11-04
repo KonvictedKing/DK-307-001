@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/21/nigeria-first-ebola-case-africa-outbreak-latest",
-    "https://sports.yahoo.com/articles/haven-t-given-chelsea-100m-140500953.html",
-    "https://www.bbc.com/bengali/articles/cr62yee4n4pno?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/22/israel-frees-suspects-in-two-settler-attacks-as-west-bank-pogroms-intensify?traffic_source=rss",
     "https://www.skysports.com/football/live-blog/12040/13279280/brentford-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/rapid-reaction-northwestern-women-basketball-031241513.html",
     "https://www.bbc.co.uk/bengali/live/cred371n9j4vt?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/gallery/2026/11/4/photos-champions-league-and-tenerife-fans-pay-tribute-to-de-miguel?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13607248/toto-wolff-says-good-person-kimi-antonelli-should-be-a-role-model-for-entitled-formula-1-drivers-ahead-of-sao-paulo-grand-prix"
+    "https://www.skysports.com/f1/news/12040/13607248/toto-wolff-says-good-person-kimi-antonelli-should-be-a-role-model-for-entitled-formula-1-drivers-ahead-of-sao-paulo-grand-prix",
+    "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
+    "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7752183/2026/11/04/college-football-playoff-rankings-the-pulse/"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 0
+    "national": 0,
+    "international": 1,
+    "sports": 2
   }
 }
