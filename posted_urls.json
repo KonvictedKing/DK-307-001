@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/411KYN7",
-    "https://www.cricinfo.com/ci/content/story/1559622.html?ex_cid=OTC-RSS",
-    "https://www.bbc.com/bengali/articles/cm79p74rx54zo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html",
     "https://sports.yahoo.com/articles/dallas-goedert-unable-practice-thursday-224902720.html",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561414.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckjwe5n1544vo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
-    "https://sports.yahoo.com/articles/rams-db-takes-hilarious-shot-191249574.html"
+    "https://sports.yahoo.com/articles/rams-db-takes-hilarious-shot-191249574.html",
+    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
+    "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
+    "https://www.skysports.com/football/wrexham-vs-middlesbrough/report/560665"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 0,
+    "international": 4,
+    "sports": 0
   }
 }
