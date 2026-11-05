@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
-    "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns",
-    "https://www.haal.fashion/lifestyle/well-being/9ybr8h7e7f",
     "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/patriots-vs-bears-live-score-updates-nfl-tnf-result/d1ANDhyScmVZ/",
     "https://www.bbc.com/bengali/articles/c35ynjwrjjp4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/wrexham-vs-middlesbrough/report/560665",
     "https://www.prothomalo.com/religion/islam/hkq96aexbh",
     "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nba-news-games-scores-stats-schedule-analysis-live-updates/HBD7r0ZK2u47/"
+    "https://www.nytimes.com/athletic/live-blogs/nba-news-games-scores-stats-schedule-analysis-live-updates/HBD7r0ZK2u47/",
+    "https://www.bbc.com/bengali/articles/cwp9g3jpkmnko?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1561441.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
