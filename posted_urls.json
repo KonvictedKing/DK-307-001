@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/23/world/americas/nayib-bukele-el-salvador-president.html",
-    "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
-    "https://www.bbc.com/bengali/articles/crq8ndq34g25o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread",
     "https://www.cricinfo.com/ci/content/story/1559773.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/politics/bgwllkjrc9",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.co.uk/bengali/live/cxe8r7nq8e6mt?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-    "https://www.nytimes.com/athletic/7753995/2026/11/05/fantasy-football-week-9-injury-report-pivots-and-contingency-plans/"
+    "https://www.nytimes.com/athletic/7753995/2026/11/05/fantasy-football-week-9-injury-report-pivots-and-contingency-plans/",
+    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1561583.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 0,
+    "international": 5,
+    "sports": 3
   }
 }
