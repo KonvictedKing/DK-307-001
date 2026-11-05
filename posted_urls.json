@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559671.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
     "https://www.skysports.com/football/news/12040/13602481/newcastle-united-reporter-notebook-matthias-jaissle-needs-some-wins-to-quieten-down-the-noise-on-tyneside",
     "https://www.prothomalo.com/world/india/mv340498h4",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561441.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://cnn.it/411KYN7",
-    "https://sports.yahoo.com/articles/brandt-clarke-fortunate-message-amid-071801066.html"
+    "https://sports.yahoo.com/articles/brandt-clarke-fortunate-message-amid-071801066.html",
+    "https://www.prothomalo.com/bangladesh/capital/3rs8olrkob",
+    "https://www.nytimes.com/2026/11/05/world/asia/how-kpop-works-contracts.html",
+    "https://www.skysports.com/football/live-blog/12040/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
