@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/22/world/middleeast/saudi-houthis-yemen-dammam-airport.html",
-    "https://sports.yahoo.com/articles/dallas-goedert-unable-practice-thursday-224902720.html",
-    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.theguardian.com/sport/2026/oct/22/lewis-hamilton-aims-to-extend-career-till-early-2030s-so-he-can-race-in-african-grand-prix",
     "https://www.skysports.com/f1/news/12040/13602372/max-verstappen-red-bull-driver-hits-out-at-unacceptable-bumpy-united-states-gp-surface-at-cota-amid-safety-concerns",
     "https://www.haal.fashion/lifestyle/well-being/9ybr8h7e7f",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/rams-db-takes-hilarious-shot-191249574.html",
     "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
-    "https://www.skysports.com/football/wrexham-vs-middlesbrough/report/560665"
+    "https://www.skysports.com/football/wrexham-vs-middlesbrough/report/560665",
+    "https://www.prothomalo.com/religion/islam/hkq96aexbh",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/nba-news-games-scores-stats-schedule-analysis-live-updates/HBD7r0ZK2u47/"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
