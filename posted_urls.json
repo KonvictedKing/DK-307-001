@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://www.skysports.com/football/news/12040/13602481/newcastle-united-reporter-notebook-matthias-jaissle-needs-some-wins-to-quieten-down-the-noise-on-tyneside",
-    "https://www.prothomalo.com/world/india/mv340498h4",
     "https://www.nytimes.com/2026/10/23/world/americas/nayib-bukele-el-salvador-president.html",
     "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
     "https://www.bbc.com/bengali/articles/crq8ndq34g25o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/brandt-clarke-fortunate-message-amid-071801066.html",
     "https://www.prothomalo.com/bangladesh/capital/3rs8olrkob",
     "https://www.nytimes.com/2026/11/05/world/asia/how-kpop-works-contracts.html",
-    "https://www.skysports.com/football/live-blog/12040/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights"
+    "https://www.skysports.com/football/live-blog/12040/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
+    "https://www.bbc.co.uk/bengali/live/cxe8r7nq8e6mt?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
+    "https://www.nytimes.com/athletic/7753995/2026/11/05/fantasy-football-week-9-injury-report-pivots-and-contingency-plans/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
