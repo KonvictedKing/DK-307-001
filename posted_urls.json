@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/23/ebola-swiss-patient-nigeria-dr-congo-concerns-virus-spread",
-    "https://www.cricinfo.com/ci/content/story/1559773.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/politics/bgwllkjrc9",
     "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss",
     "https://sports.yahoo.com/college-football/breaking-news/article/star-oregon-state-wr-jesse-legree-says-he-wont-transfer-and-will-return-to-beavers-in-2027-184316602.html",
     "https://www.bbc.com/bengali/articles/cw1m43y8mex4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7753995/2026/11/05/fantasy-football-week-9-injury-report-pivots-and-contingency-plans/",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1561583.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561583.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/south-america/uj8v1h8yo2",
+    "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/area-college-football-notes-holy-221508049.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
