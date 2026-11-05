@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/23/thousands-protest-across-poland-for-access-to-free-and-legal-abortions?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/patriots-vs-bears-live-score-updates-nfl-tnf-result/d1ANDhyScmVZ/",
-    "https://www.bbc.com/bengali/articles/c35ynjwrjjp4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1559671.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nba-news-games-scores-stats-schedule-analysis-live-updates/HBD7r0ZK2u47/",
     "https://www.bbc.com/bengali/articles/cwp9g3jpkmnko?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1561441.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561441.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
+    "https://cnn.it/411KYN7",
+    "https://sports.yahoo.com/articles/brandt-clarke-fortunate-message-amid-071801066.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 0,
+    "international": 2,
+    "sports": 5
   }
 }
