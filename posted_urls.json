@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/23/trump-administration-sues-to-block-possible-democratic-win-in-alaska?traffic_source=rss",
-    "https://sports.yahoo.com/college-football/breaking-news/article/star-oregon-state-wr-jesse-legree-says-he-wont-transfer-and-will-return-to-beavers-in-2027-184316602.html",
-    "https://www.bbc.com/bengali/articles/cw1m43y8mex4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/rugby-union/news/12040/13602874/christian-wade-equals-try-scoring-record-as-newcastle-beat-sale-in-gallagher-prem",
     "https://www.prothomalo.com/bangladesh/gm3ugus9bd",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561583.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/south-america/uj8v1h8yo2",
     "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/area-college-football-notes-holy-221508049.html"
+    "https://sports.yahoo.com/articles/area-college-football-notes-holy-221508049.html",
+    "https://www.bbc.com/bengali/articles/cwp9g34nzexlo?at_medium=RSS&at_campaign=rss",
+    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+    "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
