@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7719344/2026/10/24/union-berlin-vs-fc-augsburg-stream-how-to-watch-bundesliga-oct-24/",
-    "https://www.bbc.com/bengali/articles/cmn8eq9vepq5o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
     "https://www.cricinfo.com/ci/content/story/1559829.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/video/bangladesh/uagm3yhwe8",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
     "https://www.prothomalo.com/entertainment/dhallywood/rbiul-bllen-priimni-taanr-mutthophon-kerre-niyyechilen",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.nytimes.com/athletic/7759716/2026/11/06/shedeur-sanders-start-browns-saints/"
+    "https://www.nytimes.com/athletic/7759716/2026/11/06/shedeur-sanders-start-browns-saints/",
+    "https://www.bbc.com/bengali/articles/cqx288glglweo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
+    "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 2
+    "national": 2,
+    "international": 3,
+    "sports": 3
   }
 }
