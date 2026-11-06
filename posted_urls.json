@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.nytimes.com/athletic/7718014/2026/10/23/sam-laporta-lions-contract-extension-comments-barstool/",
-    "https://www.bbc.com/bengali/articles/c6kgqkxvejz8o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/23/world/middleeast/west-bank-shooting-israel.html",
     "https://www.cricinfo.com/ci/content/story/1559777.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/religion/islam/99w07y12fv",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935",
     "https://www.prothomalo.com/bangladesh/district/pduu8kmpg1",
     "https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html",
-    "https://www.nytimes.com/athletic/live-blogs/jaguars-vs-ravens-live-score-updates-nfl-tnf-result/zdbRfr31v6rI/"
+    "https://www.nytimes.com/athletic/live-blogs/jaguars-vs-ravens-live-score-updates-nfl-tnf-result/zdbRfr31v6rI/",
+    "https://www.bbc.com/bengali/articles/ckr5yy8d7dneo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
+    "https://www.cricinfo.com/ci/content/story/1561618.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
