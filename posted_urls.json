@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/rugby-union/news/12040/13602874/christian-wade-equals-try-scoring-record-as-newcastle-beat-sale-in-gallagher-prem",
-    "https://www.prothomalo.com/bangladesh/gm3ugus9bd",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
     "https://www.nytimes.com/athletic/7718014/2026/10/23/sam-laporta-lions-contract-extension-comments-barstool/",
     "https://www.bbc.com/bengali/articles/c6kgqkxvejz8o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/area-college-football-notes-holy-221508049.html",
     "https://www.bbc.com/bengali/articles/cwp9g34nzexlo?at_medium=RSS&at_campaign=rss",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935"
+    "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935",
+    "https://www.prothomalo.com/bangladesh/district/pduu8kmpg1",
+    "https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html",
+    "https://www.nytimes.com/athletic/live-blogs/jaguars-vs-ravens-live-score-updates-nfl-tnf-result/zdbRfr31v6rI/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 1,
+    "international": 3,
+    "sports": 2
   }
 }
