@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/23/world/middleeast/west-bank-shooting-israel.html",
-    "https://www.cricinfo.com/ci/content/story/1559777.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/religion/islam/99w07y12fv",
     "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
     "https://sports.yahoo.com/articles/jalen-lott-messiah-hampton-ruled-004154849.html",
     "https://www.bbc.com/bengali/articles/cm20vg3p6lzvo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/jaguars-vs-ravens-live-score-updates-nfl-tnf-result/zdbRfr31v6rI/",
     "https://www.bbc.com/bengali/articles/ckr5yy8d7dneo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
-    "https://www.cricinfo.com/ci/content/story/1561618.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561618.html?ex_cid=OTC-RSS",
+    "https://www.haal.fashion/arrangement/discount/p6mjszeqy6",
+    "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe?traffic_source=rss",
+    "https://sports.yahoo.com/articles/europe-not-big-enough-cherries-112754391.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 3
+    "national": 1,
+    "international": 5,
+    "sports": 5
   }
 }
