@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1559829.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/video/bangladesh/uagm3yhwe8",
     "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
     "https://sports.yahoo.com/articles/mls-playoff-picture-lafc-philadelphia-110129726.html",
     "https://www.bbc.com/bengali/articles/c6m2d1gx277go?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7759716/2026/11/06/shedeur-sanders-start-browns-saints/",
     "https://www.bbc.com/bengali/articles/cqx288glglweo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
-    "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/religion/islam/vkfejecxtm",
+    "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+    "https://sports.yahoo.com/articles/bay-port-girls-volleyball-play-232650134.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
