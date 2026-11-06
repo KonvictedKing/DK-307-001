@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/us-news/2026/oct/23/marco-rubio-cuba-trump",
-    "https://sports.yahoo.com/articles/jalen-lott-messiah-hampton-ruled-004154849.html",
-    "https://www.bbc.com/bengali/articles/cm20vg3p6lzvo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/24/argentina-identifies-dozens-of-victims-killed-in-its-dirty?traffic_source=rss",
     "https://www.skysports.com/f1/news/12040/13602762/adrian-newey-responds-to-christian-horners-criticism-of-him-in-new-book-over-red-bulls-struggles-with-renault-in-2014",
     "https://www.prothomalo.com/education/examination/v3njhdpn45",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561618.html?ex_cid=OTC-RSS",
     "https://www.haal.fashion/arrangement/discount/p6mjszeqy6",
     "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe?traffic_source=rss",
-    "https://sports.yahoo.com/articles/europe-not-big-enough-cherries-112754391.html"
+    "https://sports.yahoo.com/articles/europe-not-big-enough-cherries-112754391.html",
+    "https://www.bbc.com/bengali/articles/cqdr88606kvgo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/news/12040/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 5
+    "national": 2,
+    "international": 1,
+    "sports": 0
   }
 }
