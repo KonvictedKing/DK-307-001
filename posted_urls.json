@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/2026/10/24/ballon-dor-2026-can-kylian-mbappes-real-madrid-and-france-record-win-it?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pMlD8IF5ULFh/",
-    "https://www.bbc.com/bengali/articles/c9dr8n7pd4zko?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/education/eicessir-phl-prkaash-29-akttobr",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter",
     "https://www.prothomalo.com/fun/ursb01j357",
     "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7760378/2026/11/06/gotham-fc-stadium-conflicts-nwsl-schedule/"
+    "https://www.nytimes.com/athletic/7760378/2026/11/06/gotham-fc-stadium-conflicts-nwsl-schedule/",
+    "https://www.bbc.com/bengali/articles/cwj0ll354jm9o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+    "https://www.cricinfo.com/ci/content/story/1561736.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
