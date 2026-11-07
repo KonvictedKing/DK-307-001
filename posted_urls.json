@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/24/lula-da-silva-supporters-rally-eve-brazil-election-runoff-bolsonaro",
-    "https://www.nytimes.com/athletic/live-blogs/valkyries-vs-dream-live-score-updates-wnba-finals-game-4-result/lQd2jGxEqpA3/",
-    "https://www.bbc.com/bengali/articles/cmx2wnd0e55zo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/10/24/brazils-lula-bolsonaro-draw-thousands-to-election-eve-rallies?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1559852.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/europe/uqi1yu06hs",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
     "https://www.prothomalo.com/politics/1rg7wjvxxz",
     "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/TGZ4kVlqFf1W/"
+    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/TGZ4kVlqFf1W/",
+    "https://www.bbc.com/bengali/articles/cvlydjrrepddo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 2
+    "national": 2,
+    "international": 1,
+    "sports": 3
   }
 }
