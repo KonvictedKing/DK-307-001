@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
-    "https://www.skysports.com/watch/video/13603058/derby-contender-giant-sequoia-storms-to-success-in-the-futurity-trophy",
-    "https://www.prothomalo.com/sports/football/u16nzv0pav",
     "https://www.aljazeera.com/sports/2026/10/24/ballon-dor-2026-can-kylian-mbappes-real-madrid-and-france-record-win-it?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/pMlD8IF5ULFh/",
     "https://www.bbc.com/bengali/articles/c9dr8n7pd4zko?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/bay-port-girls-volleyball-play-232650134.html",
     "https://www.bbc.com/bengali/articles/c5y433ewwdego?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss",
-    "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter"
+    "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter",
+    "https://www.prothomalo.com/fun/ursb01j357",
+    "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7760378/2026/11/06/gotham-fc-stadium-conflicts-nwsl-schedule/"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
