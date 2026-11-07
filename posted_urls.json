@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/10/24/world/france-protests-riots",
-    "https://sports.yahoo.com/articles/mls-playoff-picture-lafc-philadelphia-110129726.html",
-    "https://www.bbc.com/bengali/articles/c6m2d1gx277go?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/oct/24/british-woman-dies-trying-to-save-sons-on-bahamas-snorkelling-trip",
     "https://www.skysports.com/watch/video/13603058/derby-contender-giant-sequoia-storms-to-success-in-the-futurity-trophy",
     "https://www.prothomalo.com/sports/football/u16nzv0pav",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/religion/islam/vkfejecxtm",
     "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-    "https://sports.yahoo.com/articles/bay-port-girls-volleyball-play-232650134.html"
+    "https://sports.yahoo.com/articles/bay-port-girls-volleyball-play-232650134.html",
+    "https://www.bbc.com/bengali/articles/c5y433ewwdego?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss",
+    "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
