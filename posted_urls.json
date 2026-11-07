@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-180500715.html",
-    "https://www.bbc.com/bengali/articles/cqp8g6rkpy3xo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/24/world/canada/us-midterms-election-interference-carney-trump.html",
     "https://www.skysports.com/f1/live-blog/12040/13603168/f1-united-states-gp-live-qualifying-and-final-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-austin",
     "https://www.prothomalo.com/bangladesh/0o27fwpjxy",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561736.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/district/n5l7aihmo4",
     "https://www.nytimes.com/2026/11/07/world/middleeast/eisenkot-israel-new-government.html",
-    "https://sports.yahoo.com/articles/vaibhav-sooryavanshi-15-set-captain-103300583.html"
+    "https://sports.yahoo.com/articles/vaibhav-sooryavanshi-15-set-captain-103300583.html",
+    "https://www.bbc.com/bengali/articles/c3qjn5l7jv4do?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+    "https://www.skysports.com/football/live-blog/12040/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 5
+    "national": 2,
+    "international": 4,
+    "sports": 0
   }
 }
