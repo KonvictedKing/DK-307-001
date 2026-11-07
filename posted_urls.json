@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cwkg5md14j8go?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1559845.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/education/eicessir-phl-prkaash-29-akttobr",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
     "https://sports.yahoo.com/articles/barcelona-vs-real-madrid-preview-180500715.html",
     "https://www.bbc.com/bengali/articles/cqp8g6rkpy3xo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7760378/2026/11/06/gotham-fc-stadium-conflicts-nwsl-schedule/",
     "https://www.bbc.com/bengali/articles/cwj0ll354jm9o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1561736.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561736.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/district/n5l7aihmo4",
+    "https://www.nytimes.com/2026/11/07/world/middleeast/eisenkot-israel-new-government.html",
+    "https://sports.yahoo.com/articles/vaibhav-sooryavanshi-15-set-captain-103300583.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 5
   }
 }
