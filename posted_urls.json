@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/watch/video/13603463/arthur-fils-tweener-sends-crowd-wild-in-brussels",
-    "https://www.haal.fashion/lifestyle/jvg14swbgb",
     "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
     "https://www.nytimes.com/athletic/live-blogs/manchester-united-vs-bournemouth-live-updates-premier-league-score-result/PZhkmrBGVDhD/",
     "https://www.bbc.com/bengali/articles/cme3xejj0lzgo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/jason-witten-revives-ou-football-071958709.html",
     "https://www.bbc.co.uk/bengali/live/c8dx31wk6y3pt?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more"
+    "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
+    "https://www.prothomalo.com/lifestyle/recipe/yzhm5d3llo",
+    "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-9-scores-live-updates-schedule-injuries-highlights/MvYWslswB6jf/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 1,
+    "international": 3,
+    "sports": 2
   }
 }
