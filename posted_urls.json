@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
-    "https://sports.yahoo.com/articles/james-anderson-left-disappointed-lancashire-175200687.html",
-    "https://www.bbc.com/bengali/articles/cx7vp0d3z5q8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/25/israeli-air-strike-on-gaza-city-university-kills-three-people?traffic_source=rss",
     "https://www.skysports.com/football/news/12040/13603690/michael-carrick-man-utd-future-eddie-howe-and-julian-nagelsmann-expected-frontrunners-if-head-coach-departs",
     "https://www.prothomalo.com/entertainment/drama/n50sao9o4d",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561918.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/crime/q4v5mm059u",
     "https://www.aljazeera.com/video/newsfeed/2026/11/8/al-jazeera-tries-baseball5-at-youth-olympics?traffic_source=rss",
-    "https://sports.yahoo.com/betting/promos/article/betr-promo-code-yahoobonus-get-up-to-200-in-no-sweat-tokens-for-sundays-nfl-games-203000615.html"
+    "https://sports.yahoo.com/betting/promos/article/betr-promo-code-yahoobonus-get-up-to-200-in-no-sweat-tokens-for-sundays-nfl-games-203000615.html",
+    "https://www.bbc.com/bengali/articles/cm78p213x2q8o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/f1/news/12040/13609697/toto-wolff-proud-of-mercedes-turnaround-after-winning-f1-2026-constructors-championship-at-sao-paulo-grand-prix"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 5
+    "national": 2,
+    "international": 1,
+    "sports": 0
   }
 }
