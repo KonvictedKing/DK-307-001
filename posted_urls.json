@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/25/israeli-forces-turn-hebron-homes-into-military-posts-amid-lockdown?traffic_source=rss",
-    "https://sports.yahoo.com/articles/patrick-mahomes-play-today-status-094640845.html",
-    "https://www.bbc.co.uk/bengali/live/cx98zpj6me8gt?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6y93ylpl5p2o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/watch/video/13603463/arthur-fils-tweener-sends-crowd-wild-in-brussels",
     "https://www.haal.fashion/lifestyle/jvg14swbgb",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561860.html?ex_cid=OTC-RSS",
     "https://www.kishoralo.com/letter/pr2zeq8kba",
     "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/jason-witten-revives-ou-football-071958709.html"
+    "https://sports.yahoo.com/articles/jason-witten-revives-ou-football-071958709.html",
+    "https://www.bbc.co.uk/bengali/live/c8dx31wk6y3pt?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
+    "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
