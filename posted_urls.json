@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://www.skysports.com/f1/news/12040/13603359/f1-academy-alisha-palmowski-becomes-2026-champion-with-three-races-of-season-to-spare-in-austin",
-    "https://www.prothomalo.com/opinion/column/3kwz9rumtv",
     "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
     "https://www.nytimes.com/athletic/live-blogs/ole-miss-vs-texas-live-updates-college-football-score-result/v0lp0NuSNVIT/",
     "https://www.bbc.com/bengali/articles/ckp8g2yd7605o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/san-diego-padres-prospect-justin-202121257.html",
     "https://www.bbc.com/bengali/articles/c9ly0087ydxno?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html",
-    "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli"
+    "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli",
+    "https://www.prothomalo.com/religion/islam/y5weg6jmyk",
+    "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
+    "https://www.nytimes.com/athletic/live-blogs/miami-vs-notre-dame-live-updates-college-football-score-result/AE7tVZ7kw6rX/"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 0
+    "national": 1,
+    "international": 4,
+    "sports": 2
   }
 }
