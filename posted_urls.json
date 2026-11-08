@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/24/world/europe/ukraine-starshield-drone-speed.html",
-    "https://www.nytimes.com/athletic/live-blogs/ole-miss-vs-texas-live-updates-college-football-score-result/v0lp0NuSNVIT/",
-    "https://www.bbc.com/bengali/articles/ckp8g2yd7605o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/news/audio/2026/oct/23/brazil-election-battle-for-amazon-podcast",
     "https://www.cricinfo.com/ci/content/story/1559887.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/europe/p8q2ih71kp",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli",
     "https://www.prothomalo.com/religion/islam/y5weg6jmyk",
     "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-    "https://www.nytimes.com/athletic/live-blogs/miami-vs-notre-dame-live-updates-college-football-score-result/AE7tVZ7kw6rX/"
+    "https://www.nytimes.com/athletic/live-blogs/miami-vs-notre-dame-live-updates-college-football-score-result/AE7tVZ7kw6rX/",
+    "https://www.bbc.com/bengali/articles/ck7vp2eldjv6o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/opinions/2026/11/8/there-is-reason-to-hope-that-the-democrats-might-deliver-this-time?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1561860.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
