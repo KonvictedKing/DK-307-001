@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/manchester-united-vs-bournemouth-live-updates-premier-league-score-result/PZhkmrBGVDhD/",
-    "https://www.bbc.com/bengali/articles/cme3xejj0lzgo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/25/world/americas/brazil-election-lula-bolsonaro-what-to-know.html",
     "https://www.cricinfo.com/ci/content/story/1559974.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/district/p1vuyjnpny",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
     "https://www.prothomalo.com/lifestyle/recipe/yzhm5d3llo",
     "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-9-scores-live-updates-schedule-injuries-highlights/MvYWslswB6jf/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-week-9-scores-live-updates-schedule-injuries-highlights/MvYWslswB6jf/",
+    "https://www.bbc.com/bengali/articles/c8qlnqgde1evo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
+    "https://www.cricinfo.com/ci/content/story/1561918.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
