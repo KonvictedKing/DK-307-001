@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/10/25/world/brazil-election",
-    "https://sports.yahoo.com/articles/broncos-offense-finds-big-play-232745136.html",
-    "https://www.bbc.com/bengali/articles/c5wyr11lyzmeo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/live/2026/oct/25/brazil-election-runoff-live-updates-flavio-bolsonaro-lula",
     "https://www.skysports.com/darts/news/12040/13603670/european-championship-darts-ross-smith-beats-martin-schindler-to-dortmund-title-after-luke-littlers-quarter-final-exit",
     "https://www.prothomalo.com/world/middle-east/ril9kyq0pv",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1561923.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/education/campus/4dsj46k0mi",
     "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
-    "https://sports.yahoo.com/articles/happened-kyler-murray-injury-vikings-120457239.html"
+    "https://sports.yahoo.com/articles/happened-kyler-murray-injury-vikings-120457239.html",
+    "https://www.bbc.com/bengali/articles/c80404n2e7x7o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/9/russian-investigative-newspaper-novaya-gazeta-closes-citing-govt-clampdown?traffic_source=rss",
+    "https://www.skysports.com/football/news/12040/13610309/fifpro-world-11-ballon-dor-winner-harry-kane-not-voted-by-fellow-professionals-to-be-named-in-team-of-the-year"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
