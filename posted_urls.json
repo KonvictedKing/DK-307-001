@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1559978.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/religion/islam/zdbqflo91b",
     "https://www.nytimes.com/live/2026/10/25/world/brazil-election",
     "https://sports.yahoo.com/articles/broncos-offense-finds-big-play-232745136.html",
     "https://www.bbc.com/bengali/articles/c5wyr11lyzmeo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/buccaneers-vs-bears-live-score-updates-nfl-snf-result/cwmZISTuZHoP/",
     "https://www.bbc.com/bengali/articles/cwrkygp571gzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
-    "https://www.cricinfo.com/ci/content/story/1561923.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1561923.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/education/campus/4dsj46k0mi",
+    "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
+    "https://sports.yahoo.com/articles/happened-kyler-murray-injury-vikings-120457239.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
