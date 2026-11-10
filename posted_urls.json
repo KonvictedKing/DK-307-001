@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/26/netanyahu-rival-eisenkot-holds-final-rally-before-israeli-election?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-seahawks-live-score-updates-nfl-snf-result/K6qrvGP9FnzN/",
-    "https://www.bbc.com/bengali/articles/cq4g1jkl3nn8o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cw5yn3xlprpmo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1560060.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/tqnh6p4t7a",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13610309/fifpro-world-11-ballon-dor-winner-harry-kane-not-voted-by-fellow-professionals-to-be-named-in-team-of-the-year",
     "https://www.prothomalo.com/religion/islam/n7wumaa6eu",
     "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nba-news-scores-games-schedule-stats-live-updates/3O8C8RgzvHTs/"
+    "https://www.nytimes.com/athletic/live-blogs/nba-news-scores-games-schedule-stats-live-updates/3O8C8RgzvHTs/",
+    "https://www.bbc.com/bengali/articles/cm0e0eqlvpg8o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/03/soldiers-russia-ukraine-war-david-mckenzie-pkg-ovn-intl-ldn-vpx.cnn",
+    "https://www.cricinfo.com/ci/content/story/1561991.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 2
+    "national": 2,
+    "international": 2,
+    "sports": 3
   }
 }
