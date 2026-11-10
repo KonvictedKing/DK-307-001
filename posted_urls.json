@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/26/brazil-lula-victory-whatsapp-campaign-janones?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1560077.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/sports/football/8wf198055f",
     "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/texas-football-qb-arch-manning-203834350.html",
     "https://www.bbc.com/bengali/articles/cmwy4glx5e0lo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nfl-trade-deadline-2026-live-updates-news-grades-tracker/V6wZ6DTPEgzk/",
     "https://www.bbc.com/bengali/articles/c680z04rr8xlo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1562152.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1562152.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/middle-east/o6ih02u8mm",
+    "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
+    "https://sports.yahoo.com/articles/vikings-trade-raiders-quarterback-kirk-203132572.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 1,
+    "international": 2,
+    "sports": 5
   }
 }
