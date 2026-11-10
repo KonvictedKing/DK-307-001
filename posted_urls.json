@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/texas-football-qb-arch-manning-203834350.html",
-    "https://www.bbc.com/bengali/articles/cmwy4glx5e0lo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
     "https://www.skysports.com/basketball/news/12040/13604207/jalen-williams-oklahoma-city-thunder-star-requires-surgery-for-broken-leg-and-dislocated-ankle",
     "https://www.kishoralo.com/feature/vy95hakb3m",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562152.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/middle-east/o6ih02u8mm",
     "https://www.cnn.com/2023/04/03/world/artemis-2-astronaut-crew-scn/index.html",
-    "https://sports.yahoo.com/articles/vikings-trade-raiders-quarterback-kirk-203132572.html"
+    "https://sports.yahoo.com/articles/vikings-trade-raiders-quarterback-kirk-203132572.html",
+    "https://www.bbc.com/bengali/articles/cmy4x4pqg3yqo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
+    "https://www.skysports.com/f1/news/12040/13610730/ferrari-should-back-extraordinary-lewis-hamilton-over-charles-leclerc-as-number-one-driver-damon-hill-tells-sky-sports-the-f1-show"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 5
+    "national": 2,
+    "international": 3,
+    "sports": 0
   }
 }
