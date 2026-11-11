@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls?traffic_source=rss",
-    "https://sports.yahoo.com/articles/esteros-maddox-stewart-sets-lee-064745288.html",
-    "https://www.bbc.com/bengali/articles/ckjrw5lej1njo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c3j47l4kdez4o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/cricket/news/12040/13604351/england-eliminated-from-odi-tri-series-as-sri-lankas-bowlers-dominate-in-victory-against-pakistan-to-book-final-spot",
     "https://www.prothomalo.com/bangladesh/nlsjs3avuk",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562157.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/india/zv8pe2zx25",
     "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/ni-draw-strong-club-form-081949699.html"
+    "https://sports.yahoo.com/articles/ni-draw-strong-club-form-081949699.html",
+    "https://www.bbc.co.uk/bengali/live/cv0l380l2542t?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/02/europe/french-minister-playboy-cover-intl/index.html",
+    "https://www.skysports.com/darts/news/12040/13611224/premier-league-darts-pdcs-matt-porter-backs-solid-format-but-hints-at-fresh-concepts-as-ross-smith-enters-the-conversation"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
