@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/26/world/middleeast/egypt-military-saudi-houthis.html",
-    "https://www.nytimes.com/athletic/live-blogs/brewers-vs-rays-live-updates-mlb-world-series-game-3-score-result/6umVOHDKZPcG/",
-    "https://www.bbc.com/bengali/articles/c6g7xe53d211o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
     "https://www.cricinfo.com/ci/content/story/1560125.html?ex_cid=OTC-RSS",
     "https://nagorik.prothomalo.com/reader/55zp8ctpso",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13610730/ferrari-should-back-extraordinary-lewis-hamilton-over-charles-leclerc-as-number-one-driver-damon-hill-tells-sky-sports-the-f1-show",
     "https://www.prothomalo.com/world/usa/ec5w4dvgs0",
     "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
-    "https://www.nytimes.com/athletic/7771160/2026/11/10/pat-murphy-nl-manager-of-the-year/"
+    "https://www.nytimes.com/athletic/7771160/2026/11/10/pat-murphy-nl-manager-of-the-year/",
+    "https://www.bbc.com/bengali/articles/cqx2v2dm12j4o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1562157.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 2
+    "national": 2,
+    "international": 5,
+    "sports": 3
   }
 }
