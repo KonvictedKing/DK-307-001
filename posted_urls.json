@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/26/us-forces-accused-of-weaponising-somalia-flood-el-nino",
-    "https://www.cricinfo.com/ci/content/story/1560125.html?ex_cid=OTC-RSS",
-    "https://nagorik.prothomalo.com/reader/55zp8ctpso",
     "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls?traffic_source=rss",
     "https://sports.yahoo.com/articles/esteros-maddox-stewart-sets-lee-064745288.html",
     "https://www.bbc.com/bengali/articles/ckjrw5lej1njo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7771160/2026/11/10/pat-murphy-nl-manager-of-the-year/",
     "https://www.bbc.com/bengali/articles/cqx2v2dm12j4o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1562157.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1562157.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/world/india/zv8pe2zx25",
+    "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/ni-draw-strong-club-form-081949699.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
