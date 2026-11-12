@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.nytimes.com/athletic/7729155/2026/10/27/dean-henderson-crystal-palace-injury-return/",
-    "https://www.bbc.com/bengali/articles/c6kgqz95800qo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/27/world/europe/norway-finland-putin-call.html",
     "https://www.cricinfo.com/ci/content/story/1560346.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/capital/12ln24rmir",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13611224/premier-league-darts-pdcs-matt-porter-backs-solid-format-but-hints-at-fresh-concepts-as-ross-smith-enters-the-conversation",
     "https://www.prothomalo.com/world/usa/1pq1swsg8u",
     "https://www.nytimes.com/2026/11/11/world/middleeast/us-blockade-iran-taskforce-iron-gate.html",
-    "https://www.nytimes.com/athletic/7774559/2026/11/11/yankees-interview-aaron-bates-hitting-coach-dodgers/"
+    "https://www.nytimes.com/athletic/7774559/2026/11/11/yankees-interview-aaron-bates-hitting-coach-dodgers/",
+    "https://www.bbc.com/bengali/articles/cmd91d71x4v8o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+    "https://www.cricinfo.com/ci/content/story/1562264.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
