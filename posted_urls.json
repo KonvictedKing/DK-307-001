@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6vgj813mlelo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nba-cup-scores-season-games-schedule/8uid2umpFT0Q/",
-    "https://www.bbc.com/bengali/articles/c87q005245do?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/04/investing/british-pound-currency-dollar/index.html",
     "https://www.cricinfo.com/ci/content/story/1560352.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/wo9jxir2g3",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/news/12040/13606476/pierre-sage-crystal-palace-sack-manager-with-club-bottom-of-premier-league-table-after-10-matches",
     "https://www.prothomalo.com/video/bangladesh/50kok7mstj",
     "https://www.cnn.com/videos/world/2023/04/03/finland-prime-minister-sanna-marin-concedes-election-right-wing-party-wins-ovn-intl-ldn-vpx.cnn",
-    "https://www.nytimes.com/athletic/live-blogs/manchester-united-carrick-sacked-live-updates-pochettino/sMKxjJsvUDPM/"
+    "https://www.nytimes.com/athletic/live-blogs/manchester-united-carrick-sacked-live-updates-pochettino/sMKxjJsvUDPM/",
+    "https://www.bbc.co.uk/bengali/live/cwgklyvj7nrmt?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
+    "https://www.cricinfo.com/ci/content/story/1562408.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 2
+    "national": 2,
+    "international": 3,
+    "sports": 3
   }
 }
