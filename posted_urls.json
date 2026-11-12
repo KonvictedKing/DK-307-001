@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/04/investing/british-pound-currency-dollar/index.html",
-    "https://www.cricinfo.com/ci/content/story/1560352.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/wo9jxir2g3",
     "https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html",
     "https://sports.yahoo.com/articles/nick-fortes-scores-walk-off-054131921.html",
     "https://www.bbc.com/bengali/articles/cvglw5lwpepzo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/manchester-united-carrick-sacked-live-updates-pochettino/sMKxjJsvUDPM/",
     "https://www.bbc.co.uk/bengali/live/cwgklyvj7nrmt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
-    "https://www.cricinfo.com/ci/content/story/1562408.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1562408.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/floldyj1kk",
+    "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
+    "https://sports.yahoo.com/articles/lions-andre-cisco-bring-own-210447935.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
