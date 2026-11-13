@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cm62y46d97wwo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1560430.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/entertainment/world-cinema/dxempw6n1z",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
     "https://sports.yahoo.com/articles/tennessee-titans-dt-jeffery-simmons-184935749.html",
     "https://www.bbc.com/bengali/articles/ck98zm4r9pm9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/commanders-vs-giants-live-score-updates-nfl-tnf-result/4gQzIpJZBsB4/",
     "https://www.bbc.com/bengali/articles/crpdwqq6nxx3o?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/04/investing/british-pound-currency-dollar/index.html",
-    "https://www.cricinfo.com/ci/content/story/1562472.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1562472.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/district/l8xhflojoa",
+    "https://www.nytimes.com/2026/11/13/world/middleeast/the-us-israel-relationship-is-broken-heres-how-eisenkot-could-fix-it.html",
+    "https://www.skysports.com/cricket/news/12040/13611802/england-crumble-against-australia-in-perth-again-as-mitchell-marshs-side-win-first-odi-amid-sandpapergate-storm"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
