@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://sports.yahoo.com/articles/tennessee-titans-dt-jeffery-simmons-184935749.html",
-    "https://www.bbc.com/bengali/articles/ck98zm4r9pm9o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
     "https://www.skysports.com/rugby-union/news/12040/13604946/prem-rugby-and-rfu-committed-to-expanding-top-flight-with-english-clubs-despite-welsh-interest",
     "https://www.prothomalo.com/religion/islam/w5epmuqvss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562472.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/district/l8xhflojoa",
     "https://www.nytimes.com/2026/11/13/world/middleeast/the-us-israel-relationship-is-broken-heres-how-eisenkot-could-fix-it.html",
-    "https://www.skysports.com/cricket/news/12040/13611802/england-crumble-against-australia-in-perth-again-as-mitchell-marshs-side-win-first-odi-amid-sandpapergate-storm"
+    "https://www.skysports.com/cricket/news/12040/13611802/england-crumble-against-australia-in-perth-again-as-mitchell-marshs-side-win-first-odi-amid-sandpapergate-storm",
+    "https://www.bbc.com/bengali/articles/c6n83yj07y15o?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
+    "https://www.nytimes.com/athletic/7779478/2026/11/13/alyssa-naeher-retirement-chicago-stars-uswnt/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
