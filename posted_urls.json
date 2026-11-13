@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1560491.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/sports/football/lg2y19u6op",
     "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/barrett-barnes-lead-raptors-129-022756859.html",
     "https://www.bbc.co.uk/bengali/live/c977pmml67rzt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562537.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c8vg2lq2l0deo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/dissecting-boston-celtics-4-0-233250031.html"
+    "https://sports.yahoo.com/articles/dissecting-boston-celtics-4-0-233250031.html",
+    "https://www.prothomalo.com/sports/football/3cnm9h0i2e",
+    "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
+    "https://www.skysports.com/football/scotland-vs-north-macedonia/report/554098"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
