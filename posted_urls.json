@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/live/2026/10/28/world/spain-train-crash-toledo",
-    "https://www.skysports.com/rugby-union/news/12040/13604946/prem-rugby-and-rfu-committed-to-expanding-top-flight-with-english-clubs-despite-welsh-interest",
-    "https://www.prothomalo.com/religion/islam/w5epmuqvss",
     "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
     "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-chelsea-live-updates-carabao-cup-score-result/cgmrfjpuFYkF/",
     "https://www.bbc.com/bengali/articles/cxdd8nqqqmymo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/cricket/news/12040/13611802/england-crumble-against-australia-in-perth-again-as-mitchell-marshs-side-win-first-odi-amid-sandpapergate-storm",
     "https://www.bbc.com/bengali/articles/c6n83yj07y15o?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
-    "https://www.nytimes.com/athletic/7779478/2026/11/13/alyssa-naeher-retirement-chicago-stars-uswnt/"
+    "https://www.nytimes.com/athletic/7779478/2026/11/13/alyssa-naeher-retirement-chicago-stars-uswnt/",
+    "https://www.prothomalo.com/bangladesh/2ix3xaobrd",
+    "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1562537.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
