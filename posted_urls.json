@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/27/us/politics/russia-fund-sanctions-trump.html",
-    "https://sports.yahoo.com/articles/nick-fortes-scores-walk-off-054131921.html",
-    "https://www.bbc.com/bengali/articles/cvglw5lwpepzo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/politics/2026/oct/26/uk-international-aid-target-spending-shortfall-budget-research",
     "https://www.skysports.com/darts/news/12040/13604135/beat-luke-littler-teenagers-jayden-walker-and-mitchell-lawrie-set-to-challenge-world-no-1-to-win-501000",
     "https://www.bondhushava.com/activities/30r4gpd778",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562408.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/floldyj1kk",
     "https://www.theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
-    "https://sports.yahoo.com/articles/lions-andre-cisco-bring-own-210447935.html"
+    "https://sports.yahoo.com/articles/lions-andre-cisco-bring-own-210447935.html",
+    "https://www.bbc.com/bengali/articles/ckge3dw5l1dno?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+    "https://www.skysports.com/cricket/news/12040/13611646/sandpapergate-australia-test-captain-pat-cummins-dismisses-usman-khawajas-claims-over-ball-tampering-scandal-as-utter-nonsense"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
