@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/politics/2026/oct/26/uk-international-aid-target-spending-shortfall-budget-research",
-    "https://www.skysports.com/darts/news/12040/13604135/beat-luke-littler-teenagers-jayden-walker-and-mitchell-lawrie-set-to-challenge-world-no-1-to-win-501000",
-    "https://www.bondhushava.com/activities/30r4gpd778",
     "https://www.aljazeera.com/news/2026/10/28/israels-election-the-battle-between-change-and-anti-palestinian-sentiment?traffic_source=rss",
     "https://www.nytimes.com/athletic/7729443/2026/10/28/edmonton-oilers-defence-connor-murphy-stats/",
     "https://www.bbc.co.uk/bengali/live/c8qln7rxdw7pt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/lions-andre-cisco-bring-own-210447935.html",
     "https://www.bbc.com/bengali/articles/ckge3dw5l1dno?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
-    "https://www.skysports.com/cricket/news/12040/13611646/sandpapergate-australia-test-captain-pat-cummins-dismisses-usman-khawajas-claims-over-ball-tampering-scandal-as-utter-nonsense"
+    "https://www.skysports.com/cricket/news/12040/13611646/sandpapergate-australia-test-captain-pat-cummins-dismisses-usman-khawajas-claims-over-ball-tampering-scandal-as-utter-nonsense",
+    "https://www.prothomalo.com/religion/islam/4ntae1p6qs",
+    "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/live-blogs/commanders-vs-giants-live-score-updates-nfl-tnf-result/4gQzIpJZBsB4/"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 0
+    "national": 1,
+    "international": 1,
+    "sports": 2
   }
 }
