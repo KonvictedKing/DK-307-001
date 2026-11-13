@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/28/egypt-lina-attalah-mada-masr-press-freedom-clampdown",
-    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-chelsea-live-updates-carabao-cup-score-result/cgmrfjpuFYkF/",
-    "https://www.bbc.com/bengali/articles/cxdd8nqqqmymo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/10/29/riot-police-deployed-in-madrid-as-protests-erupt-over-deadly-train-crash?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1560491.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/sports/football/lg2y19u6op",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7779478/2026/11/13/alyssa-naeher-retirement-chicago-stars-uswnt/",
     "https://www.prothomalo.com/bangladesh/2ix3xaobrd",
     "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1562537.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1562537.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c8vg2lq2l0deo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/dissecting-boston-celtics-4-0-233250031.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 3
+    "national": 2,
+    "international": 1,
+    "sports": 5
   }
 }
