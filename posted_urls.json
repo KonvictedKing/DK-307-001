@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/global-development/2026/oct/28/africa-ebola-outbreak-could-reach-uk-says-top-health-official",
-    "https://www.cricinfo.com/ci/content/story/1560571.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/world/middle-east/9v6gjgyjha",
     "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
     "https://sports.yahoo.com/articles/houston-astros-look-fill-needs-165051791.html",
     "https://www.bbc.com/bengali/articles/cm1exq963npyo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562571.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckwy9xxwdn0qo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/editorial/longform/2026/11/14/young-musicians-connect-a-community-across-the-line-of-control?traffic_source=rss",
-    "https://sports.yahoo.com/articles/michigan-state-football-game-time-140722565.html"
+    "https://sports.yahoo.com/articles/michigan-state-football-game-time-140722565.html",
+    "https://www.prothomalo.com/sports/football/efo09zjsvj",
+    "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/rugby-union/live-blog/12040/13612004/wales-vs-new-zealand-england-vs-japan-live-nations-championship-updates-latest-scores-team-news-commentary-from-cardiff-twickenham"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
