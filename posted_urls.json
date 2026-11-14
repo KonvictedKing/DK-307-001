@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
-    "https://www.nytimes.com/athletic/7736677/2026/10/29/red-wings-dylan-larkin-suspension-trade/",
-    "https://www.bbc.com/bengali/articles/c6je5448y799o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/29/world/americas/flavio-bolsonaro-trump-brazil-us.html",
     "https://www.cricinfo.com/ci/content/story/1560648.html?ex_cid=OTC-RSS",
     "https://www.kishoralo.com/feature/7wx10901fd",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/usc-vs-indiana-live-updates-college-football-score-result/8e1tokUlTOAG/",
     "https://www.prothomalo.com/bangladesh/district/o6quxfkn3i",
     "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-    "https://www.cricinfo.com/ci/content/story/1562647.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1562647.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cq98xdy1yx6po?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+    "https://sports.yahoo.com/betting/promos/article/hard-rock-bet-new-customer-bonus-bet-5-on-usc-vs-indiana-on-saturday-get-500-in-no-sweat-bets-230000581.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 4,
+    "sports": 5
   }
 }
