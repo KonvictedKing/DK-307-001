@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/40OSomK",
-    "https://www.skysports.com/golf/news/12040/13605176/maybank-classic-englands-charley-hull-two-shots-off-lead-after-opening-round-of-lpga-tour-event-in-malaysia",
-    "https://www.prothomalo.com/sports/cricket/havs08wgsy",
     "https://www.nytimes.com/2026/10/29/world/europe/synthetic-opioids-estonia.html",
     "https://www.nytimes.com/athletic/7734566/2026/10/29/detroit-pistons-hornets-score-cade-cunningham/",
     "https://www.bbc.com/bengali/articles/cj040xyree3eo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/scotland-vs-north-macedonia/report/554098",
     "https://www.bbc.com/bengali/articles/c9m2j86216d0o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
-    "https://www.nytimes.com/athletic/live-blogs/faa-nationwide-ground-stop-flight-delays-cancellations-sports-college-teams-travel-updates/fSxpSclAr79u/"
+    "https://www.nytimes.com/athletic/live-blogs/faa-nationwide-ground-stop-flight-delays-cancellations-sports-college-teams-travel-updates/fSxpSclAr79u/",
+    "https://www.prothomalo.com/bangladesh/bfmuc9ib8o",
+    "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
+    "https://www.cricinfo.com/ci/content/story/1562571.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
