@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/barrett-barnes-lead-raptors-129-022756859.html",
-    "https://www.bbc.co.uk/bengali/live/c977pmml67rzt?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/40OSomK",
     "https://www.skysports.com/golf/news/12040/13605176/maybank-classic-englands-charley-hull-two-shots-off-lead-after-opening-round-of-lpga-tour-event-in-malaysia",
     "https://www.prothomalo.com/sports/cricket/havs08wgsy",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/dissecting-boston-celtics-4-0-233250031.html",
     "https://www.prothomalo.com/sports/football/3cnm9h0i2e",
     "https://www.cnn.com/2023/04/02/europe/sanna-marin-finland-elections-concedes-intl/index.html",
-    "https://www.skysports.com/football/scotland-vs-north-macedonia/report/554098"
+    "https://www.skysports.com/football/scotland-vs-north-macedonia/report/554098",
+    "https://www.bbc.com/bengali/articles/c9m2j86216d0o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
+    "https://www.nytimes.com/athletic/live-blogs/faa-nationwide-ground-stop-flight-delays-cancellations-sports-college-teams-travel-updates/fSxpSclAr79u/"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 0
+    "national": 2,
+    "international": 3,
+    "sports": 2
   }
 }
