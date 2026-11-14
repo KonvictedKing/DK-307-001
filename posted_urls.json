@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/29/european-central-bank-president-lagarde-to-step-down-early?traffic_source=rss",
-    "https://sports.yahoo.com/articles/houston-astros-look-fill-needs-165051791.html",
-    "https://www.bbc.com/bengali/articles/cm1exq963npyo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cmqxnl312v34o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
     "https://www.prothomalo.com/bangladesh/m7qgb6n6cd",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/michigan-state-football-game-time-140722565.html",
     "https://www.prothomalo.com/sports/football/efo09zjsvj",
     "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/rugby-union/live-blog/12040/13612004/wales-vs-new-zealand-england-vs-japan-live-nations-championship-updates-latest-scores-team-news-commentary-from-cardiff-twickenham"
+    "https://www.skysports.com/rugby-union/live-blog/12040/13612004/wales-vs-new-zealand-england-vs-japan-live-nations-championship-updates-latest-scores-team-news-commentary-from-cardiff-twickenham",
+    "https://www.bbc.com/bengali/articles/c3j4rvv5ex12o?at_medium=RSS&at_campaign=rss",
+    "https://cnn.it/40OSomK",
+    "https://www.nytimes.com/athletic/live-blogs/usc-vs-indiana-live-updates-college-football-score-result/8e1tokUlTOAG/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
