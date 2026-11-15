@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1560806.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/world/asia/nl3agybg94",
     "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
     "https://sports.yahoo.com/articles/caleb-williams-refuses-stop-wearing-004527155.html",
     "https://www.bbc.com/bengali/articles/cwj3474djk12o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562785.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6e9kgpe9n4ko?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
-    "https://sports.yahoo.com/articles/kirk-cousins-emotional-vikings-win-224424512.html"
+    "https://sports.yahoo.com/articles/kirk-cousins-emotional-vikings-win-224424512.html",
+    "https://www.prothomalo.com/sports/football/qrklcq6u3r",
+    "https://www.nytimes.com/2026/11/15/world/canada/grizzly-bear-boss-banff-national-park-alberta.html",
+    "https://www.skysports.com/football/spain-vs-england/report/554117"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
