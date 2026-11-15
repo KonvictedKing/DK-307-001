@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/business/2026/oct/30/sinkholes-scarred-land-scapegoats-illegal-gold-mining-johannesburg",
-    "https://www.skysports.com/f1/live-blog/12040/13605426/f1-mexico-city-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend",
-    "https://www.prothomalo.com/bangladesh/iwtc0j5503",
     "https://www.aljazeera.com/video/newsfeed/2026/10/30/aje-onl-nf_rubio-hosts-g20-talks-as-russias-lavrov-present-301026?traffic_source=rss",
     "https://www.nytimes.com/athletic/7739792/2026/10/30/demarcus-henry-unc-commitment-michael-malone-recruiting/",
     "https://www.bbc.com/bengali/articles/cr5yn72jwe7jo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/rugby-league/news/12040/13612427/mens-rugby-league-world-cup-final-australia-32-12-new-zealand-kangaroos-brush-off-kiwis-to-win-fourth-straight-world-title",
     "https://www.bbc.com/bengali/articles/c6vg2xz2wn70o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/sports/2026/11/15/morocco-becomes-first-arab-nation-in-fifas-top-five-mens-rankings?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-fils-live-updates-atp-finals-2026-score-result/ZvCGqwLrJE0d/"
+    "https://www.nytimes.com/athletic/live-blogs/shelton-vs-fils-live-updates-atp-finals-2026-score-result/ZvCGqwLrJE0d/",
+    "https://www.prothomalo.com/sports/cricket/9yiv52pr1l",
+    "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1562785.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
