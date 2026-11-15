@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/health/nasal-vaccine-sterilizing-immunity/index.html",
-    "https://www.cricinfo.com/ci/content/story/1560766.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/video/bangladesh/hjigmcph0i",
     "https://www.nytimes.com/2026/10/30/world/middleeast/arab-voters-israel-election-taibe.html",
     "https://sports.yahoo.com/articles/kurt-warner-isnt-sold-york-155519233.html",
     "https://www.bbc.com/bengali/articles/cm4g15n49vyvo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562673.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/cq5y1m621n1kt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/15/world/europe/ron-arad-missing-israel-iran-asgari-hunt.html",
-    "https://sports.yahoo.com/articles/dominant-australia-defeat-zealand-mens-105251290.html"
+    "https://sports.yahoo.com/articles/dominant-australia-defeat-zealand-mens-105251290.html",
+    "https://www.prothomalo.com/sports/cricket/pbl3tizo6f",
+    "https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case",
+    "https://www.skysports.com/rugby-league/news/12040/13612427/mens-rugby-league-world-cup-final-australia-32-12-new-zealand-kangaroos-brush-off-kiwis-to-win-fourth-straight-world-title"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 5
+    "national": 1,
+    "international": 4,
+    "sports": 0
   }
 }
