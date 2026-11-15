@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/10/30/machado-lauds-trump-for-freedom-floodgate-urges-2027-elections?traffic_source=rss",
-    "https://www.skysports.com/f1/news/12040/13605468/lewis-hamilton-ferrari-driver-says-he-is-built-differently-amid-defiance-over-extending-his-f1-career-into-2030s",
-    "https://www.prothomalo.com/bangladesh/district/o0qfytky8h",
     "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/ocUcWZZ1Ta8G/",
     "https://www.bbc.com/bengali/articles/c5vgjz9ez11lo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/watch/video/13612362/mirra-andreeva-vs-jessica-pegula-wta-finals-highlights",
     "https://www.bbc.com/bengali/articles/cj5y13ller4no?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6wy9lynq4qno?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/texas-vs-lsu-live-updates-college-football-score-result/EdJNZicc6JhW/"
+    "https://www.nytimes.com/athletic/live-blogs/texas-vs-lsu-live-updates-college-football-score-result/EdJNZicc6JhW/",
+    "https://www.prothomalo.com/video/bangladesh/15wigogqnu",
+    "https://www.cnn.com/style/article/beauty-skincare-climate/index.html",
+    "https://www.cricinfo.com/ci/content/story/1562673.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 1,
+    "international": 2,
+    "sports": 3
   }
 }
