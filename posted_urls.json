@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
-    "https://sports.yahoo.com/articles/caleb-williams-refuses-stop-wearing-004527155.html",
-    "https://www.bbc.com/bengali/articles/cwj3474djk12o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html",
     "https://www.skysports.com/rugby-union/usa-women-vs-england/report/113218",
     "https://www.bigganchinta.com/others/1i5f3p9tu5",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/kirk-cousins-emotional-vikings-win-224424512.html",
     "https://www.prothomalo.com/sports/football/qrklcq6u3r",
     "https://www.nytimes.com/2026/11/15/world/canada/grizzly-bear-boss-banff-national-park-alberta.html",
-    "https://www.skysports.com/football/spain-vs-england/report/554117"
+    "https://www.skysports.com/football/spain-vs-england/report/554117",
+    "https://www.bbc.com/bengali/articles/c3n0ldj8jjngo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
+    "https://www.nytimes.com/athletic/live-blogs/steelers-vs-bengals-live-score-updates-nfl-snf-result/sU3xI1wjZlZp/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
