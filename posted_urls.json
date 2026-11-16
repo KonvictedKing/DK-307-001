@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/sports/liveblog/2026/10/31/chelsea-vs-manchester-united-live-premier-league?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1560835.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/video/bangladesh/r1imvgk9cl",
     "https://www.bbc.co.uk/news/articles/cqx2818elrnzo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/49ers-te-iowa-great-george-133241927.html",
     "https://www.bbc.com/bengali/articles/cw1m42djrl5yo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1560353.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cm894xx42e70o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/inside-victor-wembanyamas-search-move-112235174.html"
+    "https://sports.yahoo.com/articles/inside-victor-wembanyamas-search-move-112235174.html",
+    "https://www.prothomalo.com/bangladesh/9z28mr6j4h",
+    "https://www.cnn.com/videos/world/2023/04/03/man-throws-yogurt-on-women-iran-president-raisi-hijab-is-law-nada-bashir-ovn-intl-ldn-vpx.cnn",
+    "https://www.skysports.com/cricket/news/12040/13612556/sky-sports-news-presenter-david-fulton-to-become-director-of-cricket-at-kent-the-county-he-used-to-captain"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 5
+    "national": 1,
+    "international": 2,
+    "sports": 0
   }
 }
