@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
-    "https://www.skysports.com/football/chelsea-vs-manchester-united/report/559527",
-    "https://www.prothomalo.com/bangladesh/capital/1r1f1kz6te",
     "https://www.nytimes.com/2026/10/31/world/asia/vietnam-missing-war-dead.html",
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/waBPQKuZUQce/",
     "https://www.bbc.com/bengali/articles/cmeweqlv5dk7o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/cricket/news/12040/13612556/sky-sports-news-presenter-david-fulton-to-become-director-of-cricket-at-kent-the-county-he-used-to-captain",
     "https://www.bbc.co.uk/bengali/live/c52e8xgg8lnpt?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/16/world/europe/austria-karin-kneissl-citizenship.html",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-live-updates-news-week-10-results/XI4XTTSsypAp/"
+    "https://www.nytimes.com/athletic/live-blogs/nfl-live-updates-news-week-10-results/XI4XTTSsypAp/",
+    "https://www.prothomalo.com/bangladesh/crime/i8i679ee6d",
+    "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+    "https://www.cricinfo.com/ci/content/story/1562885.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
