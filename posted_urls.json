@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/30/world/asia/afghan-refugees-deported-flight-pakistan.html",
-    "https://www.skysports.com/rugby-union/usa-women-vs-england/report/113218",
-    "https://www.bigganchinta.com/others/1i5f3p9tu5",
     "https://www.theguardian.com/world/2026/oct/30/sudanese-diaspora-human-rights-groups-denounce-uae-nominee-un-top-job",
     "https://www.nytimes.com/athletic/7740917/2026/10/31/mens-erste-bank-open-stream-how-to-watch-october-31/",
     "https://www.bbc.com/bengali/articles/cke8rp2m7l13o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/spain-vs-england/report/554117",
     "https://www.bbc.com/bengali/articles/c3n0ldj8jjngo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/16/pope-leo-speech-peru-justice-for-amazon-activists-environment",
-    "https://www.nytimes.com/athletic/live-blogs/steelers-vs-bengals-live-score-updates-nfl-snf-result/sU3xI1wjZlZp/"
+    "https://www.nytimes.com/athletic/live-blogs/steelers-vs-bengals-live-score-updates-nfl-snf-result/sU3xI1wjZlZp/",
+    "https://www.prothomalo.com/bangladesh/58wo0tvly6",
+    "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code?traffic_source=rss",
+    "https://www.cricinfo.com/ci/content/story/1560353.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 2
+    "national": 1,
+    "international": 5,
+    "sports": 3
   }
 }
