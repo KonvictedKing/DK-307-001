@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
-    "https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html",
-    "https://www.bbc.com/bengali/articles/cwg7xpx2dlk4o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqglw3k7djp1o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/watch/video/13606526/watch-sovereignty-is-crowned-king-in-the-breeders-cup-classic",
     "https://www.prothomalo.com/sports/cricket/jrvn1w2gmw",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/josh-allen-not-top-3-042000752.html",
     "https://www.prothomalo.com/politics/0jgcjbwf6l",
     "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/news/12040/13612949/grand-slam-of-darts-gerwyn-price-produces-controversial-145-checkout-en-route-to-routine-victory-over-sebastian-bialecki"
+    "https://www.skysports.com/darts/news/12040/13612949/grand-slam-of-darts-gerwyn-price-produces-controversial-145-checkout-en-route-to-routine-victory-over-sebastian-bialecki",
+    "https://www.bbc.co.uk/bengali/live/cmx2xw1r4wldt?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/middleeast/israel-protests-military-veterans-intl-cmd/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/atp-finals-2026-live-updates-schedule-scores-results/t2zHtLNMIMTO/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
