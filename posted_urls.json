@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/30/canada-european-union-alliance",
-    "https://www.cricinfo.com/ci/content/story/1560822.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/world/middle-east/g0rryddb0j",
     "https://www.aljazeera.com/video/newsfeed/2026/10/31/aje-onl-nf_palestine-action-supporters-arrested-in-london-311026?traffic_source=rss",
     "https://sports.yahoo.com/articles/ufc-vegas-123-results-moicano-090000150.html",
     "https://www.bbc.com/bengali/articles/cwg7xpx2dlk4o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1562885.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c65y17vljqkeo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/17/gunfire-erupts-in-occupied-west-bank-settler-attack?traffic_source=rss",
-    "https://sports.yahoo.com/articles/josh-allen-not-top-3-042000752.html"
+    "https://sports.yahoo.com/articles/josh-allen-not-top-3-042000752.html",
+    "https://www.prothomalo.com/politics/0jgcjbwf6l",
+    "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/darts/news/12040/13612949/grand-slam-of-darts-gerwyn-price-produces-controversial-145-checkout-en-route-to-routine-victory-over-sebastian-bialecki"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
