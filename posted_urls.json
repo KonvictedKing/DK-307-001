@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/upfront/2026/11/1/jamaal-bowman-if-i-had-kept-my-mouth-shut-id-be-in-congress?traffic_source=rss",
-    "https://www.skysports.com/golf/news/12040/13606584/lpga-maybank-championship-miyu-yamashita-holds-off-yan-liu-to-defend-her-title-at-the-kuala-lumpur-golf-and-country-club",
-    "https://www.bbc.com/bengali/articles/crgj9xznejx3o?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-arsenal-live-updates-premier-league-score-result/tAD6b9M2brnp/",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/wales-vs-portugal/report/554136",
     "https://www.bbc.com/bengali/articles/cqr7ge23l9njo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7791238/2026/11/17/cutter-gauthier-hat-trick-nhl-ducks-history/"
+    "https://www.nytimes.com/athletic/7791238/2026/11/17/cutter-gauthier-hat-trick-nhl-ducks-history/",
+    "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
+    "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
+    "https://www.cricinfo.com/ci/content/story/1563091.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 2
+    "national": 0,
+    "international": 2,
+    "sports": 3
   }
 }
