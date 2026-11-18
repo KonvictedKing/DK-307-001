@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/oct/30/flavio-bolsonaros-president-elect-claim-mockery-brazil",
-    "https://sports.yahoo.com/articles/just-waiting-moment-fakhar-zaman-093600789.html",
-    "https://www.prothomalo.com/sports/other-sports/cklws2hx7s",
     "https://www.aljazeera.com/video/upfront/2026/11/1/jamaal-bowman-if-i-had-kept-my-mouth-shut-id-be-in-congress?traffic_source=rss",
     "https://www.skysports.com/golf/news/12040/13606584/lpga-maybank-championship-miyu-yamashita-holds-off-yan-liu-to-defend-her-title-at-the-kuala-lumpur-golf-and-country-club",
     "https://www.bbc.com/bengali/articles/crgj9xznejx3o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/utsa-vs-uab-5-players-225032738.html",
     "https://www.prothomalo.com/sports/football/q1a78qiu9c",
     "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment?traffic_source=rss",
-    "https://www.skysports.com/football/wales-vs-portugal/report/554136"
+    "https://www.skysports.com/football/wales-vs-portugal/report/554136",
+    "https://www.bbc.com/bengali/articles/cqr7ge23l9njo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/athletic/7791238/2026/11/17/cutter-gauthier-hat-trick-nhl-ducks-history/"
   ],
   "indices": {
-    "national": 1,
-    "international": 5,
-    "sports": 0
+    "national": 2,
+    "international": 1,
+    "sports": 2
   }
 }
