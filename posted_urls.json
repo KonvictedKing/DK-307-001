@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/jwkqha21wn",
     "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html",
     "https://sports.yahoo.com/articles/lions-overcome-injuries-knock-off-210811238.html",
     "https://www.bbc.co.uk/bengali/live/cm9wz2dx4dr2t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563091.html?ex_cid=OTC-RSS",
     "https://www.kishoralo.com/other/beoakdb5wv",
     "https://www.nytimes.com/2026/11/18/world/europe/autocrats-psychology-support.html",
-    "https://sports.yahoo.com/articles/no-11-kansas-routs-unlv-053235496.html"
+    "https://sports.yahoo.com/articles/no-11-kansas-routs-unlv-053235496.html",
+    "https://www.bbc.co.uk/bengali/live/cwe9kn24gdn9t?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
+    "https://www.skysports.com/f1/news/12040/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 5
+    "national": 2,
+    "international": 4,
+    "sports": 0
   }
 }
