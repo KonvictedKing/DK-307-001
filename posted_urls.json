@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/10/31/world/asia/congress-cjp-protest-delhi-india-modi.html",
-    "https://sports.yahoo.com/articles/lions-overcome-injuries-knock-off-210811238.html",
-    "https://www.bbc.co.uk/bengali/live/cm9wz2dx4dr2t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
     "https://www.skysports.com/golf/news/12040/13606705/hotelplanner-tour-grand-final-julien-sale-secures-title-hamish-brown-crowned-road-to-mallorca-no-1-and-dp-world-tour-cards-confirmed",
     "https://www.prothomalo.com/world/usa/fezsfjkztz",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/no-11-kansas-routs-unlv-053235496.html",
     "https://www.bbc.co.uk/bengali/live/cwe9kn24gdn9t?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court",
-    "https://www.skysports.com/f1/news/12040/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix"
+    "https://www.skysports.com/f1/news/12040/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix",
+    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
+    "https://www.aljazeera.com/news/2026/11/18/iraq-sentences-six-french-nationals-to-life-in-prison-for-joining-isil?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/atp-finals-2026-live-updates-schedule-scores-results/1DOjWbMEJi6q/"
   ],
   "indices": {
-    "national": 2,
-    "international": 4,
-    "sports": 0
+    "national": 0,
+    "international": 5,
+    "sports": 2
   }
 }
