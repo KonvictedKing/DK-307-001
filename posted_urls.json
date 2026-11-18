@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cqj34gnd3n30o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-arsenal-live-updates-premier-league-score-result/tAD6b9M2brnp/",
-    "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
     "https://www.cricinfo.com/ci/content/story/1560984.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/jwkqha21wn",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7791238/2026/11/17/cutter-gauthier-hat-trick-nhl-ducks-history/",
     "https://www.tbsnews.net/economy/bazaar/commodities-continue-be-dearer-328855",
     "https://www.cnn.com/2023/04/03/middleeast/kurdish-kingmaker-turkish-elections-mime-intl/index.html",
-    "https://www.cricinfo.com/ci/content/story/1563091.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563091.html?ex_cid=OTC-RSS",
+    "https://www.kishoralo.com/other/beoakdb5wv",
+    "https://www.nytimes.com/2026/11/18/world/europe/autocrats-psychology-support.html",
+    "https://sports.yahoo.com/articles/no-11-kansas-routs-unlv-053235496.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 2,
-    "sports": 3
+    "national": 1,
+    "international": 3,
+    "sports": 5
   }
 }
