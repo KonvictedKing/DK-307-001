@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/nov/01/uk-was-vehement-slavery-reparations-should-not-be-on-commonwealth-summit-agenda",
-    "https://www.skysports.com/golf/news/12040/13606705/hotelplanner-tour-grand-final-julien-sale-secures-title-hamish-brown-crowned-road-to-mallorca-no-1-and-dp-world-tour-cards-confirmed",
-    "https://www.prothomalo.com/world/usa/fezsfjkztz",
     "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
     "https://www.nytimes.com/athletic/live-blogs/nfl-week-8-scores-live-updates-schedule-injuries-highlights/y4VbXxkJfDyi/",
     "https://www.bbc.com/bengali/articles/cwr7yxmky8zmo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/news/12040/13611531/valtteri-bottas-cadillac-confirm-finnish-driver-to-stay-with-team-for-2027-formula-1-season-ahead-of-las-vegas-grand-prix",
     "https://www.tbsnews.net/sports/mithun-mushfiqur-fifties-guide-tigers-win-warm",
     "https://www.aljazeera.com/news/2026/11/18/iraq-sentences-six-french-nationals-to-life-in-prison-for-joining-isil?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/atp-finals-2026-live-updates-schedule-scores-results/1DOjWbMEJi6q/"
+    "https://www.nytimes.com/athletic/live-blogs/atp-finals-2026-live-updates-schedule-scores-results/1DOjWbMEJi6q/",
+    "https://www.prothomalo.com/religion/islam/p22t722d7z",
+    "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
+    "https://www.cricinfo.com/ci/content/story/1563151.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 2
+    "national": 1,
+    "international": 1,
+    "sports": 3
   }
 }
