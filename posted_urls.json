@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1561051.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
     "https://sports.yahoo.com/articles/hoddle-coffee-tottenham-hotspur-news-073000798.html",
     "https://www.haal.fashion/celeb/look/rj99zb6bpf",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563151.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/c6j4r8jnvx2yt?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
-    "https://sports.yahoo.com/articles/john-collins-scores-20-points-034837195.html"
+    "https://sports.yahoo.com/articles/john-collins-scores-20-points-034837195.html",
+    "https://www.prothomalo.com/video/bangladesh/dkxk5628ll",
+    "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html",
+    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 5
+    "national": 1,
+    "international": 3,
+    "sports": 0
   }
 }
