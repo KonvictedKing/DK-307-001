@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/11/2/israeli-officials-say-results-stand-as-netanyahu-claims-election-stolen?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-8-scores-live-updates-schedule-injuries-highlights/y4VbXxkJfDyi/",
-    "https://www.bbc.com/bengali/articles/cwr7yxmky8zmo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c51kdy1ew7zvo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1561051.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/atp-finals-2026-live-updates-schedule-scores-results/1DOjWbMEJi6q/",
     "https://www.prothomalo.com/religion/islam/p22t722d7z",
     "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1563151.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563151.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/c6j4r8jnvx2yt?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/2023/04/03/investing/dogecoin-elon-musk-twitter/index.html",
+    "https://sports.yahoo.com/articles/john-collins-scores-20-points-034837195.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 3
+    "national": 2,
+    "international": 2,
+    "sports": 5
   }
 }
