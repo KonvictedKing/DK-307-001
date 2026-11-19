@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/environment/2026/oct/30/severe-rainfall-flood-warnings-greece-turkey",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-news-live-updates/bD8NcJyP9Dp1/",
-    "https://www.prothomalo.com/entertainment/tollywood/v5hai3h7hd",
     "https://www.aljazeera.com/video/the-bottom-line/2026/11/2/after-israels-election-whats-next?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1561160.html?ex_cid=OTC-RSS",
     "https://www.bbc.co.uk/bengali/live/ckz65v6w51n3t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/nba-news-schedule-scores-games-live-updates-2026/CzqWv0txVItd/",
     "https://www.tbsnews.net/sports/jesus-takes-centre-stage-brazil-win-copa-america",
     "https://www.aljazeera.com/video/newsfeed/2026/11/19/how-vaccine-fears-fuelled-a-major-measles-comeback-in-the-us?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1563255.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563255.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/uw24cwv5t5",
+    "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/betting/promos/article/fanatics-sportsbook-promo-code-yahoo350-get-350-in-fancash-for-thursdays-sports-action-223000617.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
