@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
-    "https://sports.yahoo.com/articles/hoddle-coffee-tottenham-hotspur-news-073000798.html",
-    "https://www.haal.fashion/celeb/look/rj99zb6bpf",
     "https://www.nytimes.com/2026/11/02/world/asia/chinas-message-to-its-rivals-you-need-what-we-make.html",
     "https://www.skysports.com/cricket/news/12040/13606943/marnus-labuschagne-australia-batter-set-to-be-dropped-after-not-taking-his-opportunity-in-south-africa-test-series",
     "https://www.bbc.com/bengali/articles/c6pvgwn8ywvlo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/john-collins-scores-20-points-034837195.html",
     "https://www.prothomalo.com/video/bangladesh/dkxk5628ll",
     "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html",
-    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two"
+    "https://www.skysports.com/football/live-blog/12040/13163353/championship-news-transfer-latest-and-gossip-plus-efl-updates-from-league-one-and-league-two",
+    "https://www.bbc.com/bengali/articles/c6x2ek9lxvyvo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/environment/2026/nov/19/baobab-five-trees-south-africa-dug-up-export-blocked-georgia-aoe",
+    "https://www.nytimes.com/athletic/live-blogs/nba-news-schedule-scores-games-live-updates-2026/CzqWv0txVItd/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
