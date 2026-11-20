@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
-    "https://www.skysports.com/football/news/12040/13607320/newcastle-are-flat-and-boring-8211-jamie-carragher-warns-magpies-face-tough-premier-league-season-after-everton-defeat",
-    "https://www.prothomalo.com/bangladesh/district/e281e18vn1",
     "https://www.nytimes.com/2026/11/03/world/asia/australia-social-media-ban-high-court.html",
     "https://www.nytimes.com/athletic/7749986/2026/11/03/tenerife-player-jesus-de-miguel-dies/",
     "https://www.bbc.co.uk/bengali/live/cq70pg93x5g8t?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/f1/live-blog/12040/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa",
     "https://www.prothomalo.com/bangladesh/district/0d7uw9ff00",
     "https://www.nytimes.com/2026/11/19/world/europe/myanmar-genocide-icj-decision-.html",
-    "https://www.nytimes.com/athletic/live-blogs/f1-las-vegas-gp-live-updates-fp1-fp2-times-results/VxLr959bHnHh/"
+    "https://www.nytimes.com/athletic/live-blogs/f1-las-vegas-gp-live-updates-fp1-fp2-times-results/VxLr959bHnHh/",
+    "https://www.bbc.com/bengali/articles/cw1mdn3gv8mdo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
+    "https://www.cricinfo.com/ci/content/story/1563296.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 2
+    "national": 2,
+    "international": 4,
+    "sports": 3
   }
 }
