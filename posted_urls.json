@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/science/2026/nov/02/fossilised-red-blood-cells-aratasaurus-dinosaurs-bone",
-    "https://www.cricinfo.com/ci/content/story/1561179.html?ex_cid=OTC-RSS",
-    "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
     "https://sports.yahoo.com/articles/seattle-mariners-hire-chicago-cubs-174951557.html",
     "https://www.prothomalo.com/politics/taugp93tl0",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563296.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
     "https://www.aljazeera.com/video/newsfeed/2026/11/20/brexit-debate-returns-as-uk-pm-seeks-closer-eu-ties?traffic_source=rss",
-    "https://sports.yahoo.com/articles/koepka-admits-scheffler-2024-dominance-125333933.html"
+    "https://sports.yahoo.com/articles/koepka-admits-scheffler-2024-dominance-125333933.html",
+    "https://www.prothomalo.com/religion/islam/6mb72k2pj6",
+    "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/darts/live-blog/12040/13614370/grand-slam-of-darts-commentary-updates-scores-analysis-with-gerwyn-price-jermaine-wattimena-kevin-doets-in-quarter-final-action"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
