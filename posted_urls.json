@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/11/3/jerusalem-daily-israel-detains-al-jazeera-journalist-in-hebron-raids?traffic_source=rss",
-    "https://sports.yahoo.com/articles/seattle-mariners-hire-chicago-cubs-174951557.html",
-    "https://www.prothomalo.com/politics/taugp93tl0",
     "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/rugby-league/live-blog/12040/13303427/rugby-league-news-transfers-and-rumours-super-league-latest-and-highlights",
     "https://www.bbc.com/bengali/articles/cme8rlk1gjx0o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/koepka-admits-scheffler-2024-dominance-125333933.html",
     "https://www.prothomalo.com/religion/islam/6mb72k2pj6",
     "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/live-blog/12040/13614370/grand-slam-of-darts-commentary-updates-scores-analysis-with-gerwyn-price-jermaine-wattimena-kevin-doets-in-quarter-final-action"
+    "https://www.skysports.com/darts/live-blog/12040/13614370/grand-slam-of-darts-commentary-updates-scores-analysis-with-gerwyn-price-jermaine-wattimena-kevin-doets-in-quarter-final-action",
+    "https://www.bbc.com/bengali/articles/cjp3vy7y6k65o?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/politics/2023/04/05/maggie-haberman-donald-trump-speech-indictment-reaction-sot-cnntm-vpx.cnn",
+    "https://www.nytimes.com/athletic/7798802/2026/11/20/harry-kane-michael-olise-injury-bayern-munich-cologne/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
