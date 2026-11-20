@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/the-bottom-line/2026/11/2/after-israels-election-whats-next?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1561160.html?ex_cid=OTC-RSS",
-    "https://www.bbc.co.uk/bengali/live/ckz65v6w51n3t?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/2027-nfl-draft-updated-qb-013008740.html",
     "https://www.tbsnews.net/sports/south-africa-and-pakistan-battle-survival",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563255.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/uw24cwv5t5",
     "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/betting/promos/article/fanatics-sportsbook-promo-code-yahoo350-get-350-in-fancash-for-thursdays-sports-action-223000617.html"
+    "https://sports.yahoo.com/betting/promos/article/fanatics-sportsbook-promo-code-yahoo350-get-350-in-fancash-for-thursdays-sports-action-223000617.html",
+    "https://www.bbc.com/bengali/articles/c6702q0dg4pjo?at_medium=RSS&at_campaign=rss",
+    "https://edition.cnn.com/webview/politics/live-news/trump-indictment-stormy-daniels-news-04-03-23/index.html",
+    "https://www.skysports.com/f1/live-blog/12040/13613211/f1-las-vegas-gp-live-friday-practice-updates-results-stream-highlights-from-formula-1-race-weekend-in-the-usa"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 5
+    "national": 2,
+    "international": 2,
+    "sports": 0
   }
 }
