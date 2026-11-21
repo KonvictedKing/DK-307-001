@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cjy56z440nl9o?at_medium=RSS&at_campaign=rss",
-    "https://www.nytimes.com/athletic/7752183/2026/11/04/college-football-playoff-rankings-the-pulse/",
-    "https://www.prothomalo.com/photo/bangladesh/ubs6m4hld2",
     "https://www.cnn.com/collections/intl-trump-040223/",
     "https://www.cricinfo.com/ci/content/story/1561414.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/ckjwe5n1544vo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/XgcjO3hBj7Js/",
     "https://www.prothomalo.com/bangladesh/yngq3se3q7",
     "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
-    "https://www.cricinfo.com/ci/content/story/1563472.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563472.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c3pw4z24p9j1o?at_medium=RSS&at_campaign=rss",
+    "https://www.nytimes.com/2026/11/21/world/americas/mexico-el-chapo-isidro-captured-drugs.html",
+    "https://sports.yahoo.com/articles/uh-quarterback-conner-weigman-ruled-175908339.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 2,
-    "sports": 3
+    "national": 2,
+    "international": 3,
+    "sports": 5
   }
 }
