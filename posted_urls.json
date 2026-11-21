@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/04/world/asia/midterms-trump-foreign-policy-world.html",
-    "https://sports.yahoo.com/articles/rams-db-takes-hilarious-shot-191249574.html",
-    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
     "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
     "https://www.skysports.com/football/wrexham-vs-middlesbrough/report/560665",
     "https://www.prothomalo.com/religion/islam/hkq96aexbh",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/uh-quarterback-conner-weigman-ruled-175908339.html",
     "https://www.tbsnews.net/sports/ruman-becomes-first-bangladeshi-archer-win-world-cup-medal",
     "https://www.theguardian.com/world/2026/nov/18/european-commission-accused-sugarcoating-figures-egypt-loans",
-    "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more"
+    "https://www.skysports.com/football/live-blog/12040/13575723/european-football-news-and-transfers-barcelona-real-madrid-psg-bayern-munich-latest-and-more",
+    "https://www.prothomalo.com/sports/football/2bc3zswonx",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
+    "https://www.nytimes.com/athletic/live-blogs/college-football-week-12-scores-live-updates-schedule-highlights/3c7IoC2HRgVv/"
   ],
   "indices": {
-    "national": 0,
-    "international": 4,
-    "sports": 0
+    "national": 1,
+    "international": 5,
+    "sports": 2
   }
 }
