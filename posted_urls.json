@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
-    "https://www.cricinfo.com/ci/content/story/1561326.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/sports/cricket/odq2susyno",
     "https://www.theguardian.com/world/2026/nov/03/grizzly-bear-attack-canada",
     "https://sports.yahoo.com/articles/rapid-reaction-northwestern-women-basketball-031241513.html",
     "https://www.bbc.co.uk/bengali/live/cred371n9j4vt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563390.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/technology/science/i1aewzr6s7",
     "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa",
-    "https://sports.yahoo.com/articles/travis-kelce-play-week-final-021255454.html"
+    "https://sports.yahoo.com/articles/travis-kelce-play-week-final-021255454.html",
+    "https://www.bbc.com/bengali/articles/cwp9dn4zerj4o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/11/21/gianni-infantinos-fifa-re-election-backed-by-south-americas-conmebol?traffic_source=rss",
+    "https://www.skysports.com/cricket/live-blog/12040/13614441/australia-vs-england-first-t20i-live-score-over-by-over-updates-and-analysis-from-series-opener-in-melbourne"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 5
+    "national": 2,
+    "international": 5,
+    "sports": 0
   }
 }
