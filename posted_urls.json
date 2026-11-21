@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/tech/china-micron-probe-us-chip-war-intl-hnk/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/college-football-playoff-rankings-live-updates-week-10-predictions-results/iRRQZEU7JLOh/",
-    "https://www.tbsnews.net/sports/shakib-believes-batting-no3-best-him",
     "https://www.nytimes.com/2026/11/03/world/asia/afghan-deportation-flight.html",
     "https://www.cricinfo.com/ci/content/story/1561326.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/sports/cricket/odq2susyno",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7798802/2026/11/20/harry-kane-michael-olise-injury-bayern-munich-cologne/",
     "https://www.tbsnews.net/sports/afghans-search-maiden-win-face-mighty-england",
     "https://www.nytimes.com/2026/11/20/world/europe/britain-and-brussels-have-begun-a-brexit-rollback-how-far-will-it-go.html",
-    "https://www.cricinfo.com/ci/content/story/1563390.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563390.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/technology/science/i1aewzr6s7",
+    "https://www.theguardian.com/global-development/2026/nov/19/women-girls-rights-rape-sexual-violence-africa-marriage-unfpa",
+    "https://sports.yahoo.com/articles/travis-kelce-play-week-final-021255454.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 3
+    "national": 1,
+    "international": 4,
+    "sports": 5
   }
 }
