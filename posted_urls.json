@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/video/newsfeed/2026/11/5/historic-firsts-redraw-us-political-map-in-2026-midterm-elections?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/nba-news-games-scores-stats-schedule-analysis-live-updates/HBD7r0ZK2u47/",
-    "https://www.bbc.com/bengali/articles/cwp9g3jpkmnko?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6x29rr8djy3o?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1561441.html?ex_cid=OTC-RSS",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/college-football-week-12-scores-live-updates-schedule-highlights/3c7IoC2HRgVv/",
     "https://www.bbc.com/bengali/articles/cqp8g3yej67lo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1563497.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563497.html?ex_cid=OTC-RSS",
+    "https://www.tbsnews.net/sports/sarfaraz-blames-another-batting-collapse-loss",
+    "https://www.cnn.com/collections/intl-trump-040223/",
+    "https://sports.yahoo.com/articles/cooper-dileva-kicks-field-goal-064640534.html"
   ],
   "indices": {
-    "national": 2,
-    "international": 1,
-    "sports": 3
+    "national": 0,
+    "international": 2,
+    "sports": 5
   }
 }
