@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://cnn.it/411KYN7",
-    "https://sports.yahoo.com/articles/brandt-clarke-fortunate-message-amid-071801066.html",
-    "https://www.prothomalo.com/bangladesh/capital/3rs8olrkob",
     "https://www.nytimes.com/2026/11/05/world/asia/how-kpop-works-contracts.html",
     "https://www.skysports.com/football/live-blog/12040/13548674/hull-city-transfers-latest-news-rumours-and-gossip-live-updates-goals-and-highlights",
     "https://www.bbc.co.uk/bengali/live/cxe8r7nq8e6mt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/cooper-dileva-kicks-field-goal-064640534.html",
     "https://www.prothomalo.com/entertainment/hollywood/ez5m5emo0r",
     "https://www.nytimes.com/2026/11/21/world/asia/china-nvidia-spy-chips-state-security.html",
-    "https://www.skysports.com/f1/news/12040/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again"
+    "https://www.skysports.com/f1/news/12040/13615083/las-vegas-gp-max-verstappen-wins-wild-race-as-ferraris-lewis-hamilton-and-charles-leclerc-collide-again",
+    "https://www.bbc.com/bengali/articles/c5rmg39vz8kwo?at_medium=RSS&at_campaign=rss",
+    "https://www.theguardian.com/news/2026/nov/22/bank-of-england-directors-illegally-profited-enslavement-cuba",
+    "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-manchester-united-live-updates-premier-league-score-result-pochettino/NsoOSY82vNlz/"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 0
+    "national": 2,
+    "international": 4,
+    "sports": 2
   }
 }
