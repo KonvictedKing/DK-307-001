@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/nov/04/anc-south-africa-local-elections-water-outages-power-cuts",
-    "https://www.nytimes.com/athletic/7753995/2026/11/05/fantasy-football-week-9-injury-report-pivots-and-contingency-plans/",
-    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.aljazeera.com/video/newsfeed/2026/11/5/arab-party-backs-eisenkot-in-bid-to-form-israels-next-government?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1561583.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/world/south-america/uj8v1h8yo2",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/liverpool-vs-manchester-united-live-updates-premier-league-score-result-pochettino/NsoOSY82vNlz/",
     "https://www.tbsnews.net/sports/rohit-ton-guides-india-seventh-straight-wc-win-over-pakistan",
     "https://www.aljazeera.com/video/newsfeed/2026/11/22/india-pakistan-cricket-rivalry-brings-world-cup-atmosphere-to-qatar?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1563619.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563619.html?ex_cid=OTC-RSS",
+    "https://www.prothomalo.com/bangladesh/capital/gz8ew395g2",
+    "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo?at_medium=RSS&at_campaign=rss",
+    "https://sports.yahoo.com/articles/viral-redheaded-ucla-cheerleader-boyfriend-214140805.html"
   ],
   "indices": {
-    "national": 0,
-    "international": 5,
-    "sports": 3
+    "national": 1,
+    "international": 1,
+    "sports": 5
   }
 }
