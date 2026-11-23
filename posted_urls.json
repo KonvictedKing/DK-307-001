@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935",
-    "https://www.prothomalo.com/bangladesh/district/pduu8kmpg1",
     "https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html",
     "https://www.nytimes.com/athletic/live-blogs/jaguars-vs-ravens-live-score-updates-nfl-tnf-result/zdbRfr31v6rI/",
     "https://www.bbc.com/bengali/articles/ckr5yy8d7dneo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13615327/pga-tour-rasmus-hojgaard-shares-lead-at-weather-affected-rsm-classic-as-fedexcup-fall-finale-heads-to-monday-finish",
     "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
     "https://www.nytimes.com/2026/11/22/world/canada/canada-boreal-forest-degradation-deforestation-logging.html",
-    "https://www.nytimes.com/athletic/live-blogs/vikings-vs-49ers-live-score-updates-nfl-snf-result/JeFIn0eQodKL/"
+    "https://www.nytimes.com/athletic/live-blogs/vikings-vs-49ers-live-score-updates-nfl-snf-result/JeFIn0eQodKL/",
+    "https://www.prothomalo.com/bangladesh/district/m9y9rvb5k8",
+    "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+    "https://www.cricinfo.com/ci/content/story/1563667.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 0,
-    "international": 3,
-    "sports": 2
+    "national": 1,
+    "international": 4,
+    "sports": 3
   }
 }
