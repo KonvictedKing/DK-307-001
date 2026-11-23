@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/05/world/americas/flavio-bolsonaro-florida-brazil.html",
-    "https://www.nytimes.com/athletic/live-blogs/jaguars-vs-ravens-live-score-updates-nfl-tnf-result/zdbRfr31v6rI/",
-    "https://www.bbc.com/bengali/articles/ckr5yy8d7dneo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/05/paraguay-president-santiago-pena-resigns",
     "https://www.cricinfo.com/ci/content/story/1561618.html?ex_cid=OTC-RSS",
     "https://www.haal.fashion/arrangement/discount/p6mjszeqy6",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/vikings-vs-49ers-live-score-updates-nfl-snf-result/JeFIn0eQodKL/",
     "https://www.prothomalo.com/bangladesh/district/m9y9rvb5k8",
     "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
-    "https://www.cricinfo.com/ci/content/story/1563667.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563667.html?ex_cid=OTC-RSS",
+    "https://www.bbc.co.uk/bengali/live/c39w9g5994x4t?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/23/iran-threatens-response-to-any-attack-amid-naval-blockade?traffic_source=rss",
+    "https://sports.yahoo.com/articles/nc-state-5-5-point-124714767.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 4,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
