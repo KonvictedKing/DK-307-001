@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo?at_medium=RSS&at_campaign=rss",
-    "https://sports.yahoo.com/articles/area-college-football-notes-holy-221508049.html",
-    "https://www.bbc.com/bengali/articles/cwp9g34nzexlo?at_medium=RSS&at_campaign=rss",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
     "https://www.skysports.com/football/fc-thun-vs-hearts/report/577935",
     "https://www.prothomalo.com/bangladesh/district/pduu8kmpg1",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/viral-redheaded-ucla-cheerleader-boyfriend-214140805.html",
     "https://www.bbc.co.uk/bengali/live/c6wy9n27ye71t?at_medium=RSS&at_campaign=rss",
     "https://cnn.it/411KYN7",
-    "https://www.skysports.com/golf/news/12040/13615327/pga-tour-rasmus-hojgaard-shares-lead-at-weather-affected-rsm-classic-as-fedexcup-fall-finale-heads-to-monday-finish"
+    "https://www.skysports.com/golf/news/12040/13615327/pga-tour-rasmus-hojgaard-shares-lead-at-weather-affected-rsm-classic-as-fedexcup-fall-finale-heads-to-monday-finish",
+    "https://www.tbsnews.net/sports/proteas-thrash-afghans-grab-first-win",
+    "https://www.nytimes.com/2026/11/22/world/canada/canada-boreal-forest-degradation-deforestation-logging.html",
+    "https://www.nytimes.com/athletic/live-blogs/vikings-vs-49ers-live-score-updates-nfl-snf-result/JeFIn0eQodKL/"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 0
+    "national": 0,
+    "international": 3,
+    "sports": 2
   }
 }
