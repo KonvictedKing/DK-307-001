@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe?traffic_source=rss",
-    "https://sports.yahoo.com/articles/europe-not-big-enough-cherries-112754391.html",
-    "https://www.bbc.com/bengali/articles/cqdr88606kvgo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
     "https://www.skysports.com/football/news/12040/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
     "https://www.prothomalo.com/entertainment/dhallywood/rbiul-bllen-priimni-taanr-mutthophon-kerre-niyyechilen",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/nc-state-5-5-point-124714767.html",
     "https://www.prothomalo.com/bangladesh/kgfs8223dh",
     "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/golf/news/12040/13615763/marco-penge-claims-maiden-pga-tour-win-englishman-triumphs-from-four-way-playoff-at-rsm-classic"
+    "https://www.skysports.com/golf/news/12040/13615763/marco-penge-claims-maiden-pga-tour-win-englishman-triumphs-from-four-way-playoff-at-rsm-classic",
+    "https://www.bbc.com/bengali/articles/cmqlq2e7z1lqo?at_medium=RSS&at_campaign=rss",
+    "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
+    "https://www.nytimes.com/athletic/live-blogs/bengals-vs-commanders-live-score-updates-nfl-mnf-result/v10Hk2ucEP09/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
