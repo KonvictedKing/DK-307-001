@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.nytimes.com/athletic/7759716/2026/11/06/shedeur-sanders-start-browns-saints/",
-    "https://www.bbc.com/bengali/articles/cqx288glglweo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
     "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/religion/islam/vkfejecxtm",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/bengals-vs-commanders-live-score-updates-nfl-mnf-result/v10Hk2ucEP09/",
     "https://www.prothomalo.com/opinion/column/l387fjslul",
     "https://www.nytimes.com/2026/11/23/world/middleeast/netanyahu-israel-iran.html",
-    "https://www.cricinfo.com/ci/content/story/1563733.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563733.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/cq742nggglzno?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/24/why-s-korea-issued-air-raid-alert-after-russian-jets-flew-near-its-airspace?traffic_source=rss",
+    "https://sports.yahoo.com/articles/augsburg-boss-manuel-baum-handed-105000512.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
