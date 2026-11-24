@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
-    "https://www.cricinfo.com/ci/content/story/1561683.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/religion/islam/vkfejecxtm",
     "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
     "https://sports.yahoo.com/articles/bay-port-girls-volleyball-play-232650134.html",
     "https://www.bbc.com/bengali/articles/c5y433ewwdego?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563733.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cq742nggglzno?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/24/why-s-korea-issued-air-raid-alert-after-russian-jets-flew-near-its-airspace?traffic_source=rss",
-    "https://sports.yahoo.com/articles/augsburg-boss-manuel-baum-handed-105000512.html"
+    "https://sports.yahoo.com/articles/augsburg-boss-manuel-baum-handed-105000512.html",
+    "https://www.prothomalo.com/sports/cricket/ox1cixdfiy",
+    "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/darts/news/12040/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
