@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
-    "https://sports.yahoo.com/articles/bay-port-girls-volleyball-play-232650134.html",
-    "https://www.bbc.com/bengali/articles/c5y433ewwdego?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss",
     "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter",
     "https://www.prothomalo.com/fun/ursb01j357",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/articles/augsburg-boss-manuel-baum-handed-105000512.html",
     "https://www.prothomalo.com/sports/cricket/ox1cixdfiy",
     "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/darts/news/12040/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead"
+    "https://www.skysports.com/darts/news/12040/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead",
+    "https://www.bbc.co.uk/bengali/live/cq8e06z7l7l9t?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
+    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-dortmund-live-updates-champions-league-score-result/DN8cQ14tcf1n/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
