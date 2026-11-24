@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/news/12040/13608887/michael-carrick-manchester-united-boss-says-its-possible-the-club-can-emulate-sir-alex-fergusons-success-at-old-trafford",
-    "https://www.prothomalo.com/entertainment/dhallywood/rbiul-bllen-priimni-taanr-mutthophon-kerre-niyyechilen",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
     "https://www.nytimes.com/athletic/7759716/2026/11/06/shedeur-sanders-start-browns-saints/",
     "https://www.bbc.com/bengali/articles/cqx288glglweo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/golf/news/12040/13615763/marco-penge-claims-maiden-pga-tour-win-englishman-triumphs-from-four-way-playoff-at-rsm-classic",
     "https://www.bbc.com/bengali/articles/cmqlq2e7z1lqo?at_medium=RSS&at_campaign=rss",
     "https://edition.cnn.com/webview/europe/live-news/russia-ukraine-war-news-04-03-23/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/bengals-vs-commanders-live-score-updates-nfl-mnf-result/v10Hk2ucEP09/"
+    "https://www.nytimes.com/athletic/live-blogs/bengals-vs-commanders-live-score-updates-nfl-mnf-result/v10Hk2ucEP09/",
+    "https://www.prothomalo.com/opinion/column/l387fjslul",
+    "https://www.nytimes.com/2026/11/23/world/middleeast/netanyahu-israel-iran.html",
+    "https://www.cricinfo.com/ci/content/story/1563733.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
