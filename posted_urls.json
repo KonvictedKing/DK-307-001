@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/07/world/middleeast/eisenkot-israel-new-government.html",
-    "https://sports.yahoo.com/articles/vaibhav-sooryavanshi-15-set-captain-103300583.html",
-    "https://www.bbc.com/bengali/articles/c3qjn5l7jv4do?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
     "https://www.skysports.com/football/live-blog/12040/13353569/leeds-united-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
     "https://www.prothomalo.com/politics/1rg7wjvxxz",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/nba/articles/anthony-davis-trade-rumors-raptors-044453467.html",
     "https://www.prothomalo.com/business/industry/poshaakshrmikder-mjuri-kon-gredde-kt-baadd-l",
     "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
+    "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts",
+    "https://www.bbc.co.uk/bengali/live/c3rrgqqr0dk1t?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
+    "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
