@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/videos/world/2023/04/02/russian-military-blogger-vladlen-tatarsky-killed-cafe-explosion-chance-vpx.cnn",
-    "https://www.cricinfo.com/ci/content/story/1561736.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/district/n5l7aihmo4",
     "https://www.nytimes.com/2026/11/07/world/middleeast/eisenkot-israel-new-government.html",
     "https://sports.yahoo.com/articles/vaibhav-sooryavanshi-15-set-captain-103300583.html",
     "https://www.bbc.com/bengali/articles/c3qjn5l7jv4do?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563809.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/cxj05mz141m8o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/25/israeli-strike-kills-four-people-in-gaza?traffic_source=rss",
-    "https://sports.yahoo.com/nba/articles/anthony-davis-trade-rumors-raptors-044453467.html"
+    "https://sports.yahoo.com/nba/articles/anthony-davis-trade-rumors-raptors-044453467.html",
+    "https://www.prothomalo.com/business/industry/poshaakshrmikder-mjuri-kon-gredde-kt-baadd-l",
+    "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/live-blog/12040/13025492/man-utd-transfer-news-rumours-and-gossip-live-updates-and-latest-on-deals-signings-loans-and-contracts"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
