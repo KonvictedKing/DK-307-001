@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain?traffic_source=rss",
-    "https://www.skysports.com/racing/news/12040/13608793/today-on-sky-sports-racing-doncaster-southwell-and-uttoxeter",
-    "https://www.prothomalo.com/fun/ursb01j357",
     "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/athletic/7760378/2026/11/06/gotham-fc-stadium-conflicts-nwsl-schedule/",
     "https://www.bbc.com/bengali/articles/cwj0ll354jm9o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/darts/news/12040/13616018/players-championship-finals-2026-schedule-and-order-of-play-as-gerwyn-price-eyes-another-major-title-in-minehead",
     "https://www.bbc.co.uk/bengali/live/cq8e06z7l7l9t?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/videos/weather/2023/04/02/little-rock-arkansas-tornado-man-inside-van-cnntmw-vpx.cnn",
-    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-dortmund-live-updates-champions-league-score-result/DN8cQ14tcf1n/"
+    "https://www.nytimes.com/athletic/live-blogs/arsenal-vs-dortmund-live-updates-champions-league-score-result/DN8cQ14tcf1n/",
+    "https://www.prothomalo.com/world/middle-east/rxrxl8s938",
+    "https://www.nytimes.com/2026/11/24/world/middleeast/iraq-prime-minister-kurdistan-control.html",
+    "https://www.cricinfo.com/ci/content/story/1563809.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
