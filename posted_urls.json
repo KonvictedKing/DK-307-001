@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/opinions/2026/11/8/there-is-reason-to-hope-that-the-democrats-might-deliver-this-time?traffic_source=rss",
-    "https://www.cricinfo.com/ci/content/story/1561860.html?ex_cid=OTC-RSS",
-    "https://www.kishoralo.com/letter/pr2zeq8kba",
     "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
     "https://sports.yahoo.com/articles/jason-witten-revives-ou-football-071958709.html",
     "https://www.bbc.co.uk/bengali/live/c8dx31wk6y3pt?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1564304.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c5x2wxye4pw3o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship?traffic_source=rss",
-    "https://sports.yahoo.com/nascar/articles/nascar-finally-fixes-double-line-193400928.html"
+    "https://sports.yahoo.com/nascar/articles/nascar-finally-fixes-double-line-193400928.html",
+    "https://www.prothomalo.com/bangladesh/v49ugzmcfh",
+    "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/football/torreense-vs-celtic/report/577828"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
