@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.theguardian.com/world/2026/nov/07/ousted-paraguay-president-under-house-arrest-after-banking-crisis-leaves-60-of-country-unable-to-access-accounts",
-    "https://www.nytimes.com/athletic/live-blogs/miami-vs-notre-dame-live-updates-college-football-score-result/AE7tVZ7kw6rX/",
-    "https://www.bbc.com/bengali/articles/ck7vp2eldjv6o?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/opinions/2026/11/8/there-is-reason-to-hope-that-the-democrats-might-deliver-this-time?traffic_source=rss",
     "https://www.cricinfo.com/ci/content/story/1561860.html?ex_cid=OTC-RSS",
     "https://www.kishoralo.com/letter/pr2zeq8kba",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/7812128/2026/11/26/alexander-zverev-lawsuit-statement-domestic-abuse-allegations/",
     "https://www.prothomalo.com/video/bangladesh/jcqdglpkaa",
     "https://www.nytimes.com/2026/11/26/world/americas/brazil-recruiting-russia-army.html",
-    "https://www.cricinfo.com/ci/content/story/1564304.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1564304.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c5x2wxye4pw3o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/26/judge-strikes-down-trumps-latest-restrictions-on-us-birthright-citizenship?traffic_source=rss",
+    "https://sports.yahoo.com/nascar/articles/nascar-finally-fixes-double-line-193400928.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
