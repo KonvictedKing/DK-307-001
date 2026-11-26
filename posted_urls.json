@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
-    "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/bangladesh/mnh1tripbg",
     "https://www.cnn.com/collections/intl-ukraine-030423/",
     "https://sports.yahoo.com/articles/san-diego-padres-prospect-justin-202121257.html",
     "https://www.bbc.com/bengali/articles/c9ly0087ydxno?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1563848.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c920xrpd3jvro?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
-    "https://sports.yahoo.com/soccer/articles/divots-howlers-bad-decisions-dissecting-002307016.html"
+    "https://sports.yahoo.com/soccer/articles/divots-howlers-bad-decisions-dissecting-002307016.html",
+    "https://www.prothomalo.com/bangladesh/f9xj9qt6s9",
+    "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/rugby-union/news/12040/13616429/nations-championship-steve-borthwick-targets-world-cup-preparation-against-all-blacks-as-andy-farrell-plays-down-irelands-title-credentials"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
