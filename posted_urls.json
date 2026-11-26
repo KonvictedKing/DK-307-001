@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.aljazeera.com/news/2026/11/7/guatemalan-lawmaker-and-three-police-officers-killed-in-armed-attack?traffic_source=rss",
-    "https://www.nytimes.com/athletic/live-blogs/premier-league-live-updates-scores-results-news/TGZ4kVlqFf1W/",
-    "https://www.bbc.com/bengali/articles/cvlydjrrepddo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/cmd7q15drwgeo?at_medium=RSS&at_campaign=rss",
     "https://www.cricinfo.com/ci/content/story/1561795.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/mnh1tripbg",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/minnesota-wild-results-season/y2Xyq3gsFEog/",
     "https://www.prothomalo.com/sports/football/slk3mhthkp",
     "https://www.nytimes.com/2026/11/25/world/africa/maritius-stray-dogs.html",
-    "https://www.cricinfo.com/ci/content/story/1563848.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1563848.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c920xrpd3jvro?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh?traffic_source=rss",
+    "https://sports.yahoo.com/soccer/articles/divots-howlers-bad-decisions-dissecting-002307016.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
