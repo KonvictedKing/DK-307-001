@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/collections/intl-ukraine-030423/",
-    "https://sports.yahoo.com/articles/san-diego-padres-prospect-justin-202121257.html",
-    "https://www.bbc.com/bengali/articles/c9ly0087ydxno?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/07/world/middleeast/israel-eisenkot-government.html",
     "https://www.skysports.com/f1/news/12040/13609205/sao-paulo-gp-can-max-verstappen-lewis-hamilton-come-from-the-back-again-as-lando-norris-hopes-for-rain-to-fight-kimi-antonelli",
     "https://www.prothomalo.com/religion/islam/y5weg6jmyk",
@@ -349,11 +346,14 @@
     "https://sports.yahoo.com/soccer/articles/divots-howlers-bad-decisions-dissecting-002307016.html",
     "https://www.prothomalo.com/bangladesh/f9xj9qt6s9",
     "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-    "https://www.skysports.com/rugby-union/news/12040/13616429/nations-championship-steve-borthwick-targets-world-cup-preparation-against-all-blacks-as-andy-farrell-plays-down-irelands-title-credentials"
+    "https://www.skysports.com/rugby-union/news/12040/13616429/nations-championship-steve-borthwick-targets-world-cup-preparation-against-all-blacks-as-andy-farrell-plays-down-irelands-title-credentials",
+    "https://www.bbc.co.uk/bengali/live/cw24ezpl700dt?at_medium=RSS&at_campaign=rss",
+    "https://www.cnn.com/collections/intl-ukraine-030423/",
+    "https://www.nytimes.com/athletic/7812128/2026/11/26/alexander-zverev-lawsuit-statement-domestic-abuse-allegations/"
   ],
   "indices": {
-    "national": 1,
-    "international": 1,
-    "sports": 0
+    "national": 2,
+    "international": 2,
+    "sports": 2
   }
 }
