@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/03/politics/chinese-spy-balloon/index.html",
-    "https://www.skysports.com/football/live-blog/12040/13176154/scottish-premiership-news-transfers-rumours-gossip-and-more",
-    "https://www.prothomalo.com/lifestyle/recipe/yzhm5d3llo",
     "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
     "https://www.nytimes.com/athletic/live-blogs/nfl-week-9-scores-live-updates-schedule-injuries-highlights/MvYWslswB6jf/",
     "https://www.bbc.com/bengali/articles/c8qlnqgde1evo?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.skysports.com/football/torreense-vs-celtic/report/577828",
     "https://www.bbc.com/bengali/articles/c6x29v8n299jo?at_medium=RSS&at_campaign=rss",
     "https://www.cnn.com/2023/04/03/investing/china-renaissance-delays-results-missing-ceo-intl-hnk/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-bills-live-score-updates-nfl-thanksgiving-result/aFRcHisy7sku/"
+    "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-bills-live-score-updates-nfl-thanksgiving-result/aFRcHisy7sku/",
+    "https://www.prothomalo.com/world/usa/6jv8plc77n",
+    "https://www.nytimes.com/2026/11/26/world/europe/europe-preppers-survivalists-cyberattacks-threats.html",
+    "https://www.cricinfo.com/ci/content/story/1564361.html?ex_cid=OTC-RSS"
   ],
   "indices": {
-    "national": 2,
-    "international": 2,
-    "sports": 2
+    "national": 1,
+    "international": 3,
+    "sports": 3
   }
 }
