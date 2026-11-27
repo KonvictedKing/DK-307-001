@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/08/world/americas/pope-leo-argentina-milei.html",
-    "https://www.nytimes.com/athletic/live-blogs/nfl-week-9-scores-live-updates-schedule-injuries-highlights/MvYWslswB6jf/",
-    "https://www.bbc.com/bengali/articles/c8qlnqgde1evo?at_medium=RSS&at_campaign=rss",
     "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
     "https://www.cricinfo.com/ci/content/story/1561918.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/bangladesh/crime/q4v5mm059u",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/chiefs-vs-bills-live-score-updates-nfl-thanksgiving-result/aFRcHisy7sku/",
     "https://www.prothomalo.com/world/usa/6jv8plc77n",
     "https://www.nytimes.com/2026/11/26/world/europe/europe-preppers-survivalists-cyberattacks-threats.html",
-    "https://www.cricinfo.com/ci/content/story/1564361.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1564361.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/ck8dv65y12rgo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made?traffic_source=rss",
+    "https://sports.yahoo.com/nhl/articles/bruins-black-friday-game-carries-122432107.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
