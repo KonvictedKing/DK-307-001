@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.cnn.com/2023/04/04/asia/tsai-ing-wen-taiwan-mccarthy-meeting-analysis-intl-hnk/index.html",
-    "https://www.nytimes.com/athletic/live-blogs/buccaneers-vs-bears-live-score-updates-nfl-snf-result/cwmZISTuZHoP/",
-    "https://www.bbc.com/bengali/articles/cwrkygp571gzo?at_medium=RSS&at_campaign=rss",
     "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
     "https://www.cricinfo.com/ci/content/story/1561923.html?ex_cid=OTC-RSS",
     "https://www.prothomalo.com/education/campus/4dsj46k0mi",
@@ -349,11 +346,14 @@
     "https://www.nytimes.com/athletic/live-blogs/broncos-vs-steelers-live-score-updates-nfl-black-friday-result/7LGdh6S0bhMN/",
     "https://www.prothomalo.com/world/asia/mz73e7zbwn",
     "https://www.nytimes.com/2026/11/27/world/asia/puma-shen-taiwan-election-china.html",
-    "https://www.cricinfo.com/ci/content/story/1564482.html?ex_cid=OTC-RSS"
+    "https://www.cricinfo.com/ci/content/story/1564482.html?ex_cid=OTC-RSS",
+    "https://www.bbc.com/bengali/articles/c6kgde905zeeo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+    "https://sports.yahoo.com/mens-college-basketball/articles/mick-cronin-hyped-bruins-bounce-035130585.html"
   ],
   "indices": {
-    "national": 1,
-    "international": 3,
-    "sports": 3
+    "national": 2,
+    "international": 5,
+    "sports": 5
   }
 }
