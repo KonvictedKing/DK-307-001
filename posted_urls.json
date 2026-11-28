@@ -1,8 +1,5 @@
 {
   "posted_urls": [
-    "https://www.nytimes.com/2026/11/08/world/americas/colombia-drone-attack-eln.html",
-    "https://www.cricinfo.com/ci/content/story/1561923.html?ex_cid=OTC-RSS",
-    "https://www.prothomalo.com/education/campus/4dsj46k0mi",
     "https://www.theguardian.com/news/2026/nov/08/african-philosophies-see-my-world-film-festival-manchester",
     "https://sports.yahoo.com/articles/happened-kyler-murray-injury-vikings-120457239.html",
     "https://www.bbc.com/bengali/articles/c80404n2e7x7o?at_medium=RSS&at_campaign=rss",
@@ -349,11 +346,14 @@
     "https://www.cricinfo.com/ci/content/story/1564482.html?ex_cid=OTC-RSS",
     "https://www.bbc.com/bengali/articles/c6kgde905zeeo?at_medium=RSS&at_campaign=rss",
     "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
-    "https://sports.yahoo.com/mens-college-basketball/articles/mick-cronin-hyped-bruins-bounce-035130585.html"
+    "https://sports.yahoo.com/mens-college-basketball/articles/mick-cronin-hyped-bruins-bounce-035130585.html",
+    "https://www.prothomalo.com/opinion/column/88qb02s13t",
+    "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+    "https://www.skysports.com/nfl/news/12040/13617341/nfl-pittsburgh-steelers-shock-denver-broncos-27-5-after-aaron-rodgers-drama-dominates-build-up-following-mike-mccarthy-claims"
   ],
   "indices": {
-    "national": 2,
-    "international": 5,
-    "sports": 5
+    "national": 1,
+    "international": 1,
+    "sports": 0
   }
 }
